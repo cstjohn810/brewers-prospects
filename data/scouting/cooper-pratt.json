@@ -1,0 +1,196 @@
+{
+  "playerId": "cooper-pratt",
+  "name": "Cooper Pratt",
+  "position": "SS",
+  "level": "AA",
+  "age": 21,
+  "updatedAt": "2026-04-03T21:44:42.496Z",
+  "grades": {
+    "hit": 50,
+    "power": 45,
+    "run": 50,
+    "field": 60,
+    "arm": 60,
+    "ofp": 55,
+    "risk": "Average"
+  },
+  "rankings": [
+    {
+      "source": "MLB Pipeline",
+      "rank": 62,
+      "systemRank": 4,
+      "grade": "55",
+      "listName": "Top 100 Prospects / Brewers Top 30",
+      "date": "2026-04",
+      "url": "https://www.milb.com/milwaukee-brewers/prospects/cooper-pratt-680479"
+    },
+    {
+      "source": "Baseball America",
+      "rank": 50,
+      "systemRank": 3,
+      "grade": "55/Average",
+      "listName": "Top 100 Prospects / Organization Prospect Rankings",
+      "date": "2026-03",
+      "url": "https://www.baseballamerica.com/prospects/cooper-pratt-stats-scouting-report/"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": null,
+      "grade": "45 FV",
+      "listName": "OOPSY 2026 Top 100 Prospects",
+      "date": "2026-02",
+      "url": "https://blogs.fangraphs.com/oopsy-2026-top-100-prospects/"
+    }
+  ],
+  "summary": "Cooper Pratt is a shortstop prospect with a high baseball IQ and impressive contact ability, leading to solid on-base skills. He is considered an outstanding defender at shortstop with a plus arm. While his power is still developing, his projectable frame suggests potential for more pop in the future, and he won a Minor League Gold Glove in 2024.",
+  "strengths": [
+    "High baseball IQ",
+    "Contact ability",
+    "Plus defense at shortstop",
+    "Plus arm strength",
+    "Projectable frame"
+  ],
+  "concerns": [
+    "Developing power",
+    "First-step quickness/range",
+    "Hitter still needs polishing"
+  ],
+  "eta": "2026",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Brewers giving shortstop prospect Cooper Pratt an 8-year, $50.75 million deal, AP source says",
+      "source": "The Washington Post",
+      "date": "2026-03-31",
+      "url": "https://www.washingtonpost.com/sports/mlb/brewers-giving-shortstop-prospect-cooper-pratt-an-8-year-5075-million-deal-ap-source-says/2026/03/31/76d1a580-ef02-11ee-8e3b-b6d857412e87_story.html"
+    },
+    {
+      "type": "article",
+      "title": "Why the Brewers Gave Cooper Pratt $50 Million Before He Earned MLB Promotion",
+      "source": "Just Baseball",
+      "date": "2026-03-30",
+      "url": "https://www.justbaseball.com/mlb/why-brewers-gave-cooper-pratt-50-million-before-he-earned-mlb-promotion/"
+    },
+    {
+      "type": "podcast",
+      "title": "Brew Crew Review Podcast #257- Top 30 Future Brewers 2026",
+      "source": "The Brew Crew Review - Milwaukee Brewers Baseball Podcast",
+      "date": "2026-03-11",
+      "url": "https://podcasts.apple.com/us/podcast/brew-crew-review-podcast-257-top-30-future-brewers-2026/id299837943?i=1000648834997"
+    },
+    {
+      "type": "youtube",
+      "title": "Cooper Pratt & Colt Emerson: Breaking Down the Extensions",
+      "source": "Just Baseball",
+      "date": "2026-03-31",
+      "url": "https://www.youtube.com/watch?v=J8lF88o1oA0"
+    },
+    {
+      "type": "youtube",
+      "title": "ELITE: Milwaukee Brewers Prospects SOAR –Jesus Made, Cooper Pratt, Luis Pena Among a Terrific Future",
+      "source": "Locked On Brewers",
+      "date": "2025-12-26",
+      "url": "https://www.youtube.com/watch?v=D-P_tS8J4D8"
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "FanGraphs",
+    "Prospect361",
+    "Just Baseball",
+    "Milwaukee Journal Sentinel",
+    "Wisconsin Sports Heroics",
+    "Brew Crew Review",
+    "The Washington Post",
+    "World Baseball Network",
+    "MiLB.com",
+    "The Baseball Cube",
+    "Baseball-Reference.com",
+    "Forbes"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "Brewers Sign Infielder Cooper Pratt to Multi-Year Contract",
+      "source": "MLB.com",
+      "date": "2026-04-03",
+      "url": "https://www.mlb.com/brewers/press-release/brewers-sign-infielder-cooper-pratt-to-multi-year-contract",
+      "summary": "The Milwaukee Brewers have signed infielder Cooper Pratt to an eight-year contract through 2033 with club options for 2034 and 2035, adding him to the 40-man roster and optioning him to Triple-A Nashville."
+    },
+    {
+      "title": "Why the Brewers Gave Cooper Pratt $50 Million Before He Earned MLB Promotion",
+      "source": "FanNation",
+      "date": "2026-03-30",
+      "url": null,
+      "summary": "The article discusses the Milwaukee Brewers' decision to sign shortstop prospect Cooper Pratt to an eight-year, $50.75 million contract extension before his MLB debut, highlighting his defensive prowess and the team's long-term plans."
+    },
+    {
+      "title": "What's Next for the Brewers Following the Cooper Pratt Extension?",
+      "source": "Just Baseball",
+      "date": "2026-04-02",
+      "url": "https://www.justbaseball.com/mlb/brewers-cooper-pratt-extension-future/",
+      "summary": "This article analyzes the Milwaukee Brewers' eight-year, $50 million extension with shortstop prospect Cooper Pratt, detailing his minor league performance, defensive abilities, and the implications for the team's future middle infield."
+    },
+    {
+      "title": "Brewers, Cooper Pratt Reportedly Agree to Extension",
+      "source": "FanGraphs",
+      "date": "2026-03-31",
+      "url": "https://blogs.fangraphs.com/brewers-cooper-pratt-reportedly-agree-to-extension/",
+      "summary": "FanGraphs discusses the reported eight-year contract extension for Cooper Pratt, analyzing his performance and defensive profile within the Brewers' system."
+    },
+    {
+      "title": "Here's where all of the Brewers' Top 30 prospects will begin 2026 season.",
+      "source": "MiLB.com",
+      "date": "2026-04-02",
+      "url": "https://www.milb.com/brewers/prospects/cooper-pratt-694380",
+      "summary": "This update from MiLB.com includes information that Cooper Pratt is assigned to the Nashville Sounds (AAA) to begin the 2026 season."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Cooper Pratt 2025 Minor League Highlights! (Mid-Season)",
+      "channel": "Baseball is Everything Network",
+      "date": "2025-07-22",
+      "url": null,
+      "type": "highlights"
+    },
+    {
+      "title": "Cooper Pratt's RBI single | 03/27/2026",
+      "channel": "MLB.com",
+      "date": "2026-03-27",
+      "url": "https://www.mlb.com/brewers/video/cooper-pratt-s-rbi-single",
+      "type": "highlights"
+    },
+    {
+      "title": "Cooper Pratt's jumping throw to first | 03/20/2026",
+      "channel": "MLB.com",
+      "date": "2026-03-20",
+      "url": "https://www.mlb.com/brewers/video/cooper-pratt-s-jumping-throw-to-first",
+      "type": "highlights"
+    },
+    {
+      "title": "Brewers No. 2 prospect Cooper Pratt lays out to help secure a win",
+      "channel": "MiLB",
+      "date": "2024-09-11",
+      "url": null,
+      "type": "highlights"
+    },
+    {
+      "title": "BOLD MOVE: Milwaukee Brewers Reportedly to INVEST $50M in Cooper Pratt—Can He IMPACT the Future?",
+      "channel": "Locked On Brewers",
+      "date": "2026-03-31",
+      "url": null,
+      "type": "other"
+    },
+    {
+      "title": "Cooper Pratt, Milwaukee Brewers, Shortstop Defense Supercut",
+      "channel": "FanGraphs",
+      "date": "2025-11-17",
+      "url": null,
+      "type": "scouting"
+    }
+  ]
+}

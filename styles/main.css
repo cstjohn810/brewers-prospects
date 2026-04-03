@@ -1,0 +1,218 @@
+/* styles/main.css — Brewers Prospect Hub shared styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300&display=swap');
+
+/* ── Variables ───────────────────────────────────────────────────────────────*/
+:root {
+  --bg:         #080c12;
+  --bg2:        #0d1420;
+  --surface:    #111826;
+  --surface2:   #18202e;
+  --surface3:   #1e2a3a;
+  --border:     #1f2d42;
+  --border2:    #2a3d58;
+
+  --text:       #dce8f5;
+  --text2:      #8ca4bf;
+  --text3:      #4e657e;
+
+  --gold:       #f0b323;
+  --gold2:      #ffd166;
+  --blue:       #2563eb;
+  --cyan:       #06b6d4;
+  --green:      #10b981;
+  --green2:     #34d399;
+  --yellow:     #fbbf24;
+  --orange:     #f97316;
+  --red:        #ef4444;
+  --red2:       #f87171;
+
+  --mil-navy:   #12284b;
+  --mil-gold:   #f0b323;
+
+  --font-display: 'Rajdhani', sans-serif;
+  --font-mono:    'IBM Plex Mono', monospace;
+  --font-body:    'Source Serif 4', Georgia, serif;
+
+  --radius:     6px;
+  --radius-lg:  10px;
+  --transition: 180ms ease;
+}
+
+/* ── Reset ───────────────────────────────────────────────────────────────────*/
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration: none; }
+img { display: block; max-width: 100%; }
+
+/* ── Global nav ──────────────────────────────────────────────────────────────*/
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(8,12,18,0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  height: 56px;
+  gap: 24px;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--mil-gold);
+}
+
+.nav-logo .badge {
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  background: var(--mil-navy);
+  border: 2px solid var(--mil-gold);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 11px; font-weight: 700; color: var(--mil-gold);
+}
+
+.nav-links {
+  display: flex;
+  gap: 4px;
+  margin-left: auto;
+}
+
+.nav-link {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--text3);
+  padding: 6px 12px;
+  border-radius: var(--radius);
+  transition: color var(--transition), background var(--transition);
+}
+.nav-link:hover, .nav-link.active { color: var(--gold); background: rgba(240,179,35,0.08); }
+
+/* ── Page shell ──────────────────────────────────────────────────────────────*/
+.page-wrap { max-width: 1200px; margin: 0 auto; padding: 0 24px 80px; }
+
+/* ── Utility classes ─────────────────────────────────────────────────────────*/
+.label {
+  font-family: var(--font-display);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text3);
+}
+
+.divider {
+  height: 1px;
+  background: var(--border);
+  margin: 32px 0;
+}
+
+.section-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.section-head .label { color: var(--text3); }
+
+.section-head::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+/* ── Chip / tag ──────────────────────────────────────────────────────────────*/
+.chip {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 3px;
+  background: var(--surface2);
+  color: var(--text2);
+  border: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.chip.gold    { background: rgba(240,179,35,0.1); color: var(--gold); border-color: rgba(240,179,35,0.25); }
+.chip.cyan    { background: rgba(6,182,212,0.1); color: var(--cyan); border-color: rgba(6,182,212,0.25); }
+.chip.green   { background: rgba(16,185,129,0.1); color: var(--green2); border-color: rgba(16,185,129,0.25); }
+.chip.red     { background: rgba(239,68,68,0.1); color: var(--red2); border-color: rgba(239,68,68,0.25); }
+.chip.orange  { background: rgba(249,115,22,0.1); color: var(--orange); border-color: rgba(249,115,22,0.25); }
+
+/* ── Grade pill ──────────────────────────────────────────────────────────────*/
+.grade-pill {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+.grade-70up { background: rgba(16,185,129,0.2); color: #34d399; }
+.grade-60   { background: rgba(16,185,129,0.12); color: #10b981; }
+.grade-55   { background: rgba(251,191,36,0.12); color: #fbbf24; }
+.grade-50   { background: rgba(249,115,22,0.12); color: #f97316; }
+.grade-45   { background: rgba(239,68,68,0.12); color: #f87171; }
+.grade-sub  { background: rgba(239,68,68,0.2); color: #ef4444; }
+
+/* ── Scrollbar ───────────────────────────────────────────────────────────────*/
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--bg2); }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text3); }
+
+/* ── Animations ──────────────────────────────────────────────────────────────*/
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+
+.fade-up { animation: fadeUp 0.5s ease both; }
+
+/* stagger children */
+.stagger > *:nth-child(1) { animation-delay: 0.05s; }
+.stagger > *:nth-child(2) { animation-delay: 0.10s; }
+.stagger > *:nth-child(3) { animation-delay: 0.15s; }
+.stagger > *:nth-child(4) { animation-delay: 0.20s; }
+.stagger > *:nth-child(5) { animation-delay: 0.25s; }
+.stagger > *:nth-child(6) { animation-delay: 0.30s; }
+.stagger > *:nth-child(7) { animation-delay: 0.35s; }
+.stagger > *:nth-child(8) { animation-delay: 0.40s; }
+
+/* ── Responsive ──────────────────────────────────────────────────────────────*/
+@media (max-width: 768px) {
+  .site-nav { padding: 0 16px; }
+  .page-wrap { padding: 0 16px 60px; }
+}
