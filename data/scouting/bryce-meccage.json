@@ -1,0 +1,99 @@
+{
+  "playerId": "bryce-meccage",
+  "name": "Bryce Meccage",
+  "position": "SP",
+  "level": "A",
+  "age": 20,
+  "updatedAt": "2026-04-04T03:16:03.674Z",
+  "pitchGrades": {
+    "fastball": 55,
+    "slider": 60,
+    "curveball": 55,
+    "changeup": 45,
+    "cutter": null,
+    "control": 50,
+    "command": 45,
+    "breakingBall": null
+  },
+  "grades": {
+    "ofp": 50,
+    "risk": "Extreme"
+  },
+  "rankings": [
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 19,
+      "grade": "40/50 FV",
+      "listName": "The Board",
+      "date": "2026-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiF_D3oJd2jXPe9mcZac7eqFLQDV6STtED7nwbayn1QZ5Lm_IVKSp3wpRvVE8psdhMXglRyMGuukxeWPi-b3rzZ2DvsS66-Pefvmn2VsvwC4Gehbx_-lGAH9Xpbac40xQRtU3ZFKx53bT6C-c3VpUOnk26QFyFiLf-6dbBXX6-mIbfL2eL1ynbNN4-ovdVnniQhUql1tomLinjR4XWR8BgGVJUWEjcOJ3hnkOWAbcV4_OBMBp03uhlY9CnHDeDIhaox48oWsrBS6ShrJG4GoqjW-M="
+    },
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 23,
+      "grade": "50/Extreme",
+      "listName": "Organization Prospect Rankings",
+      "date": "2026",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFe9hjIsP6u7isge6WwX6PVCZAAs0LRoYqMtQvomoS657AeEHSR-BbmDpnxudvWeRMTgGanK2psdKiwUXoP7FcklE5g-eOCRvIhO7AwrpwUtHPLZMIq2V6lMJpjx39adHTVT9bQmutoa2JyzsNcfJjgzQ=="
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 21,
+      "grade": "45",
+      "listName": "Top 30 Brewers Prospects",
+      "date": "2026",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFe9hjIsP6u7isge6WwX6PVCZAAs0LRoYqMtQvomoS657AeEHSR-BbmDpnxudvWeRMTgGanK2psdKiwUXoP7FcklE5g-eOCRvIhO7AwrpwUtHPLZMIq2V6lMJpjx39adHTVT9bQmutoa2JyzsNcfJjgzQ=="
+    }
+  ],
+  "summary": "Bryce Meccage is a 6-foot-4 right-handed pitcher drafted by the Brewers in the second round of the 2024 MLB Draft. He features an above-average fastball that can reach 98 mph and a strong, high-spin slider, complemented by a curveball with above-average potential. While his changeup requires further development and his command needs refinement, Meccage possesses a projectable frame and the tools to become a potential mid-rotation starter. He spent the 2025 season in Low-A Carolina and is expected to advance to High-A in 2026.",
+  "strengths": [
+    "Projectable pitcher's frame",
+    "Fastball velocity and spin",
+    "High-spin slider"
+  ],
+  "concerns": [
+    "Changeup needs development",
+    "Inconsistent velocity holding",
+    "Command needs refinement"
+  ],
+  "eta": "2029",
+  "mediaReferences": [
+    {
+      "type": "podcast",
+      "title": "Bryce Meccage eager to start pro career with Brewers",
+      "source": "Baseball Prospect Journal Podcast",
+      "date": "2024-08",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRSTHd6wk_ULL6nrP54p1X3tRD1v8DdRB1kFDTS-FdD2WkoyOAl5YFsEB83ZLZqhuYCklgSgNjT8U8QF2CNd8-2wVLyT-lpJ88VAj9kkZD52QTviLCaLZsGjaO1SyALuYmwjk1G1bbYTLXDJ2llVNszb8QMm53YRiO0nC5fVGYtew4M3d5a26V2fRKt_cjk="
+    },
+    {
+      "type": "youtube",
+      "title": "MLB Draft Conversation: Bryce Meccage",
+      "source": "Baseball Prospect Journal",
+      "date": "2024-08",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFchSElFTq1pb6uRw6tHNMwdW9PxgfpTa569QnEt14OINXlDxycTLu_W-MapLrA1v0v8V0jNQoTZHIBCRUo3G6K392JOoTb-FSpIYq2lUU-zlrwcdBVsWzmZQLLGItqvak6_-eE9Bg="
+    },
+    {
+      "type": "youtube",
+      "title": "MLB Draft Prospect Bryce Meccage | 0 Hits Allowed in 2024 Season at Pennington!",
+      "source": "Jersey Sports Zone",
+      "date": "2024-05",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXeVBX0ufFls_QxpAtFv7dJz1SyoU-tHUC9Lm2YaqXR0cq9MDkjncAMrEIpoG70BO3kjy3Z_ga4DSBwHI8z0o9_Dd1-kFqCvt_ze63pL_sKjfZKvdw8pj_Ah2OlpvKbLqewIoVu_8="
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "FanGraphs",
+    "Baseball Prospectus",
+    "Wisconsin Sports Heroics",
+    "MiLB.com",
+    "Baseball Prospect Journal"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [],
+  "recentNews": [],
+  "videoLinks": []
+}

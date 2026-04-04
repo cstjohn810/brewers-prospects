@@ -1,0 +1,196 @@
+{
+  "playerId": "eric-bitonti",
+  "name": "Eric Bitonti",
+  "position": "SS",
+  "level": "A",
+  "age": 20,
+  "updatedAt": "2026-04-04T03:20:37.140Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": 40,
+    "power": 70,
+    "run": 40,
+    "field": 50,
+    "arm": 60,
+    "ofp": 50,
+    "risk": "High"
+  },
+  "rankings": [
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 23,
+      "grade": "50",
+      "listName": "Milwaukee Brewers Top Prospects",
+      "date": "2026-04",
+      "url": "https://www.baseballamerica.com/players/119973/eric-bitonti/"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 26,
+      "grade": "40",
+      "listName": "Brewers Top 30",
+      "date": "2026-04",
+      "url": "https://www.milb.com/prospects/brewers/eric-bitonti-687093"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": 71,
+      "systemRank": null,
+      "grade": "null",
+      "listName": "ZiPS 2026 Top 100 Prospects",
+      "date": "2026-02",
+      "url": "https://blogs.fangraphs.com/zips-2026-top-100-prospects/"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 40,
+      "grade": "35+",
+      "listName": "Milwaukee Brewers Top 53 Prospects",
+      "date": "2025-11",
+      "url": "https://blogs.fangraphs.com/milwaukee-brewers-top-53-prospects/"
+    }
+  ],
+  "summary": "Eric Bitonti is a physical, left-handed hitting shortstop prospect in the Milwaukee Brewers system, drafted in 2023. He exhibits tremendous raw power and a patient approach at the plate, but his long levers lead to significant swing-and-miss concerns. Initially a shortstop, he has transitioned to primarily first base in professional ball. His success will depend on his ability to reduce strikeouts and consistently make contact.",
+  "strengths": [
+    "Tremendous raw power",
+    "Above-average plate discipline",
+    "Athletic for his size"
+  ],
+  "concerns": [
+    "High strikeout rate",
+    "Long swing leads to swing-and-miss",
+    "Defensive position shift to first base"
+  ],
+  "eta": "2028",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "This forgotten slugging prospect could make serious noise in Brewers' system in 2026",
+      "source": "Reviewing the Brew",
+      "date": "2026-02",
+      "url": "https://reviewingthebrew.com/posts/milwaukee-brewers-prospect-eric-bitonti-zips-top-100-2026-strikeouts-power"
+    },
+    {
+      "type": "article",
+      "title": "Eric Bitonti drills his 10th homer",
+      "source": "MLB.com",
+      "date": "2025-06",
+      "url": "https://www.mlb.com/brewers/video/eric-bitonti-drills-his-10th-homer-v2277684083"
+    },
+    {
+      "type": "article",
+      "title": "This Brewers prospect is taking the Carolina League by storm",
+      "source": "Reviewing the Brew",
+      "date": "2025-06",
+      "url": "https://reviewingthebrew.com/posts/milwaukee-brewers-prospect-eric-bitonti-carolina-league-low-a-home-runs-power"
+    }
+  ],
+  "sourcesConsulted": [
+    "Baseball America",
+    "MLB Pipeline",
+    "FanGraphs",
+    "Just Baseball",
+    "Reviewing the Brew"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "Brewers' prospects light up Statcast in impressive Spring Breakout",
+      "source": "MiLB.com",
+      "date": "2026-03-22",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBl5J6-UexEV1bsBnCW5VpDc6rJp2A5lypC0rLr__gsPQxshXaOEzvUOlV9qd6Q-c9QfhvniOnwuQDG-bhh9C8n9zFB5yP0Q8qTrbjvR1QxHms3cQ-FIZsq1N6HZceZ7nqIBr5GqUKQSouFKNbwEz_4jD2efQT2ww=",
+      "summary": "Milwaukee Brewers prospects, including Eric Bitonti, showcased impressive performances in the Spring Breakout game on March 22, 2026."
+    },
+    {
+      "title": "Eric Bitonti assigned to Milwaukee Brewers Prospects",
+      "source": "MiLB.com",
+      "date": "2026-02-22",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0CgKXpbTWwlZgOVvvn05cG6_M-X9t9L9JHDTqivFW3MuJ6AdP_K5GULyJQx7aDEzKkWKEsOKQfxJyoMAKkdQ1in-xl2-QscxixCL5-UJAf6MvCnPdZ2B0ygXP4np6xM6I-HbPM4duDbY=",
+      "summary": "Eric Bitonti was assigned to the Milwaukee Brewers Prospects on February 22, 2026."
+    },
+    {
+      "title": "This forgotten slugging prospect could make serious noise in Brewers' system in 2026",
+      "source": "Wisconsin Sports Heroics",
+      "date": "2026-02-20",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0ytueZVV0ILWfaTg5sYTZ2O7mQimOu-l0YYTejDHgUfEVWaiZhMGyoKf2er4km9RvFDPXCtSMjRw9rjsSzqAKW-uD6CW5joGAMz9XY3k0elOMiOlBgJ8w15QrPNe_cNX4kfpKmSbt8xP8eQgL-YNMDG3gcDLI41lwXblXEe2yxhzRzWagLO3oRQ-gpdDl7dK766_YKXxWUZRK5GB2o-RP21SY1qJFz5Z8D9NXmOgBI26H1otuf1w=",
+      "summary": "Eric Bitonti, a first base prospect for the Milwaukee Brewers, is discussed as a potential breakout candidate for the 2026 season, having ended the 2025 campaign in Low-A with 19 home runs and 17 steals, despite a high strikeout rate."
+    },
+    {
+      "title": "Eric Bitonti assigned to Milwaukee Brewers",
+      "source": "MiLB.com",
+      "date": "2025-03-06",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0CgKXpbTWwlZgOVvvn05cG6_M-X9t9L9JHDTqivFW3MuJ6AdP_K5GULyJQx7aDEzKkWKEsOKQfxJyoMAKkdQ1in-xl2-QscxixCL5-UJAf6MvCnPdZ2B0ygXP4np6xM6I-HbPM4duDbY=",
+      "summary": "Eric Bitonti was assigned to the Milwaukee Brewers on March 6, 2025."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Milwaukee Brewers Eric Bitonti hits home run vs. Athletics in Spring Breakout Cactus League",
+      "channel": "MLB",
+      "date": "2026-03-23",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRI0gPaW-vdIvTshw9ZzyNmq4L2KVgC0on5GEGYgKVaVlutoR5Fw1_kwQAhYrlUviudRdFvXzZlfIXlAv8zGjsmFORaOOqzcGM4mpprslf4ES5c4n5BFtOQ3dSQiLSMjC9EBRLHw==",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Eric Bitonti 2025 MiLB Highlights!",
+      "channel": "Baseball is Everything Network",
+      "date": "2025-10-21",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjgjTRu0OQQXR9HtlRA5eLlDI4CdfHFD-g9HAaao1RftQ5kEA3wyh6bONybOWtH5MX6Ej73nYFBIImewP13n36Z_-GLpDrECDKJpYVHXwHBWuDhtu6jYKoYgnj_ORvN8k4Xw0zqw==",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Eric Bitonti drills his 10th homer",
+      "channel": "MLB.com",
+      "date": "2025-06-21",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHf5hrBBd0tqf2XmzCHFyNWYt_RtOqv5rg-LfHW7CsGGnEuM-_qpsZCCbd4nzPreWKbS7zKC3YRiRQ-z6KlouVgjMlPNi4ZmByL20awN7v8hHNnyO5pcuPF5kV225VjqXAzWLMLXRwsIyLRSoc7c1h76YaHAGjQyGcBFIDNG4A=",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Eric Bitonti's fifth homer in three games",
+      "channel": "MiLB.com",
+      "date": "2025-06-04",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF7f5YvM8zPz1HeDNU-V8XupadBWOQouUCe6cotfCIOnjmMRD9KO9A366WtN-iMz5SwjD0ttPGLm9-0aNqJLDvCztU-XzF33SciwCqHbuEO09GsGq7rIdJfbPIYSFlJ2VBz5oZivgXySmyJT0wgcb7eiEZfX5ft-sVx2XbXRWRTLsEuQhqXf9owwsPNufM=",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Eric Bitonti stays hot with home run",
+      "channel": "MLB.com",
+      "date": "2024-08-14",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU1qzZrcFaPEB4JQuO-V-1toU5hBDEtNPb4bpuHl_CtWmidjJkp4TusoZrMOqnzFBgRx4QabLswbuV9nsqElILVzafkiArbBcX2fMr8LmkY7L-wo1FE7DtzBE2f3gb80roqwU2pSP1PzL9vHsCQDBsQlnaCKnm8WTp5zxEk_ep6g=",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Eric Bitonti drives in four runs",
+      "channel": "MLB.com",
+      "date": "2024-08-07",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1l7jOtyOC_wdtR9WZrlIKRR6XckDa6scP_6oiOKmhPx_71nF11ujKhfKH-oOV992mEPyDXabFCOvYooSeN2pUVv1sCLg8VUS2-dRRo1INdsgVrLa3maitcy55GqjelKhry1KYBVdPAwgOwABwDmkVW3rber2bl_fb-Z9U",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Eric Bitonti's game-tying home run",
+      "channel": "MLB.com",
+      "date": "2024-08-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ08laXSUjtvevwqHLDGi3Ai7e04i5OMB7j0mii7MXYufDsY8cF1IXNKEvMEICWKoNJOMX8E9tHb_ELH1Jtbp85lXZ7t0OD4p9UoJZQu8IORq3piBX4yBRXTXuffMtwJCcORKetEYonWATe8C946ZO1PM2CF7jz9qU4gDjsZE=",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "City of San Bernardino Outstanding Student Athletes: Eric Bitonti",
+      "channel": "San Bernardino City USD",
+      "date": "2021-07-09",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUm59A84ZKM1HTPAmwIR9gM31twdS7gUuImV08opTjAWYJIRa4Bk86xWM-B7l3GCjjuZahAGS3HoyN_VW5CPa7VNQHeVhNSAM9-PQe5_RJOTk8pbqfloELKqeyAZevpLIBtrf2mA=",
+      "type": "interview",
+      "urlType": "direct"
+    }
+  ]
+}

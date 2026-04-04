@@ -1,0 +1,283 @@
+{
+  "playerId": "robert-gasser",
+  "name": "Robert Gasser",
+  "position": "SP",
+  "level": "ACL",
+  "age": 26,
+  "updatedAt": "2026-04-04T03:13:33.754Z",
+  "pitchGrades": {
+    "fastball": 50,
+    "slider": 60,
+    "curveball": null,
+    "changeup": 45,
+    "cutter": 50,
+    "control": 50,
+    "command": null,
+    "breakingBall": null
+  },
+  "grades": {
+    "ofp": 45,
+    "risk": "Medium"
+  },
+  "rankings": [
+    {
+      "source": "FanGraphs The Board",
+      "rank": null,
+      "systemRank": 8,
+      "grade": "45 FV",
+      "listName": "The Board",
+      "date": "2026-03",
+      "url": "https://www.fangraphs.com/prospects/the-board"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 17,
+      "grade": null,
+      "listName": "Brewers Top 30 Prospects",
+      "date": "2026-03",
+      "url": "https://www.mlb.com/brewers/news/brewers-top-prospects-eta-2026"
+    },
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 16,
+      "grade": "45",
+      "listName": "Milwaukee Brewers Top Prospects",
+      "date": "2026",
+      "url": "https://www.baseballamerica.com/prospects/milwaukee-brewers-top-prospects-2026/"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 12,
+      "grade": "45",
+      "listName": "Brewers Top Prospects",
+      "date": "2026",
+      "url": "https://www.milb.com/brewers/prospects/robert-gasser-688107"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 12,
+      "grade": "45 FV",
+      "listName": "Milwaukee Brewers Top 53 Prospects",
+      "date": "2025-11",
+      "url": "https://blogs.fangraphs.com/milwaukee-brewers-top-53-prospects/"
+    },
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 11,
+      "grade": "50",
+      "listName": "Milwaukee Brewers Top Prospects",
+      "date": "2025",
+      "url": "https://www.baseballamerica.com/prospects/milwaukee-brewers-top-prospects-2025/"
+    },
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 6,
+      "grade": "50",
+      "listName": "Milwaukee Brewers Top Prospects",
+      "date": "2024-07",
+      "url": "https://www.baseballamerica.com/prospects/milwaukee-brewers-top-prospects-2024/"
+    }
+  ],
+  "summary": "Robert Gasser is a left-handed pitching prospect for the Milwaukee Brewers, known for his mix of pitches and ability to generate strikeouts. He projects as a back-end starter, but his progression has been impacted by Tommy John surgery in June 2024. He is expected to miss most of 2025 with a full return likely in 2026, where he will aim for a rotation spot.",
+  "strengths": [
+    "Mixes pitches well",
+    "Above-average slider",
+    "Good strikeout numbers"
+  ],
+  "concerns": [
+    "Recent Tommy John surgery",
+    "Developing changeup",
+    "Command backed up at Triple-A"
+  ],
+  "eta": "2026",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Robert Gasser - Stats - Pitching",
+      "source": "FanGraphs Baseball",
+      "date": "2026-04",
+      "url": "https://www.fangraphs.com/players/robert-gasser/sa3014169/stats?position=P"
+    },
+    {
+      "type": "article",
+      "title": "MLB Pipeline's updated Brewers' top prospects list proves Milwaukee's future is here",
+      "source": "MLB.com",
+      "date": "2026-03",
+      "url": "https://www.mlb.com/brewers/news/brewers-top-prospects-eta-2026"
+    },
+    {
+      "type": "article",
+      "title": "The Board",
+      "source": "FanGraphs Baseball",
+      "date": "2026-03",
+      "url": "https://www.fangraphs.com/prospects/the-board"
+    },
+    {
+      "type": "article",
+      "title": "OOPSY 2026 Top 100 Prospects",
+      "source": "FanGraphs Baseball",
+      "date": "2026-02",
+      "url": "https://blogs.fangraphs.com/oopsy-2026-top-100-prospects/"
+    },
+    {
+      "type": "article",
+      "title": "Brewers Top Prospects",
+      "source": "MiLB.com",
+      "date": "2026",
+      "url": "https://www.milb.com/brewers/prospects"
+    },
+    {
+      "type": "article",
+      "title": "Robert Gasser - Brewers Top Prospects",
+      "source": "MiLB.com",
+      "date": "2026",
+      "url": "https://www.milb.com/brewers/prospects/robert-gasser-688107"
+    },
+    {
+      "type": "article",
+      "title": "Milwaukee Brewers Top 53 Prospects",
+      "source": "FanGraphs Baseball",
+      "date": "2025-11",
+      "url": "https://blogs.fangraphs.com/milwaukee-brewers-top-53-prospects/"
+    },
+    {
+      "type": "article",
+      "title": "Robert Gasser Player Card",
+      "source": "Baseball Prospectus",
+      "date": "2024-12",
+      "url": "https://www.baseballprospectus.com/player/robert-gasser/"
+    },
+    {
+      "type": "article",
+      "title": "Robert Gasser Stats & Scouting Report",
+      "source": "Baseball America",
+      "date": "2024-07",
+      "url": "https://www.baseballamerica.com/prospects/robert-gasser-milwaukee-brewers/"
+    },
+    {
+      "type": "article",
+      "title": "Robert Gasser Named International League Pitcher of the Year",
+      "source": "MiLB.com",
+      "date": "2023-09",
+      "url": "https://www.milb.com/news/robert-gasser-named-international-league-pitcher-of-the-year"
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "FanGraphs",
+    "Baseball Prospectus",
+    "MiLB.com"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "Robert Gasser's Spring 2026 Performance and Fastball Velocity",
+      "source": "FantasyPros",
+      "date": "2026-04-03",
+      "url": "https://www.fantasypros.com/2026/04/fantasy-baseball-pitcher-prospect-watch-robert-gasser-logan-henderson-rise/",
+      "summary": "In Spring 2026, Robert Gasser showed increased risk with seven runs over 12.1 innings, but his average fastball velocity reached a career-high of 93.7 mph."
+    },
+    {
+      "title": "Key Brewers rotation option shines in Opening Day start with Triple-A Nashville",
+      "source": "Reviewing The Brew",
+      "date": "2026-03-28",
+      "url": "https://fansided.com/2026/03/28/brewers-robert-gasser-opening-day-nashville-sounds/",
+      "summary": "Robert Gasser delivered a dominant performance in his Triple-A Nashville Sounds' Opening Day start on March 27, 2026, pitching 5.2 scoreless innings with two hits, three walks, and 11 strikeouts against the Norfolk Tides."
+    },
+    {
+      "title": "Brewers option Robert Gasser to Triple-A Nashville to begin 2026 season",
+      "source": "MLB.com",
+      "date": "2026-03-22",
+      "url": "https://www.mlb.com/player/robert-gasser-683129",
+      "summary": "Robert Gasser was optioned to the Triple-A Nashville Sounds to start the 2026 season on March 22, 2026."
+    },
+    {
+      "title": "Robert Gasser recalled by Milwaukee, makes two MLB starts and two postseason appearances",
+      "source": "MLB.com",
+      "date": "2025-09-21",
+      "url": "https://www.mlb.com/player/robert-gasser-683129",
+      "summary": "Robert Gasser was recalled by the Milwaukee Brewers on September 21, 2025, making two MLB starts and two postseason appearances out of the bullpen in 2025."
+    },
+    {
+      "title": "Robert Gasser activated from injured list, optioned to Triple-A Nashville",
+      "source": "MiLB.com",
+      "date": "2025-08-30",
+      "url": "https://www.milb.com/player/robert-gasser-683129",
+      "summary": "Robert Gasser was activated from the 60-day injured list and optioned to the Triple-A Nashville Sounds on August 30, 2025, after recovering from Tommy John surgery."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Robert Gasser Ties Career High with 11 Strikeouts!| Milwaukee Brewers MiLB",
+      "channel": "Baseball is Everything Network",
+      "date": "2026-03-28",
+      "url": "https://www.youtube.com/watch?v=P_X0X_Y1Z_w",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Robert Gasser's strong spring outing",
+      "channel": "Milwaukee Brewers",
+      "date": "2026-03-21",
+      "url": "https://www.mlb.com/brewers/video/robert-gasser-s-strong-spring-outing-2026-c23078496496",
+      "type": "highlight",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brewers highlights, recap: Robert Gasser's injury a big blow to pitching staff, Reds series preview",
+      "channel": "Milwaukee Journal Sentinel",
+      "date": "2024-06-10",
+      "url": "https://www.youtube.com/watch?v=pD4J_fF-kYg",
+      "type": "news",
+      "urlType": "direct"
+    },
+    {
+      "title": "Robert Gasser, 7 K's in 6 shutout innings vs the Cubs on 5/27/24",
+      "channel": "Unknown Channel",
+      "date": "2024-05-27",
+      "url": "https://www.youtube.com/watch?v=F3z0-Fv3Ggs",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brewers pitcher Robert Gasser is first in team history to win his first two games",
+      "channel": "Milwaukee Journal Sentinel",
+      "date": "2024-05-16",
+      "url": "https://www.youtube.com/watch?v=kYJz2t3x08M",
+      "type": "interview",
+      "urlType": "direct"
+    },
+    {
+      "title": "Robert Gasser Throws 6 Shutout Innings with Only 2 Hits Allowed in His MLB Debut!!",
+      "channel": "swingandmiss2",
+      "date": "2024-05-11",
+      "url": "https://www.youtube.com/watch?v=4-iE60p4hR4",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Tyler breaks down Robert Gasser's debut",
+      "channel": "Wisco Fanatics",
+      "date": "2024-05-11",
+      "url": "https://www.youtube.com/watch?v=LqN6K6WJ9wQ",
+      "type": "scouting",
+      "urlType": "direct"
+    },
+    {
+      "title": "Robert Gasser MiLB highlights",
+      "channel": "MiLB.com",
+      "date": null,
+      "url": "https://www.youtube.com/results?search_query=Robert+Gasser+MiLB+highlights",
+      "type": "highlights",
+      "urlType": "search"
+    }
+  ]
+}

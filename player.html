@@ -4,20 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Player Dashboard · Brewers Prospect Hub</title>
+  <script>
+    document.documentElement.setAttribute('data-theme', localStorage.getItem('ph-theme') || 'dark');
+  </script>
   <link rel="stylesheet" href="styles/main.css">
   <style>
 
-    /* ── Player header ─────────────────────────────────────────────────────── */
+    /* ═══════════════════════════════════════════════════════════════════════
+       PLAYER PAGE STYLES
+    ═══════════════════════════════════════════════════════════════════════ */
+
+    /* ── Hero ──────────────────────────────────────────────────────────────── */
     .player-hero {
-      padding: 40px 0 32px;
+      padding: 36px 0 28px;
       border-bottom: 1px solid var(--border);
-      margin-bottom: 36px;
-      animation: fadeUp 0.4s ease both;
+      margin-bottom: 28px;
+      animation: fadeUp 0.35s ease both;
     }
 
     .back-link {
       font-family: var(--font-display);
-      font-size: 11px;
+      font-size: 12px;
       font-weight: 600;
       letter-spacing: 1.5px;
       text-transform: uppercase;
@@ -25,41 +32,39 @@
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      margin-bottom: 20px;
+      margin-bottom: 18px;
       transition: color var(--transition);
     }
     .back-link:hover { color: var(--gold); }
 
     .hero-layout {
-      display: grid;
-      grid-template-columns: 1fr auto;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
       gap: 32px;
-      align-items: start;
     }
-
-    .hero-left {}
 
     .hero-name {
       font-family: var(--font-display);
-      font-size: clamp(32px, 5vw, 56px);
+      font-size: clamp(36px, 5vw, 60px);
       font-weight: 700;
-      color: #fff;
+      color: var(--text);
       line-height: 0.95;
       letter-spacing: -0.5px;
-      margin-bottom: 10px;
+      margin-bottom: 12px;
     }
 
     .hero-meta-row {
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 10px;
       flex-wrap: wrap;
-      margin-bottom: 16px;
+      margin-bottom: 14px;
     }
 
     .hero-pos {
       font-family: var(--font-display);
-      font-size: 16px;
+      font-size: 18px;
       font-weight: 700;
       color: var(--mil-gold);
       letter-spacing: 1px;
@@ -69,47 +74,40 @@
 
     .hero-affiliate {
       font-family: var(--font-display);
-      font-size: 13px;
+      font-size: 15px;
       color: var(--text2);
       letter-spacing: 0.5px;
     }
 
     .hero-chips {
       display: flex;
-      gap: 6px;
+      gap: 7px;
       flex-wrap: wrap;
     }
 
-    /* OFP block */
-    .ofp-block {
-      text-align: center;
-      flex-shrink: 0;
-    }
+    /* OFP ring */
+    .ofp-block { text-align: center; flex-shrink: 0; }
 
     .ofp-ring {
-      width: 88px;
-      height: 88px;
+      width: 96px;
+      height: 96px;
       position: relative;
       margin: 0 auto 8px;
     }
 
     .ofp-svg { width: 100%; height: 100%; transform: rotate(-90deg); }
-
-    .ofp-track { fill: none; stroke: var(--surface3); stroke-width: 6; }
-    .ofp-arc   { fill: none; stroke-width: 6; stroke-linecap: round; transition: stroke-dasharray 1s ease; }
+    .ofp-track { fill: none; stroke: var(--surface3); stroke-width: 7; }
+    .ofp-arc   { fill: none; stroke-width: 7; stroke-linecap: round; }
 
     .ofp-center {
-      position: absolute;
-      inset: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      position: absolute; inset: 0;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
     }
 
     .ofp-num {
       font-family: var(--font-display);
-      font-size: 28px;
+      font-size: 30px;
       font-weight: 700;
       line-height: 1;
     }
@@ -120,55 +118,126 @@
       letter-spacing: 1.5px;
       color: var(--text3);
       text-transform: uppercase;
+      margin-top: 1px;
     }
 
-    .ofp-risk {
+    .ofp-risk-label {
       font-family: var(--font-display);
-      font-size: 11px;
+      font-size: 12px;
       font-weight: 600;
       letter-spacing: 0.8px;
       text-transform: uppercase;
       color: var(--text3);
     }
 
-    /* ── Two column layout ─────────────────────────────────────────────────── */
+    /* ── Summary block ─────────────────────────────────────────────────────── */
+    .summary-block {
+      background: var(--summary-bg);
+      border-left: 4px solid var(--summary-border);
+      border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+      padding: 20px 24px;
+      margin-bottom: 28px;
+      animation: fadeUp 0.35s ease 0.05s both;
+    }
+
+    .summary-block p {
+      font-family: var(--font-body);
+      font-size: 17px;
+      line-height: 1.75;
+      color: var(--summary-text);
+      font-style: italic;
+    }
+
+    /* ── Strengths / Concerns side-by-side ─────────────────────────────────── */
+    .scout-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 28px;
+      animation: fadeUp 0.35s ease 0.1s both;
+    }
+
+    .scout-panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 18px 20px;
+    }
+
+    .scout-panel-head {
+      font-family: var(--font-display);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .scout-panel-head.strengths { color: var(--green2); }
+    .scout-panel-head.concerns  { color: var(--red2); }
+
+    .scout-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .scout-list li {
+      font-family: var(--font-body);
+      font-size: 14px;
+      color: var(--text2);
+      padding-left: 18px;
+      position: relative;
+      line-height: 1.5;
+    }
+
+    .scout-list li::before {
+      content: '\25B8';
+      position: absolute;
+      left: 0;
+      font-size: 10px;
+      top: 3px;
+    }
+
+    .scout-list.strengths li::before { color: var(--green2); }
+    .scout-list.concerns  li::before { color: var(--red2); }
+
+    /* ── Two-column layout ─────────────────────────────────────────────────── */
     .two-col {
       display: grid;
-      grid-template-columns: 1fr 340px;
+      grid-template-columns: 1fr 360px;
       gap: 24px;
       align-items: start;
     }
 
-    .main-col {}
-    .side-col {}
-
-    /* ── Stat row (slash line) ─────────────────────────────────────────────── */
+    /* ── Stat tiles ────────────────────────────────────────────────────────── */
     .stat-row {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(82px, 1fr));
       gap: 8px;
-      margin-bottom: 24px;
+      margin-bottom: 28px;
     }
 
     .stat-tile {
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius);
-      padding: 12px 10px;
+      padding: 14px 10px;
       text-align: center;
       position: relative;
       overflow: hidden;
-      animation: fadeUp 0.4s ease both;
     }
 
     .stat-tile::after {
       content: '';
       position: absolute;
       bottom: 0; left: 0; right: 0;
-      height: 2px;
+      height: 3px;
       background: var(--surface3);
     }
-
     .stat-tile.above::after  { background: var(--green); }
     .stat-tile.avg-::after   { background: var(--yellow); }
     .stat-tile.below::after  { background: var(--orange); }
@@ -176,26 +245,26 @@
 
     .tile-val {
       font-family: var(--font-display);
-      font-size: 24px;
+      font-size: 26px;
       font-weight: 700;
-      color: #fff;
+      color: var(--text);
       line-height: 1;
     }
 
     .tile-name {
       font-family: var(--font-mono);
-      font-size: 9px;
+      font-size: 10px;
       letter-spacing: 1.5px;
       text-transform: uppercase;
       color: var(--text3);
-      margin-top: 4px;
+      margin-top: 5px;
     }
 
     .tile-ctx {
       font-family: var(--font-mono);
-      font-size: 8px;
+      font-size: 9px;
       color: var(--text3);
-      margin-top: 2px;
+      margin-top: 3px;
     }
 
     /* ── Tool grade bars ───────────────────────────────────────────────────── */
@@ -205,12 +274,12 @@
       display: flex;
       align-items: center;
       gap: 10px;
-      margin-bottom: 8px;
+      margin-bottom: 9px;
     }
 
     .tool-name {
       font-family: var(--font-display);
-      font-size: 12px;
+      font-size: 13px;
       font-weight: 600;
       letter-spacing: 1px;
       text-transform: uppercase;
@@ -221,22 +290,21 @@
 
     .tool-track {
       flex: 1;
-      height: 24px;
+      height: 26px;
       background: var(--surface2);
-      border-radius: 3px;
+      border-radius: 4px;
       overflow: hidden;
-      position: relative;
       border: 1px solid var(--border);
+      position: relative;
     }
 
     .tool-fill {
       height: 100%;
-      border-radius: 2px;
-      display: flex;
-      align-items: center;
-      padding: 0 8px;
+      border-radius: 3px;
       transition: width 1s cubic-bezier(0.25, 0.8, 0.25, 1);
       width: 0%;
+      position: absolute;
+      inset: 0 auto 0 0;
     }
 
     .fill-70up { background: linear-gradient(90deg, #065f46, #10b981); }
@@ -248,52 +316,63 @@
 
     .fill-label {
       font-family: var(--font-display);
-      font-size: 13px;
+      font-size: 11px;
       font-weight: 700;
       color: rgba(255,255,255,0.9);
+      white-space: nowrap;
+      line-height: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: block;
+      max-width: 100%;
+    }
+
+    .tool-track-label {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      padding: 0 9px;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .tool-track-label.is-outside .fill-label {
+      color: var(--text2);
     }
 
     .tool-grade {
       font-family: var(--font-display);
-      font-size: 20px;
+      font-size: 22px;
       font-weight: 700;
-      width: 32px;
+      width: 34px;
       text-align: right;
       flex-shrink: 0;
     }
 
     .tool-desc-txt {
       font-family: var(--font-body);
-      font-size: 11px;
+      font-size: 12px;
       color: var(--text3);
       font-style: italic;
-      width: 140px;
+      width: 160px;
       flex-shrink: 0;
     }
 
-    .grade-scale {
-      display: flex;
-      gap: 3px;
-      margin-bottom: 14px;
-    }
-
-    .scale-pip {
-      flex: 1;
-      height: 4px;
-      border-radius: 2px;
-    }
+    .grade-scale { display: flex; gap: 3px; margin-bottom: 12px; }
+    .scale-pip { flex: 1; height: 5px; border-radius: 2px; }
 
     .scale-labels {
       display: flex;
       justify-content: space-between;
       font-family: var(--font-mono);
-      font-size: 8px;
+      font-size: 9px;
       color: var(--text3);
-      margin-top: 3px;
-      margin-bottom: 16px;
+      margin-top: 4px;
+      margin-bottom: 18px;
     }
 
-    /* ── Performance bars ──────────────────────────────────────────────────── */
+    /* ── Perf bars ─────────────────────────────────────────────────────────── */
     .perf-row {
       display: flex;
       align-items: center;
@@ -303,10 +382,10 @@
 
     .perf-label {
       font-family: var(--font-mono);
-      font-size: 10px;
-      letter-spacing: 0.5px;
+      font-size: 11px;
+      letter-spacing: 0.3px;
       color: var(--text2);
-      width: 80px;
+      width: 88px;
       flex-shrink: 0;
     }
 
@@ -314,36 +393,32 @@
       flex: 1;
       height: 14px;
       background: var(--surface2);
-      border-radius: 2px;
+      border-radius: 3px;
       overflow: hidden;
     }
 
-    .perf-fill {
-      height: 100%;
-      border-radius: 2px;
-      transition: width 0.8s ease;
-    }
+    .perf-fill { height: 100%; border-radius: 3px; transition: width 0.8s ease; }
 
     .perf-value {
       font-family: var(--font-mono);
-      font-size: 11px;
+      font-size: 12px;
       font-weight: 600;
-      width: 52px;
+      width: 56px;
       text-align: right;
       flex-shrink: 0;
     }
 
     .perf-vs {
       font-family: var(--font-mono);
-      font-size: 9px;
+      font-size: 10px;
       color: var(--text3);
-      width: 40px;
+      width: 48px;
       text-align: right;
       flex-shrink: 0;
     }
 
-    /* ── Radar chart ───────────────────────────────────────────────────────── */
-    .radar-card {
+    /* ── Side column cards ─────────────────────────────────────────────────── */
+    .side-card {
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius-lg);
@@ -351,30 +426,9 @@
       margin-bottom: 16px;
     }
 
-    .radar-card h3 {
+    .side-card-head {
       font-family: var(--font-display);
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: var(--text3);
-      margin-bottom: 16px;
-      text-align: center;
-    }
-
-    /* ── Side panel cards ──────────────────────────────────────────────────── */
-    .side-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-lg);
-      padding: 18px;
-      margin-bottom: 14px;
-      animation: fadeUp 0.4s ease both;
-    }
-
-    .side-card h3 {
-      font-family: var(--font-display);
-      font-size: 11px;
+      font-size: 12px;
       font-weight: 700;
       letter-spacing: 2px;
       text-transform: uppercase;
@@ -384,78 +438,226 @@
       border-bottom: 1px solid var(--border);
     }
 
-    /* Rankings */
+    /* ── TAB SYSTEM ────────────────────────────────────────────────────────── */
+    .tab-bar {
+      display: flex;
+      gap: 4px;
+      border-bottom: 2px solid var(--border);
+      margin-bottom: 24px;
+    }
+
+    .tab-btn {
+      font-family: var(--font-display);
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      color: var(--text3);
+      padding: 10px 18px;
+      border: none;
+      background: none;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -2px;
+      transition: color var(--transition), border-color var(--transition);
+      position: relative;
+    }
+
+    .tab-btn:hover { color: var(--text); }
+
+    .tab-btn.active {
+      color: var(--mil-gold);
+      border-bottom-color: var(--mil-gold);
+    }
+
+    .tab-btn .tab-count {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      font-weight: 600;
+      background: var(--surface2);
+      color: var(--text3);
+      padding: 1px 5px;
+      border-radius: 10px;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+
+    .tab-btn.active .tab-count {
+      background: rgba(240,179,35,0.15);
+      color: var(--mil-gold);
+    }
+
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* ── Rankings tab ──────────────────────────────────────────────────────── */
     .rank-row {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 8px 0;
+      padding: 12px 0;
       border-bottom: 1px solid var(--border);
     }
     .rank-row:last-child { border-bottom: none; }
-    a.rank-row:hover { background: var(--surface2); border-radius: var(--radius); }
+
     a.rank-row:hover .rank-source { color: var(--gold); }
+    a.rank-row { display: flex; text-decoration: none; }
 
     .rank-source {
       font-family: var(--font-display);
-      font-size: 13px;
+      font-size: 15px;
       font-weight: 600;
-      color: var(--text2);
-    }
-
-    .rank-num {
-      font-family: var(--font-display);
-      font-size: 16px;
-      font-weight: 700;
-      color: var(--gold);
+      color: var(--text);
+      transition: color var(--transition);
     }
 
     .rank-list {
       font-family: var(--font-mono);
-      font-size: 9px;
+      font-size: 11px;
       color: var(--text3);
+      margin-top: 3px;
+    }
+
+    .rank-num {
+      font-family: var(--font-display);
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--gold);
+      text-align: right;
+    }
+
+    .rank-num-sub {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text3);
+      text-align: right;
       margin-top: 2px;
     }
 
-    /* Strengths / Concerns */
-    .scout-list { list-style: none; display: flex; flex-direction: column; gap: 7px; }
+    /* ── News tab ──────────────────────────────────────────────────────────── */
+    .news-item {
+      padding: 14px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .news-item:last-child { border-bottom: none; }
 
-    .scout-list li {
+    .news-item a {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+    }
+    .news-item a:hover .news-headline { color: var(--gold); }
+
+    .news-headline {
+      font-family: var(--font-body);
+      font-size: 15px;
+      font-weight: 400;
+      color: var(--text);
+      line-height: 1.45;
+      margin-bottom: 5px;
+      transition: color var(--transition);
+    }
+
+    .news-summary {
       font-family: var(--font-body);
       font-size: 13px;
       color: var(--text2);
-      padding-left: 16px;
-      position: relative;
-      line-height: 1.45;
+      line-height: 1.55;
+      margin-bottom: 6px;
+      font-style: italic;
     }
 
-    .scout-list li::before {
-      content: '\25B8';
-      position: absolute;
-      left: 0;
-      font-size: 9px;
-      top: 2px;
+    .news-meta {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text3);
     }
 
-    .scout-list.strengths li::before { color: var(--green2); }
-    .scout-list.concerns  li::before { color: var(--red2); }
+    .news-no-link .news-headline { color: var(--text2); cursor: default; }
 
-    /* Summary blurb */
-    .summary-text {
+    /* ── Video tab ─────────────────────────────────────────────────────────── */
+    .video-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .video-item:last-child { border-bottom: none; }
+
+    .video-item a {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      text-decoration: none;
+      color: inherit;
+      width: 100%;
+    }
+    .video-item a:hover .video-title { color: var(--gold); }
+
+    .video-thumb {
+      width: 36px;
+      height: 36px;
+      background: rgba(239,68,68,0.12);
+      border: 1px solid rgba(239,68,68,0.25);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .video-thumb svg {
+      width: 12px;
+      height: 12px;
+      fill: var(--red2);
+      margin-left: 2px;
+    }
+
+    .video-title {
       font-family: var(--font-body);
       font-size: 14px;
-      line-height: 1.7;
-      color: var(--text2);
-      font-style: italic;
-      padding: 14px 16px;
-      border-left: 3px solid var(--mil-gold);
-      background: var(--surface2);
-      border-radius: 0 var(--radius) var(--radius) 0;
-      margin-bottom: 24px;
-      animation: fadeUp 0.4s ease 0.1s both;
+      color: var(--text);
+      line-height: 1.4;
+      transition: color var(--transition);
+      margin-bottom: 4px;
     }
 
-    /* Media references */
+    .video-meta {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text3);
+    }
+
+    .video-badge {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      padding: 2px 6px;
+      border-radius: 3px;
+      background: rgba(239,68,68,0.1);
+      color: var(--red2);
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+
+    /* ── BF / Media section (within rankings tab) ──────────────────────────── */
+    .media-subsection-head {
+      font-family: var(--font-display);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--mil-gold);
+      padding: 12px 0 8px;
+      margin-top: 6px;
+      border-top: 1px solid var(--border);
+    }
+    .media-subsection-head:first-child { border-top: none; margin-top: 0; padding-top: 0; }
+
     .media-item {
       display: flex;
       align-items: flex-start;
@@ -465,7 +667,17 @@
     }
     .media-item:last-child { border-bottom: none; }
 
-    .media-icon {
+    .media-item a {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      text-decoration: none;
+      color: inherit;
+      width: 100%;
+    }
+    .media-item a:hover .media-title { color: var(--gold); text-decoration: underline; }
+
+    .media-badge {
       font-family: var(--font-mono);
       font-size: 9px;
       font-weight: 600;
@@ -477,150 +689,29 @@
       margin-top: 2px;
     }
 
-    .media-icon.youtube  { background: rgba(239,68,68,0.15);   color: var(--red2);   }
-    .media-icon.podcast  { background: rgba(6,182,212,0.15);   color: var(--cyan);   }
-    .media-icon.article  { background: rgba(240,179,35,0.15);  color: var(--gold);   }
-    .media-icon.forum    { background: rgba(16,185,129,0.15);  color: var(--green2); }
-    .media-icon.reddit   { background: rgba(249,115,22,0.15);  color: var(--orange); }
-    .media-icon.bf       { background: rgba(240,179,35,0.18);  color: var(--mil-gold); border: 1px solid rgba(240,179,35,0.3); }
-    .media-icon.news     { background: rgba(37,99,235,0.15);   color: #60a5fa; }
-    .media-icon.video    { background: rgba(239,68,68,0.15);   color: var(--red2); }
-    .media-icon.highlights { background: rgba(239,68,68,0.15); color: var(--red2); }
-    .media-icon.interview  { background: rgba(6,182,212,0.15); color: var(--cyan); }
-    .media-icon.scouting   { background: rgba(240,179,35,0.15);color: var(--gold); }
+    .media-badge.youtube  { background: rgba(239,68,68,0.15); color: var(--red2); }
+    .media-badge.podcast  { background: rgba(6,182,212,0.15); color: var(--cyan); }
+    .media-badge.article  { background: rgba(240,179,35,0.15); color: var(--gold); }
+    .media-badge.forum    { background: rgba(16,185,129,0.15); color: var(--green2); }
+    .media-badge.reddit   { background: rgba(249,115,22,0.15); color: var(--orange); }
+    .media-badge.bf       { background: rgba(240,179,35,0.18); color: var(--mil-gold); border: 1px solid rgba(240,179,35,0.3); }
 
-    .media-item a        { text-decoration: none; color: inherit; display: flex; align-items: flex-start; gap: 10px; width: 100%; }
-    .media-item a:hover .media-title { color: var(--gold); text-decoration: underline; }
-    .media-item.no-link  { cursor: default; }
-
-    .bf-section-head {
-      font-family: var(--font-display);
-      font-size: 10px;
-      font-weight: 700;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      color: var(--mil-gold);
-      padding: 10px 0 6px;
-      margin-top: 4px;
-      border-top: 1px solid var(--border);
-    }
-    .bf-section-head:first-child { border-top: none; margin-top: 0; padding-top: 0; }
-
-    .media-info {}
-    .media-title  { font-family: var(--font-body); font-size: 12px; color: var(--text2); line-height: 1.3; }
-    .media-source { font-family: var(--font-mono); font-size: 9px; color: var(--text3); margin-top: 2px; }
-
-    /* ── News items ─────────────────────────────────────────────────────────── */
-    .news-item {
-      padding: 10px 0;
-      border-bottom: 1px solid var(--border);
-    }
-    .news-item:last-child { border-bottom: none; }
-
-    .news-item a {
-      text-decoration: none;
-      color: inherit;
-      display: block;
-    }
-    .news-item a:hover .news-headline { color: var(--gold); }
-
-    .news-headline {
+    .media-title {
       font-family: var(--font-body);
       font-size: 13px;
-      color: var(--text);
-      line-height: 1.35;
-      margin-bottom: 4px;
-      transition: color var(--transition);
-    }
-
-    .news-summary {
-      font-family: var(--font-body);
-      font-size: 11px;
-      color: var(--text3);
-      font-style: italic;
-      line-height: 1.4;
-      margin-bottom: 4px;
-    }
-
-    .news-meta {
-      font-family: var(--font-mono);
-      font-size: 9px;
-      color: var(--text3);
-      letter-spacing: 0.3px;
-    }
-
-    /* ── Video items ─────────────────────────────────────────────────────────── */
-    .video-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 10px;
-      padding: 9px 0;
-      border-bottom: 1px solid var(--border);
-    }
-    .video-item:last-child { border-bottom: none; }
-
-    .video-item a {
-      text-decoration: none;
-      color: inherit;
-      display: flex;
-      align-items: flex-start;
-      gap: 10px;
-      width: 100%;
-    }
-    .video-item a:hover .video-title { color: var(--gold); }
-
-    /* Play button icon */
-    .video-play {
-      width: 28px;
-      height: 28px;
-      background: rgba(239,68,68,0.15);
-      border: 1px solid rgba(239,68,68,0.3);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-      margin-top: 1px;
-    }
-
-    .video-play svg {
-      width: 10px;
-      height: 10px;
-      fill: var(--red2);
-      margin-left: 2px;
-    }
-
-    .video-info { flex: 1; min-width: 0; }
-
-    .video-title {
-      font-family: var(--font-body);
-      font-size: 12px;
       color: var(--text2);
-      line-height: 1.3;
+      line-height: 1.35;
       transition: color var(--transition);
     }
 
-    .video-meta {
+    .media-source {
       font-family: var(--font-mono);
-      font-size: 9px;
+      font-size: 10px;
       color: var(--text3);
-      margin-top: 3px;
+      margin-top: 2px;
     }
 
-    .video-type-badge {
-      font-family: var(--font-mono);
-      font-size: 8px;
-      font-weight: 600;
-      letter-spacing: 0.5px;
-      text-transform: uppercase;
-      padding: 1px 5px;
-      border-radius: 2px;
-      background: rgba(239,68,68,0.12);
-      color: var(--red2);
-      margin-left: 5px;
-    }
-
-    /* ETA / confidence */
+    /* ── Profile / meta grid ───────────────────────────────────────────────── */
     .meta-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -630,35 +721,47 @@
     .meta-tile {
       background: var(--surface2);
       border-radius: var(--radius);
-      padding: 10px 12px;
+      padding: 12px 14px;
       text-align: center;
     }
 
     .meta-tile .mt-val {
       font-family: var(--font-display);
-      font-size: 16px;
+      font-size: 17px;
       font-weight: 700;
       color: var(--text);
     }
 
     .meta-tile .mt-lbl {
       font-family: var(--font-mono);
-      font-size: 8px;
+      font-size: 9px;
       letter-spacing: 1px;
       color: var(--text3);
       text-transform: uppercase;
-      margin-top: 3px;
+      margin-top: 4px;
+    }
+
+    /* ── Empty state ───────────────────────────────────────────────────────── */
+    .empty-state {
+      font-family: var(--font-display);
+      font-size: 13px;
+      color: var(--text3);
+      letter-spacing: 0.5px;
+      padding: 12px 0;
+      text-align: center;
     }
 
     /* ── Responsive ────────────────────────────────────────────────────────── */
-    @media (max-width: 900px) {
+    @media (max-width: 960px) {
       .two-col { grid-template-columns: 1fr; }
-      .hero-layout { grid-template-columns: 1fr; }
       .tool-desc-txt { display: none; }
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 640px) {
+      .scout-grid { grid-template-columns: 1fr; }
+      .hero-layout { flex-direction: column; }
       .stat-row { grid-template-columns: repeat(3, 1fr); }
+      .tab-btn { font-size: 12px; padding: 8px 12px; }
     }
   </style>
 </head>
@@ -672,18 +775,34 @@
     </a>
     <div class="nav-links">
       <a href="index.html" class="nav-link">Roster</a>
+      <button class="theme-toggle" id="theme-toggle" title="Toggle light/dark mode" aria-label="Toggle theme">☀️</button>
     </div>
   </nav>
 
   <div class="page-wrap">
     <div id="player-root">
-      <div style="padding:80px 0; text-align:center; color:var(--text3); font-family:var(--font-display); letter-spacing:2px;">Loading...</div>
+      <div style="padding:80px 0; text-align:center; color:var(--text3); font-family:var(--font-display); font-size:14px; letter-spacing:2px;">Loading...</div>
     </div>
   </div>
 
   <script type="module">
     import { PLAYERS_BY_ID, GRADE_COLOR, GRADE_LABEL, LEVEL_LABELS } from './data/players.js';
 
+    /* ── Theme toggle ─────────────────────────────────────────────────────── */
+    const THEME_KEY = 'ph-theme';
+    const savedTheme = document.documentElement.getAttribute('data-theme') || 'dark';
+    const toggleBtn = document.getElementById('theme-toggle');
+    toggleBtn.textContent = savedTheme === 'light' ? '🌙' : '☀️';
+
+    toggleBtn.addEventListener('click', function() {
+      const current = document.documentElement.getAttribute('data-theme') || 'dark';
+      const next = current === 'light' ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem(THEME_KEY, next);
+      toggleBtn.textContent = next === 'light' ? '🌙' : '☀️';
+    });
+
+    /* ── Load player ──────────────────────────────────────────────────────── */
     const params   = new URLSearchParams(window.location.search);
     const playerId = params.get('id');
     const base     = playerId ? PLAYERS_BY_ID[playerId] : null;
@@ -692,25 +811,24 @@
       document.getElementById('player-root').innerHTML =
         '<div style="padding:80px 0; text-align:center;">'
         + '<div style="font-family:var(--font-display);font-size:24px;font-weight:700;color:var(--text3);margin-bottom:16px;">Player not found</div>'
-        + '<a href="index.html" style="color:var(--gold);font-family:var(--font-display);letter-spacing:1px;">\u2190 Back to roster</a>'
+        + '<a href="index.html" style="color:var(--gold);font-family:var(--font-display);">\u2190 Back to roster</a>'
         + '</div>';
       document.title = 'Not Found \u00B7 Brewers Prospect Hub';
     } else {
       document.title = base.name + ' \u00B7 Brewers Prospect Hub';
 
       async function loadAndRender() {
-        let scoutData = {};
+        let scout = {};
         try {
           const res = await fetch('./data/scouting/' + playerId + '.json');
           if (res.ok) {
-            scoutData = await res.json();
-            if (scoutData.error) scoutData = {};
+            scout = await res.json();
+            if (scout.error) scout = {};
           }
         } catch (e) {}
 
-        const player = {
-          ...base,
-          ...scoutData,
+        const p = {
+          ...base, ...scout,
           stats2025:   base.stats2025,
           id:          base.id,
           affiliate:   base.affiliate,
@@ -720,16 +838,15 @@
           throws:      base.throws,
           draftInfo:   base.draftInfo,
           isPitcher:   base.isPitcher,
-          pitchGrades: scoutData.grades ? undefined : base.pitchGrades,
+          grades:      scout.grades || base.grades || null,
+          pitchGrades: scout.pitchGrades || base.pitchGrades || null,
         };
-
-        render(player);
+        render(p);
       }
-
       loadAndRender();
     }
 
-    // ── Helpers ────────────────────────────────────────────────────────────────
+    /* ── Helpers ──────────────────────────────────────────────────────────── */
     function gradeClass(g) {
       if (!g) return 'fill-sub';
       if (g >= 70) return 'fill-70up';
@@ -740,463 +857,493 @@
       return 'fill-sub';
     }
 
-    function gradeTextColor(g) {
+    function gradeColor(g) {
       if (!g) return 'var(--text3)';
       return GRADE_COLOR(g);
     }
 
     function gradePct(g) {
       if (!g) return 0;
-      return ((g - 20) / 60) * 100;
+      return Math.min(100, ((g - 20) / 60) * 100);
     }
 
     function riskColor(r) {
-      var m = { 'Extreme': 'var(--red)', 'Very High': 'var(--orange)', 'High': 'var(--yellow)', 'Medium': 'var(--cyan)', 'Low': 'var(--green)' };
-      return m[r] || 'var(--text3)';
+      return { 'Extreme':'var(--red)', 'Very High':'var(--orange)', 'High':'var(--yellow)', 'Medium':'var(--cyan)', 'Low':'var(--green)' }[r] || 'var(--text3)';
     }
 
-    function fmtStat(val, d) {
-      d = d === undefined ? 3 : d;
-      if (val == null) return '\u2014';
-      return d === 3 ? val.toFixed(3).replace(/^0/, '') : val.toFixed(d);
+    function fmt3(v) { return v != null ? v.toFixed(3).replace(/^0/, '') : '\u2014'; }
+    function fmtPct(v) { return v != null ? v.toFixed(1) + '%' : '\u2014'; }
+    function fmtN(v, d) { return v != null ? v.toFixed(d || 2) : '\u2014'; }
+
+    function tier(val, lgVal, lower) {
+      if (val == null || lgVal == null) return 'neutral';
+      const better = lower ? val < lgVal : val > lgVal;
+      return Math.abs(val - lgVal) / lgVal < 0.05 ? 'avg-' : better ? 'above' : 'below';
     }
 
-    function fmtPct(val) { return val != null ? val.toFixed(1) + '%' : '\u2014'; }
-
-    function vsLeague(val, leagueVal, lowerIsBetter) {
-      lowerIsBetter = lowerIsBetter || false;
-      if (val == null || leagueVal == null) return 'neutral';
-      var better = lowerIsBetter ? val < leagueVal : val > leagueVal;
-      var diff = Math.abs(val - leagueVal);
-      var threshold = leagueVal * 0.05;
-      if (diff < threshold) return 'avg-';
-      return better ? 'above' : 'below';
-    }
-
-    // ── Radar SVG ─────────────────────────────────────────────────────────────
-    function buildRadar(player) {
-      var cx = 110, cy = 110, r = 80;
-      var grades = player.isPitcher
-        ? [player.pitchGrades && player.pitchGrades.fastball, player.pitchGrades && player.pitchGrades.curveball, player.pitchGrades && player.pitchGrades.changeup, player.pitchGrades && player.pitchGrades.command]
-        : [player.grades && player.grades.hit, player.grades && player.grades.power, player.grades && player.grades.run, player.grades && player.grades.field, player.grades && player.grades.arm];
-      var labels = player.isPitcher ? ['FB','CB','CH','CMD'] : ['HIT','PWR','RUN','FLD','ARM'];
-      var n = grades.length;
-      var angleStep = (Math.PI * 2) / n;
-      var startAngle = -Math.PI / 2;
-
-      function pt(grade, idx, radius) {
-        var angle = startAngle + idx * angleStep;
-        var pct = grade ? (grade - 20) / 60 : 0;
-        var dist = radius * pct;
-        return [cx + dist * Math.cos(angle), cy + dist * Math.sin(angle)];
+    /* ── Safe URL helper — drops URLs that are known bad patterns ─────────── */
+    function safeUrl(url, source) {
+      if (!url) return null;
+      // Drop MiLB player URLs (they redirect to wrong pages)
+      if (url.includes('milb.com') && url.includes('/prospects/')) return null;
+      // Drop generic fallback URLs with no specific player path
+      const genericPatterns = [
+        /mlb\.com\/prospects$/,
+        /fangraphs\.com\/prospects\/the-board$/,
+        /baseballamerica\.com\/prospect-rankings\/?$/,
+        /prospectslive\.com\/lists$/,
+        /baseballprospectus\.com\/prospects\/?$/,
+      ];
+      for (const pat of genericPatterns) {
+        if (pat.test(url)) return null;
       }
-      function gridPt(idx, pct) {
-        var angle = startAngle + idx * angleStep;
-        return [cx + r * pct * Math.cos(angle), cy + r * pct * Math.sin(angle)];
+      return url;
+    }
+
+    /* ── Radar ────────────────────────────────────────────────────────────── */
+
+    /* ── Rankings tab content ─────────────────────────────────────────────── */
+    function buildRankingsTab(p) {
+      let html = '';
+
+      function dateSortValue(date) {
+        if (!date || typeof date !== 'string') return 0;
+        const trimmed = date.trim();
+        if (!trimmed) return 0;
+        if (/^\d{4}$/.test(trimmed)) return Date.parse(trimmed + '-01-01T00:00:00Z') || 0;
+        if (/^\d{4}-\d{2}$/.test(trimmed)) return Date.parse(trimmed + '-01T00:00:00Z') || 0;
+        if (/^\d{4}-\d{2}-\d{2}$/.test(trimmed)) return Date.parse(trimmed + 'T00:00:00Z') || 0;
+        return Date.parse(trimmed) || 0;
       }
 
-      var ringPcts = [0.33, 0.67, 1.0];
-      var ringColors = ['#1f2d42','#253245','#2a3d58'];
-      var gridRings = '';
-      ringPcts.forEach(function(pct, ri) {
-        var pts = Array.from({length: n}, function(_, i) { return gridPt(i, pct).join(','); }).join(' ');
-        gridRings += '<polygon points="' + pts + '" fill="none" stroke="' + ringColors[ri] + '" stroke-width="0.8"/>';
+      function sortByDateDesc(a, b) {
+        const diff = dateSortValue(b?.date) - dateSortValue(a?.date);
+        if (diff !== 0) return diff;
+        return String(a?.title || a?.source || a?.listName || '').localeCompare(String(b?.title || b?.source || b?.listName || ''));
+      }
+
+      // Ranking rows
+      const rankings = (p.rankings || []).slice().sort(function(a, b) {
+        return sortByDateDesc(a, b);
       });
+      if (rankings.length) {
+        html += '<div style="margin-bottom:20px;">';
+        rankings.forEach(function(r) {
+          const url = safeUrl(r.url, r.source);
+          let numHtml = '';
+          if (r.grade)      numHtml += '<div class="rank-num">' + r.grade + '</div><div class="rank-num-sub">FV Grade</div>';
+          if (r.systemRank) numHtml += '<div class="rank-num">#' + r.systemRank + '</div><div class="rank-num-sub">In System</div>';
+          if (r.rank)       numHtml += '<div class="rank-num">#' + r.rank + '</div><div class="rank-num-sub">Overall</div>';
 
-      var axes = '';
-      for (var i = 0; i < n; i++) {
-        var ep = gridPt(i, 1);
-        axes += '<line x1="' + cx + '" y1="' + cy + '" x2="' + ep[0] + '" y2="' + ep[1] + '" stroke="var(--border2)" stroke-width="0.6"/>';
-      }
+          const inner = '<div style="flex:1">'
+            + '<div class="rank-source">' + (r.source||'') + '</div>'
+            + '<div class="rank-list">' + (r.listName||'') + (r.date ? ' \u00B7 ' + r.date : '') + '</div>'
+            + '</div>'
+            + (numHtml ? '<div style="text-align:right;flex-shrink:0;">' + numHtml + '</div>' : '');
 
-      var dataPts = grades.map(function(g, i) { return pt(g || 20, i, r).join(','); }).join(' ');
-
-      var labelEls = '';
-      labels.forEach(function(lbl, i) {
-        var lp = gridPt(i, 1.28);
-        var grade = grades[i];
-        var color = gradeTextColor(grade);
-        labelEls += '<text x="' + lp[0] + '" y="' + lp[1] + '" text-anchor="middle" dominant-baseline="middle" fill="' + color + '" font-family="var(--font-display)" font-size="10" font-weight="700">' + lbl + ' ' + (grade != null ? grade : '\u2014') + '</text>';
-      });
-
-      return '<svg viewBox="0 0 220 220" width="100%" style="max-width:240px;margin:0 auto;display:block;">'
-        + '<defs><radialGradient id="rg" cx="50%" cy="50%"><stop offset="0%" stop-color="var(--mil-gold)" stop-opacity="0.2"/><stop offset="100%" stop-color="var(--mil-gold)" stop-opacity="0.03"/></radialGradient></defs>'
-        + gridRings + axes
-        + '<polygon points="' + dataPts + '" fill="url(#rg)" stroke="var(--mil-gold)" stroke-width="1.5" stroke-linejoin="round" opacity="0.9"/>'
-        + grades.map(function(g, i) { var pp = pt(g || 20, i, r); return '<circle cx="' + pp[0] + '" cy="' + pp[1] + '" r="3.5" fill="' + gradeTextColor(g) + '" opacity="0.9"/>'; }).join('')
-        + labelEls + '</svg>';
-    }
-
-    // ── Rankings ──────────────────────────────────────────────────────────────
-    function rankingUrl(r) {
-      if (r.url) return r.url;
-      var src = (r.source || '').toLowerCase();
-      if (src.includes('pipeline'))            return 'https://www.mlb.com/prospects';
-      if (src.includes('fangraphs'))           return 'https://www.fangraphs.com/prospects/the-board';
-      if (src.includes('baseball america'))    return 'https://www.baseballamerica.com/prospect-rankings/';
-      if (src.includes('prospects live'))      return 'https://www.prospectslive.com/lists';
-      if (src.includes('baseball prospectus')) return 'https://www.baseballprospectus.com/prospects/';
-      if (src.includes('just baseball'))       return 'https://justbaseball.com/prospects/';
-      if (src.includes('prospect361'))         return 'https://www.prospect361.com/';
-      return null;
-    }
-
-    function buildRankings(p) {
-      if (!p.rankings || !p.rankings.length) return '<div style="color:var(--text3);font-size:12px;">No rankings data</div>';
-      return p.rankings.map(function(r) {
-        var url = rankingUrl(r);
-        var numHtml = '';
-        if (r.grade)      numHtml += '<div class="rank-num">' + r.grade + '</div>';
-        if (r.systemRank) numHtml += '<div class="rank-num">#' + r.systemRank + ' <span style="font-size:11px;color:var(--text3)">in system</span></div>';
-        if (r.rank)       numHtml += '<div class="rank-num">#' + r.rank + ' <span style="font-size:11px;color:var(--text3)">overall</span></div>';
-        var inner = '<div><div class="rank-source">' + r.source + '</div>'
-                  + '<div class="rank-list">' + (r.listName || '') + ' \u00B7 ' + (r.date || '') + '</div></div>'
-                  + '<div>' + numHtml + '</div>';
-        if (url) return '<a href="' + url + '" target="_blank" rel="noopener" class="rank-row" style="text-decoration:none;">' + inner + '</a>';
-        return '<div class="rank-row">' + inner + '</div>';
-      }).join('');
-    }
-
-    // ── Media (coverage + BF links) ───────────────────────────────────────────
-    function mediaTypeBadge(type) {
-      if (type === 'youtube') return 'YT';
-      if (type === 'podcast') return 'POD';
-      if (type === 'reddit')  return 'RED';
-      if (type === 'forum')   return 'FRM';
-      return 'ART';
-    }
-
-    function bfTypeBadge(type) {
-      if (type === 'video')   return 'VID';
-      if (type === 'forum')   return 'FRM';
-      if (type === 'ranking') return 'RNK';
-      if (type === 'draft')   return 'DFT';
-      return 'ART';
-    }
-
-    function buildMediaSection(p) {
-      var mediaRefs = p.mediaReferences  || [];
-      var bfLinks   = p.brewerFanaticLinks || [];
-      if (!mediaRefs.length && !bfLinks.length) return '';
-
-      var bfUrlSet   = new Set(bfLinks.map(function(b) { return b.url; }).filter(Boolean));
-      var bfTitleSet = new Set(bfLinks.map(function(b) { return (b.title || '').toLowerCase(); }));
-      var cleanMedia = mediaRefs.filter(function(m) {
-        if (!m.url) return false;
-        if (bfUrlSet.has(m.url)) return false;
-        if (bfTitleSet.has((m.title || '').toLowerCase())) return false;
-        return true;
-      });
-
-      var html = '<div class="side-card" style="animation-delay:0.45s"><h3>Coverage &amp; Media</h3>';
-
-      if (cleanMedia.length) {
-        html += '<div class="bf-section-head">Articles &amp; Media</div>';
-        cleanMedia.forEach(function(m) {
-          var badge = mediaTypeBadge(m.type);
-          html += '<div class="media-item">'
-               + '<a href="' + m.url + '" target="_blank" rel="noopener">'
-               + '<span class="media-icon ' + (m.type || 'article') + '">' + badge + '</span>'
-               + '<div class="media-info"><div class="media-title">' + (m.title || 'Untitled') + '</div>'
-               + '<div class="media-source">' + (m.source || '') + (m.date ? ' \u00B7 ' + m.date : '') + '</div>'
-               + '</div></a></div>';
-        });
-      }
-
-      if (bfLinks.length) {
-        html += '<div class="bf-section-head">Brewer Fanatic (' + bfLinks.length + ')</div>';
-        bfLinks.forEach(function(bf) {
-          var badge = bfTypeBadge(bf.type);
-          var inner = '<span class="media-icon bf">' + badge + '</span>'
-                    + '<div class="media-info"><div class="media-title">' + (bf.title || 'Untitled') + '</div>'
-                    + '<div class="media-source">Brewer Fanatic' + (bf.date ? ' \u00B7 ' + bf.date : '') + '</div></div>';
-          if (bf.url) {
-            html += '<div class="media-item"><a href="' + bf.url + '" target="_blank" rel="noopener">' + inner + '</a></div>';
+          if (url) {
+            html += '<a href="' + url + '" target="_blank" rel="noopener" class="rank-row">' + inner + '</a>';
           } else {
-            html += '<div class="media-item no-link" style="display:flex;align-items:flex-start;gap:10px;">' + inner + '</div>';
+            html += '<div class="rank-row">' + inner + '</div>';
           }
         });
+        html += '</div>';
+      } else {
+        html += '<div class="empty-state">No rankings data yet</div>';
       }
 
-      html += '</div>';
-      return html;
+      // Media references (articles, podcasts etc.)
+      const mediaRefs = (p.mediaReferences || []).slice().sort(function(a, b) {
+        return sortByDateDesc(a, b);
+      });
+      const bfLinks   = (p.brewerFanaticLinks || []).slice().sort(function(a, b) {
+        return sortByDateDesc(a, b);
+      });
+      const bfUrls    = new Set(bfLinks.map(b=>b.url).filter(Boolean));
+      const bfTitles  = new Set(bfLinks.map(b=>(b.title||'').toLowerCase()));
+      const cleanMedia = mediaRefs.filter(m => m.url && !bfUrls.has(m.url) && !bfTitles.has((m.title||'').toLowerCase()));
+
+      if (cleanMedia.length || bfLinks.length) {
+        if (cleanMedia.length) {
+          html += '<div class="media-subsection-head">Articles &amp; Podcasts</div>';
+          cleanMedia.forEach(function(m) {
+            const badge = {youtube:'YT',podcast:'POD',reddit:'RED',forum:'FRM'}[m.type] || 'ART';
+            const inner = '<span class="media-badge ' + (m.type||'article') + '">' + badge + '</span>'
+              + '<div><div class="media-title">' + (m.title||'Untitled') + '</div>'
+              + '<div class="media-source">' + (m.source||'') + (m.date ? ' \u00B7 ' + m.date : '') + '</div></div>';
+            html += '<div class="media-item">'
+              + (m.url ? '<a href="'+m.url+'" target="_blank" rel="noopener">'+inner+'</a>' : inner)
+              + '</div>';
+          });
+        }
+
+        if (bfLinks.length) {
+          html += '<div class="media-subsection-head">Brewer Fanatic (' + bfLinks.length + ')</div>';
+          bfLinks.forEach(function(bf) {
+            const badge = {video:'VID',forum:'FRM',ranking:'RNK',draft:'DFT'}[bf.type] || 'ART';
+            const inner = '<span class="media-badge bf">' + badge + '</span>'
+              + '<div><div class="media-title">' + (bf.title||'Untitled') + '</div>'
+              + '<div class="media-source">Brewer Fanatic' + (bf.date ? ' \u00B7 ' + bf.date : '') + '</div></div>';
+            html += '<div class="media-item">'
+              + (bf.url ? '<a href="'+bf.url+'" target="_blank" rel="noopener">'+inner+'</a>' : '<div style="display:flex;align-items:flex-start;gap:10px;">'+inner+'</div>')
+              + '</div>';
+          });
+        }
+      }
+
+      return html || '<div class="empty-state">No coverage data yet</div>';
     }
 
-    // ── Recent News ───────────────────────────────────────────────────────────
-    function buildNewsSection(p) {
-      var news = p.recentNews || [];
-      if (!news.length) return '';
+    /* ── News tab content ─────────────────────────────────────────────────── */
+    function buildNewsTab(p) {
+      const news = (p.recentNews || []).slice().sort(function(a, b) {
+        const parse = (date) => {
+          if (!date || typeof date !== 'string') return 0;
+          const trimmed = date.trim();
+          if (/^\d{4}$/.test(trimmed)) return Date.parse(trimmed + '-01-01T00:00:00Z') || 0;
+          if (/^\d{4}-\d{2}$/.test(trimmed)) return Date.parse(trimmed + '-01T00:00:00Z') || 0;
+          if (/^\d{4}-\d{2}-\d{2}$/.test(trimmed)) return Date.parse(trimmed + 'T00:00:00Z') || 0;
+          return Date.parse(trimmed) || 0;
+        };
+        return parse(b?.date) - parse(a?.date);
+      });
+      if (!news.length) return '<div class="empty-state">No recent news found</div>';
 
-      var html = '<div class="side-card" style="animation-delay:0.5s"><h3>Recent News</h3>';
+      return news.map(function(item) {
+        const meta = (item.source||'') + (item.date ? ' \u00B7 ' + item.date : '');
+        const inner = '<div class="news-headline">' + (item.title||'Untitled') + '</div>'
+          + (item.summary ? '<div class="news-summary">' + item.summary + '</div>' : '')
+          + '<div class="news-meta">' + meta + '</div>';
 
-      news.forEach(function(item) {
-        var inner = '<div class="news-headline">' + (item.title || 'Untitled') + '</div>'
-                  + (item.summary ? '<div class="news-summary">' + item.summary + '</div>' : '')
-                  + '<div class="news-meta">' + (item.source || '') + (item.date ? ' \u00B7 ' + item.date : '') + '</div>';
-
-        html += '<div class="news-item">';
         if (item.url) {
-          html += '<a href="' + item.url + '" target="_blank" rel="noopener">' + inner + '</a>';
-        } else {
-          html += inner;
+          return '<div class="news-item"><a href="' + item.url + '" target="_blank" rel="noopener">' + inner + '</a></div>';
         }
-        html += '</div>';
-      });
-
-      html += '</div>';
-      return html;
+        return '<div class="news-item news-no-link">' + inner + '</div>';
+      }).join('');
     }
 
-    // ── Videos ───────────────────────────────────────────────────────────────
-    function buildVideoSection(p) {
-      var videos = p.videoLinks || [];
-      if (!videos.length) return '';
-
-      var playIcon = '<svg viewBox="0 0 10 10"><polygon points="2,1 9,5 2,9"/></svg>';
-
-      var html = '<div class="side-card" style="animation-delay:0.55s"><h3>Video</h3>';
-
-      videos.forEach(function(v) {
-        var typeLabel = (v.type || 'video').replace(/-/g, ' ');
-        var inner = '<div class="video-play">' + playIcon + '</div>'
-                  + '<div class="video-info">'
-                  + '<div class="video-title">' + (v.title || 'Untitled') + '<span class="video-type-badge">' + typeLabel + '</span></div>'
-                  + '<div class="video-meta">' + (v.channel || '') + (v.date ? ' \u00B7 ' + v.date : '') + '</div>'
-                  + '</div>';
-
-        html += '<div class="video-item">';
-        if (v.url) {
-          html += '<a href="' + v.url + '" target="_blank" rel="noopener">' + inner + '</a>';
-        } else {
-          html += inner;
-        }
-        html += '</div>';
+    /* ── Video tab content ────────────────────────────────────────────────── */
+    function buildVideoTab(p) {
+      const videos = (p.videoLinks || []).slice().sort(function(a, b) {
+        const parse = (date) => {
+          if (!date || typeof date !== 'string') return 0;
+          const trimmed = date.trim();
+          if (/^\d{4}$/.test(trimmed)) return Date.parse(trimmed + '-01-01T00:00:00Z') || 0;
+          if (/^\d{4}-\d{2}$/.test(trimmed)) return Date.parse(trimmed + '-01T00:00:00Z') || 0;
+          if (/^\d{4}-\d{2}-\d{2}$/.test(trimmed)) return Date.parse(trimmed + 'T00:00:00Z') || 0;
+          return Date.parse(trimmed) || 0;
+        };
+        return parse(b?.date) - parse(a?.date);
       });
+      if (!videos.length) return '<div class="empty-state">No videos found</div>';
 
-      html += '</div>';
-      return html;
+      const playIcon = '<svg viewBox="0 0 12 12"><polygon points="2,1 11,6 2,11"/></svg>';
+
+      return videos.map(function(v) {
+        const typeLabel = (v.type||'video').replace(/-/g,' ');
+
+        // Build the best available URL:
+        // 1. Use the stored URL if it looks valid
+        // 2. If channel is known, construct a YouTube channel search URL
+        // 3. Fall back to a plain YouTube search for the player + title
+        let href = null;
+        if (v.url && v.url.startsWith('http')) {
+          href = v.url;
+        } else if (v.channel) {
+          const q = encodeURIComponent(v.channel + ' ' + (v.title || p.name));
+          href = 'https://www.youtube.com/results?search_query=' + q;
+        } else {
+          const q = encodeURIComponent((v.title || '') + ' ' + p.name + ' baseball');
+          href = 'https://www.youtube.com/results?search_query=' + q;
+        }
+
+        // Show a small indicator if the URL is a search rather than a direct link
+        const isSearch = !v.url || !v.url.startsWith('http');
+        const searchNote = isSearch ? ' <span style="font-size:9px;opacity:0.6;">(search)</span>' : '';
+
+        const info = '<div class="video-info">'
+          + '<div class="video-title">' + (v.title||'Untitled') + '<span class="video-badge">' + typeLabel + '</span>' + searchNote + '</div>'
+          + '<div class="video-meta">' + (v.channel||'') + (v.date ? ' \u00B7 ' + v.date : '') + '</div>'
+          + '</div>';
+        const thumb = '<div class="video-thumb">' + playIcon + '</div>';
+
+        return '<div class="video-item"><a href="' + href + '" target="_blank" rel="noopener">' + thumb + info + '</a></div>';
+      }).join('');
     }
 
-    // ── Main render ────────────────────────────────────────────────────────────
+    /* ── Main render ──────────────────────────────────────────────────────── */
     function render(p) {
-      var s = p.stats2025;
-      var g = p.grades;
-      var risk = (g && g.risk) ? g.risk : '';
+      const s    = p.stats2025;
+      const g    = p.grades;
+      const risk = g?.risk || '';
+      const pitch = p.pitchGrades || {};
+      const pitcherBreaking = pitch.curveball ?? pitch.slider ?? pitch.cutter ?? pitch.breakingBall ?? null;
+      const pitcherBreakingKey = pitch.curveball != null ? 'CB'
+        : pitch.slider != null ? 'SL'
+        : pitch.cutter != null ? 'CT'
+        : 'BRK';
 
-      var hitterTools = [
-        { key: 'HIT', val: g && g.hit,   desc: 'Bat-to-ball, contact quality, swing decisions' },
-        { key: 'PWR', val: g && g.power, desc: 'Raw power, exit velocity, game power conversion' },
-        { key: 'RUN', val: g && g.run,   desc: 'Speed, baserunning IQ, stolen base efficiency' },
-        { key: 'FLD', val: g && g.field, desc: 'Range, hands, positioning, instincts' },
-        { key: 'ARM', val: g && g.arm,   desc: 'Arm strength and accuracy' },
+      /* Tool grade definitions */
+      const tools = p.isPitcher ? [
+        { key:'FB',  val:pitch.fastball, desc:'Velocity, life, induced action' },
+        { key:pitcherBreakingKey, val:pitcherBreaking, desc:'Best breaking ball quality' },
+        { key:'CH',  val:pitch.changeup, desc:'Separation, fade, deception' },
+        { key:'CMD', val:pitch.command ?? pitch.control, desc:'Strike quality and command' },
+      ] : [
+        { key:'HIT', val:g?.hit,   desc:'Contact, bat-to-ball, swing decisions' },
+        { key:'PWR', val:g?.power, desc:'Raw power, exit velo, game power' },
+        { key:'RUN', val:g?.run,   desc:'Speed, baserunning IQ, SB efficiency' },
+        { key:'FLD', val:g?.field, desc:'Range, hands, positioning, instincts' },
+        { key:'ARM', val:g?.arm,   desc:'Strength and accuracy' },
       ];
-      var pitcherTools = [
-        { key: 'FB',  val: p.pitchGrades && p.pitchGrades.fastball,  desc: 'Velocity, movement, command of fastball' },
-        { key: 'CB',  val: p.pitchGrades && p.pitchGrades.curveball, desc: 'Curveball shape, spin, deception' },
-        { key: 'CH',  val: p.pitchGrades && p.pitchGrades.changeup,  desc: 'Changeup fade, arm speed, deception' },
-        { key: 'CMD', val: p.pitchGrades && p.pitchGrades.command,   desc: 'Overall command and control profile' },
-      ];
-      var tools = p.isPitcher ? pitcherTools : hitterTools;
 
-      var ofp = (g && g.ofp != null) ? g.ofp : 50;
-      var ofpPct = (ofp - 20) / 60;
-      var ofpColor = gradeTextColor(ofp);
+      /* OFP */
+      const ofp      = g?.ofp ?? 50;
+      const ofpPct   = (ofp - 20) / 60;
+      const ofpClr   = gradeColor(ofp);
+      const arcCirc  = 2 * Math.PI * 32;
 
-      var hitterTiles = s ? [
-        { val: fmtStat(s.avg),     name: 'AVG',    ctx: 'Lg .' + (s.leagueAvgAvg*1000).toFixed(0), tier: vsLeague(s.avg, s.leagueAvgAvg) },
-        { val: fmtStat(s.obp),     name: 'OBP',    ctx: 'Lg .' + (s.leagueAvgObp*1000).toFixed(0), tier: vsLeague(s.obp, s.leagueAvgObp) },
-        { val: fmtStat(s.slg),     name: 'SLG',    ctx: 'Lg .' + (s.leagueAvgSlg*1000).toFixed(0), tier: vsLeague(s.slg, s.leagueAvgSlg) },
-        { val: fmtPct(s.bbPct),    name: 'BB%',    ctx: 'Lg ' + s.leagueAvgBbPct + '%', tier: vsLeague(s.bbPct, s.leagueAvgBbPct) },
-        { val: fmtPct(s.kPct),     name: 'K%',     ctx: 'Lg ' + s.leagueAvgKPct + '%', tier: vsLeague(s.kPct, s.leagueAvgKPct, true) },
-        { val: s.hr != null ? s.hr : '\u2014', name: 'HR', ctx: (s.g != null ? s.g : '\u2014') + ' G', tier: 'neutral' },
-        { val: s.sb != null ? s.sb + '/' + s.sbAtt : '\u2014', name: 'SB/ATT', ctx: s.sbAtt ? ((s.sb/s.sbAtt)*100).toFixed(0) + '%' : '', tier: 'neutral' },
-        { val: fmtStat(s.iso, 3),  name: 'ISO',    ctx: 'BABIP .' + (s.babip*1000).toFixed(0), tier: vsLeague(s.iso, 0.140) },
+      /* Stat tiles */
+      const hTiles = s ? [
+        { val:fmt3(s.avg),    name:'AVG',    ctx:'Lg .'+Math.round(s.leagueAvgAvg*1000), t:tier(s.avg,s.leagueAvgAvg) },
+        { val:fmt3(s.obp),    name:'OBP',    ctx:'Lg .'+Math.round(s.leagueAvgObp*1000), t:tier(s.obp,s.leagueAvgObp) },
+        { val:fmt3(s.slg),    name:'SLG',    ctx:'Lg .'+Math.round(s.leagueAvgSlg*1000), t:tier(s.slg,s.leagueAvgSlg) },
+        { val:fmtPct(s.bbPct),name:'BB%',    ctx:'Lg '+s.leagueAvgBbPct+'%',             t:tier(s.bbPct,s.leagueAvgBbPct) },
+        { val:fmtPct(s.kPct), name:'K%',     ctx:'Lg '+s.leagueAvgKPct+'%',              t:tier(s.kPct,s.leagueAvgKPct,true) },
+        { val:s.hr??'\u2014', name:'HR',     ctx:(s.g??'\u2014')+' G',                   t:'neutral' },
+        { val:s.sb!=null?s.sb+'/'+s.sbAtt:'\u2014', name:'SB/ATT', ctx:s.sbAtt?Math.round(s.sb/s.sbAtt*100)+'%':'', t:'neutral' },
+        { val:fmt3(s.iso),    name:'ISO',    ctx:'BABIP .'+Math.round(s.babip*1000),      t:tier(s.iso,0.140) },
       ] : [];
 
-      var pitcherTiles = (s && p.isPitcher) ? [
-        { val: s.era && s.era.toFixed(2),   name: 'ERA',    ctx: 'Lg ' + (s.leagueAvgEra && s.leagueAvgEra.toFixed(2)), tier: vsLeague(s.era, s.leagueAvgEra, true) },
-        { val: fmtPct(s.kPct),              name: 'K%',     ctx: 'Lg ' + (s.leagueAvgKPct && s.leagueAvgKPct.toFixed(1)) + '%', tier: vsLeague(s.kPct, s.leagueAvgKPct) },
-        { val: fmtPct(s.bbPct),             name: 'BB%',    ctx: '', tier: vsLeague(s.bbPct, 10, true) },
-        { val: s.fip && s.fip.toFixed(2),   name: 'FIP',    ctx: 'xFIP ' + (s.xfip && s.xfip.toFixed(2)), tier: vsLeague(s.fip, s.leagueAvgEra, true) },
-        { val: s.ip && s.ip.toFixed(1),     name: 'IP',     ctx: s.gs + ' GS', tier: 'neutral' },
-        { val: fmtPct(s.swStrPct),          name: 'SwStr%', ctx: '', tier: vsLeague(s.swStrPct, 11) },
-        { val: fmtPct(s.gbPct),             name: 'GB%',    ctx: '', tier: vsLeague(s.gbPct, 44) },
-        { val: s.whip && s.whip.toFixed(2), name: 'WHIP',   ctx: '', tier: vsLeague(s.whip, 1.30, true) },
+      const pTiles = (s && p.isPitcher) ? [
+        { val:fmtN(s.era),    name:'ERA',    ctx:'Lg '+fmtN(s.leagueAvgEra),             t:tier(s.era,s.leagueAvgEra,true) },
+        { val:fmtPct(s.kPct), name:'K%',     ctx:'Lg '+fmtPct(s.leagueAvgKPct),          t:tier(s.kPct,s.leagueAvgKPct) },
+        { val:fmtPct(s.bbPct),name:'BB%',    ctx:'',                                      t:tier(s.bbPct,10,true) },
+        { val:fmtN(s.fip),    name:'FIP',    ctx:'xFIP '+fmtN(s.xfip),                   t:tier(s.fip,s.leagueAvgEra,true) },
+        { val:fmtN(s.ip,1),   name:'IP',     ctx:(s.gs||'\u2014')+' GS',                 t:'neutral' },
+        { val:fmtPct(s.swStrPct),name:'SwStr%',ctx:'',                                   t:tier(s.swStrPct,11) },
+        { val:fmtPct(s.gbPct),name:'GB%',    ctx:'',                                      t:tier(s.gbPct,44) },
+        { val:fmtN(s.whip),   name:'WHIP',   ctx:'',                                      t:tier(s.whip,1.30,true) },
       ] : [];
 
-      var tiles = p.isPitcher ? pitcherTiles : hitterTiles;
+      const tiles = p.isPitcher ? pTiles : hTiles;
 
-      var hitterPerfs = s ? [
-        { label: 'Walk %',      val: s.bbPct,      leagueVal: s.leagueAvgBbPct, fmt: fmtPct,  lowerBetter: false },
-        { label: 'Strikeout %', val: s.kPct,       leagueVal: s.leagueAvgKPct,  fmt: fmtPct,  lowerBetter: true  },
-        { label: 'Hard Hit %',  val: s.hardHitPct, leagueVal: 32,               fmt: fmtPct,  lowerBetter: false },
-        { label: '90th EV',     val: s.ev90,       leagueVal: 103,              fmt: function(v){ return v && v.toFixed(1) + ' mph'; }, lowerBetter: false },
-        { label: 'ISO',         val: s.iso,        leagueVal: 0.140,            fmt: fmtStat, lowerBetter: false },
-        { label: 'GB%',         val: s.gbPct,      leagueVal: 40,               fmt: fmtPct,  lowerBetter: false },
+      /* Perf bars */
+      const hPerfs = s ? [
+        { label:'Walk %',      val:s.bbPct,      lg:s.leagueAvgBbPct, fmt:fmtPct,  low:false },
+        { label:'Strikeout %', val:s.kPct,       lg:s.leagueAvgKPct,  fmt:fmtPct,  low:true  },
+        { label:'Hard Hit %',  val:s.hardHitPct, lg:32,               fmt:fmtPct,  low:false },
+        { label:'90th EV',     val:s.ev90,       lg:103,              fmt:v=>fmtN(v,1)+' mph', low:false },
+        { label:'ISO',         val:s.iso,        lg:0.140,            fmt:fmt3,    low:false },
+        { label:'GB%',         val:s.gbPct,      lg:40,               fmt:fmtPct,  low:false },
       ] : [];
 
-      var pitcherPerfs = (s && p.isPitcher) ? [
-        { label: 'K%',     val: s.kPct,    leagueVal: 26,            fmt: fmtPct,  lowerBetter: false },
-        { label: 'BB%',    val: s.bbPct,   leagueVal: 10,            fmt: fmtPct,  lowerBetter: true  },
-        { label: 'SwStr%', val: s.swStrPct,leagueVal: 11,            fmt: fmtPct,  lowerBetter: false },
-        { label: 'GB%',    val: s.gbPct,   leagueVal: 44,            fmt: fmtPct,  lowerBetter: false },
-        { label: 'ERA',    val: s.era,     leagueVal: s.leagueAvgEra,fmt: function(v){ return v && v.toFixed(2); }, lowerBetter: true },
-        { label: 'FIP',    val: s.fip,     leagueVal: s.leagueAvgEra,fmt: function(v){ return v && v.toFixed(2); }, lowerBetter: true },
+      const pPerfs = (s&&p.isPitcher) ? [
+        { label:'K%',     val:s.kPct,     lg:26,            fmt:fmtPct, low:false },
+        { label:'BB%',    val:s.bbPct,    lg:10,            fmt:fmtPct, low:true  },
+        { label:'SwStr%', val:s.swStrPct, lg:11,            fmt:fmtPct, low:false },
+        { label:'GB%',    val:s.gbPct,    lg:44,            fmt:fmtPct, low:false },
+        { label:'ERA',    val:s.era,      lg:s.leagueAvgEra,fmt:fmtN,   low:true  },
+        { label:'FIP',    val:s.fip,      lg:s.leagueAvgEra,fmt:fmtN,   low:true  },
       ] : [];
 
-      var perfs = p.isPitcher ? pitcherPerfs : hitterPerfs;
+      const perfs = p.isPitcher ? pPerfs : hPerfs;
 
-      // Build the stat tiles HTML
-      var tilesHTML = tiles.map(function(t) {
-        return '<div class="stat-tile ' + t.tier + ' fade-up">'
-          + '<div class="tile-val">' + t.val + '</div>'
-          + '<div class="tile-name">' + t.name + '</div>'
-          + (t.ctx ? '<div class="tile-ctx">' + t.ctx + '</div>' : '')
-          + '</div>';
+      /* Tab counts */
+      const rankCount  = (p.rankings||[]).length + (p.mediaReferences||[]).length + (p.brewerFanaticLinks||[]).length;
+      const newsCount  = (p.recentNews||[]).length;
+      const videoCount = (p.videoLinks||[]).length;
+
+      /* Hero chips */
+      const chipsHTML = [
+        '<span class="chip">Age ' + p.age + '</span>',
+        '<span class="chip">' + (p.bats||'?') + '/' + (p.throws||'?') + ' \u00B7 ' + (p.height||'') + ' \u00B7 ' + (p.weight||'') + ' lbs</span>',
+        p.draftInfo ? '<span class="chip gold">' + p.draftInfo + '</span>' : '',
+        risk ? '<span class="chip" style="color:'+riskColor(risk)+';border-color:'+riskColor(risk)+'40;background:'+riskColor(risk)+'12">' + risk + ' Risk</span>' : '',
+        p.eta ? '<span class="chip cyan">ETA ' + p.eta + '</span>' : '',
+      ].filter(Boolean).join('');
+
+      function gradeLabelText(val, compact) {
+        const full = GRADE_LABEL(val);
+        if (!compact) return full;
+        return {
+          'Plus-Plus': 'P-P',
+          'Plus': 'Plus',
+          'Above Avg': 'A. Avg',
+          'Average': 'Avg',
+          'Below Avg': 'B. Avg',
+          'Well Below': 'W. Below',
+        }[full] || full;
+      }
+
+      /* Build tool bars */
+      const toolsHTML = tools.map(t => {
+        const pct = gradePct(t.val);
+        const compact = pct > 0 && pct < 42;
+        const outside = pct > 0 && pct < 30;
+        return (
+        '<div class="tool-bar-row">'
+        + '<span class="tool-name">' + t.key + '</span>'
+        + '<div class="tool-track">'
+        + '<div class="tool-fill ' + gradeClass(t.val) + '" data-pct="' + pct + '" style="width:0"></div>'
+        + '<div class="tool-track-label' + (outside ? ' is-outside' : '') + '"><span class="fill-label">' + (t.val??'\u2014') + ' \u00B7 ' + gradeLabelText(t.val, compact) + '</span></div>'
+        + '</div>'
+        + '<span class="tool-grade" style="color:' + gradeColor(t.val) + '">' + (t.val??'\u2014') + '</span>'
+        + '<span class="tool-desc-txt">' + t.desc + '</span>'
+        + '</div>'
+        );
       }).join('');
 
-      // Build the tool bars HTML
-      var toolsHTML = tools.map(function(t) {
-        return '<div class="tool-bar-row">'
-          + '<span class="tool-name">' + t.key + '</span>'
-          + '<div class="tool-track">'
-          + '<div class="tool-fill ' + gradeClass(t.val) + '" data-pct="' + gradePct(t.val) + '" style="width:0">'
-          + '<span class="fill-label">' + (t.val != null ? t.val : '\u2014') + ' \u00B7 ' + GRADE_LABEL(t.val) + '</span>'
-          + '</div></div>'
-          + '<span class="tool-grade" style="color:' + gradeTextColor(t.val) + '">' + (t.val != null ? t.val : '\u2014') + '</span>'
-          + '<span class="tool-desc-txt">' + t.desc + '</span>'
-          + '</div>';
-      }).join('');
+      /* Build stat tiles */
+      const tilesHTML = tiles.map(t =>
+        '<div class="stat-tile ' + t.t + '">'
+        + '<div class="tile-val">' + t.val + '</div>'
+        + '<div class="tile-name">' + t.name + '</div>'
+        + (t.ctx ? '<div class="tile-ctx">' + t.ctx + '</div>' : '')
+        + '</div>'
+      ).join('');
 
-      // Build perf bars HTML
-      var perfsHTML = perfs.map(function(perf) {
-        var isGood = perf.lowerBetter ? perf.val < perf.leagueVal : perf.val > perf.leagueVal;
-        var pct = perf.lowerBetter
-          ? Math.min(100, Math.max(5, (2 - perf.val / perf.leagueVal) * 50))
-          : Math.min(100, Math.max(5, (perf.val / (perf.leagueVal * 1.5)) * 80));
-        var color = perf.val == null ? 'var(--text3)' : isGood ? 'var(--green)' : Math.abs((perf.val - perf.leagueVal) / perf.leagueVal) < 0.05 ? 'var(--yellow)' : 'var(--orange)';
-        var fillGrad = isGood ? 'linear-gradient(90deg, #065f46, #10b981)' : 'linear-gradient(90deg, #7c2d12, #f97316)';
-        var displayVal = perf.fmt ? perf.fmt(perf.val) : (perf.val != null ? perf.val : '\u2014');
-        var displayAvg = perf.fmt ? perf.fmt(perf.leagueVal) : perf.leagueVal;
+      /* Build perf bars */
+      const perfsHTML = perfs.map(perf => {
+        const good = perf.low ? perf.val < perf.lg : perf.val > perf.lg;
+        const pct  = perf.low
+          ? Math.min(100, Math.max(5, (2 - perf.val/perf.lg)*50))
+          : Math.min(100, Math.max(5, (perf.val/(perf.lg*1.5))*80));
+        const clr  = perf.val==null ? 'var(--text3)' : good ? 'var(--green)' : Math.abs((perf.val-perf.lg)/perf.lg)<0.05 ? 'var(--yellow)' : 'var(--orange)';
+        const grad = good ? 'linear-gradient(90deg,#065f46,#10b981)' : 'linear-gradient(90deg,#7c2d12,#f97316)';
         return '<div class="perf-row">'
           + '<span class="perf-label">' + perf.label + '</span>'
-          + '<div class="perf-track"><div class="perf-fill" style="width:' + pct + '%;background:' + fillGrad + ';"></div></div>'
-          + '<span class="perf-value" style="color:' + color + '">' + displayVal + '</span>'
-          + '<span class="perf-vs">avg ' + displayAvg + '</span>'
+          + '<div class="perf-track"><div class="perf-fill" style="width:'+pct+'%;background:'+grad+'"></div></div>'
+          + '<span class="perf-value" style="color:'+clr+'">' + perf.fmt(perf.val) + '</span>'
+          + '<span class="perf-vs">avg ' + perf.fmt(perf.lg) + '</span>'
           + '</div>';
       }).join('');
 
-      // Build hero chips
-      var chipsHTML = '<span class="chip">Age ' + p.age + '</span>'
-        + '<span class="chip">' + (p.bats || '?') + '/' + (p.throws || '?') + ' \u00B7 ' + (p.height || '') + ' \u00B7 ' + (p.weight || '') + ' lbs</span>'
-        + (p.draftInfo ? '<span class="chip gold">' + p.draftInfo + '</span>' : '')
-        + '<span class="chip" style="color:' + riskColor(risk) + ';border-color:' + riskColor(risk) + '30;background:' + riskColor(risk) + '10">' + risk + ' Risk</span>'
-        + (p.eta ? '<span class="chip cyan">ETA ' + p.eta + '</span>' : '');
+      /* Strengths / concerns */
+      const strHTML = (p.strengths||[]).map(s=>'<li>'+s+'</li>').join('');
+      const conHTML = (p.concerns||[]).map(c=>'<li>'+c+'</li>').join('');
 
-      // OFP arc values
-      var arcCirc = 2 * Math.PI * 32;
-      var arcDash = (ofpPct * arcCirc).toFixed(1);
-
-      var strengthsHTML = (p.strengths || []).map(function(s) { return '<li>' + s + '</li>'; }).join('');
-      var concernsHTML  = (p.concerns  || []).map(function(c) { return '<li>' + c + '</li>'; }).join('');
-
+      /* ── Assemble page ────────────────────────────────────────────────── */
       document.getElementById('player-root').innerHTML =
 
-        // HERO
+        /* HERO */
         '<div class="player-hero">'
         + '<a href="index.html" class="back-link">\u2190 All Prospects</a>'
         + '<div class="hero-layout">'
-        + '<div class="hero-left">'
+        + '<div>'
         + '<div class="hero-name">' + p.name + '</div>'
         + '<div class="hero-meta-row">'
         + '<span class="hero-pos">' + p.position + '</span>'
         + '<span class="hero-sep">\u00B7</span>'
-        + '<span class="hero-affiliate">' + (LEVEL_LABELS[p.level] || p.level) + ' \u00B7 ' + (p.affiliate || '') + '</span>'
+        + '<span class="hero-affiliate">' + (LEVEL_LABELS[p.level]||p.level) + ' \u00B7 ' + (p.affiliate||'') + '</span>'
         + '</div>'
         + '<div class="hero-chips">' + chipsHTML + '</div>'
         + '</div>'
         + '<div class="ofp-block">'
-        + '<div class="ofp-ring">'
-        + '<svg class="ofp-svg" viewBox="0 0 80 80">'
+        + '<div class="ofp-ring"><svg class="ofp-svg" viewBox="0 0 80 80">'
         + '<circle class="ofp-track" cx="40" cy="40" r="32"/>'
-        + '<circle class="ofp-arc" cx="40" cy="40" r="32" stroke="' + ofpColor + '" stroke-dasharray="' + arcDash + ' ' + arcCirc.toFixed(1) + '" stroke-dashoffset="0"/>'
+        + '<circle class="ofp-arc" cx="40" cy="40" r="32" stroke="'+ofpClr+'" stroke-dasharray="'+(ofpPct*arcCirc).toFixed(1)+' '+arcCirc.toFixed(1)+'" stroke-dashoffset="0"/>'
         + '</svg>'
-        + '<div class="ofp-center">'
-        + '<div class="ofp-num" style="color:' + ofpColor + '">' + ofp + '</div>'
-        + '<div class="ofp-lbl">OFP</div>'
+        + '<div class="ofp-center"><div class="ofp-num" style="color:'+ofpClr+'">'+ofp+'</div><div class="ofp-lbl">OFP</div></div>'
+        + '</div>'
+        + '<div class="ofp-risk-label" style="color:'+riskColor(risk)+'">' + risk + ' Risk</div>'
+        + '</div>'
         + '</div></div>'
-        + '<div class="ofp-risk" style="color:' + riskColor(risk) + '">' + risk + ' Risk</div>'
-        + '</div></div></div>'
 
-        // SUMMARY
-        + (p.summary ? '<div class="summary-text">' + p.summary + '</div>' : '')
+        /* SUMMARY */
+        + (p.summary ? '<div class="summary-block"><p>' + p.summary + '</p></div>' : '')
 
-        // TWO COL
+        /* STRENGTHS + CONCERNS side by side */
+        + '<div class="scout-grid">'
+        + '<div class="scout-panel">'
+        + '<div class="scout-panel-head strengths">Strengths</div>'
+        + (strHTML ? '<ul class="scout-list strengths">' + strHTML + '</ul>' : '<div class="empty-state">—</div>')
+        + '</div>'
+        + '<div class="scout-panel">'
+        + '<div class="scout-panel-head concerns">Areas to Watch</div>'
+        + (conHTML ? '<ul class="scout-list concerns">' + conHTML + '</ul>' : '<div class="empty-state">—</div>')
+        + '</div>'
+        + '</div>'
+
+        /* TWO COLUMN */
         + '<div class="two-col">'
 
-        // MAIN
+        /* MAIN COL */
         + '<div class="main-col">'
-        + '<div class="section-head"><span class="label">2025 Season \u00B7 ' + (LEVEL_LABELS[p.level] || p.level) + '</span></div>'
+
+        /* Stats */
+        + '<div class="section-head"><span class="label">2025 Season \u00B7 ' + (LEVEL_LABELS[p.level]||p.level) + '</span></div>'
         + '<div class="stat-row stagger">' + tilesHTML + '</div>'
+
+        /* Tool grades */
         + '<div class="tool-section">'
-        + '<div class="section-head"><span class="label">20\u201380 Scouting Grades \u00B7 Consensus</span></div>'
+        + '<div class="section-head"><span class="label">20\u201380 Scouting Grades</span></div>'
         + '<div class="grade-scale">'
-        + '<div class="scale-pip" style="background:#450a0a;flex:1"></div>'
-        + '<div class="scale-pip" style="background:#7c2d12;flex:1"></div>'
-        + '<div class="scale-pip" style="background:#78350f;flex:1"></div>'
-        + '<div class="scale-pip" style="background:#f97316;flex:1"></div>'
-        + '<div class="scale-pip" style="background:#fbbf24;flex:1"></div>'
-        + '<div class="scale-pip" style="background:#06b6d4;flex:1"></div>'
-        + '<div class="scale-pip" style="background:#10b981;flex:1"></div>'
+        + ['#450a0a','#7c2d12','#78350f','#f97316','#fbbf24','#06b6d4','#10b981'].map(c=>'<div class="scale-pip" style="background:'+c+';flex:1"></div>').join('')
         + '</div>'
         + '<div class="scale-labels"><span>20</span><span>30</span><span>40</span><span>50</span><span>60</span><span>70</span><span>80</span></div>'
         + toolsHTML
         + '</div>'
-        + '<div class="section-head" style="margin-top:28px"><span class="label">Performance vs. League Average</span></div>'
-        + perfsHTML
-        + '</div>'
 
-        // SIDE
+        /* Perf bars */
+        + '<div class="section-head" style="margin-top:24px"><span class="label">Performance vs. League Average</span></div>'
+        + (perfsHTML || '<div class="empty-state" style="text-align:left;padding:0">No stats data</div>')
+
+        + '</div>' /* /main-col */
+
+        /* SIDE COL */
         + '<div class="side-col">'
-        + '<div class="radar-card" style="animation-delay:0.15s"><h3>Tool Radar</h3>' + buildRadar(p) + '</div>'
-        + '<div class="side-card" style="animation-delay:0.2s"><h3>Rankings &amp; Grades</h3>' + buildRankings(p) + '</div>'
-        + '<div class="side-card" style="animation-delay:0.25s"><h3>Strengths</h3><ul class="scout-list strengths">' + strengthsHTML + '</ul></div>'
-        + '<div class="side-card" style="animation-delay:0.3s"><h3>Areas to Watch</h3><ul class="scout-list concerns">' + concernsHTML + '</ul></div>'
-        + '<div class="side-card" style="animation-delay:0.35s"><h3>Profile</h3>'
+
+        /* Profile */
+        + '<div class="side-card">'
+        + '<div class="side-card-head">Profile</div>'
         + '<div class="meta-grid">'
-        + '<div class="meta-tile"><div class="mt-val">' + (p.eta || '\u2014') + '</div><div class="mt-lbl">MLB ETA</div></div>'
-        + '<div class="meta-tile"><div class="mt-val" style="color:' + riskColor(risk) + '">' + risk + '</div><div class="mt-lbl">Risk Level</div></div>'
-        + '<div class="meta-tile"><div class="mt-val">' + (p.confidence || '\u2014') + '</div><div class="mt-lbl">Scout Coverage</div></div>'
-        + '<div class="meta-tile"><div class="mt-val">' + ((p.updatedAt || '').slice(0,10)) + '</div><div class="mt-lbl">Last Updated</div></div>'
+        + '<div class="meta-tile"><div class="mt-val">'+(p.eta||'\u2014')+'</div><div class="mt-lbl">MLB ETA</div></div>'
+        + '<div class="meta-tile"><div class="mt-val" style="color:'+riskColor(risk)+'">'+risk+'</div><div class="mt-lbl">Risk</div></div>'
+        + '<div class="meta-tile"><div class="mt-val">'+(p.confidence||'\u2014')+'</div><div class="mt-lbl">Coverage</div></div>'
+        + '<div class="meta-tile"><div class="mt-val">'+((p.updatedAt||'').slice(0,10))+'</div><div class="mt-lbl">Updated</div></div>'
         + '</div></div>'
 
-        // NEW: Recent News section
-        + buildNewsSection(p)
+        /* TABS: Rankings / News / Video */
+        + '<div class="side-card">'
+        + '<div class="tab-bar">'
+        + '<button class="tab-btn active" data-tab="rankings">Rankings<span class="tab-count">' + (p.rankings||[]).length + '</span></button>'
+        + '<button class="tab-btn" data-tab="news">News<span class="tab-count">' + newsCount + '</span></button>'
+        + '<button class="tab-btn" data-tab="video">Video<span class="tab-count">' + videoCount + '</span></button>'
+        + '</div>'
+        + '<div class="tab-panel active" id="tab-rankings">' + buildRankingsTab(p) + '</div>'
+        + '<div class="tab-panel" id="tab-news">' + buildNewsTab(p) + '</div>'
+        + '<div class="tab-panel" id="tab-video">' + buildVideoTab(p) + '</div>'
+        + '</div>'
 
-        // NEW: Video section
-        + buildVideoSection(p)
-
-        // Coverage & Media (BF links + media refs)
-        + buildMediaSection(p)
-
-        + '</div>'  // /side-col
-        + '</div>'  // /two-col
+        + '</div>' /* /side-col */
+        + '</div>' /* /two-col */
 
         + '<div class="divider"></div>'
-        + '<div style="text-align:center;font-family:var(--font-display);font-size:10px;letter-spacing:1.5px;color:var(--text3);text-transform:uppercase;">'
+        + '<div style="text-align:center;font-family:var(--font-display);font-size:11px;letter-spacing:1.5px;color:var(--text3);text-transform:uppercase;padding-bottom:8px;">'
         + 'Brewers Prospect Hub \u00B7 Data synthesized from public scouting sources \u00B7 Not affiliated with MLB'
         + '</div>';
 
-      // Animate tool bars
-      requestAnimationFrame(function() {
-        setTimeout(function() {
-          document.querySelectorAll('.tool-fill[data-pct]').forEach(function(el) {
+      /* Animate tool bars */
+      requestAnimationFrame(() => {
+        setTimeout(() => {
+          document.querySelectorAll('.tool-fill[data-pct]').forEach(el => {
             el.style.width = el.dataset.pct + '%';
           });
         }, 150);
       });
-    }
-  </script>
 
+      /* Tab click handler */
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+          document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+          document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+          btn.classList.add('active');
+          document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+        });
+      });
+    }
+
+  </script>
 </body>
 </html>

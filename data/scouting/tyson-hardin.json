@@ -1,0 +1,186 @@
+{
+  "playerId": "tyson-hardin",
+  "name": "Tyson Hardin",
+  "position": "SP",
+  "level": "AA",
+  "age": 24,
+  "updatedAt": "2026-04-04T03:08:40.257Z",
+  "pitchGrades": {
+    "fastball": 50,
+    "slider": 55,
+    "curveball": null,
+    "changeup": 40,
+    "cutter": 50,
+    "control": 55,
+    "command": 55,
+    "breakingBall": null
+  },
+  "grades": {
+    "ofp": 45,
+    "risk": "Average"
+  },
+  "rankings": [
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 13,
+      "grade": "50/Average",
+      "listName": "Milwaukee Brewers Top Prospects",
+      "date": "2026-03",
+      "url": "https://www.baseballamerica.com/players/118320/tyson-hardin/"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 19,
+      "grade": "45",
+      "listName": "Brewers Top Prospects",
+      "date": "2026-03",
+      "url": "https://www.mlb.com/prospects/brewers/tyson-hardin-686958"
+    },
+    {
+      "source": "Prospects1500",
+      "rank": null,
+      "systemRank": 18,
+      "grade": null,
+      "listName": "Milwaukee Brewers Top 50 Prospects (2026)",
+      "date": "2026-03",
+      "url": "https://www.prospects1500.com/mlb-teams/milwaukee-brewers/milwaukee-brewers-top-50-prospects-2026/"
+    },
+    {
+      "source": "FanGraphs The Board",
+      "rank": null,
+      "systemRank": 17,
+      "grade": "40+",
+      "listName": "Milwaukee Brewers Top 53 Prospects",
+      "date": "2025-11",
+      "url": "https://blogs.fangraphs.com/milwaukee-brewers-top-53-prospects-2025-2/"
+    }
+  ],
+  "summary": "Tyson Hardin, a right-handed pitcher, was a 12th-round pick in 2024 who successfully transitioned from a college reliever to a professional starter in 2025. He earned the Brewers' Minor League Pitcher of the Year award, impressing with strong control and a refined five-pitch mix including a 92-95 mph fastball and an above-average sweeping slider. He reached Double-A in 2025 and is projected to provide rotation depth for the Brewers in the near future.",
+  "strengths": [
+    "Excellent control and strike-throwing",
+    "Above-average sweeping slider",
+    "Successful conversion to starting role",
+    "Fastball plays up with good ride"
+  ],
+  "concerns": [
+    "Below-average changeup",
+    "Arm fatigue in 2025 (durability)",
+    "Older for a first-year starter"
+  ],
+  "eta": "2026-2027",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Hardin, Made Named Brewers 2025 Robin Yount Performance Award Winners",
+      "source": "MiLB.com",
+      "date": "2026-03",
+      "url": "https://www.milb.com/biloxi/news/hardin-made-named-brewers-2025-robin-yount-performance-award-winners"
+    },
+    {
+      "type": "article",
+      "title": "Five Under-The-Radar Brewers Prospects To Watch in 2026",
+      "source": "Just Baseball",
+      "date": "2026-02",
+      "url": "https://www.justbaseball.com/mlb/five-under-the-radar-brewers-prospects-to-watch-in-2026/"
+    },
+    {
+      "type": "article",
+      "title": "Brewers' Tyson Hardin Turns In 'Efficient' First Full Season",
+      "source": "Baseball America",
+      "date": "2025-11",
+      "url": "https://www.baseballamerica.com/stories/brewers-tyson-hardin-turns-in-efficient-first-full-season/"
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "FanGraphs",
+    "Just Baseball",
+    "MiLB.com",
+    "Prospects1500",
+    "Wisconsin Sports Heroics"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "Tyson Hardin Scouting Report and 2025 Performance Update",
+      "source": "Baseball America",
+      "date": "2026-03-31",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJU-ayqsiecsbQXUITcQI3zbNy0-2a-4Cs2Y-g9XDUp_16ex6T2hUAfFRoG5ylG9E_2FxcA4Obp4LW6YOd0FAYzPukoX6iFL6tsJRhbx2xqWdvLFIarpVYpzffPdeFDvE_J5qtN09AeGkWjaIMMGlslS_lFooNcw==",
+      "summary": "Tyson Hardin modified his pitch usage in 2025, lowering fastball percentage and increasing slider and cutter usage, and finished the year in Double-A Biloxi after missing six weeks with arm fatigue, earning the organization's pitcher of the year award and showing potential for a major league debut by late 2026."
+    },
+    {
+      "title": "RHP Tyson Hardin assigned to Milwaukee Brewers Prospects",
+      "source": "MiLB.com",
+      "date": "2026-02-21",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEel7N-gHbbWyELygOCOSVVwrVxRBM6IrutnJHfVZb3eYvT-MayIpWSh8HChbGag7yELeMXEbJmMCMvfH1tl42bO1F0ukngPgbq4X7Pfi_rvC7sAo16-zNyH8cXjM0j1mh8I9llCYZRWAM=",
+      "summary": "RHP Tyson Hardin was assigned to Milwaukee Brewers Prospects on February 21, 2026."
+    },
+    {
+      "title": "Tyson Hardin activated from injured list on August 22",
+      "source": "RotoWire",
+      "date": "2025-09-04",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHma4n7oVGopxTC7Vc985Fj2SRdjeeyng2RUPRRpmHO0NMbhPGdlpVnt_1K-djd3Vz1RMAHdAMrHYc0GzLb7bqkPIIQQrv37mDKtNT6e1HszwsRWMp4gOcD3rshdJLNnucufZk53VrxqNcWGlH7NVDc39W98kw==",
+      "summary": "Tyson Hardin was activated from the 7-day injured list on August 22, 2025, and has posted a 3.37 ERA across three starts for Double-A Biloxi since then, though his strikeout rate has declined in his first season as a starter."
+    },
+    {
+      "title": "Hardin Deals a Shutout to Beloit",
+      "source": "Wisconsin Timber Rattlers / MiLB.com",
+      "date": "2025-05-16",
+      "url": "https://www.milb.com/wisconsin/news/hardin-deals-a-shutout-to-beloit-05-16-25",
+      "summary": "Tyson Hardin pitched a complete game seven-inning two-hit shutout, leading the Wisconsin Timber Rattlers to a 1-0 victory."
+    },
+    {
+      "title": "Tyson Hardin records a career-high nine strikeouts",
+      "source": "MLB.com",
+      "date": "2025-05-04",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeVQh10cqVSK8djniNES0n2zXnRlSMGWRATAQT21DPvOs4Z5nWSvuFDGg8lLJ8_K0N3tCD8ItfJuhE-zuqVCqOX9RM7u3BhQmHPMvsHynCyETEu193jE_owiwKBNgjNtbt1viqQgIg-T2BL1zRuA2pkV7EFCeO_Pi1ZONQz-4IAW_teA7RtA==",
+      "summary": "Brewers prospect Tyson Hardin achieved a career-high nine strikeouts across seven scoreless innings for High-A Wisconsin."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Tyson Hardin 2025 Highlights",
+      "channel": "Wisconsin Timber Rattlers",
+      "date": "2026-02-03",
+      "url": "https://www.youtube.com/results?search_query=Wisconsin+Timber+Rattlers+Tyson+Hardin+2025+Highlights",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Tyson Hardin, RHP, Milwaukee Brewers",
+      "channel": "FanGraphs",
+      "date": "2025-05-26",
+      "url": "https://www.youtube.com/results?search_query=FanGraphs+Tyson+Hardin+RHP+Milwaukee+Brewers",
+      "type": "scouting",
+      "urlType": "search"
+    },
+    {
+      "title": "Tyson Hardin Twirls A Gem! | 5-16-25 Game 1 Wisconsin Timber Rattlers Game Highlights",
+      "channel": "Wisconsin Timber Rattlers",
+      "date": "2025-05-17",
+      "url": "https://www.youtube.com/results?search_query=Wisconsin+Timber+Rattlers+Tyson+Hardin+Twirls+A+Gem!+5-16-25",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Tyson Hardin records a career-high nine strikeouts",
+      "channel": "MLB.com",
+      "date": "2025-05-04",
+      "url": "https://www.youtube.com/results?search_query=MLB.com+Tyson+Hardin+records+career-high+nine+strikeouts",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Tyson Hardin discusses pitching development at Mississippi State",
+      "channel": "YouTube",
+      "date": "2023-06-07",
+      "url": "https://www.youtube.com/results?search_query=Tyson+Hardin+Mississippi+State+pitching+development",
+      "type": "interview",
+      "urlType": "search"
+    }
+  ]
+}

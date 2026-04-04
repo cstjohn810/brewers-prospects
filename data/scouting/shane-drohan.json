@@ -1,0 +1,236 @@
+{
+  "playerId": "shane-drohan",
+  "name": "Shane Drohan",
+  "position": "Unknown",
+  "level": "Unknown",
+  "age": null,
+  "updatedAt": "2026-04-04T03:19:31.752Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": null,
+    "power": null,
+    "run": null,
+    "field": null,
+    "arm": null,
+    "ofp": 40,
+    "risk": "Average"
+  },
+  "rankings": [
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 15,
+      "grade": "50/Average Adjusted Grade: 40",
+      "listName": "Boston Red Sox Prospect Rankings",
+      "date": "2026-02",
+      "url": "https://www.baseballamerica.com/players/14589/shane-drohan/"
+    },
+    {
+      "source": "FanGraphs The Board",
+      "rank": null,
+      "systemRank": 19,
+      "grade": "40+",
+      "listName": "Milwaukee Brewers Top 53 Prospects",
+      "date": "2025-11",
+      "url": "https://blogs.fangraphs.com/milwaukee-brewers-top-53-prospects/"
+    },
+    {
+      "source": "MiLB.com",
+      "rank": null,
+      "systemRank": 25,
+      "grade": null,
+      "listName": "Brewers Top Prospects",
+      "date": null,
+      "url": "https://www.milb.com/brewers/prospects/shane-drohan-677941"
+    }
+  ],
+  "summary": "Shane Drohan is a 27-year-old left-handed pitcher recently acquired by the Milwaukee Brewers in a February 2026 trade from the Boston Red Sox. He features a diverse five-pitch arsenal and has shown increased velocity after recovering from nerve decompression surgery in 2024 and dealing with forearm inflammation in 2025. He projects as a potential back-of-the-rotation starter or multi-inning reliever, with questions remaining about his command consistency and durability over a full season.",
+  "strengths": [
+    "Diverse five-pitch arsenal",
+    "Increased velocity and improved pitch shapes",
+    "Ability to generate swings and misses"
+  ],
+  "concerns": [
+    "Durability and injury history",
+    "Inconsistent command and control",
+    "Struggled after Triple-A promotion"
+  ],
+  "eta": "2026",
+  "mediaReferences": [
+    {
+      "type": "video",
+      "title": "Breaking down Shane Drohan's pitches",
+      "source": "MLB.com",
+      "date": "2026-03",
+      "url": "https://www.mlb.com/brewers/video/breaking-down-shane-drohan-s-pitches"
+    },
+    {
+      "type": "podcast",
+      "title": "Brew Crew Review Podcast #256- Brewers Trade...",
+      "source": "The Brew Crew Review",
+      "date": "2026-03",
+      "url": "https://sportspyder.com/teams/milwaukee-brewers/podcasts/4172776"
+    },
+    {
+      "type": "article",
+      "title": "Shane Drohan News: Sent to Triple-A",
+      "source": "RotoWire",
+      "date": "2026-03",
+      "url": "https://www.rotowire.com/baseball/player/shane-drohan-95669"
+    },
+    {
+      "type": "article",
+      "title": "Let's Hear From Shane Drohan, a Southpaw Who Is Now a Brewer",
+      "source": "FanGraphs",
+      "date": "2026-02",
+      "url": "https://blogs.fangraphs.com/lets-hear-from-shane-drohan-a-southpaw-who-is-now-a-brewer/"
+    }
+  ],
+  "sourcesConsulted": [
+    "SoxProspects.com",
+    "Baseball America",
+    "FanGraphs",
+    "Baseball Prospectus",
+    "MiLB.com",
+    "MLB.com",
+    "RotoWire",
+    "Brew Crew Review"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "Shane Drohan strikes out five against Giants in Spring Training",
+      "source": "MLB.com",
+      "date": "2026-03-15",
+      "url": "https://www.mlb.com/brewers/video/shane-drohan-strikes-out-five-x7782",
+      "summary": "Shane Drohan struck out five batters across four innings in a Spring Training game against the Giants."
+    },
+    {
+      "title": "Shane Drohan strikes out three in Spring Training relief",
+      "source": "MLB.com",
+      "date": "2026-03-09",
+      "url": "https://www.mlb.com/brewers/video/shane-drohan-strikes-out-three-x3181",
+      "summary": "Shane Drohan struck out three batters over 3 2/3 innings in a Spring Training relief appearance against the Dodgers."
+    },
+    {
+      "title": "Let's Hear From Shane Drohan, a Southpaw Who Is Now a Brewer",
+      "source": "FanGraphs Baseball",
+      "date": "2026-02-12",
+      "url": "https://blogs.fangraphs.com/lets-hear-from-shane-drohan-a-southpaw-who-is-now-a-brewer/",
+      "summary": "Shane Drohan discussed his trade to the Milwaukee Brewers, his pitching arsenal, and his recovery from shoulder surgery and forearm inflammation, noting his ability to mix five pitches in any count."
+    },
+    {
+      "title": "Brewers acquire Shane Drohan in six-player trade with Red Sox",
+      "source": "MLB.com",
+      "date": "2026-02-09",
+      "url": "https://www.mlb.com/player/shane-drohan-686214/news/transactions",
+      "summary": "The Milwaukee Brewers acquired left-handed pitcher Shane Drohan, Kyle Harrison, and David Hamilton from the Boston Red Sox in exchange for Caleb Durbin, Andruw Monasterio, Anthony Seigler, and a compensation round draft pick in the 2026 MLB draft."
+    },
+    {
+      "title": "Shane Drohan's 2025 Season Performance and 40-man Roster Addition",
+      "source": "Wikipedia",
+      "date": "2025-11-18",
+      "url": "https://en.wikipedia.org/wiki/Shane_Drohan",
+      "summary": "In 2025, Shane Drohan made 15 appearances (14 starts) for the Red Sox organization, posting a 5-2 record and 3.00 ERA over 54 innings despite forearm inflammation, and was added to the 40-man roster on November 18, 2025."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Shane Drohan strikes out five",
+      "channel": "MLB.com",
+      "date": "2026-03-15",
+      "url": "https://www.mlb.com/brewers/video/shane-drohan-strikes-out-five-x7782",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Breaking down Shane Drohan's pitches",
+      "channel": "MLB.com",
+      "date": "2026-03-09",
+      "url": "https://www.mlb.com/brewers/video/breaking-down-shane-drohan-s-pitches-x3184",
+      "type": "scouting",
+      "urlType": "direct"
+    },
+    {
+      "title": "Shane Drohan strikes out three",
+      "channel": "MLB.com",
+      "date": "2026-03-09",
+      "url": "https://www.mlb.com/brewers/video/shane-drohan-strikes-out-three-x3181",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Shane Drohan on being traded to the Brewers",
+      "channel": "MLB.com",
+      "date": "2026-02-12",
+      "url": "https://www.mlb.com/brewers/video/shane-drohan-on-being-traded-to-the-brewers-x7249",
+      "type": "interview",
+      "urlType": "direct"
+    },
+    {
+      "title": "Shane Drohan strikes out Matt Olson",
+      "channel": "MLB.com",
+      "date": "2025-03-17",
+      "url": "https://www.mlb.com/redsox/video/shane-drohan-strikes-out-matt-olson-x6554",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Shane Drohan strikes out the side",
+      "channel": "MiLB.com",
+      "date": "2023-08-15",
+      "url": "https://www.youtube.com/results?search_query=MiLB.com+Shane+Drohan+strikes+out+the+side",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Drohan strikes out seven in six innings for Triple-A",
+      "channel": "MLB.com",
+      "date": "2023-06-15",
+      "url": "https://www.mlb.com/brewers/video/drohan-strikes-out-seven-in-six-innings-for-triple-a-x3625",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Shane Drohan rising as Red Sox Prospect",
+      "channel": "NESN",
+      "date": "2023-05-17",
+      "url": "https://www.youtube.com/results?search_query=NESN+Shane+Drohan+rising+as+Red+Sox+Prospect",
+      "type": "interview",
+      "urlType": "search"
+    },
+    {
+      "title": "Shane Drohan strikes out Colt Keith in the 3rd",
+      "channel": "MiLB.com",
+      "date": "2023-04-26",
+      "url": "https://www.youtube.com/results?search_query=MiLB.com+Shane+Drohan+strikes+out+Colt+Keith",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Shane Drohan notches his 8th and final strikeout",
+      "channel": "MiLB.com",
+      "date": "2023-04-20",
+      "url": "https://www.youtube.com/results?search_query=MiLB.com+Shane+Drohan+notches+8th+final+strikeout",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Shane Drohan strikes out his sixth batter in the 6th",
+      "channel": "MiLB.com",
+      "date": "2023-04-14",
+      "url": "https://www.youtube.com/results?search_query=MiLB.com+Shane+Drohan+strikes+out+sixth+batter",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Drohan strikes out career-high 14 for Greenville",
+      "channel": "MiLB.com",
+      "date": "2022-06-07",
+      "url": "https://www.youtube.com/results?search_query=MiLB.com+Shane+Drohan+career+high+14+strikeouts",
+      "type": "highlights",
+      "urlType": "search"
+    }
+  ]
+}

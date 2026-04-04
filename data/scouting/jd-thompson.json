@@ -1,0 +1,166 @@
+{
+  "playerId": "jd-thompson",
+  "name": "JD Thompson",
+  "position": "Unknown",
+  "level": "Unknown",
+  "age": null,
+  "updatedAt": "2026-04-04T03:12:10.977Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": null,
+    "power": null,
+    "run": null,
+    "field": null,
+    "arm": null,
+    "ofp": 45,
+    "risk": "Medium"
+  },
+  "rankings": [
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 13,
+      "grade": "45",
+      "listName": "Milwaukee Brewers Top 53 Prospects / The Board",
+      "date": "2026-04",
+      "url": "https://www.fangraphs.com/prospects/the-board/2026-mlb-draft/summary?sort=-1,1&filter=&team=Brewers"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 16,
+      "grade": "45 Overall",
+      "listName": "Brewers Top 30 Prospects",
+      "date": "2026-03",
+      "url": "https://www.mlb.com/prospects/brewers/j-d-thompson-694372"
+    },
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 21,
+      "grade": "50/High",
+      "listName": "Milwaukee Brewers Organization Prospect Rankings",
+      "date": "2025-10",
+      "url": "https://www.baseballamerica.com/players/122416/j-d-thompson/"
+    }
+  ],
+  "summary": "JD Thompson is a 6-foot left-handed pitcher drafted by the Milwaukee Brewers in the second round of the 2025 MLB Draft. He features a low-90s fastball that plays up due to riding life and deception, along with a sweeping slider, curveball, and changeup. While he may lack a true wipeout pitch, his pitchability and control project him as a potential back-end rotation arm. He recently added a cutter to his arsenal.",
+  "strengths": [
+    "Rising fastball with riding life",
+    "Good control and strike-throwing",
+    "New cutter"
+  ],
+  "concerns": [
+    "No one wipeout pitch",
+    "Reliever risk",
+    "Inconsistent curveball/changeup for strikes"
+  ],
+  "eta": "2028",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Brewers Insider Hints Milwaukee Struck Gold in 2025 Draft",
+      "source": "Sports Illustrated",
+      "date": "2026-03",
+      "url": "https://www.si.com/mlb/brewers/news/brewers-insider-hints-milwaukee-struck-gold-in-2025-draft"
+    },
+    {
+      "type": "youtube",
+      "title": "Brewers draft LHP JD Thompson No. 59",
+      "source": "MLB.com",
+      "date": "2025-07",
+      "url": "https://www.mlb.com/video/brewers-draft-lhp-jd-thompson-no-59-x3005"
+    },
+    {
+      "type": "youtube",
+      "title": "Rusk's J.D. Thompson drafted by the Milwaukee Brewers",
+      "source": "KETK Sports",
+      "date": "2025-07",
+      "url": "https://www.youtube.com/watch?v=S40mS74hO3k"
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "FanGraphs",
+    "Sports Illustrated",
+    "Milwaukee Journal Sentinel",
+    "MLB.com",
+    "The Vanderbilt Hustler",
+    "Perfect Game"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "Brewers draft LHP JD Thompson No. 59",
+      "source": "MLB.com",
+      "date": "2025-07-14",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHomI9_fgkPPCh9guXyoWQzdUi59SSYj7WFCcQKthccozq3ar2J9t3W1kud8I9EC-JYLGNnsiJs9uMIU0cb0cduSruF8ZE06P9nt36-LzKbpHFUrt-gCLCtaqWqzMhQ3_ROmq9MFKfqO0PEJdDpGRYS2cgXaGK6YtiL3dDpoTw89LbLci54nSRHWXns",
+      "summary": "The Milwaukee Brewers selected left-handed pitcher JD Thompson with the 59th pick in the 2025 MLB Draft."
+    },
+    {
+      "title": "With the 59th pick in the 2025 draft the Brewers select pitcher J.D Thompson from Vanderbilt",
+      "source": "r/Brewers (Reddit)",
+      "date": "2025-07-14",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE69t7_Ey30HOUVXXw192Ln6ynYi5zy22HWH9Bx2lB-f76PXy0fCJ1xM9J1gdW3KJsxF4mUtbVzxB0gPe5cIRifZCEtS9RIc8ZLJ-H7X8cUsfTuLjbEnprw9YxUb4rRUDjlBhAkJ3Qe6qGGT--afbfwMWz3Ft-TCJhmrS2SpqPMRH0A65WUJbp6Cl8E5sl0twxAHgv5mV7_pXxICr8olQ=",
+      "summary": "The Milwaukee Brewers selected left-handed pitcher J.D. Thompson from Vanderbilt with the 59th pick in the 2025 MLB Draft, noting his pitchability and potential as a No. 4 starter."
+    },
+    {
+      "title": "2025 MLB Draft: Left-handed pitcher JD Thompson selected by Brewers in second round",
+      "source": "The Vanderbilt Hustler",
+      "date": "2025-07-13",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHy182Sv3PIceg6Z0AN0ZMUo8A0tyUV8LrK3vSiTgqck8OUs2NPQREFp1JMJhI9ikrHgUE2chfu-wtdvLrvGPM6WygN1HLIMejZdTwzuXbUxNMfrmfQlMT_pQP_dltLuQOhztntp_rm9Rj0OMY-1QL0kOO8Ch1iIZbwU2QhteO-zWa3KEk1JGRmJXE-4Kw1L5IX1Rri3LgbikmM0azdwIlDw1mPIY1DXsbP9zMo0nPqTq0cI5s874=",
+      "summary": "JD Thompson was selected by the Milwaukee Brewers with the 59th pick in the 2025 MLB Draft after a strong junior season at Vanderbilt, where he posted a 4.00 ERA over 90.0 innings pitched."
+    },
+    {
+      "title": "J.D. Thompson whiffs six in Desert Invitational start",
+      "source": "MLB.com",
+      "date": "2025-02-15",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7SL3WVKM0jiJkAkPH-2Nq2GZgMJpc6Fl0GkXqgVpbgd1Bsuxu0jKb4qMTHRLDiVXiqErWHb7IEYKq2usIXiEqC5ZU3_6KnmzlsaHDfwtebYAuRexIEY94nY4K3NAanmLBQ_UwvYbXNxl9Y_TlvHzDtqSAjhSXZCv_fR7ZtDmFQmrcEMnr8jEmMw=",
+      "summary": "J.D. Thompson struck out six batters over 4 2/3 innings during a strong performance for the Vanderbilt Commodores at the MLB Desert Invitational."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "J.D. Thompson, LHP, Milwaukee Brewers",
+      "channel": "FanGraphs",
+      "date": "2025-09-21",
+      "url": "https://www.youtube.com/results?search_query=FanGraphs+J.D.+Thompson",
+      "type": "scouting",
+      "urlType": "search"
+    },
+    {
+      "title": "JD Thompson 2025 College Baseball Highlights! | Vanderbilt Commodores",
+      "channel": "The Hub for Baseball Highlights",
+      "date": "2025-06-05",
+      "url": "https://www.youtube.com/results?search_query=The+Hub+for+Baseball+Highlights+JD+Thompson",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "JD Thompson on his 14 strikeout outing against Georgia",
+      "channel": "Vandy247",
+      "date": "2025-04-18",
+      "url": "https://www.youtube.com/results?search_query=Vandy247+JD+Thompson",
+      "type": "interview",
+      "urlType": "search"
+    },
+    {
+      "title": "JD Thompson, LHP -- Vanderbilt: Week 3 vs. UCLA",
+      "channel": "FUTURE STARS SERIES Powered by PROGRAM 15",
+      "date": "2025-03-04",
+      "url": "https://www.youtube.com/results?search_query=FUTURE+STARS+SERIES+Powered+by+PROGRAM+15+JD+Thompson",
+      "type": "scouting",
+      "urlType": "search"
+    },
+    {
+      "title": "JD Thompson, LHP, 2022",
+      "channel": "Perfect Game Baseball",
+      "date": "2019-06-10",
+      "url": "https://www.youtube.com/results?search_query=Perfect+Game+Baseball+JD+Thompson",
+      "type": "scouting",
+      "urlType": "search"
+    }
+  ]
+}

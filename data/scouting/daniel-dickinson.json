@@ -1,0 +1,122 @@
+{
+  "playerId": "daniel-dickinson",
+  "name": "Daniel Dickinson",
+  "position": "Unknown",
+  "level": "Unknown",
+  "age": null,
+  "updatedAt": "2026-04-04T03:24:09.627Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": 50,
+    "power": 60,
+    "run": 45,
+    "field": 45,
+    "arm": 40,
+    "ofp": 40,
+    "risk": null
+  },
+  "rankings": [
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 30,
+      "grade": null,
+      "listName": "Brewers Top Prospects",
+      "date": "2026-04",
+      "url": "https://www.milb.com/prospects/brewers/daniel-dickinson-801642"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 30,
+      "grade": "40 FV",
+      "listName": "Milwaukee Brewers Top 53 Prospects",
+      "date": "2025-11",
+      "url": "https://blogs.fangraphs.com/milwaukee-brewers-top-53-prospects/"
+    }
+  ],
+  "summary": "Daniel Dickinson is an infielder drafted by the Milwaukee Brewers in the 6th round of the 2025 MLB Draft. He is noted for his consistent contact skills, some pull power, and good instincts at second base and on the base paths. While he possesses some pull power, there have been questions regarding his impact with wood bats, and he struggled defensively at shortstop during fall practice.",
+  "strengths": [
+    "Consistent contact",
+    "Instincts at 2B and on bases",
+    "Some pull power"
+  ],
+  "concerns": [
+    "Wood bat impact questions",
+    "Shortstop defense struggles"
+  ],
+  "eta": "2028-2029",
+  "mediaReferences": [],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "FanGraphs"
+  ],
+  "confidence": "medium",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "Insider Believes Brewers Hit Jackpot With 2025 6th Round Draft Pick",
+      "source": "Reddit",
+      "date": "2026-03-13",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4vNWdhYicP7Gsbxj28MBwbNvvPrzYY7L-s8hxwM4TlJPwh79F4TDA2YIraRckTwef5RsTr3zn1KbuU3dB5QMP-9PwQXKe2UHrtsQoEgKi8fQFMMvf0-1uxVU4hOYx5B_MJFRqC-ZZWnDi98iukBu6Tr_TNSlKZfRuvj_nC22W3AHA-gSQXIrLWDiT6b-2eeP59nBMjVqGqDJhcQ==",
+      "summary": "An insider suggests that Daniel Dickinson, the Brewers' 2025 sixth-round draft pick, is a promising breakout prospect despite a broken hamate bone, due to his strong college performance."
+    },
+    {
+      "title": "Daniel Dickinson Selected in 6th Round of MLB Draft by Milwaukee Brewers",
+      "source": "LSU Athletics",
+      "date": "2025-07-14",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeD2j7CqRLG3QF1C-vWP-PgVqkHkzg0tWF1n8PZKwH7M-NSACb25lN16kciEjhrvJ1aQ5E8biCfNEZ4kmyv8a6FYTn2PAp67OlfcSoRTN9Q89eADoXythKU8EiEWWmh-JGNb1b5LUHNQwdQkA2CS2m6ZcymDGvsdbJ6GyUbIakS7ROadmlXjlJVeTps1WAKDxRsyZfjJvPad769OhYQgtBDTsHmJqhWfPHKg==",
+      "summary": "LSU second baseman Daniel Dickinson was selected by the Milwaukee Brewers in the sixth round (No. 185 overall) of the 2025 MLB Draft after an impressive season, batting .315 with 12 homers and a .982 fielding percentage."
+    },
+    {
+      "title": "Daniel Dickinson assigned to Wisconsin Timber Rattlers",
+      "source": "MiLB.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHB4XYhKerKIXn9AMJb6LytySpFBUR1_W8P_Qlr-L3UaspvLXPErKlWj9cZed2ZqRr7BCxneaQjaq3mJh_Wddky6rolZBI064WA2SRYRvD5AI5bUPKwvMpZTOF17c9ILqgA_nzH2RsBhHFgiVpM4A==",
+      "summary": "Daniel Dickinson, a shortstop, was assigned to the Wisconsin Timber Rattlers from the ACL Brewers, indicating his progression within the Milwaukee Brewers' minor league system."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Daniel Dickinson | 2025 LSU Highlights",
+      "channel": "JDINGER CLIPZ",
+      "date": "2025-07-15",
+      "url": "https://www.youtube.com/results?search_query=JDINGER+CLIPZ+Daniel+Dickinson+2025+LSU+Highlights",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Daniel Dickinson 2025 College Baseball Highlights! | LSU Tigers",
+      "channel": "Baseball is Everything Network",
+      "date": "2025-06-24",
+      "url": "https://www.youtube.com/results?search_query=Baseball+is+Everything+Network+Daniel+Dickinson+2025+College+Baseball+Highlights!+LSU+Tigers",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Keys to Success on the Field says LSU Baseball's Daniel Dickinson",
+      "channel": "NOLA.com",
+      "date": "2025-06-07",
+      "url": "https://www.youtube.com/results?search_query=NOLA.com+Keys+to+Success+on+the+Field+says+LSU+Baseball%27s+Daniel+Dickinson",
+      "type": "interview",
+      "urlType": "search"
+    },
+    {
+      "title": "LSU baseball's Daniel Dickinson home run vs. North Alabama",
+      "channel": "R McElhaney",
+      "date": "2025-03-09",
+      "url": "https://www.youtube.com/results?search_query=R+McElhaney+LSU+baseball%27s+Daniel+Dickinson+home+run+vs.+North+Alabama",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Daniel Dickinson powers LSU to season opener win against Purdue Fort Wayne",
+      "channel": "LSU Tiger TV",
+      "date": "2025-02-15",
+      "url": "https://www.youtube.com/results?search_query=LSU+Tiger+TV+Daniel+Dickinson+powers+LSU+to+season+opener+win+against+Purdue+Fort+Wayne",
+      "type": "highlights",
+      "urlType": "search"
+    }
+  ]
+}

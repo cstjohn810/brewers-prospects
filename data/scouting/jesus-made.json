@@ -1,0 +1,303 @@
+{
+  "playerId": "jesus-made",
+  "name": "Jesús Made",
+  "position": "SS",
+  "level": "AA",
+  "age": 18,
+  "updatedAt": "2026-04-04T02:15:54.379Z",
+  "grades": {
+    "hit": 70,
+    "power": 60,
+    "run": 60,
+    "field": 55,
+    "arm": 60,
+    "ofp": 65,
+    "risk": "Medium"
+  },
+  "rankings": [
+    {
+      "source": "FanGraphs",
+      "rank": 2,
+      "systemRank": 1,
+      "grade": "65 FV",
+      "listName": "The Board (2026 Preseason)",
+      "date": "2026-04",
+      "url": "https://www.fangraphs.com/prospects/the-board/2026-prospect-list/summary?sort=0,1&filter=0"
+    },
+    {
+      "source": "Baseball America",
+      "rank": 4,
+      "systemRank": 1,
+      "grade": "70/Average",
+      "listName": "Overall Prospects",
+      "date": "2026-03",
+      "url": "https://www.baseballamerica.com/players/143586/jesus-made/"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": 3,
+      "systemRank": 1,
+      "grade": "60",
+      "listName": "Top 100 Prospects",
+      "date": "2026-01",
+      "url": "https://www.milb.com/prospects/jesus-made-688720"
+    },
+    {
+      "source": "The Athletic",
+      "rank": 5,
+      "systemRank": null,
+      "grade": null,
+      "listName": "Overall Prospects",
+      "date": "2025-07",
+      "url": null
+    }
+  ],
+  "summary": "Jesús Made is a switch-hitting shortstop prospect for the Milwaukee Brewers, known for his well-rounded offensive profile. He boasts polished hitting ability, developing power, and plus speed, making him a dynamic threat. Made ascended quickly through the Brewers' system, reaching Double-A as an 18-year-old in 2025.",
+  "strengths": [
+    "Polished hitting ability",
+    "Developing power",
+    "Plus speed",
+    "Advanced plate discipline",
+    "Athleticism"
+  ],
+  "concerns": [
+    "Defensive instincts at shortstop",
+    "May shift to third or second base"
+  ],
+  "eta": "2027",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Brewers No. 1 Prospect Jesús Made Reacts After Being Sent to Minors",
+      "source": "Sports Illustrated",
+      "date": "2026-03",
+      "url": "https://www.si.com/mlb/brewers/news/brewers-no-1-prospect-jesus-made-reacts-after-being-sent-to-minors"
+    },
+    {
+      "type": "article",
+      "title": "Brewers No. 1 Prospect Turns Heads in First MLB Camp",
+      "source": "Heavy Sports (citing Milwaukee Journal Sentinel)",
+      "date": "2026-03",
+      "url": "https://heavy.com/sports/milwaukee-brewers/jesus-made-spring-training-mlb-camp/"
+    },
+    {
+      "type": "article",
+      "title": "Jesus Made Stats & Scouting Report",
+      "source": "Baseball America",
+      "date": "2026-03",
+      "url": "https://www.baseballamerica.com/players/143586/jesus-made/"
+    },
+    {
+      "type": "article",
+      "title": "Jesús Made Stats, Age, Position, Height, Weight, Fantasy & News",
+      "source": "MiLB.com",
+      "date": "2026-03",
+      "url": "https://www.milb.com/player/jesus-made-688720"
+    },
+    {
+      "type": "article",
+      "title": "Jesús Made Player Card",
+      "source": "Baseball Prospectus",
+      "date": "2026-02",
+      "url": "https://www.baseballprospectus.com/player/688720/jesus-made/"
+    },
+    {
+      "type": "article",
+      "title": "Jesús Made: Brewers 2025 Minor League Player Of The Year",
+      "source": "Baseball America",
+      "date": "2025-09",
+      "url": "https://www.baseballamerica.com/stories/jesus-made-brewers-2025-minor-league-player-of-the-year/"
+    },
+    {
+      "type": "article",
+      "title": "How Jesús Made's Poise Sets Him Apart At Only 18 Years Old",
+      "source": "Baseball America",
+      "date": "2025-07",
+      "url": "https://www.baseballamerica.com/stories/how-jesus-mades-poise-sets-him-apart-at-only-18-years-old/"
+    },
+    {
+      "type": "youtube",
+      "title": "Brewers Prospect Breakdown: Jesus Made",
+      "source": "Prospects Live",
+      "date": "2025-02",
+      "url": "https://www.youtube.com/watch?v=F3G3Yp76N5A"
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "FanGraphs",
+    "Baseball Prospectus",
+    "Prospects Live",
+    "Heavy Sports",
+    "Sports Illustrated",
+    "Wikipedia",
+    "Reddit"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [
+    {
+      "title": "2026 Milwaukee Brewers Top Prospects Ranking - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-top-prospect-rankings/jesus-made-r56/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Milwaukee Brewers 2026 Top Prospects, No. 1: Jesús Made",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/milwaukee-brewers-2026-top-prospects-no-1-jesús-made-r4235/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Jesús Made&#x27;s Front Leg Tendencies Are The Only Thing Holding Him Back",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/jesús-mades-front-leg-tendencies-are-the-only-thing-holding-him-back-r4071/",
+      "date": "2026-01",
+      "type": "article"
+    },
+    {
+      "title": "Why Jesús Made Is the Brewers&#x27; Future Shortstop",
+      "url": "https://brewerfanatic.com/videos/milwaukee-brewers/why-jesús-made-is-the-brewers-future-shortstop-r368/",
+      "date": "2025-12",
+      "type": "article"
+    },
+    {
+      "title": "Top Brewers Prospect Jesús Made Promoted To Double-A Biloxi",
+      "url": "https://brewerfanatic.com/forums/topic/46033-top-brewers-prospect-jesús-made-promoted-to-double-a-biloxi/",
+      "date": "2025-09",
+      "type": "forum"
+    },
+    {
+      "title": "Brewer Fanatic 2024 Offseason Top 20 Prospects - No. 6: Jesús Made",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewer-fanatic-2024-offseason-top-20-prospects-no-6-jesús-made-r2751/",
+      "date": "2024-11",
+      "type": "article"
+    }
+  ],
+  "recentNews": [
+    {
+      "title": "Jesús Made's leadoff double",
+      "source": "MLB.com",
+      "date": "2026-03-22",
+      "url": "https://www.mlb.com/brewers/video/jesus-made-s-leadoff-double-x2914",
+      "summary": "Jesús Made hit a leadoff double in a Milwaukee Brewers game."
+    },
+    {
+      "title": "Jesús Made's RBI single",
+      "source": "MLB.com",
+      "date": "2026-03-20",
+      "url": "https://www.mlb.com/brewers/video/jesus-made-s-rbi-single-x4025",
+      "summary": "Jesús Made hit an RBI single for the Brewers Prospects in the bottom of the 4th inning to tie the game."
+    },
+    {
+      "title": "Brewers No. 1 Prospect Jesús Made Reacts After Being Sent to Minors",
+      "source": "Sports Illustrated",
+      "date": "2026-03-10",
+      "url": "https://www.si.com/mlb/brewers/news/brewers-no-1-prospect-jesus-made-reacts-after-being-sent-to-minors",
+      "summary": "Jesús Made, the Milwaukee Brewers' top prospect, was reassigned to minor-league camp after his first major league spring training, where he gained valuable experience and identified areas for defensive improvement."
+    },
+    {
+      "title": "Jesús Made triples in the 6th",
+      "source": "MLB.com",
+      "date": "2026-02-25",
+      "url": "https://www.mlb.com/brewers/video/jesus-made-triples-in-the-6th-x6754",
+      "summary": "Jesús Made hit a triple in the 6th inning of a Milwaukee Brewers spring training game."
+    },
+    {
+      "title": "Brewers invited non-roster SS Jesús Made to spring training",
+      "source": "Baseball Prospectus",
+      "date": "2026-01-27",
+      "url": "https://www.baseballprospectus.com/player/jesus-made/",
+      "summary": "Milwaukee Brewers extended an invitation to non-roster shortstop Jesús Made for spring training in 2026."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Will Jesus Made Debut With The Brewers In 2026?",
+      "channel": "Brewer Fanatic",
+      "date": "2026-03-24",
+      "url": "https://www.youtube.com/results?search_query=Brewer+Fanatic+Will+Jesus+Made+Debut+With+The+Brewers+In+2026",
+      "type": "other",
+      "urlType": "search"
+    },
+    {
+      "title": "Jesús Made's leadoff double",
+      "channel": "MLB.com",
+      "date": "2026-03-22",
+      "url": "https://www.mlb.com/brewers/video/jesus-made-s-leadoff-double-x2914",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Jesús Made's RBI single",
+      "channel": "MLB.com",
+      "date": "2026-03-20",
+      "url": "https://www.mlb.com/brewers/video/jesus-made-s-rbi-single-x4025",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Jesús Made triples in the 6th",
+      "channel": "MLB.com",
+      "date": "2026-02-25",
+      "url": "https://www.mlb.com/brewers/video/jesus-made-triples-in-the-6th-x6754",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Jesus Made 2025 Highlights",
+      "channel": "Baseball is Everything Network",
+      "date": "2025-11-04",
+      "url": "https://www.youtube.com/results?search_query=Baseball+is+Everything+Network+Jesus+Made+2025+Highlights",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Jesus Made 2025 Minor League Highlights!",
+      "channel": "The Baseball Archives",
+      "date": "2025-09-26",
+      "url": "https://www.youtube.com/results?search_query=The+Baseball+Archives+Jesus+Made+2025+Minor+League+Highlights",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Jesús Made homers for Double-A Biloxi",
+      "channel": "MiLB",
+      "date": "2025-09-18",
+      "url": "https://www.youtube.com/results?search_query=MiLB+Jesús+Made+homers+for+Double-A+Biloxi",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Jesús Made hits a two-run triple in his debut",
+      "channel": "MiLB",
+      "date": "2025-09-09",
+      "url": "https://www.youtube.com/results?search_query=MiLB+Jesús+Made+hits+a+two-run+triple+in+his+debut",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Jesús Made's backhanded grab",
+      "channel": "Minor League Baseball",
+      "date": "2025-08-29",
+      "url": "https://www.youtube.com/results?search_query=Minor+League+Baseball+Jesús+Made%27s+backhanded+grab",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Jesús Made collects his second four-hit game",
+      "channel": "Minor League Baseball",
+      "date": "2025-08-28",
+      "url": "https://www.youtube.com/results?search_query=Minor+League+Baseball+Jesús+Made+collects+his+second+four-hit+game",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Jesús Made, INF, Milwaukee Brewers",
+      "channel": "FanGraphs",
+      "date": "2025-05-06",
+      "url": "https://www.youtube.com/results?search_query=FanGraphs+Jesús+Made+INF+Milwaukee+Brewers",
+      "type": "scouting",
+      "urlType": "search"
+    }
+  ]
+}

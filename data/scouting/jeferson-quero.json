@@ -1,0 +1,177 @@
+{
+  "playerId": "jeferson-quero",
+  "name": "Jeferson Quero",
+  "position": "C",
+  "level": "ACL",
+  "age": 23,
+  "updatedAt": "2026-04-04T02:13:04.976Z",
+  "grades": {
+    "hit": 50,
+    "power": 50,
+    "run": 30,
+    "field": 55,
+    "arm": 45,
+    "ofp": 50,
+    "risk": "Average"
+  },
+  "rankings": [
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 9,
+      "grade": "50/Average",
+      "listName": "Brewers Organization Prospect Rankings",
+      "date": "2026-04",
+      "url": "https://www.baseballamerica.com/prospects/jeferson-quero-stats-scouting-report/"
+    },
+    {
+      "source": "Prospect361",
+      "rank": null,
+      "systemRank": null,
+      "grade": null,
+      "listName": "2026 Fantasy Positional Rankings (Catchers)",
+      "date": "2026-03",
+      "url": "https://www.prospect361.com/2026-fantasy-positional-rankings/"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": 76,
+      "systemRank": null,
+      "grade": "50",
+      "listName": "2026 Top 100 Prospects",
+      "date": "2026-02",
+      "url": "https://www.fangraphs.com/prospects/the-board/2026-top-100-prospects/summary?sort=-1,1&type=0"
+    },
+    {
+      "source": "FanGraphs (OOPSY)",
+      "rank": 89,
+      "systemRank": null,
+      "grade": null,
+      "listName": "OOPSY 2026 Top 100 Prospects",
+      "date": "2026-02",
+      "url": "https://www.fangraphs.com/projections/prospects/oopsy-2026-top-100-prospects/"
+    },
+    {
+      "source": "Just Baseball",
+      "rank": 85,
+      "systemRank": null,
+      "grade": "50",
+      "listName": "2026 Top 100 MLB Prospects",
+      "date": "2026-02",
+      "url": "https://justbaseball.com/mlb-draft/2026-top-100-mlb-prospects/"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 8,
+      "grade": null,
+      "listName": "Brewers Top Prospects",
+      "date": "2026",
+      "url": "null"
+    }
+  ],
+  "summary": "Jeferson Quero is a Milwaukee Brewers catching prospect known for his exceptional defensive skills. He made his MLB debut on March 29, 2026, despite a recent history of injuries, including a torn labrum in 2024 and a hamstring strain in 2025. These injuries led to some diminishment in his arm strength, but he still projects as an everyday catcher with an average hit tool and developing power.",
+  "strengths": [
+    "Exceptional defensive catcher",
+    "Good receiver and blocker",
+    "High baseball IQ and leadership",
+    "Average raw power, improving hit tool"
+  ],
+  "concerns": [
+    "Recent injury history (shoulder, hamstring)",
+    "Diminished arm strength post-injury",
+    "Aggressive plate approach",
+    "Below-average runner"
+  ],
+  "eta": "2026-03",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Brewers call up top catching prospect Quero; Vaughn (broken hamate bone) to IL",
+      "source": "MLB.com",
+      "date": "2026-03",
+      "url": "https://www.mlb.com/prospects/brewers/jeferson-quero-684022"
+    },
+    {
+      "type": "podcast",
+      "title": "Brewers 2025 MLB Prospects Deep Dive",
+      "source": "Baseball America (YouTube)",
+      "date": "2025-02",
+      "url": "https://www.youtube.com/watch?v=F32e2cQ33O0"
+    },
+    {
+      "type": "youtube",
+      "title": "Brewers Prospect Breakdown: Jeferson Quero",
+      "source": "Prospects Live (YouTube)",
+      "date": "2025-02",
+      "url": "https://www.youtube.com/watch?v=5xP_Y56h0oM"
+    }
+  ],
+  "sourcesConsulted": [
+    "Baseball America",
+    "MLB Pipeline",
+    "FanGraphs",
+    "Just Baseball",
+    "Prospect361",
+    "MiLB.com",
+    "Yardbarker",
+    "KFGO",
+    "Sports Illustrated",
+    "Baseball Almanac",
+    "CBS Sports",
+    "Baseball Prospectus"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [
+    {
+      "title": "Jeferson Quero - 2026 Milwaukee Brewers Top Prospects Ranking - Brewer ...",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-top-prospect-rankings/jeferson-quero-r10/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Jeferson Quero Called Up To Brewers, Andrew Vaughn To Injured List.",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-free-agents-trade-rumors/rumors/jeferson-quero-called-up-to-brewers-andrew-vaughn-to-injured-list-r192/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Jesus Made Reassigned, Jeferson Quero Optioned in Latest Brewers Camp ...",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-free-agents-trade-rumors/notes/jesus-made-reassigned-jeferson-quero-optioned-in-latest-brewers-camp-cuts-r188/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Milwaukee Brewers 2026 Top Prospects, No. 7: Jeferson Quero",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/milwaukee-brewers-2026-top-prospects-no-7-jeferson-quero-r4212/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Top Prospects Jesus Made, Jeferson Quero Lead Brewers&#x27; Spring Breakout ...",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/top-prospects-jesus-made-jeferson-quero-lead-brewers-spring-breakout-player-pool-r4247/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Depth Check: Examining The Brewers At Catcher In 2026",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/depth-check-examining-the-brewers-at-catcher-in-2026-r3969/",
+      "date": "2025-11",
+      "type": "article"
+    },
+    {
+      "title": "Is Jeferson Quero Ready to Back Up William Contreras?",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/is-jeferson-quero-ready-to-back-up-william-contreras-r3950/",
+      "date": "2025-11",
+      "type": "article"
+    },
+    {
+      "title": "Brewer Fanatic 2024 Offseason Top 20 Prospect - No. 2: Jeferson Quero",
+      "url": "https://brewerfanatic.com/forums/topic/43832-brewer-fanatic-2024-offseason-top-20-prospect-no-2-jeferson-quero/",
+      "date": "2024-11",
+      "type": "forum"
+    }
+  ],
+  "recentNews": [],
+  "videoLinks": []
+}

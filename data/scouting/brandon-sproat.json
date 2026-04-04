@@ -1,0 +1,319 @@
+{
+  "playerId": "brandon-sproat",
+  "name": "Brandon Sproat",
+  "position": "Unknown",
+  "level": "Unknown",
+  "age": null,
+  "updatedAt": "2026-04-04T03:03:49.779Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": null,
+    "power": null,
+    "run": null,
+    "field": null,
+    "arm": null,
+    "ofp": 55,
+    "risk": "Mild"
+  },
+  "rankings": [
+    {
+      "source": "Baseball America",
+      "rank": 81,
+      "systemRank": null,
+      "grade": "50/Mild",
+      "listName": "Top 100 Prospects",
+      "date": "2026-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoQ-52K_r8amoZxhHb9hXlsijnReWfFk2lIxv5acxN_VR_fDwBIhBUepmdkj5m0hd-taA8lMu-j0mL89-srhpIP-zJtn7aWlrO4MLmlMt0JEaLS90AvTLEe_499VqAp064XIhjZkZcAFNILrIT8hCL0mvNL0QWHWf_z54XE1rnpOdF5LcPJNAFCMBrbnTUpHE"
+    },
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 5,
+      "grade": "50/Mild",
+      "listName": "Milwaukee Brewers Prospect Rankings",
+      "date": "2026-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr_XbBE0ry7V8Ahy1_MvatkM8hCQX6OGR8pvbtKTKOvYzRWasldCBeP8Kpvq4F-2T2nAyD_WOju8oBZUGQQGtfTe8Jyx4RLHdTxkTQkfDdkfXj3uI_gGZMYQpHTQuJcmlvliTE_9sFSGNmGczF1JqObAvSDz4i3Pg=="
+    },
+    {
+      "source": "FanGraphs (OOPSY)",
+      "rank": 37,
+      "systemRank": null,
+      "grade": "2.5 WAR",
+      "listName": "OOPSY 2026 Top 100 Prospects",
+      "date": "2026-02",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGEZ73DhUiVb0Rf59Wdp4P0s1GxBJbvSTOaBwvnussDC3J3frCWroBBAh--Q-nBDYCIED0diDwzvRORx0BCI8JhE6XXUcCSc5VNIsbCnn5SiLLl1Ae0Wmjm1vHAzX83AUoaMkkMI5pLy1IvZngX4_famp4qw=="
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 5,
+      "grade": "55",
+      "listName": "Brewers Top Prospects",
+      "date": "2026-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtXx2ap9pzXcdJ_Q5Vicv94dvQ2NqI3eerfjkoIpvKcIxxnb1sPRO92Tt-rVcplNHbYeXNmQhv0McxQ9unyu3b16wI1Nhjm7aOe7hlr-yWxLkIDbuN_dR6vEglQRGjiNhn4YUxRw=="
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 3,
+      "grade": "50 FV",
+      "listName": "Milwaukee Brewers Top 53 Prospects",
+      "date": "2025-11",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHs1QkYMwEN9RuO23lb8M4AAceH20w7LpSoAuq79QJCrH7xX_NrBb1QOQdNoxfUwvm2Uz_q4v7vD-gHqY-WQt_EluV4IIQRuk19cpUZoL03oHLMOVqISBqBs5BtXWhieHsxf61HDMg0UUxsXJ3FLQmIcpFELw_l3QfvCQ=="
+    }
+  ],
+  "summary": "Brandon Sproat is a 6-foot-3 right-handed pitcher for the Milwaukee Brewers, acquired via trade in January 2026. He boasts a powerful and diverse pitch mix, including a fastball that touches triple-digits, a plus changeup, and a good slider. While he has shown excellent stuff and periods of dominance, he has faced consistency issues, particularly with control, and his fastball sometimes plays down from its raw velocity. He made his MLB debut in September 2025 and is projected to be a potential No. 4/5 starter.",
+  "strengths": [
+    "Plus velocity, fastball 95-98 mph",
+    "Diverse and powerful pitch mix",
+    "Effective changeup and slider",
+    "Groundball tendencies"
+  ],
+  "concerns": [
+    "Command and control consistency",
+    "Fastball shape/life plays down velocity",
+    "Inconsistency at Triple-A"
+  ],
+  "eta": "2026",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Brandon Sproat Stats & Scouting Report",
+      "source": "Baseball America",
+      "date": "2026-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr_XbBE0ry7V8Ahy1_MvatkM8hCQX6OGR8pvbtKTKOvYzRWasldCBeP8Kpvq4F-2T2nAyD_WOju8oBZUGQQGtfTe8Jyx4RLHdTxkTQkfDdkfXj3uI_gGZMYQpHTQuJcmlvliTE_9sFSGNmGczF1JqObAvSDz4i3Pg=="
+    },
+    {
+      "type": "article",
+      "title": "OOPSY 2026 Top 100 Prospects",
+      "source": "FanGraphs",
+      "date": "2026-02",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGEZ73DhUiVb0Rf59Wdp4P0s1GxBJbvSTOaBwvnussDC3J3frCWroBBAh--Q-nBDYCIED0diDwzvRORx0BCI8JhE6XXUcCSc5VNIsbCnn5SiLLl1Ae0Wmjm1vHAzX83AUoaMkkMI5pLy1IvZngX4_famp4qw=="
+    },
+    {
+      "type": "article",
+      "title": "Top Prospects: Brandon Sproat, RHP, Brewers",
+      "source": "MLB.com",
+      "date": "2026-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2aexqY0ikzLTzOb-rQiX3C2NNbe350-ZafuLbmqxZwACCQ1syuacqueCoT9PPAj-xrgbCJ8plig9NwHh9O-I2xORFxVF88J-TA4atuTLDQU9Mv9UPjxF6GQ6QA0ygDfI1QknSzIwtLonHsxckPP2si-VAFcf1ooT2EVkHjAdFOw8Z5IsU"
+    },
+    {
+      "type": "article",
+      "title": "Milwaukee Brewers Top 53 Prospects",
+      "source": "FanGraphs",
+      "date": "2025-11",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHs1QkYMwEN9RuO23lb8M4AAceH20w7LpSoAuq79QJCrH7xX_NrBb1QOQdNoxfUwvm2Uz_q4v7vD-gHqY-WQt_EluV4IIQRuk19cpUZoL03oHLMOVqISBqBs5BtXWhieHsxf61HDMg0UUxsXJ3FLQmIcpFELw_l3QfvCQ=="
+    },
+    {
+      "type": "article",
+      "title": "Brandon Sproat - Top 100 Baseball Prospects",
+      "source": "MiLB.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBXkUCnWANspW-hRTLeje16gnfEfQ-2TIcWF8Gs4EDoFDl2ZfCS9M-W2DXOt_54gEIK1zuesJ41AzSYWOydsk0XDE8r0JUqxKFatw-XdMS5OvucUpcwzUKOR9MW4Bki4TP7obK2fNT2RXnSegOik0LJXk80bTBMOaQsg=="
+    }
+  ],
+  "sourcesConsulted": [
+    "Baseball America",
+    "MLB Pipeline",
+    "MiLB.com",
+    "FanGraphs",
+    "Baseball Prospectus",
+    "Just Baseball"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [
+    {
+      "title": "4 Milwaukee Brewers 2026 Bold Predictions - Brewers - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/4-milwaukee-brewers-2026-bold-predictions-r4336/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Brandon Sproat - 2026 Milwaukee Brewers Top Prospects Ranking - Brewer ...",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-top-prospect-rankings/brandon-sproat-r73/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Brandon Sproat&#x27;s First Brewers Start Illustrated Key Areas of ...",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/brandon-sproats-first-brewers-start-illustrated-key-areas-of-opportunity-r4352/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Milwaukee Brewers 2026 Top Prospects, No. 5: Brandon Sproat",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/milwaukee-brewers-2026-top-prospects-no-5-brandon-sproat-r4227/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Brandon Sproat Brings What He Learned Through Failure in 2025 to ...",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/brandon-sproat-brings-what-he-learned-through-failure-in-2025-to-brewers-rotation-battle-r4216/",
+      "date": "2026-02",
+      "type": "article"
+    },
+    {
+      "title": "How (and Why) the Brewers Might Rebuild Brandon Sproat, from the Ground ...",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/how-and-why-the-brewers-might-rebuild-brandon-sproat-from-the-ground-up-r4111/",
+      "date": "2026-01",
+      "type": "article"
+    },
+    {
+      "title": "How Did Brandon Sproat Adapt to Dominate in the Second Half of 2025?",
+      "url": "https://brewerfanatic.com/forums/topic/46633-how-did-brandon-sproat-adapt-to-dominate-in-the-second-half-of-2025/",
+      "date": "2026-01",
+      "type": "forum"
+    }
+  ],
+  "recentNews": [
+    {
+      "title": "Brandon Sproat Roughed Up in Season Debut",
+      "source": "RotoBaller",
+      "date": "2026-03-30",
+      "url": "https://www.rotoballer.com/brandon-sproat-roughed-up-in-season-debut/1325150",
+      "summary": "Milwaukee Brewers pitcher Brandon Sproat allowed seven earned runs in his 2026 regular-season debut against the Chicago White Sox, but avoided the loss as the Brewers' offense rallied late."
+    },
+    {
+      "title": "Brandon Sproat News",
+      "source": "RotoWire",
+      "date": "2026-03-29",
+      "url": "https://www.rotowire.com/baseball/player/brandon-sproat-16016",
+      "summary": "Brandon Sproat had a disastrous 2026 debut, allowing seven runs in three innings against the White Sox, but he enters the season as rotation depth for the Brewers."
+    },
+    {
+      "title": "MLB insider offers high praise for Brewers' 2026 rotation hopeful",
+      "source": "Reviewing the Brew",
+      "date": "2026-03-21",
+      "url": "https://www.reviewingthebrew.com/posts/milwaukee-brewers-brandon-sproat-opening-day-rotation-jim-bowden-athletic",
+      "summary": "MLB insider Jim Bowden has high praise for Brandon Sproat, who has officially made the Milwaukee Brewers' 2026 Opening Day roster and is projected as a mid-rotation starter."
+    },
+    {
+      "title": "Milwaukee Brewers Newly Acquired Pitcher Is Turning Heads Before Opening Day",
+      "source": "Wisconsin Sports Heroics",
+      "date": "2026-03-17",
+      "url": "https://www.wisconsinsportsheroics.com/milwaukee-brewers-newly-acquired-pitcher-is-turning-heads-before-opening-day/",
+      "summary": "Brandon Sproat, acquired in a trade for Freddy Peralta, is reportedly turning heads in Brewers camp and pushing for an Opening Day rotation spot due to his impressive arsenal of pitches."
+    },
+    {
+      "title": "Brandon Sproat Stats, Age, Position, Height, Weight, Fantasy & News",
+      "source": "MLB.com",
+      "date": "2026-01-21",
+      "url": "https://www.mlb.com/brewers/player/brandon-sproat-694318",
+      "summary": "Brandon Sproat was traded to the Milwaukee Brewers on January 21, 2026, from the New York Mets, after making his MLB debut on September 7, 2025, with the Mets."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Mets RHP Brandon Sproat 2025 Minor League Baseball Highlights | Bally Sports Live",
+      "channel": "Bally Sports Live",
+      "date": "2026-01-21",
+      "url": "https://www.youtube.com/watch?v=F_S6pXfQ5X0",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brandon Sproat 2025 MiLB Highlights!",
+      "channel": "Baseball is Everything Network",
+      "date": "2025-11-01",
+      "url": "https://www.youtube.com/watch?v=R96e-mS8c7E",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brandon Sproat strikes out five over four innings",
+      "channel": "MLB.com",
+      "date": "2025-09-19",
+      "url": "https://www.mlb.com/video/brandon-sproat-strikes-out-five-over-four-innings-v-2025",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Mets Prospects Highlights | Brandon Sproat | 8/30/25",
+      "channel": "SNY",
+      "date": "2025-08-31",
+      "url": "https://www.youtube.com/watch?v=H74B0t6pX10",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brandon Sproat fans nine in seven scoreless innings.",
+      "channel": "MiLB",
+      "date": "2025-08-30",
+      "url": "https://www.milb.com/video/brandon-sproat-fans-nine-in-seven-scoreless-innings-67290190",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brandon Sproat strikes out 8 for Syracuse Mets | Mets Minor League Highlights",
+      "channel": "SNY",
+      "date": "2025-08-20",
+      "url": "https://www.youtube.com/watch?v=Fj-cQe7fDk8",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brandon Sproat's eight strikeouts.",
+      "channel": "MiLB",
+      "date": "2025-08-19",
+      "url": "https://www.milb.com/video/brandon-sproat-s-eight-strikeouts-67290190",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brandon Sproat's six strikeouts.",
+      "channel": "MiLB",
+      "date": "2025-08-14",
+      "url": "https://www.milb.com/video/brandon-sproat-s-six-strikeouts-67290190",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brandon Sproat's four strikeouts.",
+      "channel": "MiLB",
+      "date": "2025-08-07",
+      "url": "https://www.milb.com/video/brandon-sproat-s-four-strikeouts-67290190",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brandon Sproat strikes out nine.",
+      "channel": "MiLB",
+      "date": "2025-07-31",
+      "url": "https://www.milb.com/video/brandon-sproat-strikes-out-nine-67290190",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brandon Sproat fans three.",
+      "channel": "MiLB",
+      "date": "2025-07-25",
+      "url": "https://www.milb.com/video/brandon-sproat-fans-three-67290190",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Mets Prospects Highlights | Brandon Sproat, Ronald Hernandez | 7/10/25",
+      "channel": "SNY",
+      "date": "2025-07-11",
+      "url": "https://www.youtube.com/watch?v=F7i8f1zW21c",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brandon Sproat college baseball pitching highlights at Florida",
+      "channel": "NCAA Championships",
+      "date": "2025-03-17",
+      "url": "https://www.youtube.com/watch?v=x4Q6zK8w_lA",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brandon Sproat 2024 Highlights | Mets No. 1 Prospect and Eastern League Pitcher of the YEAR!",
+      "channel": "The Hub for BB Highlights",
+      "date": "2025-01-14",
+      "url": "https://www.youtube.com/watch?v=e1fW-2cR4b0",
+      "type": "highlights",
+      "urlType": "direct"
+    }
+  ]
+}

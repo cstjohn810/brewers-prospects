@@ -1,0 +1,99 @@
+{
+  "playerId": "brock-wilken",
+  "name": "Brock Wilken",
+  "position": "3B",
+  "level": "AA",
+  "age": 23,
+  "updatedAt": "2026-04-04T03:06:18.799Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": 40,
+    "power": 60,
+    "run": 30,
+    "field": 40,
+    "arm": 60,
+    "ofp": 45,
+    "risk": "Average"
+  },
+  "rankings": [
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 20,
+      "grade": "45/Average",
+      "listName": "Organization Prospect Rankings",
+      "date": "2026-03",
+      "url": "https://www.baseballamerica.com/players/141870/brock-wilken/"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 18,
+      "grade": "45",
+      "listName": "Brewers Top Prospects",
+      "date": "2026-01",
+      "url": "https://www.milb.com/player/brock-wilken-694385"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 27,
+      "grade": "40 FV",
+      "listName": "Milwaukee Brewers Top 53 Prospects",
+      "date": "2025-11",
+      "url": "https://blogs.fangraphs.com/milwaukee-brewers-top-53-prospects/"
+    }
+  ],
+  "summary": "Brock Wilken is a powerful right-handed hitting third baseman known for his significant raw power and plate discipline. He has faced multiple injuries early in his professional career, including a facial fracture in 2024 and a dislocated kneecap in 2025, which have impacted his development. While he possesses a plus arm for third base, questions remain about his hit tool consistency and long-term defensive fit at the position.",
+  "strengths": [
+    "Raw power",
+    "Plate discipline",
+    "Plus arm strength"
+  ],
+  "concerns": [
+    "Hit tool consistency",
+    "Swing-and-miss",
+    "Lateral mobility at 3B",
+    "Injury history"
+  ],
+  "eta": "2026-2027",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Brock Wilken Stats & Scouting Report",
+      "source": "Baseball America",
+      "date": "2026-03",
+      "url": "https://www.baseballamerica.com/players/141870/brock-wilken/"
+    },
+    {
+      "type": "article",
+      "title": "Top Prospects: Brock Wilken, 3B, Brewers",
+      "source": "MLB.com",
+      "date": "2026-01",
+      "url": "https://www.mlb.com/brewers/video/top-prospects-brock-wilken-3b-brewers-01-19-2026-mlb-com"
+    },
+    {
+      "type": "article",
+      "title": "Milwaukee Brewers Top 53 Prospects",
+      "source": "FanGraphs",
+      "date": "2025-11",
+      "url": "https://blogs.fangraphs.com/milwaukee-brewers-top-53-prospects/"
+    },
+    {
+      "type": "article",
+      "title": "Road to The Show™: Milwaukee Brewers Brock Wilken",
+      "source": "MiLB.com",
+      "date": null,
+      "url": "https://www.milb.com/news/road-to-the-show-milwaukee-brewers-brock-wilken"
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "FanGraphs"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [],
+  "recentNews": [],
+  "videoLinks": []
+}

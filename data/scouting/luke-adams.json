@@ -1,0 +1,237 @@
+{
+  "playerId": "luke-adams",
+  "name": "Luke Adams",
+  "position": "3B",
+  "level": "AA",
+  "age": 21,
+  "updatedAt": "2026-04-04T02:47:43.391Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": 45,
+    "power": 55,
+    "run": 40,
+    "field": 40,
+    "arm": 50,
+    "ofp": 50,
+    "risk": "Average"
+  },
+  "rankings": [
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 14,
+      "grade": "50/Average",
+      "listName": "Milwaukee Brewers Top Prospects",
+      "date": "2026-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCFdyrNKVRvEWzGGpr601isEusxf34TZ-Biiig7_Xey5ZfhC7efjl_pcFMVi4BItMlaIn6r8JILvvabp9qViKe2R86eQD_-vISX-wpI9mhS22zPjFDn26q_V-04_tZEt85Nmqm7tx9Gp8_UPqQu9loQJhn"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 13,
+      "grade": "45",
+      "listName": "Brewers Top 30 Prospects",
+      "date": "2026",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSmiw117ej8B-BpBUtjmtjZ82g6n1qSWG_BbZDYzloUmd5CNZpdAVOSMDZXOf8IV8Z4Gxg5thHazswdwr8cTWzKxaDQttQftTUfP24t87_1XE57eSL1zB1DL9CporodbpBbfXiCrIJn1NY7HQO6YvPpLHwtvt7"
+    },
+    {
+      "source": "Prospect Savant (citing FanGraphs)",
+      "rank": null,
+      "systemRank": 29,
+      "grade": null,
+      "listName": "2026 Report",
+      "date": "2026",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHbhH-NjQe_RGRLgRtzy3SHpRccICkpC88Nuyn3yhQ0iAXyvWp1u8reahZZ4gwaBwNCW0fD3ZBEjew5lDbF0zYzErFxJHF57qn8C_JDKntrtkOkSH5cEts9aaEOPENKyO7znTWGgY="
+    },
+    {
+      "source": "FanGraphs The Board",
+      "rank": null,
+      "systemRank": 29,
+      "grade": "40 FV",
+      "listName": "Milwaukee Brewers Top Prospects",
+      "date": "2025-11",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7f18kmZkUGCzOv8CL7yibj8E7bFxmveKqBsXXwGmqeYndLfwM0Yfw--H3oQFRODTPYhwBtLGQXhthlhbkq2TlLngcelIZKTN3eUKn3yHZ_OLFy9tHi32erZk7Eg7wEI9mKAQmZfrAhWv4ExjDqwRK4CmRDH39zU4V"
+    }
+  ],
+  "summary": "Luke Adams is a polarizing Brewers third base prospect known for his exceptional plate discipline, high on-base percentage, and plus raw power. His unorthodox swing and passive approach have historically limited his in-game power, and he is seen as a below-average defender at third base, likely projecting to first base or left field. He is expected to reach Triple-A in 2026 with a potential MLB debut by the end of the year or in 2027.",
+  "strengths": [
+    "Exceptional plate discipline",
+    "High on-base percentage",
+    "Plus raw power"
+  ],
+  "concerns": [
+    "Unorthodox swing limits game power",
+    "Below-average defense at third base",
+    "High pop-up rate, positional uncertainty"
+  ],
+  "eta": "2026-2027",
+  "mediaReferences": [
+    {
+      "type": "video",
+      "title": "Top Prospects: Luke Adams, 1B, Brewers",
+      "source": "MLB.com",
+      "date": "2026-01-14",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNRhPsceDUhU3mc9nws-T6I9QsOeH86bcK3E5zcebBfG9B9yZfmVsxPDT3MOxZb1aVeyzK8DvqsTKiUBrvayt41Pkj51x9UJQJ6KjuTd-4M1iR1ZuT2hxfo3vSuWdGihO_6J8EECvhta3EkcjqvKA5iA0-DY2V2vYVphGmSQ55"
+    },
+    {
+      "type": "podcast",
+      "title": "Brewers Prospect Luke Adams Talks Development at the Arizona Fall League",
+      "source": "Just Baseball (The Call Up - A Prospect Podcast)",
+      "date": "2025-10-20",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAXmjEZaq3BEpP0YXFDEVJkUNhAUlbHPSJhJoX4UwpNPg51_SrJtrl8wV6dkXjDnwpMNfzJkUEShQ-GWvaxYgNwQ0LVJy-yTdAkheBTR2T-A2GBL0xal-azpMHaQHFDa2MTU9TMHN3"
+    }
+  ],
+  "sourcesConsulted": [
+    "Baseball America",
+    "MLB Pipeline (MiLB.com)",
+    "FanGraphs",
+    "Prospect Savant",
+    "Just Baseball",
+    "Sports Illustrated",
+    "Reviewing the Brew",
+    "The Dynasty Guru",
+    "Pitcher List",
+    "Prospect361"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [
+    {
+      "title": "Luke Adams - 2026 Milwaukee Brewers Top Prospects Ranking - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-top-prospect-rankings/luke-adams-r40/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "The Big Fellas: Luke Adams, Brock Wilken Gear Up for Crucial Campaigns",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/the-big-fellas-luke-adams-brock-wilken-gear-up-for-crucial-campaigns-r4267/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "A Breakdown of the 17 Non-Roster Invites to Brewers Spring Training",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/a-breakdown-of-the-17-non-roster-invites-to-brewers-spring-training-r4133/",
+      "date": "2026-02",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Observations: Luke Adams&#x27;s Unique Approach ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-observations-luke-adamss-unique-approach-jeferson-quero-progress-report-and-more-r3483/",
+      "date": "2025-06",
+      "type": "article"
+    },
+    {
+      "title": "Brock Wilken and Luke Adams: Very Unique, Very Alike",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brock-wilken-and-luke-adams-very-unique-very-alike-r3499/",
+      "date": "2025-06",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Top Prospects: Luke Adams - Milwaukee Brewers Videos - Brewer ...",
+      "url": "https://brewerfanatic.com/videos/milwaukee-brewers/brewers-top-prospects-luke-adams-r276/",
+      "date": "2025-01",
+      "type": "article"
+    },
+    {
+      "title": "Young Brew Crew Spotlight: Luke Adams - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/blogs/entry/76-young-brew-crew-spotlight-luke-adams/",
+      "date": "2023-03",
+      "type": "article"
+    }
+  ],
+  "recentNews": [
+    {
+      "title": "Luke Adams reaches on a fielder's choice, fielded by first baseman Jacob Gonzalez. Freddy Zamora scores.",
+      "source": "MiLB.com",
+      "date": "2026-04-03",
+      "url": "https://www.milb.com/video/luke-adams-scores-on-fielder-s-choice-x5028",
+      "summary": "Luke Adams scored a run on a fielder's choice in a game, as reported by MiLB.com."
+    },
+    {
+      "title": "Predicting where the Brewers' top corner infield prospects will start the 2026 season",
+      "source": "Brewers Row",
+      "date": "2026-03-15",
+      "url": "https://www.brewersrow.com/blog/predicting-where-the-brewers-top-corner-infield-prospects-will-start-the-2026-season",
+      "summary": "This article predicts Luke Adams will start the 2026 season in Double-A with the Biloxi Shuckers, noting that he was limited to less than 75 games in 2025."
+    },
+    {
+      "title": "Brewers 21-Year-Old Slugger Eyeing Unlikely Big-League Debut",
+      "source": "Sports Illustrated",
+      "date": "2026-02-07",
+      "url": "https://www.si.com/mlb/brewers/news/brewers-21-year-old-slugger-eyeing-unlikely-big-league-debut",
+      "summary": "This article discusses Luke Adams' potential to reach the big leagues in 2026, highlighting his raw power but also areas for improvement in translating that power to game performance and elevating the ball."
+    },
+    {
+      "title": "Luke Adams Player Card - Transactions and Assignments",
+      "source": "MiLB.com",
+      "date": "2026-01-27",
+      "url": "https://www.milb.com/player/luke-adams-689945",
+      "summary": "Luke Adams was invited as a non-roster 3B to Milwaukee Brewers' spring training on January 27, 2026, and was activated from the 7-day injured list by the Biloxi Shuckers on September 9, 2025."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Luke Adams reaches on a fielder's choice, fielded by first baseman Jacob Gonzalez. Freddy Zamora scores.",
+      "channel": "MiLB.com",
+      "date": "2026-04-03",
+      "url": "https://www.milb.com/video/luke-adams-scores-on-fielder-s-choice-x5028",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Luke Adams' Newfound Power",
+      "channel": "MLB Pipeline",
+      "date": "2026-01-29",
+      "url": "https://www.youtube.com/watch?v=e_0gQ-z0n3E",
+      "type": "scouting",
+      "urlType": "direct"
+    },
+    {
+      "title": "Luke Adams' preliminary round of Fall League HR Derby",
+      "channel": "Milwaukee Brewers",
+      "date": "2025-11-09",
+      "url": "https://www.mlb.com/brewers/video/luke-adams-preliminary-round-of-fall-league-hr-derby-x9303",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Luke Adams' solo homer",
+      "channel": "Milwaukee Brewers",
+      "date": "2025-11-04",
+      "url": "https://www.mlb.com/brewers/video/luke-adams-solo-homer-x9189",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Luke Adams' first Fall League homer",
+      "channel": "Milwaukee Brewers",
+      "date": "2025-10-08",
+      "url": "https://www.mlb.com/brewers/video/luke-adams-first-fall-league-homer-x6982",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Luke Adams 2024 Minor League Highlights!",
+      "channel": "The Hub for Baseball Highlights",
+      "date": "2025-05-01",
+      "url": "https://www.youtube.com/results?search_query=The+Hub+for+Baseball+Highlights+Luke+Adams+2024+Minor+League+Highlights!",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Day in the Life of Brewers 8th Ranked Prospect Luke Adams⚾️",
+      "channel": "LT6 Sports Productions",
+      "date": "2025-04-10",
+      "url": "https://www.youtube.com/watch?v=qT_V1L-S0u8",
+      "type": "interview",
+      "urlType": "direct"
+    },
+    {
+      "title": "Luke Adams 2023 Highlights",
+      "channel": "Wilson Warbirds",
+      "date": "2023-12-01",
+      "url": "https://www.youtube.com/watch?v=q2x3T-l0z7k",
+      "type": "highlights",
+      "urlType": "direct"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "playerId": "blake-burke",
+  "name": "Blake Burke",
+  "position": "1B",
+  "level": "AA",
+  "age": 22,
+  "updatedAt": "2026-04-04T02:49:01.950Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": 45,
+    "power": 60,
+    "run": 30,
+    "field": 45,
+    "arm": 40,
+    "ofp": 45,
+    "risk": "Average"
+  },
+  "rankings": [
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 18,
+      "grade": null,
+      "listName": "Brewers Top Prospects",
+      "date": "2026-04-03",
+      "url": "https://www.milb.com/brewers/prospects/blake-burke-695501"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 16,
+      "grade": "40+",
+      "listName": "The Board",
+      "date": "2026-03-26",
+      "url": "https://www.fangraphs.com/prospects/the-board/brewers?fv=40&org=MIL"
+    },
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 18,
+      "grade": "45/Average",
+      "listName": "Organization Prospect Rankings",
+      "date": "2026-02-18",
+      "url": "https://www.baseballamerica.com/players/114995/blake-burke/"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 16,
+      "grade": "40+",
+      "listName": "Milwaukee Brewers Top 53 Prospects",
+      "date": "2025-11-24",
+      "url": "https://blogs.fangraphs.com/milwaukee-brewers-top-53-prospects-2025/"
+    }
+  ],
+  "summary": "Blake Burke is a first baseman in the Brewers system known for his significant raw power, which he began to translate into game power in Double-A in 2025 by improving his launch angle. He is an aggressive left-handed hitter, which can lead to swing-and-miss, and his defensive profile is limited to first base due to below-average running and arm strength. He projects as a power-over-hit player whose offensive impact will be crucial for his big-league future.",
+  "strengths": [
+    "Plus-plus raw power with high exit velocities",
+    "Improved game power in Double-A",
+    "Good contact skills for a power hitter"
+  ],
+  "concerns": [
+    "Aggressive approach, prone to expanding strike zone and whiffs",
+    "Below-average runner and limited defensive value at first base",
+    "Needs to improve against left-handed pitching"
+  ],
+  "eta": "2026",
+  "mediaReferences": [
+    {
+      "type": "youtube",
+      "title": "Evaluating Pipeline's Top 30 Brewers Prospects",
+      "source": "Just Baseball",
+      "date": "2026-03-07",
+      "url": "https://www.youtube.com/watch?v=F5K9x-u07Jc"
+    },
+    {
+      "type": "article",
+      "title": "Down on the Farm: Brewers Top Prospects Notes",
+      "source": "Just Baseball",
+      "date": "2026-02-26",
+      "url": "https://justbaseball.com/mlb/down-on-the-farm-brewers-top-prospects-notes/"
+    },
+    {
+      "type": "article",
+      "title": "Five Under-The-Radar Brewers Prospects To Watch in 2026",
+      "source": "Just Baseball",
+      "date": "2026-02-19",
+      "url": "https://justbaseball.com/mlb/five-under-the-radar-brewers-prospects-to-watch-in-2026/"
+    },
+    {
+      "type": "article",
+      "title": "Top Brewers prospect vying for impressive award with latest hot stretch",
+      "source": "Wisconsin Sports Heroics",
+      "date": "2025-08-31",
+      "url": "https://wisconsinsportsheroics.com/milwaukee-brewers-blake-burke-southern-league-player-of-the-month/"
+    },
+    {
+      "type": "youtube",
+      "title": "Reviewing The Brewers' 2025 Draft Class",
+      "source": "Brewer Fanatic",
+      "date": "2025-07-22",
+      "url": "https://www.youtube.com/watch?v=l_tN7V0D88w"
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "FanGraphs",
+    "Just Baseball",
+    "MiLB.com",
+    "Wisconsin Sports Heroics",
+    "Brewer Fanatic",
+    "Baseball-Reference.com",
+    "Prospects1500",
+    "Reddit"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "Blake Burke's RBI double to end the no-hitter",
+      "source": "MLB.com",
+      "date": "2026-03-15",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhBefJX85f8UGT9YUo6TxgiOsHeKZjaxn-4BGdEQVEViv8Vvqd4R1WH-oppXxI-H55FPQIYb5FKqGyQ9uBGMPDYECfvpLeaLdTz-NJ2YVEtInNu2Ni3C2g01qx2D-hkvjBqoUApOjMage4dMEDSJ-wsxKLFHH3f1cEaLK7ORuc1vx1elTEqTMbKw==",
+      "summary": "Blake Burke hit an RBI double during a Spring Training game on March 15, 2026, which ended a no-hitter against the Milwaukee Brewers."
+    },
+    {
+      "title": "Predicting where the Brewers' top corner infield prospects will start the 2026 season",
+      "source": "Brewer Fanatic",
+      "date": "2026-03-15",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiiqn3xCe8wfLBr_J2n-WVKqWRcrnf0SWBTSMaHdRpwpcHoF4Pe8-YxVTd6aLaK3PUPFqNfqclfCWCoLTwvFB2r1gKp_KrOwL6WkMH20PD5zU3W7xHNPbYHQKOvaMgnr0eoHRDvAcYEe_mPwYF6H4zB429jryq-AvRmN5bIOrxPKcRYTuehBadvU85Snmhh811LWLfcio27W2H2toHqVuwbBwcHcLHIXkMedS7gBeWwURu5z-x2QPV",
+      "summary": "Blake Burke is predicted to start the 2026 season in Double-A with the Biloxi Shuckers, aiming to continue a hot streak he had in Biloxi during the 2025 season."
+    },
+    {
+      "title": "Blake Burke Stats, Age, Position, Height, Weight, Fantasy & News",
+      "source": "MiLB.com",
+      "date": "2026-02-22",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFj4Uvj0vBaG0O9ueaeJHqKvSuPvgCjWuebz6O63un248SAkJOxT_Iy2cg0Ii_v5_Up7EtCGuggQ-5IeMii9VOaCl0tLQQf1FpruO5lFNhr8zZxDDMMa8xDBGMgvV6fzVhfk7GIdo3dJQ==",
+      "summary": "Blake Burke was assigned to Milwaukee Brewers Prospects on February 22, 2026, and previously to the Milwaukee Brewers on August 2, 2025."
+    },
+    {
+      "title": "Blake Burke - Brewers Top Prospects",
+      "source": "MiLB.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE21wn0X_g6Xhv4LsfNjTjURhNLWvlCZ9wwYB2OZxFHpHEdmnxfY_wwEFTzwF2CJpSwSNhHI-4aCvqG5hkqhoKkMC7YnktJnGK038b4pe8rR_RYIxRmGDYJLFk_P5rXVze8xk_zdJGlBrHsJ-TGkKiqu2q5rpUsjg==",
+      "summary": "Blake Burke had an impressive 2025 campaign, hitting .292/.379/.453 with 16 home runs in 132 games between High-A and Double-A, with his performance significantly improving after his move to Biloxi where he hit 11 homers in 37 games."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Brewers vs. A's - 2026 Spring Breakout Highlights",
+      "channel": "Minor League Baseball",
+      "date": "2026-03-23",
+      "url": "https://www.youtube.com/results?search_query=Minor+League+Baseball+Brewers+vs.+A%27s+-+2026+Spring+Breakout+Highlights",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Blake Burke's RBI double to end the no-hitter",
+      "channel": "MLB.com",
+      "date": "2026-03-15",
+      "url": "https://www.youtube.com/results?search_query=MLB.com+Blake+Burke%27s+RBI+double+to+end+the+no-hitter",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Blake Burke 2025 Highlights",
+      "channel": "YouTube",
+      "date": "2025-11-19",
+      "url": "https://www.youtube.com/results?search_query=Blake+Burke+2025+Highlights",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Blake Burke's solo home run",
+      "channel": "MLB.com",
+      "date": "2025-03-23",
+      "url": "https://www.youtube.com/results?search_query=MLB.com+Blake+Burke%27s+solo+home+run",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "2024 MCWS: Tennessee's Blake Burke",
+      "channel": "D1Baseball",
+      "date": "2024-06-25",
+      "url": "https://www.youtube.com/results?search_query=D1Baseball+2024+MCWS+Tennessee%27s+Blake+Burke",
+      "type": "interview",
+      "urlType": "search"
+    },
+    {
+      "title": "Tennessee baseball's Blake Burke hits long home run vs. Kentucky in SEC tourney",
+      "channel": "Southeastern Conference",
+      "date": "2022-05-31",
+      "url": "https://www.youtube.com/results?search_query=Southeastern+Conference+Tennessee+baseball%27s+Blake+Burke+hits+long+home+run+vs.+Kentucky+in+SEC+tourney",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Tennessee baseball's Blake Burke hits home run vs. Vanderbilt in SEC tourney",
+      "channel": "Southeastern Conference",
+      "date": "2022-05-27",
+      "url": "https://www.youtube.com/results?search_query=Southeastern+Conference+Tennessee+baseball%27s+Blake+Burke+hits+home+run+vs.+Vanderbilt+in+SEC+tourney",
+      "type": "highlights",
+      "urlType": "search"
+    }
+  ]
+}

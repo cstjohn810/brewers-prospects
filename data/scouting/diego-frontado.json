@@ -1,0 +1,159 @@
+{
+  "playerId": "diego-frontado",
+  "name": "Diego Frontado",
+  "position": "Unknown",
+  "level": "Unknown",
+  "age": null,
+  "updatedAt": "2026-04-04T03:17:10.109Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": null,
+    "power": null,
+    "run": null,
+    "field": null,
+    "arm": null,
+    "ofp": null,
+    "risk": "null"
+  },
+  "rankings": [
+    {
+      "source": "Baseball America",
+      "rank": 24,
+      "systemRank": null,
+      "grade": "null",
+      "listName": "2026 MLB International Prospects: Top 100 Bonus Board",
+      "date": "2026-01",
+      "url": "https://www.baseballamerica.com/stories/2026-mlb-international-prospects-top-100-bonus-board/"
+    },
+    {
+      "source": "FanGraphs The Board",
+      "rank": null,
+      "systemRank": 52,
+      "grade": "null",
+      "listName": "Milwaukee Brewers Top Prospects",
+      "date": "2025-11",
+      "url": "https://blogs.fangraphs.com/milwaukee-brewers-top-53-prospects/"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": 24,
+      "systemRank": null,
+      "grade": "null",
+      "listName": "Top International Prospects",
+      "date": "2025-09",
+      "url": "https://www.mlb.com/prospects/international/diego-frontado-696783"
+    }
+  ],
+  "summary": "Diego Frontado is a 17-year-old Venezuelan shortstop signed by the Milwaukee Brewers for $1.6 million in January 2026. He is described as a projectable athlete with a promising blend of quick-twitch athleticism, tools, and right-handed hitting ability. Frontado is known for his elite bat-to-ball skills, impressive speed, and strong defense at shortstop, making him a high-floor prospect.",
+  "strengths": [
+    "Elite bat-to-ball hitter",
+    "Elite runner and defender",
+    "Quick-twitch athleticism",
+    "Power trending up"
+  ],
+  "concerns": [
+    "Power still developing"
+  ],
+  "eta": "2031",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Brewers Struck Gold, Landed Potential Star in International Free Agency",
+      "source": "Sports Illustrated",
+      "date": "2026-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDslP8ENSIvq7g1w3p1jxNAS_4EqbLKnqg-vW9Wmz63MijDScyxMpXZDXIoTWUgK5V8kC_JuQ9o9AY8vUzLkaoJSrzSDs-Bs_k5rjwxoCLQfv1y6y3npmZBM9E9k1KMpF2nwOYTokNiTsBH2CKgvvzkm7NSqZEk2tcKhlGm6yuA4sC9EFkQ_Kq8py31aHMtZWKVxTINs8XUcuaIttMPbnGxujFTS9TJMdlNea1FeqDr1FlS7dn"
+    },
+    {
+      "type": "article",
+      "title": "Brewers Sign 17-Year-Old 5-Tool Shortstop Prospect",
+      "source": "Sports Illustrated",
+      "date": "2026-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlEJOF5XxmUZehXoprrgDAytTKLnKrykMXz99H7F0N62TEXLwV52eYmnzYvEQdLTJsmGvjQQuuJ2Tn8Rb8dP666UUbQzoStq_-vsKdDTjq8vLJJpG9IRGavi3ZSRi4_uMTqmWGNABczahl3g11lE7-kgpt2QlI3dHW1bzZT_bXkf3EM2Y6kxIUUCI0N2wAZvBN_sU0vBv429zc7Qcpa8bKUw=="
+    },
+    {
+      "type": "article",
+      "title": "Milwaukee Brewers 2026 International Class Scouting Report",
+      "source": "Baseball America",
+      "date": "2026-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiSD1LbY8agi1TWbqb8C8W64mWe7ILGoTSA_oBa0zhx9jwVejvLEv-M8PQ9rK9m65neSdLH4VJ9emmzIheedl1anCJZWSWH-g4aCPi0W6-df9Ndzxf08WQgFYaJ-vbH9whnvYRhBUd1BEKtFTJjrpWsJ4cBlEehZfZsefwVsuUJDfaDEXEqJu_5Hft3Bt3z_YWXaV2sZ1STM8hy5FbPA=="
+    },
+    {
+      "type": "article",
+      "title": "Milwaukee Brewers Top 53 Prospects",
+      "source": "FanGraphs Baseball",
+      "date": "2025-11",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH15sjYRUK-8m_hj7KoERy1P2kmBevqtiw_pylOwKTkP8jmjwReA-8Gicca6mrWoxziw6A1OyHWVnZA0sEcCUx7reJLWYoqBYB28M5YyoPwvHb-11UL5BiVCs_oLaXeMDVJgMXQ7TsvLRdxc30DDPyMPfg_gOzvj8XORQ=="
+    }
+  ],
+  "sourcesConsulted": [
+    "Sports Illustrated",
+    "MLB.com",
+    "Baseball America",
+    "FanGraphs"
+  ],
+  "confidence": "medium",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "Brewers Struck Gold, Landed Potential Star in International Free Agency - Sports Illustrated",
+      "source": "Sports Illustrated",
+      "date": "2026-03-05",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErvVm4-Zb2_rIENZZb_a5avRhcbyAmdGs44LJIqvzJ2pc45y-6q1ofbQ_c5MRIad7nTGloV2I4XbFXZdic9FX5GhoQ2X6tIyMUSxRoPcBn-O3uKyxbjklml8HUgReqf6_PQCbdmaxtgNXS_8WmtqnH-DdHN58neUJyD4Jv_pZ3h9ETJ0uvjR5TaV1wkk7tlVrp3iUv0Mg2SgJJhP3AA54zY5H3OTZW_DVr0i30GX9XRXzA-WoJ",
+      "summary": "Diego Frontado, a 17-year-old infielder signed by the Brewers in international free agency, is highlighted as a potential breakout prospect with five-tool potential."
+    },
+    {
+      "title": "Brewers sign 22 international free agents - Green Bay - WTAQ",
+      "source": "WTAQ",
+      "date": "2026-01-16",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ1D6qMsbpS4DQVCDGNRzg1xfJ5THIE6xMiSW14fLB4x5MTeA0pV9wopPOEbefdcBzZtwzHfpIZm6IR-CjiA_RqsO7mpNTzw0dfJ_RsiXN-z5JPFeUmgQDpkYzb7ginJrMoiV1ipCM-wtrA_EzEhfskp2f8_C89PovFl9qB3EJJW0=",
+      "summary": "The Milwaukee Brewers announced the signing of 22 international free agents, including Venezuelan shortstop Diego Frontado, on the first day of the 2026 international signing period."
+    },
+    {
+      "title": "Diego Frontado signs with Milwaukee for US$1.6 million from the Dominican academy HYL",
+      "source": "De Ultimo Minuto (English)",
+      "date": "2026-01-16",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqFQB0AO-P4v0FclQpj5gXlw3fvqY03HS4LQK4O_CdiHYAEQeRbokEAUwIraChQvW7sNj9i0mxfPW8zMqCyvQOqaXBzKhlp9Ki6ob8DId4pWWxjpT-7PwPPmYrYQcWgAB6Vj8DRUmVQP1JpiVGesjdY37zZQM9nBP6IkhvzIkxjFP-Z-IFhftug06quijFsY333YQrIQHbFfugWUflqP8M0CuFQ01fsnSAaAWnF9Lw=",
+      "summary": "Diego Frontado, a 17-year-old shortstop, officially signed his first professional contract with the Milwaukee Brewers for a $1.6 million bonus on International Signing Day 2026."
+    },
+    {
+      "title": "Milwaukee Brewers 2026 International Class Scouting Report - Baseball America",
+      "source": "Baseball America",
+      "date": "2026-01-15",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzzgcLQm2DuSCgJYW_bklW9Eeqk1_VydUN2d6HPFdTd7_OXXytLoWWQw3h5jFCahHclyj3SR6vCTwaRidyel8GMQ61OhO0iWLUMRQsntM-I11S3SHBI5JS19P5oLVPWwfbB_M3bNV_p80nrUGpNPsm8EX_Q5slxORTvhf5IMcb2zUID1EUgH9aCaS1vWAm6TYLQ4L1aRGiu1-ua9jWaQ==",
+      "summary": "This scouting report highlights Diego Frontado as the Brewers' top international signing in 2026, noting his athleticism, hitting ability, and potential for future power as a shortstop."
+    },
+    {
+      "title": "3 intriguing shortstop prospects headline Brewers' 2025 international free agent class",
+      "source": null,
+      "date": "2026-01-14",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG4vgaIpLgbNngAoBVwYj6vchNEJXF-O8ezKqZlZYxbjTDA6UFMO_Hn-SCnnyHeG_dO1NqL-gFIVDTafl0UPXPAmNL_6VxRsFY4PoyxDNDiI_TZfs7_IcehL_t9AEvp1zQVGneGGOaVPX4xFvdLgwMr1QDnZzhsYT8PXiq8NAu3HjKSaV7uaPPjFKXI1aQFfytdIRX6Lzjey1o4C8h5XSxgYAgLV_Zhpg0I01pGxVGrrggvlf28vHfmk0=",
+      "summary": "Diego Frontado was a top international free agent signing for the Milwaukee Brewers in 2026, noted for his advanced hit tool, defensive potential, and developing power."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Top Int'l Prospects: Frontado, SS",
+      "channel": "MLB.com",
+      "date": "2025-09-21",
+      "url": "https://www.mlb.com/video/top-int-l-prospects-frontado-ss-c17878345",
+      "type": "scouting",
+      "urlType": "direct"
+    },
+    {
+      "title": "Diego Frontado:SS_RR_2025 (HyL)",
+      "channel": "Futura Estrella del beisbol",
+      "date": "2021-12-17",
+      "url": "https://www.youtube.com/watch?v=F_fG1_Uq1xQ",
+      "type": "scouting",
+      "urlType": "direct"
+    },
+    {
+      "title": "Diego FRONTADO SS 2025 Academia HYL UNO AA",
+      "channel": "Franklin Santana baseball tv",
+      "date": "2021-11-25",
+      "url": "https://www.youtube.com/watch?v=sI9gI27W5sQ",
+      "type": "scouting",
+      "urlType": "direct"
+    }
+  ]
+}

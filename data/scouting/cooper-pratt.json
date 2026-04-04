@@ -4,10 +4,10 @@
   "position": "SS",
   "level": "AA",
   "age": 21,
-  "updatedAt": "2026-04-03T21:44:42.496Z",
+  "updatedAt": "2026-04-04T00:19:44.368Z",
   "grades": {
-    "hit": 50,
-    "power": 45,
+    "hit": 55,
+    "power": 50,
     "run": 50,
     "field": 60,
     "arm": 60,
@@ -16,137 +16,134 @@
   },
   "rankings": [
     {
-      "source": "MLB Pipeline",
-      "rank": 62,
-      "systemRank": 4,
-      "grade": "55",
-      "listName": "Top 100 Prospects / Brewers Top 30",
-      "date": "2026-04",
-      "url": "https://www.milb.com/milwaukee-brewers/prospects/cooper-pratt-680479"
-    },
-    {
       "source": "Baseball America",
       "rank": 50,
       "systemRank": 3,
       "grade": "55/Average",
-      "listName": "Top 100 Prospects / Organization Prospect Rankings",
+      "listName": "Top 100 Prospects / Brewers Organization Prospect Rankings",
       "date": "2026-03",
-      "url": "https://www.baseballamerica.com/prospects/cooper-pratt-stats-scouting-report/"
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaPZYmL9eeTMlSVyjQ4CEZ97IOwGtLw8atCj7-CAGtLF0ZBbIQpy6y7Egs58_BRJZcOs7dlsE-iNKUgIRBbb37uTh5dObOqKUX7Uk0_t0bF_oB-Fqot4iZ887pGXAFMsYJdci5wkL22_YFYAFU9Z5FVDgF1d7F"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": 60,
+      "systemRank": 4,
+      "grade": "55",
+      "listName": "Top 100 Prospects / Brewers Top 30 Prospects",
+      "date": "2026-04",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSGRGz_gpQu8ybWt9qBqOhSpKukA6z8CDtxUYRVEqaelW3GQyrzkBC2NVJk7VrAsa1xXtRCHN2bpJu7UnOOnbv5efEqyZGNSWtlAqQ1zMsVS-HMrp1KX7dHvZMBlkdI2aVNtTrqwZFLXcXpsRMveSuGup432WO9fr4"
     },
     {
       "source": "FanGraphs",
       "rank": null,
       "systemRank": null,
-      "grade": "45 FV",
-      "listName": "OOPSY 2026 Top 100 Prospects",
+      "grade": "45-FV",
+      "listName": "OOPSY 2026 Top 100 Prospects (mentioned grade)",
       "date": "2026-02",
-      "url": "https://blogs.fangraphs.com/oopsy-2026-top-100-prospects/"
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEV9-qk1d5yUJ3LBUbinZ7OhAVR-8P6ZqEDnZw3TKjsAeNvI_kxPII3dF_WayPtaTkR59YGufVHsKR-E9msnggOYJphmbOTWAfD6BfxbtDXLhIbcqM34pyNKFGtL3PGOjt2_Qm__OW4tBCJa3tQPrT0866bpQ=="
     }
   ],
-  "summary": "Cooper Pratt is a shortstop prospect with a high baseball IQ and impressive contact ability, leading to solid on-base skills. He is considered an outstanding defender at shortstop with a plus arm. While his power is still developing, his projectable frame suggests potential for more pop in the future, and he won a Minor League Gold Glove in 2024.",
+  "summary": "Cooper Pratt is a well-rounded shortstop prospect for the Milwaukee Brewers, recently signed to a long-term extension. He is lauded for his advanced plate discipline, contact skills, and strong defense at shortstop, though some project a potential move to third base due to his size and range. He began the 2026 season in Triple-A Nashville.",
   "strengths": [
-    "High baseball IQ",
-    "Contact ability",
-    "Plus defense at shortstop",
-    "Plus arm strength",
-    "Projectable frame"
+    "Advanced plate discipline",
+    "Strong defensive instincts",
+    "Plus arm strength"
   ],
   "concerns": [
-    "Developing power",
-    "First-step quickness/range",
-    "Hitter still needs polishing"
+    "Developing average power",
+    "Limited range at shortstop"
   ],
   "eta": "2026",
   "mediaReferences": [
     {
       "type": "article",
-      "title": "Brewers giving shortstop prospect Cooper Pratt an 8-year, $50.75 million deal, AP source says",
-      "source": "The Washington Post",
-      "date": "2026-03-31",
-      "url": "https://www.washingtonpost.com/sports/mlb/brewers-giving-shortstop-prospect-cooper-pratt-an-8-year-5075-million-deal-ap-source-says/2026/03/31/76d1a580-ef02-11ee-8e3b-b6d857412e87_story.html"
+      "title": "Brewers finalize 8-year, $50.75 million deal with prized shortstop prospect Cooper Pratt",
+      "source": "AP (via MiLB.com)",
+      "date": "2026-04",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo12LWJY7jouZt5MmhHfYgG1a5iKIOg-CELKYil74yIbbih7AFhb1T9J70xwA0irSptzwFJb_6aKwWeNZD9DctIqTB2MvsQEvk9C4uCB5LVl8DeOHaHYlzjO6asel2F1b5GsQ1HoBrIVZl0eK_YxETMQPUykNY3bDEtQbA2J8dhdTCgqcYEEw9AFPbbWgPByopzsVrLJVDpHwl3o3yvbljt9adF6hF84X_60_2-qVuZKbnQqYArxPKbCYsF1pt7pNDKTaA_9G-1_jYQrM75106JTNtbHehbrGuXYyAXRW2ewJ0F-8tzf6h6hkwYf1cF6l7kjsABA=="
     },
     {
       "type": "article",
-      "title": "Why the Brewers Gave Cooper Pratt $50 Million Before He Earned MLB Promotion",
-      "source": "Just Baseball",
-      "date": "2026-03-30",
-      "url": "https://www.justbaseball.com/mlb/why-brewers-gave-cooper-pratt-50-million-before-he-earned-mlb-promotion/"
+      "title": "Milwaukee Brewers sign infielder Cooper Pratt to 8-year contract",
+      "source": "FOX6 News",
+      "date": "2026-04",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDmWkiWYyM_W8QHGqjCXba-Ok4TkZjsDmp4nC4i7qIfhmhjye286DxImkJ9OcSZ2ekuzZ_y764W4VfnIVddciV8aYaetPZj6P4VJWfWPQUsTwEEXolljJR_rVYCdaS1FltBavwXgk4edZrwzw4Mqat5vCNIEeEhTrNk1KPuIq6HOWNHIvCZDnUZxLUjPL3pugtU3FWa4nX"
     },
     {
-      "type": "podcast",
-      "title": "Brew Crew Review Podcast #257- Top 30 Future Brewers 2026",
-      "source": "The Brew Crew Review - Milwaukee Brewers Baseball Podcast",
-      "date": "2026-03-11",
-      "url": "https://podcasts.apple.com/us/podcast/brew-crew-review-podcast-257-top-30-future-brewers-2026/id299837943?i=1000648834997"
+      "type": "article",
+      "title": "What Colt Emerson, Cooper Pratt's Contract Extensions Say About How Teams Value Prospects",
+      "source": "Baseball America",
+      "date": "2026-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6vBgX3VhW_Wqiz5BQof41BcjerTYGfd5d8WT0XvkzYJDa1_k6bLy370A5KOd-MzsxPAG6NsBAd5r52XpIRiEGf29iKpUobfD9hdyDaQuRu9VfXoTQlz1jbkoEdG9_zWK7up8jBtMDo0CoPwRm353bquU7hsxLi-bpv2vOnBZxcbtZ0nZlG6Pm30xCMOpnr8TbdeCNr3rZUzusczAmoFhT6wzcaSs4Fn6weMETUYv5bRjN6TuE0co4UH5CjA=="
     },
     {
-      "type": "youtube",
-      "title": "Cooper Pratt & Colt Emerson: Breaking Down the Extensions",
-      "source": "Just Baseball",
-      "date": "2026-03-31",
-      "url": "https://www.youtube.com/watch?v=J8lF88o1oA0"
-    },
-    {
-      "type": "youtube",
-      "title": "ELITE: Milwaukee Brewers Prospects SOAR –Jesus Made, Cooper Pratt, Luis Pena Among a Terrific Future",
-      "source": "Locked On Brewers",
-      "date": "2025-12-26",
-      "url": "https://www.youtube.com/watch?v=D-P_tS8J4D8"
+      "type": "article",
+      "title": "Brewers, Cooper Pratt Reportedly Agree to Extension",
+      "source": "FanGraphs",
+      "date": "2026-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvtK_cFLBGQj1QPmj16tnByVoE7i-hu0GP0emuP97dV4hqT8SMhwdthNQ8VbrPmJ1-GKq5AeeSV3KIjKx8_0WSZ4rI7-Ier7LUv2ykuMcRaxcNmpK06NMXLVQa4JnUKQZ3rgTMKJwA3uRRLAXFq4CKj0pmT2M2kuLIPooCcQR9x5IzoQcNFEA5Cd4="
     }
   ],
   "sourcesConsulted": [
     "MLB Pipeline",
     "Baseball America",
     "FanGraphs",
-    "Prospect361",
-    "Just Baseball",
-    "Milwaukee Journal Sentinel",
-    "Wisconsin Sports Heroics",
-    "Brew Crew Review",
-    "The Washington Post",
-    "World Baseball Network",
-    "MiLB.com",
-    "The Baseball Cube",
-    "Baseball-Reference.com",
-    "Forbes"
+    "AP",
+    "FOX6 News",
+    "Last Word On Sports",
+    "MiLB.com"
   ],
   "confidence": "high",
   "brewerFanaticLinks": [],
   "recentNews": [
     {
-      "title": "Brewers Sign Infielder Cooper Pratt to Multi-Year Contract",
+      "title": "Brewers Sign Shortstop Prospect Cooper Pratt to 8-Year, $50 Million Extension",
+      "source": "World Baseball Network",
+      "date": "2026-03-31",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBjhxhobj9l8UC6eLiqRiKchxcvSpBUowcVXmjGDmfURwN05lmAHWcejOAEcaYimFYxpXDdy2lFaGWucznuxGsq3PcLW6kmKFs3sEZcBXNLKGZ-kHv6afQIHYReFnN26itBOAFiR9Z0LHSNoRmHfqkCJmHWhD626a_j-dJubuHrveK42-jkPRvkXssn2n1yWiAHptWlaIwm6mBszZ9GQivX4Q==",
+      "summary": "The Milwaukee Brewers have agreed to an eight-year contract worth slightly more than $50 million with 21-year-old shortstop prospect Cooper Pratt, according to USA Today's Bob Nightengale."
+    },
+    {
+      "title": "Press Release: Brewers Sign Infielder Cooper Pratt to Multi-Year Contract",
       "source": "MLB.com",
       "date": "2026-04-03",
-      "url": "https://www.mlb.com/brewers/press-release/brewers-sign-infielder-cooper-pratt-to-multi-year-contract",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTgEcK1w0nqgDlU404AMdzQPmTmeqYLHVbDFTrYlFUdhfsDLVAdMLkf37VltrX-lwVL_kas9IXwCSM5cFHTF-CHTPCO6xQABVkurBQzep5dhBQHRgKSbLelc2I0dBnW26lauSw9knZrWfeAtViXg_ali6pKSU5t77laeY3ShtoQ0t5e6cg9ctf1ksrZSQrGDoYK-udgNddgVMYahE=",
       "summary": "The Milwaukee Brewers have signed infielder Cooper Pratt to an eight-year contract through 2033 with club options for 2034 and 2035, adding him to the 40-man roster and optioning him to Triple-A Nashville."
     },
     {
-      "title": "Why the Brewers Gave Cooper Pratt $50 Million Before He Earned MLB Promotion",
-      "source": "FanNation",
-      "date": "2026-03-30",
-      "url": null,
-      "summary": "The article discusses the Milwaukee Brewers' decision to sign shortstop prospect Cooper Pratt to an eight-year, $50.75 million contract extension before his MLB debut, highlighting his defensive prowess and the team's long-term plans."
+      "title": "Brewers finalize 8-year, $50.75 million deal with prized shortstop prospect Cooper Pratt",
+      "source": "The Associated Press (via Newsday)",
+      "date": "2026-04-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhFI6NthdPzsRbyOtirmAaANMi0KioYyUf0bIUtTtdNKxsLoFoVU_D5LzlyYQqogyWLj_4r-cRZp_QM5YjoGYD8JbKyKJnx9-H39LQyQ3ZUuRbuwaMNQY7oobTCJws1l7N2CbXhZxrJeugRjut0L2J8af0LvqVfipyC5whghSdg1F8Jl7eCXQdP",
+      "summary": "The Milwaukee Brewers finalized an eight-year, $50.75 million contract with Cooper Pratt, adding their prized 21-year-old shortstop prospect to their 40-man roster and optioning him to Triple-A Nashville."
     },
     {
       "title": "What's Next for the Brewers Following the Cooper Pratt Extension?",
       "source": "Just Baseball",
       "date": "2026-04-02",
-      "url": "https://www.justbaseball.com/mlb/brewers-cooper-pratt-extension-future/",
-      "summary": "This article analyzes the Milwaukee Brewers' eight-year, $50 million extension with shortstop prospect Cooper Pratt, detailing his minor league performance, defensive abilities, and the implications for the team's future middle infield."
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQw7svDiAiKn2cC45TowzqmL9OYWm6GCRpZrt7ngdt2DmFNjydBNPhrMICCXoPeXoKwCK3HJ6GhI-Yw_p4-gORr2hNZEFsI4H4G0u9n9nirKwNrwg_mc0FA7ixeqb7KVk5Ioh5KBbW8ZvB6NOMwMkQPFg-EWFmKVHEEmthGmgLPmKS8YqBH_oj",
+      "summary": "The Milwaukee Brewers shocked the baseball world by signing their 21-year-old shortstop prospect, Cooper Pratt, to an eight-year extension worth just over $50 million, with implications for his development and the team's future."
     },
     {
       "title": "Brewers, Cooper Pratt Reportedly Agree to Extension",
-      "source": "FanGraphs",
+      "source": "FanGraphs Baseball",
       "date": "2026-03-31",
-      "url": "https://blogs.fangraphs.com/brewers-cooper-pratt-reportedly-agree-to-extension/",
-      "summary": "FanGraphs discusses the reported eight-year contract extension for Cooper Pratt, analyzing his performance and defensive profile within the Brewers' system."
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0OVRiWa_jGm6fveleMqS5y8BXoqEup7cMMnbg7NuMyAXwVt0009rBeq9VwT04bHIeDWOoFC6ijwhoyLqfJTIVVEKOry6bjonZn2BcThOlXio_uc22QQucgMW7ZaO9qPOUprk5wizfXLWRqkLkgDImO-NsylmLWo5SIMLskcTtHsrAymfQSphZ2Ps=",
+      "summary": "The Brewers and shortstop prospect Cooper Pratt are reportedly close to terms on an eight-year extension that would guarantee Pratt $50.75 million, adding him to the 40-man roster."
     },
     {
-      "title": "Here's where all of the Brewers' Top 30 prospects will begin 2026 season.",
-      "source": "MiLB.com",
-      "date": "2026-04-02",
-      "url": "https://www.milb.com/brewers/prospects/cooper-pratt-694380",
-      "summary": "This update from MiLB.com includes information that Cooper Pratt is assigned to the Nashville Sounds (AAA) to begin the 2026 season."
+      "title": "Cooper Pratt's RBI single",
+      "source": "MLB.com",
+      "date": "2026-03-27",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER4ZxQH5L9TMWpQnNLSgQQa_knnGwqV7txCTHJfUCncrtsFjqIc__1vQdzbLM-HE6b2F8zrte_LG0w593nLqncz_xSZBheyVBFYnvZ8lfCKdDw_zKAswtVBit_z1Fxcq7G5otG7wSoT5oeVb6ha8_qgURfSstzxEvQ-Xml5i9RYwSqRLsLcw==",
+      "summary": "Cooper Pratt hits an RBI single to center field in the 2nd inning, recorded with an exit velocity of 81.2 mph."
+    },
+    {
+      "title": "Cooper Pratt's jumping throw to first",
+      "source": "MLB.com",
+      "date": "2026-03-20",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJfmxoI56zA0WzYAjpLjY2cO_vvZ2ohoUjVMXsK8SIE3rGvJqHSMUAJb4ntSXVreL2TF7Y0E69QFwD5USYYyklkrApFKIf5ieCTal5zToBzpHNqss7XdSeAKVLNrnE4yHAogQHK15p2-Ljwqwuw5tszZIg1V_FkMWcJZ9iFASpkGmW",
+      "summary": "Cooper Pratt makes a highlight-reel jumping throw to first base during a Spring Breakout game."
     }
   ],
   "videoLinks": [
@@ -154,43 +151,65 @@
       "title": "Cooper Pratt 2025 Minor League Highlights! (Mid-Season)",
       "channel": "Baseball is Everything Network",
       "date": "2025-07-22",
-      "url": null,
-      "type": "highlights"
+      "url": "https://www.youtube.com/results?search_query=Baseball+is+Everything+Network+Cooper+Pratt",
+      "type": "highlights",
+      "urlType": "search"
     },
     {
-      "title": "Cooper Pratt's RBI single | 03/27/2026",
-      "channel": "MLB.com",
-      "date": "2026-03-27",
-      "url": "https://www.mlb.com/brewers/video/cooper-pratt-s-rbi-single",
-      "type": "highlights"
+      "title": "Cooper Pratt 2024 Highlights",
+      "channel": "Wilson Warbirds",
+      "date": "2024-10-24",
+      "url": "https://www.youtube.com/results?search_query=Wilson+Warbirds+Cooper+Pratt",
+      "type": "highlights",
+      "urlType": "search"
     },
     {
-      "title": "Cooper Pratt's jumping throw to first | 03/20/2026",
+      "title": "Cooper Pratt's jumping throw to first",
       "channel": "MLB.com",
       "date": "2026-03-20",
-      "url": "https://www.mlb.com/brewers/video/cooper-pratt-s-jumping-throw-to-first",
-      "type": "highlights"
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJfmxoI56zA0WzYAjpLjY2cO_vvZ2ohoUjVMXsK8SIE3rGvJqHSMUAJb4ntSXVreL2TF7Y0E69QFwD5USYYyklkrApFKIf5ieCTal5zToBzpHNqss7XdSeAKVLNrnE4yHAogQHK15p2-Ljwqwuw5tszZIg1V_FkMWcJZ9iFASpkGmW",
+      "type": "highlight",
+      "urlType": "direct"
     },
     {
       "title": "Brewers No. 2 prospect Cooper Pratt lays out to help secure a win",
-      "channel": "MiLB",
+      "channel": "minorleaguebaseball",
       "date": "2024-09-11",
-      "url": null,
-      "type": "highlights"
+      "url": "https://www.youtube.com/results?search_query=minorleaguebaseball+Cooper+Pratt",
+      "type": "highlights",
+      "urlType": "search"
     },
     {
-      "title": "BOLD MOVE: Milwaukee Brewers Reportedly to INVEST $50M in Cooper Pratt—Can He IMPACT the Future?",
-      "channel": "Locked On Brewers",
-      "date": "2026-03-31",
-      "url": null,
-      "type": "other"
+      "title": "Cooper Pratt's two-run home run",
+      "channel": "minorleaguebaseball",
+      "date": "2025-08-13",
+      "url": "https://www.youtube.com/results?search_query=minorleaguebaseball+Cooper+Pratt",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Cooper Pratt. That's All.",
+      "channel": "minorleaguebaseball",
+      "date": "2024-11-06",
+      "url": "https://www.youtube.com/results?search_query=minorleaguebaseball+Cooper+Pratt",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Cooper Pratt's RBI single",
+      "channel": "MLB.com",
+      "date": "2026-03-27",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER4ZxQH5L9TMWpQnNLSgQQa_knnGwqV7txCTHJfUCncrtsFjqIc__1vQdzbLM-HE6b2F8zrte_LG0w593nLqncz_xSZBheyVBFYnvZ8lfCKdDw_zKAswtVBit_z1Fxcq7G5otG7wSoT5oeVb6ha8_qgURfSstzxEvQ-Xml5i9RYwSqRLsLcw==",
+      "type": "highlight",
+      "urlType": "direct"
     },
     {
       "title": "Cooper Pratt, Milwaukee Brewers, Shortstop Defense Supercut",
       "channel": "FanGraphs",
       "date": "2025-11-17",
-      "url": null,
-      "type": "scouting"
+      "url": "https://www.youtube.com/results?search_query=FanGraphs+Cooper+Pratt",
+      "type": "scouting",
+      "urlType": "search"
     }
   ]
 }

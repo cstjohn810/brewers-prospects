@@ -1,0 +1,201 @@
+{
+  "playerId": "josh-knoth",
+  "name": "Josh Knoth",
+  "position": "Unknown",
+  "level": "Unknown",
+  "age": null,
+  "updatedAt": "2026-04-04T03:18:26.270Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": null,
+    "power": null,
+    "run": null,
+    "field": null,
+    "arm": null,
+    "ofp": 50,
+    "risk": "High"
+  },
+  "rankings": [
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 14,
+      "grade": "40",
+      "listName": "Brewers Top Prospects",
+      "date": "2026-04",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFHOt3AMovwh5KgIveMQT_16OHDb6ozC0DOuiDx4lk_BX_BLHqVyu-JucNOnVqFN139oQI8PLYkwCq9ckapGCv_dG0HmUUDz474CVtIUX8nlClXIzLRQNQfOs-xB1zP55PVLfBnLdE1Mor4BeBWtfrJgcz2jyBc_W6KNo="
+    },
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 28,
+      "grade": "50/High",
+      "listName": "Brewers Top Prospects / Underrated MLB Prospects Trade Targets",
+      "date": "2026-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUceaYkvw0_Ehiav3x2zRN6y33pXIjhCXIpjqQCjn0Hw1sBIOAm_1uZTZmfQmbnjQGa7xwT_4vXDnoHZmACgn92gwvzC5chqwg8BtALeRPQueN5ygtC1wLmgA9C6YbOgTWIGa4m2gCUqtpMv9maQF6WoepX7xq6zk8gAwVp2cbG09rQQNf2FXTMUTy0zAsAfB1wMKlSphLMhuJBA=="
+    },
+    {
+      "source": "Prospects1500",
+      "rank": null,
+      "systemRank": 29,
+      "grade": null,
+      "listName": "Milwaukee Brewers Top 50 Prospects",
+      "date": "2026-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAKN9xdC0HszvtCO5ZduRXDPk40Onb9UWhc3uMQ06vK9R7s3e1xDS6vuLuivRXY0OgpaDv3p7xlezOPVRbKm5RGYdHDKLWvEPSzJoMdz2LXM_k63aSiQUBLbCEX3LUd6nWyuJ-QptLphXx4EQNhhwM52I7cLVTTnlKT21MAcezXwTq7ws4bU_ZsS4ECr8="
+    }
+  ],
+  "summary": "Josh Knoth is an athletic right-handed pitcher for the Milwaukee Brewers, drafted 33rd overall in 2023. He features a fastball in the low-to-mid 90s, touching 96 mph, complemented by plus breaking balls (curveball and slider) with high spin rates. His development was interrupted by Tommy John surgery in 2025, causing him to miss the entire season, which has pushed back his estimated MLB arrival. He projects as a potential mid-rotation starter.",
+  "strengths": [
+    "Elite spin on breaking balls",
+    "Athletic delivery",
+    "Mid-90s fastball"
+  ],
+  "concerns": [
+    "Tommy John surgery recovery",
+    "Developing a reliable changeup",
+    "Control consistency"
+  ],
+  "eta": "2028",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Brewers Prospect Josh Knoth Undergoes Tommy John Surgery",
+      "source": "MLB Trade Rumors",
+      "date": "2025-02",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdDGjlP6XHsCuBsVOZ9Dpx4u8oQSz9OxkK3O4n4FZj6vkmBiBIUaB9QPnR7wpRXcWiyE7cSCvZ9j_46TBLZozvs07ltylMNzzHqkZAw_yAvj5OapWsoYLD1cqf2jfIgkr2xaPiXnRH1y4Av8YnwkcloX-iz9o6XQIqLTPBLsCauPm_5lTlItZn5IVal6rEK1qIVYR_bTmsdOW2nxGqkw=="
+    },
+    {
+      "type": "youtube",
+      "title": "Brewers Top 2023 Draft Picks Brock Wilken and Josh Knoth Make It Official",
+      "source": "Milwaukee Brewers (YouTube)",
+      "date": "2023-07",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi72Wr0iine6_kf8XDjplrYqN7BR8VYQIV6XgNBawc43MhFz9fP3_R9oXUXQuKRpIfjt02RzQ5PyS0LpwutPD4UvsY7p2CBiN7PIt6qs7fHiv6JJHqBnbeVzZVXN33HpT5lUJlEQ=="
+    }
+  ],
+  "sourcesConsulted": [
+    "Baseball America",
+    "MLB Pipeline",
+    "FanGraphs The Board",
+    "MLB Trade Rumors",
+    "Prospects1500"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [
+    {
+      "title": "2026 Injury Updates - Answering Your Questions When Possible ...",
+      "url": "https://brewerfanatic.com/forums/topic/46656-2026-injury-updates-answering-your-questions-when-possible-arobsbrewcrew-thread/",
+      "date": "2026-02",
+      "type": "forum"
+    },
+    {
+      "title": "REPORT: Josh Knoth Undergoes Tommy John Surgery, Out for 2025 Season",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/report-josh-knoth-undergoes-tommy-john-surgery-out-for-2025-season-r3065/",
+      "date": "2025-02",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Top Prospects: Josh Knoth - Milwaukee Brewers Videos - Brewer ...",
+      "url": "https://brewerfanatic.com/videos/milwaukee-brewers/brewers-top-prospects-josh-knoth-r279/",
+      "date": "2025-01",
+      "type": "article"
+    },
+    {
+      "title": "Josh Knoth - 2023 Milwaukee Brewers Draft Picks - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-draft-picks/2023/josh-knoth-comp-round-a/",
+      "date": "2025-01",
+      "type": "article"
+    },
+    {
+      "title": "Josh Knoth - 2026 Milwaukee Brewers Top Prospects Ranking - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-top-prospect-rankings/josh-knoth-r43/",
+      "date": "2025-01",
+      "type": "article"
+    },
+    {
+      "title": "Video: Brewers Top Prospects: Josh Knoth - Brewers Minor League Talk ...",
+      "url": "https://brewerfanatic.com/forums/topic/44294-video-brewers-top-prospects-josh-knoth/",
+      "date": "2025-01",
+      "type": "forum"
+    },
+    {
+      "title": "2024 Prospect Previews: Josh Knoth - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/2024-prospect-previews-josh-knoth-r1786/",
+      "date": "2024-01",
+      "type": "article"
+    },
+    {
+      "title": "2024 Prospect Previews: Josh Knoth - Brewers Minor League Talk - Brewer ...",
+      "url": "https://brewerfanatic.com/forums/topic/41864-2024-prospect-previews-josh-knoth/",
+      "date": "2024-01",
+      "type": "forum"
+    },
+    {
+      "title": "Article: Brewers Select Josh Knoth (RHP) #33 Overall",
+      "url": "https://brewerfanatic.com/forums/topic/40641-article-brewers-select-josh-knoth-rhp-33-overall/",
+      "date": "2023-07",
+      "type": "forum"
+    },
+    {
+      "title": "Brewers Select Josh Knoth (RHP) #33 Overall - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/brewers-select-josh-knoth-rhp-33-overall-r1240/",
+      "date": "2023-07",
+      "type": "article"
+    }
+  ],
+  "recentNews": [
+    {
+      "title": "30 Underrated MLB Prospects Teams Could Target In Trades (Mentions Josh Knoth)",
+      "source": "Baseball America",
+      "date": "2026-03-26",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzFREtTSSAeK1xP-ytW157_m5Ke5zp4Bo3EpJ_P79ucIWkXEANc8YGOPDsOPlPe_2qp-0h21vDc7bMsooofoAqEsC4Gc_KtG5iag2isEBKHWI6orC48ofFs3oAGkLduUpVK7zB6jgy2EsN6mFGkg3gadlYksLu9OEAND7ZGXPwQxST75xOzzjonV5eLygt1skuVNpTc13N3EHQcSc=",
+      "summary": "Josh Knoth, who underwent Tommy John surgery in 2025, is expected to return at some point in the 2026 season and is considered an intriguing trade target."
+    },
+    {
+      "title": "Brewers' Josh Knoth: Out for 2025",
+      "source": "CBS Sports",
+      "date": "2025-02-15",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQZQfjeCRmm81pzzmCvdb2bS1e_Xh3vBDegqbXZ933mjhnPZhz-CrKR3IWTpMEEJyUc1ljRXijhgeQR-tPYKgiOdW02z93M8F0qtuOc0k4osOwhy_uYK99FmxXXASrfBaYSAVLAcwxwPKbHVPiWeX17KN6CbC9SgaCbEM1Ng==",
+      "summary": "Josh Knoth underwent Tommy John surgery during the offseason and will miss the entire 2025 campaign, according to a report."
+    },
+    {
+      "title": "Josh Knoth fans seven in scoreless outing",
+      "source": "MLB.com",
+      "date": "2024-08-17",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYWxR4SRd7opNNpCPq4d0O4rXCqBLIBk5yrbTEwB2R7oMAvsJp2wdvhRrmIHeAN6y8ENVnAg02hBWyOesg8pUL1sMLc_p8C6E_dy2Zn7Sg6LZwGR1Kh6gSZT1qwueYLJawB2Qu4FQQqW6YKjtRImqqVV1kcsgQfRAFgw4=",
+      "summary": "Josh Knoth, a Brewers prospect, recorded seven strikeouts over 5 2/3 scoreless innings for Single-A Carolina."
+    },
+    {
+      "title": "Josh Knoth ties career high with seven strikeouts",
+      "source": "MLB.com",
+      "date": "2024-06-23",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELQNoAqr7F19MFEVe6YZTHRPexCsYPDP-NslTBFBP68WyMuXygcjdLGnLukRX7Silr1yPJv_KczI6yyagjGNsmDhPwzifRNaGbIiiOgPSSn2cUDrWwsFTq2HGfK2EpfUTp_bkMejSDfEh9VvfqQg7RK5leW_VgVVTCzglQlXX98k9wGRSeE9k=",
+      "summary": "Milwaukee Brewers prospect Josh Knoth tied a career high with seven strikeouts during a scoreless 5 2/3-inning start for Single-A Carolina."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Josh Knoth's seventh strikeout",
+      "channel": "Milwaukee Brewers / MLB.com",
+      "date": "2024-08-17",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYWxR4SRd7opNNpCPq4d0O4rXCqBLIBk5yrbTEwB2R7oMAvsJp2wdvhRrmIHeAN6y8ENVnAg02hBWyOesg8pUL1sMLc_p8C6E_dy2Zn7Sg6LZwGR1Kh6gSZT1qwueYLJawB2Qu4FQQqW6YKjtRImqqVV1kcsgQfRAFgw4=",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Josh Knoth's seventh strikeout of the game",
+      "channel": "Milwaukee Brewers / MLB.com",
+      "date": "2024-06-23",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELQNoAqr7F19MFEVe6YZTHRPexCsYPDP-NslTBFBP68WyMuXygcjdLGnLukRX7Silr1yPJv_KczI6yyagjGNsmDhPwzifRNaGbIiiOgPSSn2cUDrWwsFTq2HGfK2EpfUTp_bkMejSDfEh9VvfqQg7RK5leW_VgVVTCzglQlXX98k9wGRSeE9k=",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "No. 8 Josh Knoth - 2022 Year End Review - Class of 2023",
+      "channel": "PerfectGameUSA",
+      "date": "2023-01-17",
+      "url": "https://youtu.be/znpGITGs8DU",
+      "type": "scouting",
+      "urlType": "direct"
+    }
+  ]
+}

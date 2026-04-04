@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Brewers Prospect Hub</title>
+  <script>
+    document.documentElement.setAttribute('data-theme', localStorage.getItem('ph-theme') || 'dark');
+  </script>
   <link rel="stylesheet" href="styles/main.css">
   <style>
     /* ── Hero ──────────────────────────────────────────────────────────────── */
@@ -30,7 +33,7 @@
       font-weight: 700;
       line-height: 0.95;
       letter-spacing: -0.5px;
-      color: #fff;
+      color: var(--heading-text);
       opacity: 0;
       animation: fadeUp 0.4s ease 0.15s both;
     }
@@ -119,6 +122,212 @@
       pointer-events: none;
     }
 
+    .filters-panel {
+      margin-bottom: 32px;
+      padding: 18px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      background: linear-gradient(180deg, var(--surface), var(--surface2));
+      opacity: 0;
+      animation: fadeUp 0.4s ease 0.34s both;
+    }
+
+    .filters-shell {
+      margin-bottom: 32px;
+    }
+
+    .filters-shell.is-collapsed .filters-panel {
+      display: none;
+    }
+
+    .filters-collapsed-bar {
+      display: none;
+      justify-content: flex-start;
+    }
+
+    .filters-shell.is-collapsed .filters-collapsed-bar {
+      display: flex;
+      opacity: 0;
+      animation: fadeUp 0.25s ease both;
+    }
+
+    .filters-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .filter-section {
+      padding: 14px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: color-mix(in srgb, var(--surface) 78%, transparent);
+    }
+
+    .filter-title {
+      font-family: var(--font-display);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+      color: var(--text3);
+      margin-bottom: 12px;
+    }
+
+    .position-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .check-pill {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .check-pill input {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    .check-pill span {
+      font-family: var(--font-display);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      padding: 7px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text2);
+      transition: all var(--transition);
+    }
+
+    .check-pill input:checked + span {
+      background: rgba(240, 179, 35, 0.14);
+      border-color: var(--mil-gold);
+      color: var(--mil-gold);
+    }
+
+    .range-pair {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .slider-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .slider-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .slider-label {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      font-family: var(--font-display);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      color: var(--text2);
+    }
+
+    .slider-value {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text3);
+    }
+
+    .filter-range {
+      width: 100%;
+      accent-color: var(--mil-gold);
+    }
+
+    .filter-help {
+      font-family: var(--font-body);
+      font-size: 12px;
+      color: var(--text3);
+      line-height: 1.5;
+    }
+
+    .filter-actions {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 16px;
+      flex-wrap: wrap;
+    }
+
+    .filter-actions-right {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-left: auto;
+    }
+
+    .filter-clear {
+      font-family: var(--font-display);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 8px 12px;
+      border-radius: var(--radius);
+      border: 1px solid var(--border2);
+      background: var(--surface);
+      color: var(--text2);
+      cursor: pointer;
+      transition: all var(--transition);
+    }
+
+    .filter-clear:hover {
+      border-color: var(--mil-gold);
+      color: var(--gold);
+    }
+
+    .filter-panel-toggle {
+      font-family: var(--font-display);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 8px 12px;
+      border-radius: var(--radius);
+      border: 1px solid var(--border2);
+      background: var(--surface);
+      color: var(--text2);
+      cursor: pointer;
+      transition: all var(--transition);
+    }
+
+    .filter-panel-toggle:hover {
+      border-color: var(--mil-gold);
+      color: var(--gold);
+    }
+
+    .filter-summary {
+      font-family: var(--font-display);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      color: var(--text3);
+      text-transform: uppercase;
+    }
+
     /* ── Level section ──────────────────────────────────────────────────────── */
     .level-section { margin-bottom: 40px; }
 
@@ -205,7 +414,7 @@
       font-family: var(--font-display);
       font-size: 18px;
       font-weight: 700;
-      color: #fff;
+      color: var(--heading-text);
       letter-spacing: 0.3px;
       line-height: 1.1;
     }
@@ -355,6 +564,36 @@
     }
 
     /* ── Hidden ──────────────────────────────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .filters-grid,
+      .slider-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .search-wrap {
+        width: 100%;
+        margin-left: 0;
+      }
+
+      .search-input {
+        width: 100%;
+      }
+
+      .range-pair {
+        grid-template-columns: 1fr;
+      }
+
+      .filter-actions {
+        align-items: flex-start;
+      }
+
+      .card-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
     .hidden { display: none !important; }
   </style>
 </head>
@@ -368,6 +607,7 @@
     </a>
     <div class="nav-links">
       <a href="index.html" class="nav-link active">Roster</a>
+      <button class="theme-toggle" id="theme-toggle" title="Toggle light/dark mode" aria-label="Toggle theme"></button>
     </div>
   </nav>
 
@@ -387,15 +627,135 @@
 
     <!-- FILTER BAR -->
     <div class="filter-bar">
-      <button class="filter-btn active" data-level="all">All Levels</button>
-      <button class="filter-btn" data-level="AAA">Triple-A</button>
-      <button class="filter-btn" data-level="AA">Double-A</button>
-      <button class="filter-btn" data-level="A+">High-A</button>
-      <button class="filter-btn" data-level="A">Low-A</button>
-      <button class="filter-btn" data-level="ACL">Complex</button>
       <div class="search-wrap">
         <span class="search-icon">⌕</span>
         <input class="search-input" type="text" placeholder="Search player..." id="search-input">
+      </div>
+    </div>
+
+    <div class="filters-shell" id="filters-shell">
+    <div class="filters-panel">
+      <div class="filters-grid">
+        <div class="filter-section">
+          <div class="filter-title">Levels</div>
+          <div class="position-grid" id="level-filter-group">
+            <label class="check-pill"><input type="checkbox" value="AAA"><span>Triple-A</span></label>
+            <label class="check-pill"><input type="checkbox" value="AA"><span>Double-A</span></label>
+            <label class="check-pill"><input type="checkbox" value="A+"><span>High-A</span></label>
+            <label class="check-pill"><input type="checkbox" value="A"><span>Low-A</span></label>
+            <label class="check-pill"><input type="checkbox" value="ACL"><span>Complex</span></label>
+            <label class="check-pill"><input type="checkbox" value="DSL"><span>Dominican</span></label>
+          </div>
+        </div>
+
+        <div class="filter-section">
+          <div class="filter-title">Positions</div>
+          <div class="position-grid" id="position-filter-group">
+            <label class="check-pill"><input type="checkbox" value="SP"><span>SP</span></label>
+            <label class="check-pill"><input type="checkbox" value="RP"><span>RP</span></label>
+            <label class="check-pill"><input type="checkbox" value="C"><span>C</span></label>
+            <label class="check-pill"><input type="checkbox" value="1B"><span>1B</span></label>
+            <label class="check-pill"><input type="checkbox" value="2B"><span>2B</span></label>
+            <label class="check-pill"><input type="checkbox" value="3B"><span>3B</span></label>
+            <label class="check-pill"><input type="checkbox" value="SS"><span>SS</span></label>
+            <label class="check-pill"><input type="checkbox" value="OF"><span>OF</span></label>
+            <label class="check-pill"><input type="checkbox" value="DH"><span>DH</span></label>
+            <label class="check-pill"><input type="checkbox" value="IF"><span>IF</span></label>
+          </div>
+        </div>
+
+        <div class="filter-section">
+          <div class="filter-title">Age Range</div>
+          <div class="range-pair">
+            <div class="slider-group">
+              <label class="slider-label" for="age-min">
+                <span>Min Age</span>
+                <span class="slider-value" id="age-min-value"></span>
+              </label>
+              <input class="filter-range" id="age-min" type="range">
+            </div>
+            <div class="slider-group">
+              <label class="slider-label" for="age-max">
+                <span>Max Age</span>
+                <span class="slider-value" id="age-max-value"></span>
+              </label>
+              <input class="filter-range" id="age-max" type="range">
+            </div>
+          </div>
+          <div class="filter-help">Use both sliders to narrow the age band without hiding the rest of the roster UI.</div>
+        </div>
+
+        <div class="filter-section">
+          <div class="filter-title">Overall Rating</div>
+          <div class="slider-group">
+            <label class="slider-label" for="ofp-min">
+              <span>Minimum OFP</span>
+              <span class="slider-value" id="ofp-min-value"></span>
+            </label>
+            <input class="filter-range rating-filter" id="ofp-min" type="range" min="0" max="80" step="5" data-filter-key="ofp">
+          </div>
+          <div class="filter-help">Set to Any to keep unrated players visible. Higher values focus on stronger overall scouting grades.</div>
+        </div>
+
+        <div class="filter-section">
+          <div class="filter-title">Hit Tool Grades</div>
+          <div class="slider-grid">
+            <div class="slider-group">
+              <label class="slider-label" for="hit-min"><span>Hit</span><span class="slider-value" id="hit-min-value"></span></label>
+              <input class="filter-range rating-filter" id="hit-min" type="range" min="0" max="80" step="5" data-filter-key="hit">
+            </div>
+            <div class="slider-group">
+              <label class="slider-label" for="power-min"><span>Power</span><span class="slider-value" id="power-min-value"></span></label>
+              <input class="filter-range rating-filter" id="power-min" type="range" min="0" max="80" step="5" data-filter-key="power">
+            </div>
+            <div class="slider-group">
+              <label class="slider-label" for="run-min"><span>Run</span><span class="slider-value" id="run-min-value"></span></label>
+              <input class="filter-range rating-filter" id="run-min" type="range" min="0" max="80" step="5" data-filter-key="run">
+            </div>
+            <div class="slider-group">
+              <label class="slider-label" for="field-min"><span>Field</span><span class="slider-value" id="field-min-value"></span></label>
+              <input class="filter-range rating-filter" id="field-min" type="range" min="0" max="80" step="5" data-filter-key="field">
+            </div>
+            <div class="slider-group">
+              <label class="slider-label" for="arm-min"><span>Arm</span><span class="slider-value" id="arm-min-value"></span></label>
+              <input class="filter-range rating-filter" id="arm-min" type="range" min="0" max="80" step="5" data-filter-key="arm">
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-section">
+          <div class="filter-title">Pitch Grades</div>
+          <div class="slider-grid">
+            <div class="slider-group">
+              <label class="slider-label" for="fastball-min"><span>Fastball</span><span class="slider-value" id="fastball-min-value"></span></label>
+              <input class="filter-range rating-filter" id="fastball-min" type="range" min="0" max="80" step="5" data-filter-key="fastball">
+            </div>
+            <div class="slider-group">
+              <label class="slider-label" for="curveball-min"><span>Curveball</span><span class="slider-value" id="curveball-min-value"></span></label>
+              <input class="filter-range rating-filter" id="curveball-min" type="range" min="0" max="80" step="5" data-filter-key="curveball">
+            </div>
+            <div class="slider-group">
+              <label class="slider-label" for="changeup-min"><span>Changeup</span><span class="slider-value" id="changeup-min-value"></span></label>
+              <input class="filter-range rating-filter" id="changeup-min" type="range" min="0" max="80" step="5" data-filter-key="changeup">
+            </div>
+            <div class="slider-group">
+              <label class="slider-label" for="command-min"><span>Command</span><span class="slider-value" id="command-min-value"></span></label>
+              <input class="filter-range rating-filter" id="command-min" type="range" min="0" max="80" step="5" data-filter-key="command">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter-actions">
+        <button class="filter-panel-toggle" id="filter-panel-toggle" type="button" aria-expanded="true">Hide Filters</button>
+        <div class="filter-actions-right">
+          <div class="filter-summary" id="filter-summary">Showing full roster</div>
+          <button class="filter-clear" id="clear-filters" type="button">Reset Filters</button>
+        </div>
+      </div>
+    </div>
+      <div class="filters-collapsed-bar">
+        <button class="filter-panel-toggle" id="filter-panel-toggle-collapsed" type="button" aria-expanded="false">Show Filters</button>
       </div>
     </div>
 
@@ -410,11 +770,88 @@
   </div>
 
   <script type="module">
-    import { PLAYERS, LEVEL_ORDER, LEVEL_LABELS, GRADE_COLOR, GRADE_LABEL } from './data/players.js';
+    import { PLAYERS, LEVEL_ORDER, LEVEL_LABELS, GRADE_COLOR } from './data/players.js';
+
+    const THEME_KEY = 'ph-theme';
+    const FILTER_PANEL_KEY = 'ph-filters-visible-v2';
+    const themeToggle = document.getElementById('theme-toggle');
+    const filtersShell = document.getElementById('filters-shell');
+    const filterPanel = document.querySelector('.filters-panel');
+    const filterPanelToggle = document.getElementById('filter-panel-toggle');
+    const filterPanelToggleCollapsed = document.getElementById('filter-panel-toggle-collapsed');
+    const AGE_VALUES = PLAYERS.map((p) => p.age).filter((age) => typeof age === 'number');
+    const AGE_BOUNDS = {
+      min: AGE_VALUES.length ? Math.min(...AGE_VALUES) : 16,
+      max: AGE_VALUES.length ? Math.max(...AGE_VALUES) : 40,
+    };
+
+    const DEFAULT_FILTERS = {
+      levels: [],
+      positions: [],
+      ageMin: AGE_BOUNDS.min,
+      ageMax: AGE_BOUNDS.max,
+      ofp: 0,
+      hit: 0,
+      power: 0,
+      run: 0,
+      field: 0,
+      arm: 0,
+      fastball: 0,
+      curveball: 0,
+      changeup: 0,
+      command: 0,
+    };
+
+    const RATING_FILTERS = [
+      { key: 'ofp', inputId: 'ofp-min', valueId: 'ofp-min-value', getValue: (p) => p.grades?.ofp ?? null },
+      { key: 'hit', inputId: 'hit-min', valueId: 'hit-min-value', getValue: (p) => p.grades?.hit ?? null },
+      { key: 'power', inputId: 'power-min', valueId: 'power-min-value', getValue: (p) => p.grades?.power ?? null },
+      { key: 'run', inputId: 'run-min', valueId: 'run-min-value', getValue: (p) => p.grades?.run ?? null },
+      { key: 'field', inputId: 'field-min', valueId: 'field-min-value', getValue: (p) => p.grades?.field ?? null },
+      { key: 'arm', inputId: 'arm-min', valueId: 'arm-min-value', getValue: (p) => p.grades?.arm ?? null },
+      { key: 'fastball', inputId: 'fastball-min', valueId: 'fastball-min-value', getValue: (p) => p.pitchGrades?.fastball ?? null },
+      { key: 'curveball', inputId: 'curveball-min', valueId: 'curveball-min-value', getValue: (p) => p.pitchGrades?.curveball ?? null },
+      { key: 'changeup', inputId: 'changeup-min', valueId: 'changeup-min-value', getValue: (p) => p.pitchGrades?.changeup ?? null },
+      { key: 'command', inputId: 'command-min', valueId: 'command-min-value', getValue: (p) => p.pitchGrades?.command ?? null },
+    ];
+
+    function syncThemeToggle() {
+      const theme = document.documentElement.getAttribute('data-theme') || 'dark';
+      themeToggle.textContent = theme === 'light' ? '🌙' : '☀️';
+    }
+
+    function setFilterPanelVisibility(visible) {
+      filtersShell.classList.toggle('is-collapsed', !visible);
+      filterPanel.classList.toggle('hidden', !visible);
+      filterPanelToggle.textContent = visible ? 'Hide Filters' : 'Show Filters';
+      filterPanelToggle.setAttribute('aria-expanded', String(visible));
+      filterPanelToggleCollapsed.setAttribute('aria-expanded', String(visible));
+      localStorage.setItem(FILTER_PANEL_KEY, visible ? 'true' : 'false');
+    }
+
+    themeToggle.addEventListener('click', function() {
+      const current = document.documentElement.getAttribute('data-theme') || 'dark';
+      const next = current === 'light' ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem(THEME_KEY, next);
+      syncThemeToggle();
+    });
+
+    filterPanelToggle.addEventListener('click', function() {
+      const visible = filterPanelToggle.getAttribute('aria-expanded') === 'true';
+      setFilterPanelVisibility(!visible);
+    });
+
+    filterPanelToggleCollapsed.addEventListener('click', function() {
+      setFilterPanelVisibility(true);
+    });
+
+    syncThemeToggle();
+    setFilterPanelVisibility(localStorage.getItem(FILTER_PANEL_KEY) === 'true');
 
     // ── State ──────────────────────────────────────────────────────────────────
-    let activeLevel = 'all';
     let searchQuery = '';
+    let filters = { ...DEFAULT_FILTERS };
     // Scouting data keyed by player id — populated async at startup
     const scoutingCache = {};
 
@@ -456,6 +893,53 @@
       return r.toLowerCase().replace(/\s+/g, '');
     }
 
+    function formatSliderValue(value) {
+      return Number(value) === 0 ? 'Any' : String(value);
+    }
+
+    function normalizePositionTokens(position) {
+      const raw = String(position || '').toUpperCase();
+      const tokens = new Set();
+
+      if (raw.includes('SP') || raw.includes('STARTING PITCHER')) tokens.add('SP');
+      if (raw.includes('RP') || raw.includes('RELIEF PITCHER')) tokens.add('RP');
+      if (raw.includes('PITCHER') && !tokens.size) tokens.add('SP');
+      if (raw.includes('CATCHER') || /(^|\/)C($|\/)/.test(raw)) tokens.add('C');
+      if (raw.includes('1B') || raw.includes('FIRST BASE')) tokens.add('1B');
+      if (raw.includes('2B') || raw.includes('SECOND BASE')) tokens.add('2B');
+      if (raw.includes('3B') || raw.includes('THIRD BASE')) tokens.add('3B');
+      if (raw.includes('SS') || raw.includes('SHORTSTOP')) tokens.add('SS');
+      if (raw.includes('DH') || raw.includes('DESIGNATED HITTER')) tokens.add('DH');
+      if (raw.includes('OF') || raw.includes('OUTFIELDER') || raw.includes('LEFT FIELD') || raw.includes('CENTER FIELD') || raw.includes('RIGHT FIELD')) tokens.add('OF');
+      if (raw.includes('INFIELD')) tokens.add('IF');
+
+      return tokens;
+    }
+
+    function playerMatchesFilters(player) {
+      const q = searchQuery.toLowerCase();
+      const levelMatch = !filters.levels.length || filters.levels.includes(player.level);
+      const searchMatch = !q
+        || player.name.toLowerCase().includes(q)
+        || String(player.position || '').toLowerCase().includes(q)
+        || String(player.affiliate || '').toLowerCase().includes(q);
+
+      const ageValue = typeof player.age === 'number' ? player.age : null;
+      const ageMatch = ageValue == null || (ageValue >= filters.ageMin && ageValue <= filters.ageMax);
+
+      const positionTokens = normalizePositionTokens(player.position);
+      const positionMatch = !filters.positions.length || filters.positions.some((pos) => positionTokens.has(pos));
+
+      const ratingMatch = RATING_FILTERS.every(function(config) {
+        const minimum = filters[config.key];
+        if (!minimum) return true;
+        const value = config.getValue(player);
+        return value != null && value >= minimum;
+      });
+
+      return levelMatch && searchMatch && ageMatch && positionMatch && ratingMatch;
+    }
+
     // Merge base roster entry with scouting JSON (if available)
     function mergePlayer(base) {
       const scout = scoutingCache[base.id] || {};
@@ -466,12 +950,12 @@
         position: base.position,
         level:    base.level,
         age:      base.age,
+        affiliate: base.affiliate,
       });
     }
 
     // ── Card builder ───────────────────────────────────────────────────────────
-    function buildCard(base, delay) {
-      const p     = mergePlayer(base);
+    function buildCard(p, delay) {
       const g     = p.grades || {};
       const ofp   = g.ofp;
       const risk  = g.risk || '';
@@ -519,62 +1003,104 @@
     // ── Render ────────────────────────────────────────────────────────────────
     function render() {
       const root = document.getElementById('roster-root');
-      const q = searchQuery.toLowerCase();
-
-      const filtered = PLAYERS.filter(function(p) {
-        const levelMatch = activeLevel === 'all' || p.level === activeLevel;
-        const searchMatch = !q || p.name.toLowerCase().includes(q) || p.position.toLowerCase().includes(q);
-        return levelMatch && searchMatch;
-      });
+      const mergedPlayers = PLAYERS.map(mergePlayer);
+      const filtered = mergedPlayers
+        .filter(playerMatchesFilters)
+        .sort(function(a, b) {
+          const ofpDiff = (b.grades?.ofp ?? -1) - (a.grades?.ofp ?? -1);
+          if (ofpDiff !== 0) return ofpDiff;
+          const ageDiff = (a.age ?? 999) - (b.age ?? 999);
+          if (ageDiff !== 0) return ageDiff;
+          return String(a.name || '').localeCompare(String(b.name || ''));
+        });
 
       document.getElementById('total-count').textContent = filtered.length + ' player' + (filtered.length !== 1 ? 's' : '');
+      updateFilterSummary(filtered.length);
 
       if (filtered.length === 0) {
         root.innerHTML = '<div class="empty-state">No players found</div>';
         return;
       }
 
-      const grouped = {};
-      LEVEL_ORDER.forEach(function(l) { grouped[l] = []; });
-      filtered.forEach(function(p) {
-        if (!grouped[p.level]) grouped[p.level] = [];
-        grouped[p.level].push(p);
+      root.innerHTML = '<div class="card-grid">'
+        + filtered.map(function(p, index) {
+          return buildCard(p, 0.05 + index * 0.03);
+        }).join('')
+        + '</div>';
+    }
+
+    function updateFilterSummary(filteredCount) {
+      const activeParts = [];
+
+      if (filters.levels.length) {
+        activeParts.push(filters.levels.map(function(level) {
+          return LEVEL_LABELS[level] || level;
+        }).join('/'));
+      }
+      if (filters.positions.length) activeParts.push(filters.positions.join('/'));
+      if (filters.ageMin !== AGE_BOUNDS.min || filters.ageMax !== AGE_BOUNDS.max) activeParts.push('Age ' + filters.ageMin + '–' + filters.ageMax);
+
+      RATING_FILTERS.forEach(function(config) {
+        if (filters[config.key]) activeParts.push(config.key.toUpperCase() + ' ' + filters[config.key] + '+');
       });
 
-      let html = '';
-      let cardIdx = 0;
+      if (searchQuery.trim()) activeParts.push('Search "' + searchQuery.trim() + '"');
 
-      LEVEL_ORDER.forEach(function(level) {
-        const players = grouped[level];
-        if (!players || !players.length) return;
+      document.getElementById('filter-summary').textContent = activeParts.length
+        ? filteredCount + ' matches · ' + activeParts.join(' · ')
+        : 'Showing full roster';
+    }
 
-        html += '<div class="level-section" data-level="' + level + '">'
-          + '<div class="level-header">'
-          + '<span class="level-name">' + (LEVEL_LABELS[level] || level) + '</span>'
-          + '<span class="level-sub">' + (players[0] && players[0].affiliate || '') + '</span>'
-          + '<span class="level-count">' + players.length + 'P</span>'
-          + '</div><div class="card-grid">';
+    function syncAgeControls() {
+      const minInput = document.getElementById('age-min');
+      const maxInput = document.getElementById('age-max');
 
-        players.forEach(function(p) {
-          html += buildCard(p, 0.05 + cardIdx * 0.06);
-          cardIdx++;
-        });
+      if (filters.ageMin > filters.ageMax) {
+        if (document.activeElement === minInput) {
+          filters.ageMax = filters.ageMin;
+        } else {
+          filters.ageMin = filters.ageMax;
+        }
+      }
 
-        html += '</div></div>';
+      minInput.value = String(filters.ageMin);
+      maxInput.value = String(filters.ageMax);
+      document.getElementById('age-min-value').textContent = String(filters.ageMin);
+      document.getElementById('age-max-value').textContent = String(filters.ageMax);
+    }
+
+    function syncRatingControls() {
+      RATING_FILTERS.forEach(function(config) {
+        document.getElementById(config.inputId).value = String(filters[config.key]);
+        document.getElementById(config.valueId).textContent = formatSliderValue(filters[config.key]);
       });
+    }
 
-      root.innerHTML = html;
+    function syncPositionControls() {
+      document.querySelectorAll('#position-filter-group input[type="checkbox"]').forEach(function(input) {
+        input.checked = filters.positions.includes(input.value);
+      });
+    }
+
+    function syncLevelControls() {
+      document.querySelectorAll('#level-filter-group input[type="checkbox"]').forEach(function(input) {
+        input.checked = filters.levels.includes(input.value);
+      });
+    }
+
+    function resetFilters() {
+      filters = { ...DEFAULT_FILTERS };
+      searchQuery = '';
+
+      document.getElementById('search-input').value = '';
+      syncAgeControls();
+      syncRatingControls();
+      syncLevelControls();
+      syncPositionControls();
+      render();
     }
 
     // ── Events ────────────────────────────────────────────────────────────────
-    document.querySelectorAll('.filter-btn').forEach(function(btn) {
-      btn.addEventListener('click', function() {
-        document.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
-        btn.classList.add('active');
-        activeLevel = btn.dataset.level;
-        render();
-      });
-    });
 
     document.getElementById('search-input').addEventListener('input', function(e) {
       searchQuery = e.target.value;
@@ -582,6 +1108,58 @@
     });
 
     // ── Init — render immediately with roster data, then re-render with scouting data ──
+    document.querySelectorAll('#level-filter-group input[type="checkbox"]').forEach(function(input) {
+      input.addEventListener('change', function() {
+        filters.levels = Array.from(document.querySelectorAll('#level-filter-group input[type="checkbox"]:checked')).map(function(checked) {
+          return checked.value;
+        });
+        render();
+      });
+    });
+
+    document.querySelectorAll('#position-filter-group input[type="checkbox"]').forEach(function(input) {
+      input.addEventListener('change', function() {
+        filters.positions = Array.from(document.querySelectorAll('#position-filter-group input[type="checkbox"]:checked')).map(function(checked) {
+          return checked.value;
+        });
+        render();
+      });
+    });
+
+    const ageMinInput = document.getElementById('age-min');
+    const ageMaxInput = document.getElementById('age-max');
+    ageMinInput.min = String(AGE_BOUNDS.min);
+    ageMinInput.max = String(AGE_BOUNDS.max);
+    ageMaxInput.min = String(AGE_BOUNDS.min);
+    ageMaxInput.max = String(AGE_BOUNDS.max);
+
+    ageMinInput.addEventListener('input', function(e) {
+      filters.ageMin = Number(e.target.value);
+      syncAgeControls();
+      render();
+    });
+
+    ageMaxInput.addEventListener('input', function(e) {
+      filters.ageMax = Number(e.target.value);
+      syncAgeControls();
+      render();
+    });
+
+    RATING_FILTERS.forEach(function(config) {
+      document.getElementById(config.inputId).addEventListener('input', function(e) {
+        filters[config.key] = Number(e.target.value);
+        syncRatingControls();
+        render();
+      });
+    });
+
+    document.getElementById('clear-filters').addEventListener('click', resetFilters);
+
+    syncAgeControls();
+    syncRatingControls();
+    syncLevelControls();
+    syncPositionControls();
+
     render();  // immediate render so page isn't blank while fetching
     loadAllScoutingData().then(function() {
       render(); // re-render cards with grades/OFP from scouting JSON

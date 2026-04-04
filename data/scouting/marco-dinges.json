@@ -1,0 +1,260 @@
+{
+  "playerId": "marco-dinges",
+  "name": "Marco Dinges",
+  "position": "C",
+  "level": "A",
+  "age": 22,
+  "updatedAt": "2026-04-04T02:27:05.259Z",
+  "grades": {
+    "hit": 45,
+    "power": 55,
+    "run": 40,
+    "field": 45,
+    "arm": 60,
+    "ofp": 50,
+    "risk": "Medium"
+  },
+  "rankings": [
+    {
+      "source": "Prospects Live",
+      "rank": 97,
+      "systemRank": null,
+      "grade": null,
+      "listName": "2026 Prospect List: Top 150 Dynasty Prospects",
+      "date": "2026-03-06",
+      "url": "https://www.prospectslive.com/prospects/2026-prospect-list-top-150-dynasty-prospects"
+    },
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 10,
+      "grade": "50",
+      "listName": "Milwaukee Brewers Top Prospects",
+      "date": "2026-02-27",
+      "url": "https://www.baseballamerica.com/prospects/marco-dinges-stats-scouting-report/"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 10,
+      "grade": null,
+      "listName": "Brewers Top 30 Prospects",
+      "date": "2026-02-27",
+      "url": "https://www.mlb.com/prospects/brewers/marco-dinges-694464"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 24,
+      "grade": "40 FV",
+      "listName": "Milwaukee Brewers Top 53 Prospects",
+      "date": "2025-11-24",
+      "url": "https://blogs.fangraphs.com/milwaukee-brewers-top-53-prospects/"
+    }
+  ],
+  "summary": "Marco Dinges is a power-hitting catcher prospect for the Milwaukee Brewers, drafted in the 4th round in 2024. He displayed impressive offensive production in Low-A and High-A in 2025, with plus-plus raw power and high bat speed. Questions remain about his long-term defensive home behind the plate, but he possesses a plus arm.",
+  "strengths": [
+    "Plus-plus raw power",
+    "High-end bat speed",
+    "Plus arm strength"
+  ],
+  "concerns": [
+    "Defensive consistency at catcher",
+    "Swing-and-miss",
+    "Below-average runner"
+  ],
+  "eta": "2027",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Marco Dinges Stats & Scouting Report",
+      "source": "Baseball America",
+      "date": "2026-02-27",
+      "url": "https://www.baseballamerica.com/prospects/marco-dinges-stats-scouting-report/"
+    },
+    {
+      "type": "article",
+      "title": "Down on the Farm: Brewers Top Prospects Notes",
+      "source": "Just Baseball",
+      "date": "2026-02-26",
+      "url": "https://justbaseball.com/prospects/brewers-top-prospects-notes/"
+    },
+    {
+      "type": "article",
+      "title": "Brewers' Marco Dinges Swings Hard And Gets Results",
+      "source": "Baseball America",
+      "date": "2026-01-03",
+      "url": "https://www.baseballamerica.com/stories/brewers-marco-dinges-swings-hard-and-gets-results/"
+    },
+    {
+      "type": "youtube",
+      "title": "MLB prospect pursues career after surviving rare life-threatening illness",
+      "source": "FOX 11 News (WLUK)",
+      "date": "2025-07-03",
+      "url": "https://www.youtube.com/watch?v=0h5o7V3A8bU"
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "FanGraphs",
+    "Prospects Live",
+    "Just Baseball",
+    "FOX 11 News"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [
+    {
+      "title": "4 Milwaukee Brewers 2026 Bold Predictions - Brewers - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/4-milwaukee-brewers-2026-bold-predictions-r4336/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Marco Dinges - 2024 Milwaukee Brewers Draft Picks - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-draft-picks/2024/marco-dinges-r6/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Marco Dinges - 2026 Milwaukee Brewers Top Prospects Ranking - Brewer ...",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-top-prospect-rankings/marco-dinges-r65/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Milwaukee Brewers 2026 Top Prospects: No. 10, Marco Dinges",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/milwaukee-brewers-2026-top-prospects-no-10-marco-dinges-r4201/",
+      "date": "2026-02",
+      "type": "article"
+    },
+    {
+      "title": "Depth Check: Examining The Brewers At Catcher In 2026",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/depth-check-examining-the-brewers-at-catcher-in-2026-r3969/",
+      "date": "2025-11",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (8/9): KC Hunt Shines, Marco Dinges ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-89-kc-hunt-shines-marco-dinges-returns-as-shuckers-and-rattlers-win-r3686/",
+      "date": "2025-08",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (6/10): Wake up, Brewers Fans. C Marco ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-610-wake-up-brewers-fans-c-marco-dinges-is-capital-special-r3459/",
+      "date": "2025-06",
+      "type": "article"
+    }
+  ],
+  "recentNews": [
+    {
+      "title": "Brewers prospects' team assignments to open 2026 season",
+      "source": "MLB.com",
+      "date": "2026-04-02",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS_nUh0Le-imQbMBsGPXkO82UwdogM-60n5r0pHpKbH9oU3cbKQ4DDcYBGR-Nv1hUcGYNiIxNIn2jUAAiX9ueI3aE1vJBtgqLQIbyHRn01AW4QaFmN7i81BM3ok_FZzlmPfZOvMriDHR068YUwApQJEjL2i4AtdIIGkU0sfbL_9aL8Byn_dmThYRdJ8Vptssi-FUc",
+      "summary": "Marco Dinges, a catcher, will begin the 2026 season with High-A Wisconsin, and is noted for his 'good pop' in the lineup."
+    },
+    {
+      "title": "Brewers' Farm System Rebounds",
+      "source": "Milwaukee Brewers News",
+      "date": "2025-12-02",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGEUB2zgG6eIi1Pbnjg_FpJ7UcY0vJjd2asT4q1Ugrj57Ct3BVKtpVOmNAxM9O7QxeWReKZbIGNOCiTm52RbfngswYF2a3DYPr36p4FjmebO7R5JCxccbHyR80VkTINJI_YqKo4-O04WqN4c_VwDBoK-FtmWnPsBrqGUu5LN7ooems8iggX8XkKfY70BcjZAIsrau22BT_NRV6ZIA14Wu1aKTIk-DaKTho_JQ-O2jdAB3fXzLjf5JR",
+      "summary": "The Milwaukee Brewers farm system experienced a rebound in 2025, with Marco Dinges being among the players mentioned as contributors."
+    },
+    {
+      "title": "Marco Dinges' 10th homer of the year",
+      "source": "MLB.com",
+      "date": "2025-08-13",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaVNA1nNpL7IuJr5PJKpu57fy7MBpqSP1iTRlSTTh0V3xNL4F_JePZeetPAHr4a30384Mo35-SGz6fljMhdbCFW4AnRWNdcsFyarfJYRGnZ8qZ-vwBKYLe3omTOuChRSB0U7jV0QNpEcGz0WZKywh1Cb0cK3JhMgzgfmvVnmF62g",
+      "summary": "Brewers No. 10 prospect Marco Dinges slugged his 10th home run of the year, his seventh for High-A Wisconsin."
+    },
+    {
+      "title": "Marco Dinges' two-run homer",
+      "source": "MLB.com",
+      "date": "2025-07-29",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkj8DPjfl551tnPvYYcL7v4zehq63s0n62HkkU9rI2VnMUROQYuPUOOsGoAI7U6RWI3LaP2xG0G682xt98BO1c-q1vgw_qirBwvKkg_eslwVyhUkNqZaRH6ouhC2D32ljPm3Y5kh1uMmCwOt5-E5mZm2EqrYY",
+      "summary": "Brewers prospect Marco Dinges crushed a two-run shot for his first High-A Wisconsin homer."
+    },
+    {
+      "title": "Dinges Goes Deep In Rattlers Win",
+      "source": "Minor League Baseball",
+      "date": "2025-05-21",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOhnl2Xx65UrFDs0uofdAwtHtMq6ir7Jc8milwksFo4qjq_WXLJlp3AQrznMWeHklYNm7bRQJFqhFqG0QtcbN7nf9psd97_OXXe2bcCJEv7GsHwe98_cx4pjUKjdRe36jP8msQGqEqUTwlQ-5ZzCBUnXGoJ2Ju_rISTB89vUjUKjrDkVLsIujv",
+      "summary": "Marco Dinges hit his first Midwest League home run and made a key pickoff play in his first start at catcher for the Wisconsin Timber Rattlers, leading them to a 3-1 victory."
+    },
+    {
+      "title": "Brewers Name Minor League Player and Pitcher of the Month for April",
+      "source": "Urban Milwaukee",
+      "date": "2025-05-07",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFzsqXRBFwJAVhG77ALKZNnrNg-oqoxnElhkfvUapiggmFvxYk9-sE2e_2tpywS2OT95cTa5pazR3C1W3ZKDGbKx7ziNwqwKVPMgM-Xw1zZzvgQzfSHR2AlWUXQ-hvHcgkcI5CwaTFpcsSOzM-abwnF6MkFrOstF-e3ADgvohXa7AiCOCUMDNL5dtJLW_Hqj9dnHNpgp4myFSBjfF9a4sYk9pDi8ZWJjmF",
+      "summary": "Marco Dinges was named Minor League Player of the Month for April 2025, batting .400 with 6 doubles, 1 triple, 1 HR, and 17 RBI in 15 games for Class-A Carolina, reaching base safely in all games and collecting multiple hits in six contests."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Marco Dinges doubles 107 MPH off the bat | AFL Highlights",
+      "channel": "ProspectsLive",
+      "date": "2025-12-28",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECd1ai9n05y7q8k5Dwz8F3bxBebZrU_-Isx8WbV1AduX80KjKLkNhbHP9XKsiX8cEGv7GoouWQQmR28-tVqS7-RjwW0rS7l82b9NCtce2B6PFtk2wDn7HHDtF7zxllwDfbbXtozQ",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Marco Dinges 2025 Highlights",
+      "channel": "Wisconsin Timber Rattlers",
+      "date": "2025-12-17",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNGnjpck8-FZtAu4KteO5s4Q0OabtarWqs3P8ZEQjUQTGCqTdNZiGXS63DL9UaPBFBQF4Mz7SH97MZVt-_gB4PpiZNY0CCDfwHSyCH2t5DWEn65QanjsX3ezjRgOGSKENzOegr45c",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Marco Dinges' 10th homer of the year | 08/13/2025 | Milwaukee Brewers",
+      "channel": "MLB.com",
+      "date": "2025-08-13",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaVNA1nNpL7IuJr5PJKpu57fy7MBpqSP1iTRlSTTh0V3xNL4F_JePZeetPAHr4a30384Mo35-SGz6fljMhdbCFW4AnRWNdcsFyarfJYRGnZ8qZ-vwBKYLe3omTOuChRSB0U7jV0QNpEcGz0WZKywh1Cb0cK3JhMgzgfmvVnmF62g",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Marco Dinges' two-run homer | 07/29/2025 | MLB.com",
+      "channel": "MLB.com",
+      "date": "2025-07-29",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkj8DPjfl551tnPvYYcL7v4zehq63s0n62HkkU9rI2VnMUROQYuPUOOsGoAI7U6RWI3LaP2xG0G682xt98BO1c-q1vgw_qirBwvKkg_eslwVyhUkNqZaRH6ouhC2D32ljPm3Y5kh1uMmCwOt5-E5mZm2EqrYY",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Marco Dinges' single | 08/21/2024 | Milwaukee Brewers",
+      "channel": "MLB.com",
+      "date": "2024-08-21",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH983zIlNQHymC45TgIOx35WLWdH4jzuna_H2gIj6d28ypwWbvv-r16RI5b5xZL51WDHeJ6Fy5VUbWiYFnujW1JeiPyFwX43pW6UKiYblY8gQuwK_HIPA1Fwg0Iiw2hE5a4lM_xxUFqgMmMa7EkVGyU",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "FSU's Marco Dinges With A 448-Foot Bomb To Center",
+      "channel": "ACC Digital Network",
+      "date": "2024-05-21",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3_0Sc0Finlk7Y8psso5GHzubWu8daiHrYnwbO2ujxmGtKLKB68TQ7Kfz9XUatKTnVZHHLGFg5dNTAVsiVJVZQnKuXgVz76nNngbIS1YJv7gUGLPc0VM6AYfWh8tKWz1cdSDXuJ54",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "FSU's Marco Dinges hits a GRAND SLAM vs. North Florida",
+      "channel": "ACC Digital Network",
+      "date": "2024-04-24",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXoexuT37_NxkwI7DtjwscvVy4N6aiJcXa5NewDuc4wQdFX0OFpdgK3BtmT1tm6hYMbjb9n5-6woPLhlfjwV4EqDDzmBy5_HgZ3n66zKXdNWpJ94rO5S3sOSVgdf9qdwuw7CW4t2U",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "FLORIDA STATE GRAND SLAM Marco Dinges crushes it vs. Louisville | ESPN College Baseball",
+      "channel": "ESPN",
+      "date": "2024-03-29",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHT2u2SWWPEWwyYKRRuJtRt2JGbeD6lCSK1umaQ5CsSw4hjIRzTM_hAn9Fr8glwRBPDz5TPGrw8oRWBn2qoqOINStRvo5X0E4gohp-g7_iFHid8CID5PoYuOHcRm6NyerXTJiKNyX0",
+      "type": "highlights",
+      "urlType": "direct"
+    }
+  ]
+}

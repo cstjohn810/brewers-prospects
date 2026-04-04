@@ -1,0 +1,231 @@
+{
+  "playerId": "braylon-payne",
+  "name": "Braylon Payne",
+  "position": "OF",
+  "level": "A",
+  "age": 19,
+  "updatedAt": "2026-04-04T03:07:23.888Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": 45,
+    "power": 50,
+    "run": 70,
+    "field": 55,
+    "arm": 50,
+    "ofp": 50,
+    "risk": "Extreme"
+  },
+  "rankings": [
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 19,
+      "grade": "50",
+      "listName": "Organization Prospect Rankings",
+      "date": "2026-04",
+      "url": "https://www.baseballamerica.com/players/145892/braylon-payne/"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 11,
+      "grade": "50",
+      "listName": "Brewers Top Prospects",
+      "date": "2026-04",
+      "url": "https://www.milb.com/brewers/prospects/braylon-payne-687747"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": null,
+      "grade": "35+",
+      "listName": "The Board",
+      "date": "2026-03",
+      "url": "https://www.fangraphs.com/prospects/the-board/scouting-position?stat=proj"
+    },
+    {
+      "source": "Prospects1500",
+      "rank": null,
+      "systemRank": 14,
+      "grade": "Tier 1",
+      "listName": "Milwaukee Brewers Top 50 Prospects",
+      "date": "2026-03",
+      "url": "https://www.prospects1500.com/mlb-teams/milwaukee-brewers-top-50-prospects-2026/"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 18,
+      "grade": "40+",
+      "listName": "Milwaukee Brewers Top 53 Prospects",
+      "date": "2025-11",
+      "url": "https://blogs.fangraphs.com/milwaukee-brewers-top-53-prospects/"
+    },
+    {
+      "source": "Prospect361",
+      "rank": null,
+      "systemRank": 6,
+      "grade": null,
+      "listName": "Milwaukee Brewers Prospects",
+      "date": "2025-10",
+      "url": "https://prospect361.com/teams/milwaukee-brewers/"
+    }
+  ],
+  "summary": "Braylon Payne is a highly athletic outfielder with elite speed, consistently graded as 70. Drafted in the first round in 2024, he has shown surprising raw power with high exit velocities but still has rawness in his hit tool and needs to refine his swing to reduce strikeouts and lift the ball more. He projects as a center fielder with the potential to be a top-of-the-order threat.",
+  "strengths": [
+    "Elite speed",
+    "Plus raw power",
+    "Quick-twitch athleticism",
+    "Advanced approach for age"
+  ],
+  "concerns": [
+    "Swing-and-miss",
+    "High strikeout rate",
+    "Ground ball tendency",
+    "Spin recognition"
+  ],
+  "eta": "2028-2029",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Down on the Farm: Brewers Top Prospects Notes",
+      "source": "Just Baseball",
+      "date": "2026-02",
+      "url": "https://justbaseball.com/prospects/down-on-the-farm-brewers-top-prospects-notes/"
+    },
+    {
+      "type": "article",
+      "title": "Brewers 18-Year-Old Projected As Milwaukee's Top Breakout Prospect",
+      "source": "Sports Illustrated",
+      "date": "2025-03",
+      "url": "https://www.si.com/mlb/brewers/news/milwaukee-brewers-breakout-mlb-prospects-braylon-payne-curt-hogg-mlb-journal-sentinel-01hqv06c4x60"
+    },
+    {
+      "type": "reddit",
+      "title": "The Brewers have selected Braylon Payne 17th overall",
+      "source": "Reddit",
+      "date": "2024-07",
+      "url": "https://www.reddit.com/r/Brewers/comments/1c3140i/the_brewers_have_selected_braylon_payne_17th/"
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "FanGraphs The Board",
+    "Baseball Prospectus",
+    "Prospects Live",
+    "Just Baseball",
+    "Prospect361",
+    "Milwaukee Journal Sentinel",
+    "Wisconsin Sports Heroics",
+    "Brew Crew Review",
+    "MiLB.com",
+    "Sports Illustrated",
+    "Prospects1500"
+  ],
+  "confidence": "medium",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "Braylon Payne Stats & Scouting Report",
+      "source": "Baseball America",
+      "date": "2026-04-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOAWe8zoBwQLftum_voQNZ59nhbt4WkH92eUp_Sfkime_3qjc3DiuMTYlkruzQCyQ3ps2a0KAjYBalM_3Axu_JHo8fH4F1rtXwHfjmVVZ8h1ly6nCHlYpjuRIk7O9uPg2XUXDKgk3vYyMxq50yrJuh_Uz-uAESWbWZ",
+      "summary": "A Baseball America scouting report for Braylon Payne, updated April 3, 2026, highlights his plus-plus speed and raw power, discusses his unorthodox swing and high strikeout rate in 2025, and projects him to advance to High-A Wisconsin."
+    },
+    {
+      "title": "Braylon Payne - Brewers Top Prospects",
+      "source": "MiLB.com",
+      "date": "2026-03-22",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVtjiN_XKCMIJmSDVeAfzXeIaueZyKvc8V4zkRb14ZW-ii9hw0-I4JTXIBcxEpGxNh1OER9wmp2CCChYsEdPHS743dAoaLpZ5TuEdyCFhxf0jpvtzz-PE9c25JoOp8maetRkW5HwMWPUvKXCRSqKDzftH3BXOoAOrWjQ==",
+      "summary": "Braylon Payne's prospect report, updated March 22, 2026, details his 2025 Single-A season with 8 homers and 31 steals in 77 games, noting his plus-plus speed and areas for offensive improvement, and indicating he will begin the 2026 season with the Brewers' Top 30 prospects."
+    },
+    {
+      "title": "Braylon Payne Stats, Age, Position, Height, Weight, Fantasy & News",
+      "source": "MiLB.com",
+      "date": "2026-03-05",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnK5YSD6zlDlgOLFB1j3iUICgYW1xa-WYWr_GynJGhaHZDJOVuOWXGZxqTKUnPNJk-iMx6YbaG0INaKVOKrcccgKdMR3vUDbBdc46qYTYk_pLJbkwFFc0s-SL-SsAftk5K8vuUFYAvEdOXTg==",
+      "summary": "Braylon Payne's roster status was changed by the Milwaukee Brewers on March 5, 2026, assigning him to Milwaukee Brewers Prospects."
+    },
+    {
+      "title": "Down on the Farm: Brewers Top Prospects Notes",
+      "source": "Just Baseball",
+      "date": "2026-02-26",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjrccuLxs_ja6riuap0WqUwFuccLdqQJOnhcU5SfVbe_MUk_ydEW9UbPilRF--uqDZfRvwlUuejY8g4frzTv5AlZIgwjBlTg9R2_L7kdaPActFbjI6L1YeWZPmRB3AjPAuuTVk9oFmMnzK9znH-XUR328W8mUgXVkvuOL3LC3r_gFb5o1YpI8=",
+      "summary": "An article from February 26, 2026, discusses Braylon Payne's development as a \"project\" due to his youth, his 70-grade speed, and surprising plus raw power, noting a swing adjustment in June 2025 that led to improved hitting before a concussion sidelined him."
+    },
+    {
+      "title": "Braylon Payne slugs his sixth homer of the year",
+      "source": "Milwaukee Brewers / MLB.com",
+      "date": "2025-07-09",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYGD5TwqT_WOLUFpPPffI6jwhTYqwz14Ig_63iVJBgMmGnktieInoqrKoyqic7zmPsxkdzOGB5Slr4zmFCo7CxEK16B6iYnXh-Rr57f6UeAjV7_QSfrZ7U6pMM93TdN3jN9lVUbGcdEZ2FCfRh1QUx8O_Hl6JxVM9cRE1OaydXtNZ0EyRsunBmKg8ORg==",
+      "summary": "Brewers No. 9 prospect Braylon Payne hit his sixth home run of the year for Single-A Carolina on July 9, 2025."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Braylon Payne 2025 Minor League Highlights!",
+      "channel": "Baseball is Everything Network",
+      "date": "2026-03-24",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAdVstgrJs-S1fNT9x3RPSY_MiOMWKNBDW6K1b7Fe5IwPCGo_UQFCkSIQagfRrFgdQerpOP1VHkuG-sow1GE3b33Y7a9rUNfvCPQjBuxCGeBLhGd7F4VCW5gWHqddT-9t3jOtPsEk=",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Braylon Payne slugs his sixth homer of the year",
+      "channel": "Milwaukee Brewers",
+      "date": "2025-07-09",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYGD5TwqT_WOLUFpPPffI6jwhTYqwz14Ig_63iVJBgMmGnktieInoqrKoyqic7zmPsxkdzOGB5Slr4zmFCo7CxEK16B6iYnXh-Rr57f6UeAjV7_QSfrZ7U6pMM93TdN3jN3lVUbGcdEZ2FCfRh1QUx8O_Hl6JxVM9cRE1OaydXtNZ0EyRsunBmKg8ORg==",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Braylon Payne's two-run homer",
+      "channel": "MiLB.com",
+      "date": "2025-07-04",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVc4xCe597m12o1L01EdSchyQ7tx6WyHgjY_91RUQwEZLLols0J9MG_4k-CMt-d94qDY1ZQUZ7K9-eN7BlfsIAYicmpgX38430WrDQwjPQnXSPCy35CHVUu6S5etD5cnMbI2zEBU21Wj9BuIjR4bxal-fedBxPsHR5QUNbUsDqZCLZjBDExQ==",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Braylon Payne's leadoff home run",
+      "channel": "Milwaukee Brewers / MLB.com",
+      "date": "2025-06-08",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXucJ-Rg3qwQQNV_Mw8-M8OUwOX6lvDygZ4Eokkb5QqCW_Oc2gsCEUJbAOC2mmw7fSuzdP-RNC71jRkIC4hGBqtCvcwO41AgCfERmMINzU7f-hGO67w8BNdHnFEhpDs2GdRfUFTOiwgM1OwXJOwnJTs8vdYT-BsvZoj-KcaA==",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Braylon Payne drives triple, home run vs. Delmarva",
+      "channel": "Milwaukee Brewers / MLB.com",
+      "date": "2025-04-20",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEg7ad6UqruOp9IRYhfagC9RZfscHaBmZ7EIM1J7185i07v_a58soD7y-9VfvvMcdN_Rxg9ExYuVRPg-MPzunRt_3xlJEZDxp00TNv7rHyHy9U5vcM4G929xPeRDZka0nOwF7TeyLjz65SrbWxXMM9_Bi-HzNE8ZkA5Ez07qJI16CaFXLAjytsaW8M6g0E=",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "OF Braylon Payne - Elkins (TX)",
+      "channel": "Prospects Live",
+      "date": "2024-07-04",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvf7rPZ1b6ETzdbTSYnKaZrEr3lXo3YQhTDpJ68wrA1PgFEhcRCy799NwAMFdXUjdLSOSO6UydKgAZm4Aklk31h-e25KhqgNU_4a-ZCZSJs5CespAYBgDe7cfgsCqxs0VFxmTHz4g==",
+      "type": "interview",
+      "urlType": "direct"
+    },
+    {
+      "title": "1 Texas OF Recruit Braylon Payne | Elkins Knights vs Lamar Texans",
+      "channel": "324sports",
+      "date": "2024-02-20",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlRGrUNWxXVK5Nuw7FXIz0TM0Mcv09f3P7x5ZTbyIhGVGXX3Kr864LmlDJjeh0E9JJfRi0i6yY_hYS6WUlGaKmrsYLqDmf3e5ZAuxtXI622FuD2yAWKcnC2jsP-lndGS4ZOe8UYLs=",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Braylon Payne with the 6.28s 60 at Twelve Scout League | '24 Houston commit, Elkins (TX) #baseball",
+      "channel": "Twelve Baseball",
+      "date": "2023-06-06",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEXmEISo8cKPL9rgBc46-VoJdHZyzWZbmY4VgGL9hNLLOhIs-nKi6TF1WtdX3uE6IVErQRk6F0Hi9kDYM22ypWJY9vQYyYppUzGSUY9VJeIsBvWM3jsc0-HfxEziXuqwJwjXQiHg==",
+      "type": "scouting",
+      "urlType": "direct"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "playerId": "ethan-dorchies",
+  "name": "Ethan Dorchies",
+  "position": "SP",
+  "level": "ACL",
+  "age": 19,
+  "updatedAt": "2026-04-04T03:14:39.170Z",
+  "pitchGrades": {
+    "fastball": 50,
+    "slider": 50,
+    "curveball": null,
+    "changeup": 30,
+    "cutter": 50,
+    "control": 50,
+    "command": 45,
+    "breakingBall": null
+  },
+  "grades": {
+    "ofp": 45,
+    "risk": "High"
+  },
+  "rankings": [
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 17,
+      "grade": "55",
+      "listName": "Milwaukee Brewers Top 30 Prospects",
+      "date": "2026",
+      "url": "https://www.baseballamerica.com/players/127167/ethan-dorchies/"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 20,
+      "grade": "45",
+      "listName": "Milwaukee Brewers Top Prospects",
+      "date": "2026",
+      "url": "https://www.mlb.com/prospects/brewers/ethan-dorchies-828475"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 37,
+      "grade": "35+",
+      "listName": "Milwaukee Brewers Top 53 Prospects",
+      "date": "2025-11",
+      "url": "https://www.fangraphs.com/prospects/farm-system-list/milwaukee-brewers-top-53-prospects/s87797"
+    }
+  ],
+  "summary": "Ethan Dorchies is a projectable 6-foot-6 right-handed pitcher drafted by the Brewers in 2024. He features a diverse, five-to-six pitch mix, including a fastball that sits in the low-90s (touching 96 mph), a low-80s sweeping slider, an upper-80s cutter, and a low-80s splitter often considered his best pitch. He shows good extension and above-average command for his age, with potential for increased velocity as he matures.",
+  "strengths": [
+    "Projectable frame and physical upside",
+    "Diverse five-to-six pitch mix"
+  ],
+  "concerns": [
+    "Raw stuff not overpowering yet",
+    "Walk rate ticked up in Low-A"
+  ],
+  "eta": "2029",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Insider Hints Brewers Struck Gold, Landed Breakout Star in 2024 Draft",
+      "source": "Sports Illustrated",
+      "date": "2026-03",
+      "url": "https://www.si.com/mlb/brewers/news/insider-hints-brewers-struck-gold-landed-breakout-star-in-2024-draft-ch1936"
+    },
+    {
+      "type": "article",
+      "title": "Milwaukee Brewers Breakout MLB Prospects For 2026",
+      "source": "Baseball America",
+      "date": "2026-01",
+      "url": "https://www.baseballamerica.com/stories/milwaukee-brewers-breakout-mlb-prospects-for-2026/"
+    },
+    {
+      "type": "article",
+      "title": "12 MLB Pitching Prospects With Intriguing Complex League Performances So Far In 2025",
+      "source": "Baseball America",
+      "date": "2025-06",
+      "url": "https://www.baseballamerica.com/stories/12-mlb-pitching-prospects-with-intriguing-complex-league-performances-so-far-in-2025/"
+    },
+    {
+      "type": "article",
+      "title": "Milwaukee Brewers prospect news: Players of the Week, Marco Dinges promotion, José Anderson to Low-A",
+      "source": "Reviewing the Brew",
+      "date": "2025-05",
+      "url": "https://www.reviewingthebrew.com/posts/milwaukee-brewers-prospect-news-players-of-the-week-marco-dinges-promotion-jose-anderson-to-low-a-01j046101j2m"
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "FanGraphs",
+    "Sports Illustrated",
+    "MiLB.com",
+    "Prep Baseball Report",
+    "RotoWire",
+    "Reviewing the Brew"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "Ethan Dorchies assigned to Wisconsin Timber Rattlers",
+      "source": "MLB.com",
+      "date": "2026-03-22",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEva5ug9-TxnM4vNMf8NbZ4Sg04v5fs5x1ryR3omXqh5OQNAix2ZPND4YbIx-gmYVqS2XLaLlWGyofMJRACk3uzSs1QSr-fWSMQ9MmaA-wSKl0Ol--chPXKrLyUpaxlkoQdP-lbMYvVTtZ8WQ=",
+      "summary": "RHP Ethan Dorchies was assigned to the Wisconsin Timber Rattlers from the Wilson Warbirds on March 22, 2026."
+    },
+    {
+      "title": "Ethan Dorchies assigned to Milwaukee Brewers Prospects",
+      "source": "MiLB.com",
+      "date": "2026-02-23",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyfbakccVedskhfkGqzoiHZVP69_LJPNha0fWDtPmaThCXEm16oMRAKuLc2rHbNmD7R6Bt_JEKnGe8ICgOSzptbnMSNmrS3ZoWttPHsEWd2ey-X804NnVtpt9ytHnvlrlOcJ17Ws-DjNTbfSw=",
+      "summary": "RHP Ethan Dorchies was assigned to Milwaukee Brewers Prospects on February 23, 2026, and also assigned to the Milwaukee Brewers on the same date."
+    },
+    {
+      "title": "Ethan Dorchies shows promise with stuff ticking up in 2025 debut",
+      "source": "Baseball America",
+      "date": "2026-01-26",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmmeSIaBetwqeKfl8P5XYIMRs5GdcTbu8vfojge8z-DeHq666pQ6jHM9tVWcTwRuYp-EtdKBIkObTTiYBfonXd2LfgP6sEaEJOcaXpTptOJDVPX6TdntqT1_PB1o6NwdCE6IMc9ofj44B51lu1oxsj_fEHluPyQ1q_1mtNXfsTfrk8C1IyN3XbbZrcoJttOtmEpiMelg=",
+      "summary": "Dorchies' stuff improved in 2025 during his debut in the Rookie-level Arizona Complex League and continued to pitch well after a promotion to Low-A Carolina, sitting in the low 90s and touching 96 mph."
+    },
+    {
+      "title": "Ethan Dorchies promoted to Single-A Carolina",
+      "source": "RotoWire",
+      "date": "2025-06-17",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNfuARbU6cw0nX5zrZ5STmvHLjpkpuSd5OEXJrtyMDaBv98WQC7Ayn-CvFIs6qphov12aL8dlOPMqH4x70EV-J1TVH-MNn0EkslQNmvsPgvT-cyjf9AQ-V08QRrZoUK-K9Sx63Hseh92X0WbY6DPaHBbFUJV-87aI=",
+      "summary": "Ethan Dorchies was promoted from the Arizona Complex League to Single-A Carolina in June 2025 after logging a 1.67 ERA, 0.85 WHIP, and 32 strikeouts in 27 innings in the ACL."
+    },
+    {
+      "title": "Ethan Dorchies concludes 2025 season with strong stats across ACL and Single-A",
+      "source": "MLB.com",
+      "date": "null",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6RilwGvUKrfahWpDTaOYOfkIIGetXEaztKB4JuV-RppcNNXtQiii4QggIX60G-UYd-GhCQVTwGcq7GUAY9QJhsT3t_GSWsVnnACXaHyvynVxN3Dr_AaHcTsWpe6k5vlgFFVeVgNA9C1zDRbn02YRhftPMQTF9VyTy0PXc9g=",
+      "summary": "Ethan Dorchies finished the 2025 season with a 2.74 ERA, a 1.05 WHIP, and 89 strikeouts over 82 innings across both the Arizona Complex League and Single-A Carolina."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "T-Rat Nation, meet Ethan Dorchies.",
+      "channel": "Wisconsin Timber Rattlers",
+      "date": "2026-04-02",
+      "url": "https://www.youtube.com/results?search_query=Wisconsin+Timber+Rattlers+Ethan+Dorchies",
+      "type": "other",
+      "urlType": "search"
+    },
+    {
+      "title": "Ethan Dorchies K's eight batters in five innings",
+      "channel": "Milwaukee Brewers",
+      "date": "2025-09-15",
+      "url": "https://www.youtube.com/results?search_query=Milwaukee+Brewers+Ethan+Dorchies+K's+eight+batters+in+five+innings",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Ethan Dorchies's strong relief outing",
+      "channel": "Milwaukee Brewers",
+      "date": "2025-09-15",
+      "url": "https://www.youtube.com/results?search_query=Milwaukee+Brewers+Ethan+Dorchies's+strong+relief+outing",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Ethan Dorchies, RHP, Milwaukee Brewers Prospect",
+      "channel": "MLB Prospects",
+      "date": "2025-08-05",
+      "url": "https://www.youtube.com/results?search_query=MLB+Prospects+Ethan+Dorchies+RHP+Milwaukee+Brewers+Prospect",
+      "type": "scouting",
+      "urlType": "search"
+    },
+    {
+      "title": "Ethan Dorchies - Spring 2023 - Bullpen",
+      "channel": "GRB Rays Baseball",
+      "date": "2023-03-01",
+      "url": "https://www.youtube.com/results?search_query=GRB+Rays+Baseball+Ethan+Dorchies+Spring+2023+Bullpen",
+      "type": "batting-practice",
+      "urlType": "search"
+    }
+  ]
+}

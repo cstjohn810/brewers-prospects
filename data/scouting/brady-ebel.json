@@ -1,0 +1,186 @@
+{
+  "playerId": "brady-ebel",
+  "name": "Brady Ebel",
+  "position": "SS",
+  "level": "A",
+  "age": 18,
+  "updatedAt": "2026-04-04T03:11:05.793Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": 50,
+    "power": 55,
+    "run": 45,
+    "field": 45,
+    "arm": 60,
+    "ofp": 50,
+    "risk": "Low"
+  },
+  "rankings": [
+    {
+      "source": "FanGraphs",
+      "rank": 81,
+      "systemRank": null,
+      "grade": "40",
+      "listName": "The Board",
+      "date": "2026-03",
+      "url": "https://www.fangraphs.com/prospects/the-board/"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 13,
+      "grade": null,
+      "listName": "Milwaukee's System Prospect Ranking",
+      "date": "2026-02",
+      "url": null
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 15,
+      "grade": "40+",
+      "listName": "Milwaukee Brewers Top 53 Prospects",
+      "date": "2025-11",
+      "url": "https://www.fangraphs.com/prospects/farm-system-list/milwaukee-brewers"
+    }
+  ],
+  "summary": "Brady Ebel is a 6-foot-3 infielder with a broad-shouldered frame and an instinctual left-handed hitting approach. He projects to have an above-average hit tool and at least average game power with added strength. While a below-average runner whose range and size might point to a corner infield profile, he possesses solid hands, advanced preparation, and a 60-grade throwing arm with a high baseball IQ.",
+  "strengths": [
+    "Instinctual left-handed hitter",
+    "Good contact ability",
+    "Strong batting eye",
+    "Physical projection",
+    "Plus arm strength",
+    "High baseball IQ"
+  ],
+  "concerns": [
+    "Below-average runner",
+    "May not stick at shortstop",
+    "Currently line-drive focused",
+    "Limited power in senior year of high school"
+  ],
+  "eta": "2029-2030",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Brewers, Cooper Pratt Reportedly Agree to Extension",
+      "source": "FanGraphs",
+      "date": "2026-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5pumc7dtLNPMmJFnFOY0e6F7KswYR_27H6pZpvi1yx2jY4HRJ3ULOshWLRb7Q_BB-4JAYcvb-AttbbzhsJ8pToJVq2k4L4Bz7BaVGAcXNMIQ9HH522uU1xOc9r3iElQYvr2p4wVL_iYCi62xeS6_QI3sLdZvitCkTb1lzYZ1Aa1pyRJiNJJ5NraU="
+    },
+    {
+      "type": "article",
+      "title": "Jesús Made, Brady Ebel impress in Brewers' Spring Breakout",
+      "source": "MLB.com",
+      "date": "2026-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcLIHApMHwgBJdEuizTnNXLWZQEdPLn79E4Es9sWQcR8dkgUiwNJbV2kZTBGnR5iF-7W5B5D8WhCbJwv00NCeh34-jbp9-4n-p-I92Q_I2WJsX41kNPAZ2WZ9AhpzxNunlp9PqSAyHmIDCR-gGJOPb5S-CFZO-ZR9X7gN8aQl-vn80-zK9SxeaiRMK4rd5tPG57V2zqphv1CMZylNaXoUQ8hhzzIZuVsJ-VoKoXl6TDQ=="
+    },
+    {
+      "type": "article",
+      "title": "Why Brewers fans should be confident in this recent first-round pick's future",
+      "source": "Wisconsin Sports Heroics",
+      "date": "2026-02",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGh3800T1F8GsUsmdW76t7pDxMGAQl9hwZgXBZSZ1GQ3rRxAKd1faN2_g4Ar_cv-fwXCdFq_dhHWQDoMp3k9kGo4IbbtssLzpgeKmPR3iloELhYsA1sidWa01bBaSrIHTi471NO2ULEm_aKlDY8QLMKgl-yOUTtU42BybCxW_fUKfW3GSqgORs6zTZLxJPqf2QLnHe3DEJ0baRdoaK7KIRHsBrjAI7APR2CgKotd9_lm8ZO"
+    },
+    {
+      "type": "article",
+      "title": "Brewers take prep bat Brady Ebel with No. 32 pick",
+      "source": "Baseball Prospect Journal",
+      "date": "2025-07",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2vhOvnMBBgoud4VuGLGgM5sH3vofOnIms_gIel9NxyipuOOEtDNNePn9Tqz28JRD5ndam3d1nmC855b_-EjjyZvZ7Xqsa4EzWar4-1PoUI4drLDgvItGryybPIDQPLrsqHTM462osTkrcezMLvzTBjJC9FSJ3n91JE-mPMfAZnqZ9BaOt0ifKqF4qTKy7Ei5WmMtl"
+    }
+  ],
+  "sourcesConsulted": [
+    "Baseball America",
+    "Wisconsin Sports Heroics",
+    "Baseball Prospect Journal",
+    "MiLB.com",
+    "FanGraphs",
+    "MLB.com",
+    "Prep Baseball Report"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "SS Brady Ebel roster status changed by Milwaukee Brewers.",
+      "source": "MLB.com",
+      "date": "2026-02-22",
+      "url": "https://www.mlb.com/player/brady-ebel-800263",
+      "summary": "Shortstop Brady Ebel was assigned to the Milwaukee Brewers on February 22, 2026."
+    },
+    {
+      "title": "Brady Ebel, Milwaukee Brewers, SS - Fantasy Baseball News, Stats",
+      "source": "CBS Sports",
+      "date": null,
+      "url": "https://www.cbssports.com/mlb/players/playerpage/3103437/brady-ebel",
+      "summary": "An outlook on Brady Ebel's performance after being drafted 32nd overall in the 2025 MLB Draft, his assignment to Single-A, and his expected return to Single-A for 2026."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Brady Ebel's game-tying double",
+      "channel": "MLB.com",
+      "date": "2026-03-22",
+      "url": "https://www.mlb.com/brewers/video/brady-ebel-s-game-tying-double-x7877",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brady Ebel's three assists in the 6th inning",
+      "channel": "MLB.com",
+      "date": "2026-03-22",
+      "url": "https://www.mlb.com/brewers/video/brady-ebel-s-three-assists-in-the-6th-inning-x2458",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brady Ebel's solo home run",
+      "channel": "MLB.com",
+      "date": "2026-03-16",
+      "url": "https://www.mlb.com/brewers/video/brady-ebel-s-solo-home-run-x7478",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "SS Brady Ebel (Brewers) - '25 MiLB Highlights",
+      "channel": "Prospects AZ",
+      "date": "2025-12-11",
+      "url": "https://www.youtube.com/results?search_query=Prospects+AZ+SS+Brady+Ebel+%28Brewers%29+-+%2725+MiLB+Highlights",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Brady Ebel collects a base hit in his first at-bat",
+      "channel": "MLB.com",
+      "date": "2025-08-19",
+      "url": "https://www.mlb.com/brewers/video/brady-ebel-collects-a-base-hit-in-his-first-at-bat-x7877",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brady Ebel - 3B, Corona HS (CA) - 8/16-18/24",
+      "channel": "Kyler Peterson",
+      "date": "2024-11-22",
+      "url": "https://www.youtube.com/results?search_query=Kyler+Peterson+Brady+Ebel+-+3B%2C+Corona+HS+%28CA%29+-+8%2F16-18%2F24",
+      "type": "scouting",
+      "urlType": "search"
+    },
+    {
+      "title": "2025 SS Brady Ebel",
+      "channel": "Prep Baseball",
+      "date": "2024-09-22",
+      "url": "https://www.youtube.com/results?search_query=Prep+Baseball+2025+SS+Brady+Ebel",
+      "type": "scouting",
+      "urlType": "search"
+    },
+    {
+      "title": "Brady Ebel Takes Infield Reps at 2025 MLB Draft Combine!",
+      "channel": "The Hub for Baseball Highlights",
+      "date": null,
+      "url": "https://www.youtube.com/results?search_query=The+Hub+for+Baseball+Highlights+Brady+Ebel+Takes+Infield+Reps+at+2025+MLB+Draft+Combine!",
+      "type": "scouting",
+      "urlType": "search"
+    }
+  ]
+}

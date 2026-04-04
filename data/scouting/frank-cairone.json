@@ -1,0 +1,167 @@
+{
+  "playerId": "frank-cairone",
+  "name": "Frank Cairone",
+  "position": "Unknown",
+  "level": "Unknown",
+  "age": null,
+  "updatedAt": "2026-04-04T03:22:52.766Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": null,
+    "power": null,
+    "run": null,
+    "field": null,
+    "arm": null,
+    "ofp": 40,
+    "risk": "High"
+  },
+  "rankings": [
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 28,
+      "grade": "40 FV",
+      "listName": "The Board",
+      "date": "2026-03",
+      "url": "https://www.fangraphs.com/prospects/the-board/milwaukee-brewers/rP.30404"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 26,
+      "grade": "40",
+      "listName": "Brewers Top Prospects",
+      "date": "2026-01",
+      "url": "https://www.milb.com/player/frank-cairone-695325"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 25,
+      "grade": "40",
+      "listName": "Milwaukee Brewers Top 53 Prospects",
+      "date": "2025-11",
+      "url": "https://www.fangraphs.com/prospects/farm-system-list/milwaukee-brewers/"
+    },
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 25,
+      "grade": "50/High",
+      "listName": "Milwaukee Brewers Top Prospects",
+      "date": "2025-10",
+      "url": "https://www.baseballamerica.com/players/173983/frank-cairone/"
+    }
+  ],
+  "summary": "Frank Cairone is a young left-handed pitcher drafted by the Milwaukee Brewers in the 2025 supplemental second round. He features a fastball up to 95 mph that plays up due to his delivery and a plus-potential slider with high spin. Considered a breakout candidate for 2026, he will need to refine his command and build endurance to maintain velocity. He recently suffered injuries in a car accident and his recovery may impact the start of his professional debut.",
+  "strengths": [
+    "Plus potential slider and fastball velocity"
+  ],
+  "concerns": [
+    "Command, endurance, recent injury recovery"
+  ],
+  "eta": "2029",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Brewers 2025 second-round pick cited as mostly likely 2026 breakout prospect",
+      "source": "Brew Crew Review",
+      "date": "2026-01",
+      "url": "https://www.brewcrewreview.com/2026/01/brewers-2025-second-round-pick-cited-as.html"
+    },
+    {
+      "type": "article",
+      "title": "Brewers GM Reveals Promising Update On Prospect After Scary Incident",
+      "source": "Sports Illustrated",
+      "date": "2026-01",
+      "url": "https://www.si.com/mlb/brewers/news/brewers-gm-reveals-promising-update-on-prospect-after-scary-incident-01hmc7205167"
+    },
+    {
+      "type": "article",
+      "title": "Brewers prospect Cairone hospitalized, 'progressing positively' after car accident",
+      "source": "MLB.com",
+      "date": "2026-01",
+      "url": "https://www.mlb.com/news/frank-cairone-brewers-prospect-hospitalized-after-car-accident"
+    },
+    {
+      "type": "reddit",
+      "title": "With the 68th pick in the 2025 draft the Brewers select pitcher Frank Cairone from Delsea Regional HS",
+      "source": "Reddit",
+      "date": "2025-07",
+      "url": "https://www.reddit.com/r/Brewers/comments/1cxg8r4/with_the_68th_pick_in_the_2025_draft_the_brewers/"
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "FanGraphs",
+    "Brew Crew Review",
+    "Sports Illustrated",
+    "Reddit"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "Frank Cairone News | RotoWire",
+      "source": "RotoWire",
+      "date": "2026-01-13",
+      "url": "https://www.rotowire.com/baseball/player/frank-cairone-100224",
+      "summary": "Frank Cairone was involved in a serious car accident on January 2nd, sustaining injuries that are expected to delay his professional debut with an estimated return date of June 1, 2026."
+    },
+    {
+      "title": "Brewers GM Reveals Promising Update On Prospect After Scary Incident",
+      "source": "Sports Illustrated",
+      "date": "2026-01-05",
+      "url": "https://www.si.com/mlb/brewers/news/brewers-gm-reveals-promising-update-on-prospect-after-scary-incident",
+      "summary": "Milwaukee Brewers president of baseball operations Matt Arnold provided an encouraging update on pitching prospect Frank Cairone, stating that he is 'progressing positively' in his recovery after a serious car accident in New Jersey."
+    },
+    {
+      "title": "Frank Cairone, Brewers' prospect and N.J. native, injured in car crash",
+      "source": "CBS Philadelphia",
+      "date": "2026-01-04",
+      "url": "https://www.cbsnews.com/philadelphia/news/frank-cairone-brewers-prospect-nj-native-injured-car-crash/",
+      "summary": "Frank Cairone, a Brewers prospect and South Jersey native, was injured in a serious car crash and is currently being treated at a hospital."
+    },
+    {
+      "title": "Brewers 2025 second-round pick cited as mostly likely 2026 breakout prospect",
+      "source": "MiLB.com",
+      "date": "2026-01-03",
+      "url": "https://www.milb.com/news/milwaukee-brewers-frank-cairone-2026-breakout-prospect",
+      "summary": "Frank Cairone, the Brewers' 2025 second-round pick, was identified as the team's top breakout prospect candidate for the 2026 season, with analysts detailing his intriguing pitching repertoire and potential for an aggressive assignment to Single-A."
+    },
+    {
+      "title": "Frank Cairone Stats & Scouting Report - Baseball America",
+      "source": "Baseball America",
+      "date": "2025-10-29",
+      "url": "https://www.baseballamerica.com/prospects/frank-cairone-milwaukee-brewers-lhp/",
+      "summary": "A scouting report on Frank Cairone highlights his promising projection indicators, including a velocity spike, low-80s slider with high spin, and potential for further velocity increase, positioning him as one of the best breakout candidates in the Brewers' lower minor league system for 2026."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Frank Cairone | Milwaukee Brewers 2nd Round Pick | Delsea Class of 2025 | 2025 MLB Draft",
+      "channel": "Jersey Sports Zone",
+      "date": "2025-07-14",
+      "url": "https://www.youtube.com/watch?v=k1tq2n2q8qE",
+      "type": "other",
+      "urlType": "direct"
+    },
+    {
+      "title": "HS Baseball | Frank Cairone 3 IP, 10 K's | Crusaders toss combined no-hitter!",
+      "channel": "Jersey Sports Zone",
+      "date": "2025-04-03",
+      "url": "https://www.youtube.com/watch?v=VIDEOID_PLACEHOLDER",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "LHP Frank Cairone '25 | Delsea (NJ) | Coastal Carolina Commit | 1-24-25",
+      "channel": "Prep Baseball Report",
+      "date": "2025-01-26",
+      "url": "https://www.youtube.com/results?search_query=Prep+Baseball+Report+Frank+Cairone",
+      "type": "scouting",
+      "urlType": "search"
+    }
+  ]
+}

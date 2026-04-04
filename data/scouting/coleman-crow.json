@@ -1,0 +1,228 @@
+{
+  "playerId": "coleman-crow",
+  "name": "Coleman Crow",
+  "position": "SP",
+  "level": "AA",
+  "age": 25,
+  "updatedAt": "2026-04-04T03:21:55.264Z",
+  "pitchGrades": {
+    "fastball": 45,
+    "slider": 50,
+    "curveball": 60,
+    "changeup": 40,
+    "cutter": 55,
+    "control": 50,
+    "command": null,
+    "breakingBall": null
+  },
+  "grades": {
+    "ofp": 40,
+    "risk": "High"
+  },
+  "rankings": [
+    {
+      "source": "Prospects1500",
+      "rank": null,
+      "systemRank": 24,
+      "grade": null,
+      "listName": "Milwaukee Brewers Top 50 Prospects (2026)",
+      "date": "2026-03",
+      "url": null
+    },
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 33,
+      "grade": null,
+      "listName": "10 Brewers Prospects To Know Beyond The Top 30 In 2026",
+      "date": "2026-02",
+      "url": null
+    },
+    {
+      "source": "OOPSY (via Just Baseball)",
+      "rank": 81,
+      "systemRank": null,
+      "grade": null,
+      "listName": "OOPSY Top 100 Prospects",
+      "date": "2026-02",
+      "url": null
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 27,
+      "grade": "40",
+      "listName": "Brewers Top 30 Prospects",
+      "date": "2026",
+      "url": "https://www.milb.com/milwaukee-brewers/prospects/top-30"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 20,
+      "grade": "40+",
+      "listName": "Milwaukee Brewers Top 53 Prospects",
+      "date": "2025-11",
+      "url": "https://www.fangraphs.com/prospects/farm-system-rankings/milwaukee-brewers-top-53-prospects/"
+    },
+    {
+      "source": "Prospect361",
+      "rank": null,
+      "systemRank": 10,
+      "grade": null,
+      "listName": "Milwaukee Brewers Prospect Rankings",
+      "date": "2025-10",
+      "url": "https://www.prospect361.com/prospect-rankings/milwaukee-brewers/"
+    }
+  ],
+  "summary": "Coleman Crow is a spin-rate standout, particularly with his mid-70s curveball, which averages around 3,000 RPMs and is considered his true out pitch. His fastball sits in the low to mid-90s with above-average spin. Despite a history of injuries, including Tommy John surgery and a hip issue, he has demonstrated advanced pitchability and control, positioning him as a potential back-end starter or multi-inning reliever.",
+  "strengths": [
+    "High spin curveball",
+    "Advanced pitchability and control"
+  ],
+  "concerns": [
+    "Injury history",
+    "Fastball velocity",
+    "Durability and size"
+  ],
+  "eta": "2026",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Coleman Crow, Tanner McDougal Headline 10 Statcast Standouts From Triple-A Opening Weekend",
+      "source": "Baseball America",
+      "date": "2026-03",
+      "url": "https://www.baseballamerica.com/stories/coleman-crow-tanner-mcdougal-headline-10-statcast-standouts-from-triple-a-opening-weekend/"
+    },
+    {
+      "type": "article",
+      "title": "How the Brewers acquired Coleman Crow and what fans should expect from him in 2026",
+      "source": "Milwaukee Journal Sentinel",
+      "date": "2026-02",
+      "url": "https://www.jsonline.com/story/sports/mlb/brewers/2026/02/22/milwaukee-brewers-coleman-crow-prospect-2026-mlb-debut/72671569007/"
+    },
+    {
+      "type": "article",
+      "title": "Brewers Make Savvy Roster Move To Protect 25-Year-Old Curveball Specialist",
+      "source": "Wisconsin Sports Heroics",
+      "date": "2025-11",
+      "url": "https://wisportsheroics.com/brewers-news-coleman-crow-rule-5-draft/"
+    },
+    {
+      "type": "article",
+      "title": "Two Brewers prospects recognized for their stellar weeks in Double-A",
+      "source": "Reviewing the Brew",
+      "date": "2025-06",
+      "url": "https://www.reviewingthebrew.com/posts/two-brewers-prospects-recognized-for-their-stellar-weeks-in-double-a-01j185s8a39m"
+    },
+    {
+      "type": "podcast",
+      "title": "Brew Crew Review Podcast #238- Top 30 Future Brewers 2025",
+      "source": "Brew Crew Review",
+      "date": "2025-03",
+      "url": "https://www.youtube.com/watch?v=Fj72n0f5nB4"
+    },
+    {
+      "type": "podcast",
+      "title": "Brew Crew Review Podcast #211- Top 30 Future Brewers 2024",
+      "source": "Brew Crew Review",
+      "date": "2024-03",
+      "url": "https://www.youtube.com/watch?v=s5R-xQ2PzI0"
+    }
+  ],
+  "sourcesConsulted": [
+    "Baseball America",
+    "FanGraphs The Board",
+    "Baseball Prospectus",
+    "Prospects Live",
+    "Just Baseball",
+    "Prospect361",
+    "Milwaukee Journal Sentinel",
+    "Wisconsin Sports Heroics",
+    "Brew Crew Review",
+    "MiLB.com (MLB Pipeline)",
+    "Prospects1500"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "Milwaukee Brewers optioned RHP Coleman Crow to Nashville Sounds.",
+      "source": "MiLB.com",
+      "date": "2026-03-05",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLkGw9xkQjA7pShLT6gy21aTqBfMvxsRUccbiFNU8zDRYOfgsTAr8RxG6m-Bvte3TMygxOV71soLKhVhWDe8WC2wr_waPA5Nn0gIszjIzVOPhpm_SPEbfgwCFPKyIDTjT2lq-LGncbdVQY",
+      "summary": "The Milwaukee Brewers assigned right-handed pitcher Coleman Crow to the Nashville Sounds."
+    },
+    {
+      "title": "Is Brewers' Coleman Crow Bound For MLB Roster?",
+      "source": "Stadium Rant",
+      "date": "2026-02-24",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHm2OXNJJZl6KuVmBkiOh9Monk6oslsp4Ss5sOGk8IkUQdIXGGYxClM1FZFS2tDwgtn4SM7ZUAD4x_dzzrZxPM4l_jQhM_TaA8OF19xdiF9syXCf7dZZxarTNUzRk3dO2cHd-RCB138znGUnTKZ84vwJFJm-BtmSqQQcLxMno1bA9wVlV0=",
+      "summary": "This article discusses the possibility of Coleman Crow making the Milwaukee Brewers' major league roster in 2026, detailing his journey and potential."
+    },
+    {
+      "title": "Brewers 25-Year-Old Pitcher on Verge of Breakout Year",
+      "source": "Sports Illustrated",
+      "date": "2026-02-05",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLPLAgmMYbyGi4e-kGUEAO1N1b02m2VJahBFPMD5qHsmttgbIer4s9KIiU9i1P4lO_yLfOaKr9HTQlDVaVX_0oXxQvsi5mWS8Jab1tbaaDJBmbNSHW-SbW_2hvDJtzl9Jri8SVdmcsGOAuWxmWGnJYScQuH3JVsobaA6urGU8yH8v_qLSwpB2IbfPi2mxvDvBj0ePyrmlutkhgMYb0N-jhv8f2eA==",
+      "summary": "An article from Sports Illustrated suggests that Coleman Crow, a 25-year-old Brewers pitcher, could be on the verge of a breakout season, highlighting his strong performance in Double-A and recent injury history."
+    },
+    {
+      "title": "Nashville Sounds placed RHP Coleman Crow on the 7-day injured list retroactive to June 19, 2025.",
+      "source": "Baseball America",
+      "date": "2025-06-19",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHM5JOXgNp0f5G_ozzIoD5UoPV1geLBEfMyvOhZ3qOvS-AgF-m-CQbDl1LYiOtUdZv1yT9RxIvRxMeVVQs-qJnIrt4bJIuJ1ukp747s4dPWP8r10othKlgyDBiOfBOqKTiiokCMdeUVbIuT9BPqbyn2fbTztFg==",
+      "summary": "Coleman Crow was placed on the 7-day injured list by the Nashville Sounds, with the move being retroactive to June 19, 2025."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Coleman Crow In play, run(s) to Jud Fabian",
+      "channel": "MiLB.com",
+      "date": "2026-03-28",
+      "url": "https://www.milb.com/milb/video/coleman-crow-in-play-run-s-to-jud-fabian",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Coleman Crow's Nasty Bender",
+      "channel": "YouTube",
+      "date": "2026-01-28",
+      "url": "https://www.youtube.com/results?search_query=Coleman+Crow%27s+Nasty+Bender",
+      "type": "scouting",
+      "urlType": "search"
+    },
+    {
+      "title": "The Batter's Box: Meet Trash Panda pitcher Coleman Crow",
+      "channel": "WAFF 48 News & Weather",
+      "date": "2023-05-24",
+      "url": "https://www.youtube.com/results?search_query=WAFF+48+News+%26+Weather+The+Batter%27s+Box+Meet+Trash+Panda+pitcher+Coleman+Crow",
+      "type": "interview",
+      "urlType": "search"
+    },
+    {
+      "title": "Coleman Crow strikes out a career-high 12 batters",
+      "channel": "Milwaukee Brewers / MLB.com",
+      "date": "2023-04-21",
+      "url": "https://www.youtube.com/results?search_query=Milwaukee+Brewers+Coleman+Crow+strikes+out+a+career-high+12+batters",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Coleman Crow strikes out the side in the 2nd inning",
+      "channel": "MLB.com",
+      "date": "2023-04-14",
+      "url": "https://www.youtube.com/results?search_query=MLB.com+Coleman+Crow+strikes+out+the+side+in+the+2nd+inning",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Coleman Crow, Los Angeles Angels RHP Prospect",
+      "channel": "Baseball",
+      "date": "2021-09-09",
+      "url": "https://www.youtube.com/results?search_query=Baseball+Coleman+Crow+Los+Angeles+Angels+RHP+Prospect",
+      "type": "scouting",
+      "urlType": "search"
+    }
+  ]
+}

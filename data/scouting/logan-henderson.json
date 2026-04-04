@@ -1,0 +1,326 @@
+{
+  "playerId": "logan-henderson",
+  "name": "Logan Henderson",
+  "position": "SP",
+  "level": "AAA",
+  "age": 24,
+  "updatedAt": "2026-04-04T02:29:40.234Z",
+  "pitchGrades": {
+    "fastball": 55,
+    "slider": 40,
+    "curveball": null,
+    "changeup": 60,
+    "cutter": 45,
+    "control": 55,
+    "command": null,
+    "breakingBall": null
+  },
+  "grades": {
+    "ofp": 50,
+    "risk": "Mild"
+  },
+  "rankings": [
+    {
+      "source": "Baseball America",
+      "rank": 88,
+      "systemRank": null,
+      "grade": "50",
+      "listName": "2026 Top 100 MLB Prospects",
+      "date": "2026-04",
+      "url": "https://www.baseballamerica.com/stories/2026-top-100-mlb-prospects/"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 7,
+      "grade": "50",
+      "listName": "Brewers Top Prospects",
+      "date": "2026-04",
+      "url": "https://www.mlb.com/prospects/brewers/logan-henderson-687836"
+    },
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 6,
+      "grade": "50/Mild",
+      "listName": "Milwaukee Brewers Top Prospects",
+      "date": "2026-03",
+      "url": "https://www.baseballamerica.com/prospects/milwaukee-brewers-top-2026-prospects/"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": 88,
+      "systemRank": null,
+      "grade": "50 FV",
+      "listName": "2026 Top 100 Prospects",
+      "date": "2026-02",
+      "url": "https://www.fangraphs.com/prospects/the-board/2026-top-100-prospects/summary?sort=-1,1&type=0"
+    },
+    {
+      "source": "Just Baseball",
+      "rank": 92,
+      "systemRank": null,
+      "grade": null,
+      "listName": "Top 100 MLB Prospects",
+      "date": "2026-02",
+      "url": "https://www.justbaseball.com/prospects/top-100-mlb-prospects/"
+    },
+    {
+      "source": "Prospect361",
+      "rank": null,
+      "systemRank": 5,
+      "grade": "SP4 ceiling",
+      "listName": "Milwaukee Brewers Farm System",
+      "date": "2025-10",
+      "url": "https://www.prospect361.com/milwaukee-brewers/"
+    },
+    {
+      "source": "Prospects Live",
+      "rank": null,
+      "systemRank": 9,
+      "grade": null,
+      "listName": "Milwaukee Brewers Farm System",
+      "date": "2025-01",
+      "url": null
+    }
+  ],
+  "summary": "Logan Henderson is a command-oriented right-handed pitcher for the Milwaukee Brewers, known for a unique delivery that enhances his fastball. His changeup is considered a plus offering. He debuted in MLB in 2025, showing promise despite a history of injuries. He is currently working to develop a more consistent breaking ball to solidify his role as a starter.",
+  "strengths": [
+    "Plus changeup",
+    "Fastball shape/approach angle",
+    "Plus control and command",
+    "High fastball whiff rates"
+  ],
+  "concerns": [
+    "Injury history",
+    "Lacks consistent third pitch",
+    "Modest fastball velocity",
+    "Smaller frame"
+  ],
+  "eta": "2026",
+  "mediaReferences": [
+    {
+      "type": "youtube",
+      "title": "Logan Henderson Makes The Rotation IF He Does This",
+      "source": "Brewer Fanatic",
+      "date": "2026-03",
+      "url": "https://www.youtube.com/watch?v=d_Uq6c4Vn4Q"
+    },
+    {
+      "type": "youtube",
+      "title": "Just Baseball Top 100 Update: Prospects 100-86",
+      "source": "Just Baseball",
+      "date": "2026-02",
+      "url": "https://www.youtube.com/watch?v=kYJv139N_3c"
+    },
+    {
+      "type": "article",
+      "title": "Logan Henderson's seven strikeouts",
+      "source": "MLB.com",
+      "date": "2025-07",
+      "url": "https://www.mlb.com/video/logan-henderson-s-seven-strikeouts-c12140685"
+    },
+    {
+      "type": "article",
+      "title": "Logan Henderson's eight strikeouts",
+      "source": "MLB.com",
+      "date": "2024-08",
+      "url": "https://www.mlb.com/video/logan-henderson-s-eight-strikeouts-c12140685"
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "FanGraphs",
+    "Baseball Prospectus",
+    "Prospects Live",
+    "Just Baseball",
+    "Prospect361",
+    "TJStats / Thomas Nestico",
+    "Milwaukee Journal Sentinel",
+    "Wisconsin Sports Heroics",
+    "Brew Crew Review",
+    "Pitcher List"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [
+    {
+      "title": "Brewers Send Logan Henderson, Blake Perkins To Minors",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/brewers-send-logan-henderson-blake-perkins-to-minors-r4307/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Logan Henderson - 2026 Milwaukee Brewers Top Prospects Ranking - Brewer ...",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-top-prospect-rankings/logan-henderson-r47/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Milwaukee Brewers 2026 Top Prospects, No. 6: Logan Henderson",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/milwaukee-brewers-2026-top-prospects-no-6-logan-henderson-r4226/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Video: Logan Henderson Makes The Rotation If He Does This",
+      "url": "https://brewerfanatic.com/forums/topic/46817-video-logan-henderson-makes-the-rotation-if-he-does-this/",
+      "date": "2026-03",
+      "type": "forum"
+    },
+    {
+      "title": "Logan Henderson&#x27;s Search for the Right Breaking Ball Has Led Him to a ...",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/logan-hendersons-search-for-the-right-breaking-ball-has-led-him-to-a-new-old-pitch-r4187/",
+      "date": "2026-02",
+      "type": "article"
+    },
+    {
+      "title": "Rotation, Bullpen, or Nashville: Analytically Breaking Down Logan ...",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/rotation-bullpen-or-nashville-analytically-breaking-down-logan-hendersons-arsenal-r4155/",
+      "date": "2026-02",
+      "type": "article"
+    },
+    {
+      "title": "What Can Brewers Count on from Logan Henderson in 2026?",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/what-can-brewers-count-on-from-logan-henderson-in-2026-r3943/",
+      "date": "2025-11",
+      "type": "article"
+    },
+    {
+      "title": "After Two Strong Starts, Logan Henderson Has an Opportunity in Brewers ...",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/after-two-strong-starts-logan-henderson-has-an-opportunity-in-brewers-rotation-r3365/",
+      "date": "2025-05",
+      "type": "article"
+    }
+  ],
+  "recentNews": [
+    {
+      "title": "Brewers Prospect Tosses Three Shutout Innings in First Triple-A Outing of 2026",
+      "source": "Milwaukee Brewers",
+      "date": "2026-04-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOdhPuW6g8Y6eFKJOjsZZlnNHKWGat81TF643dwz8yZmx8qvLtn3XjuFGn7MNX4TqfQjSG7nZcq03cklC7WPnoQ4QpufOwfLReQOcBgXH0C0QASoqtwR-6u844FH2ivbB_u3TSluhJGx1wREbpXquyRYxvNfWhDmzmwatfmQOCO-9v1at04-cx_OE0qlQRaeoeXDeDtzmy4XPIk5Timy-l2Z4aJphtcI_CQmCYlJ5JIp6lwybUfyBURjWOIHrqHnIAK42Ixg==",
+      "summary": "Logan Henderson, a Milwaukee Brewers prospect, delivered three shutout innings in his first Triple-A game of 2026, striking out five and earning the win for the Nashville Sounds."
+    },
+    {
+      "title": "Logan Henderson optioned to Triple-A Nashville to begin 2026 season",
+      "source": "Wikipedia",
+      "date": "2026",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJHWar4ZWtlEOQtA25udcMVqcfuj9EeoNACoApm7d3Kp6tcqQQtm67J6vgQYQHjqnvHgP9HznGyjFkYbDRN4XbQSADxk4Osk07HHxjO5UZF3SWPDdCk0lcaCyJTw7Ea6_nG8F2Z4Z7NZ9vYQS2p0c24LLm",
+      "summary": "Logan Henderson was optioned to Triple-A Nashville to begin the 2026 season."
+    },
+    {
+      "title": "Milwaukee Brewers optioned RHP Logan Henderson to Nashville Sounds",
+      "source": "MLB.com",
+      "date": "2025-11-06",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8C67F8rJ_-8oj6YdrYEdTgJ8c8gQOX1j2Zt0AAd0-2K7a1sRM7lQe5V4CJ3AsW5InG-jwDs2qNEEqKjFUc88BgaZ4Pli4ShMBf_tmc4mOkzWj3LA88Lcajtm6OrTS7AD64lJODlg6IWS5d7g==",
+      "summary": "The Milwaukee Brewers optioned right-handed pitcher Logan Henderson to the Nashville Sounds on November 6, 2025."
+    },
+    {
+      "title": "Brewers activated RHP Logan Henderson from 60-day injured list",
+      "source": "MiLB.com",
+      "date": "2025-08-27",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEw4S0BaethM7nls4uZEK8WRiNg6QGbnKm4u3vvdtAHJHEs9OL6kMLl9_RUdC1NW3BR598PjOtoEcrZlSol3FSjPv5b_rNCA9MPoAeY3gmNZMuTTOMKZQKEzbbdTU8rSUnTxY3KEZZThydyY5Z7",
+      "summary": "Logan Henderson was activated from the 60-day injured list by the Milwaukee Brewers on August 27, 2025."
+    },
+    {
+      "title": "Brewers transferred RHP Logan Henderson to 60-day injured list",
+      "source": "MLB.com",
+      "date": "2025-08-27",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8C67F8rJ_-8oj6YdrYEdTgJ8c8gQOX1j2Zt0AAd0-2K7a1sRM7lQe5V4CJ3AsW5InG-jwDs2qNEEqKjFUc88BgaZ4Pli4ShMBf_tmc4mOkzWj3LA88Lcajtm6OrTS7AD64lJODlg6IWS5d7g==",
+      "summary": "On August 27, 2025, the Milwaukee Brewers transferred Logan Henderson from the 15-day injured list to the 60-day injured list due to right elbow inflammation."
+    },
+    {
+      "title": "Brewers placed RHP Logan Henderson on 15-day injured list",
+      "source": "MLB.com",
+      "date": "2025-08-08",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8C67F8rJ_-8oj6YdrYEdTgJ8c8gQOX1j2Zt0AAd0-2K7a1sRM7lQe5V4CJ3AsW5InG-jwDs2qNEEqKjFUc88BgaZ4Pli4ShMBf_tmc4mOkzWj3LA88Lcajtm6OrTS7AD64lJODlg6IWS5d7g==",
+      "summary": "Logan Henderson was placed on the 15-day injured list by the Milwaukee Brewers on August 8, 2025, retroactive to August 4, due to right elbow inflammation."
+    },
+    {
+      "title": "Logan Henderson Dominates: Brewers Pitching Ace!",
+      "source": "The Athletic Edge",
+      "date": "2025-05-22",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-ffSUpqQSXyutVR24uYiQwTINCrncST_HxfsbalK41_PQd-lXnW4gf663Qt7wJ5BkX9smYZuqYK4YqW6zrTx8tCCFmpL6CVQl2fxnF0ooMfj15ovXTIrnFk5rTCeeQ8a9qmCT-A==",
+      "summary": "Logan Henderson has been a 'pitching ace' for the Brewers, showcasing impressive talent with great starts, including a win against Baltimore with seven strikeouts and no earned runs."
+    },
+    {
+      "title": "Every Pitch of Logan Henderson's PHENOMENAL Debut!! 9K's in 6 1-Run Innings!!",
+      "source": "Swing and Miss",
+      "date": "2025-04-26",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBOF8RqUtjJSt3JOefMGLl9KiZAkRMqJGy-mcwFE9cZFplqvPuaLq6IVq222TugQ2J-bn8ZKZgZ9Asmrywcz9-Qad-HBQTSgxorlnV47zW7S9eggZP8zaWmyrbwrmr0p25KMmG2eo=",
+      "summary": "This video highlights every pitch of Logan Henderson's MLB debut on April 20, 2025, where he earned the win, pitching 6.0 innings, allowing 1 earned run, striking out 9, and walking 1."
+    },
+    {
+      "title": "Logan Henderson shines in big league debut vs. A's",
+      "source": "Milwaukee Brewers",
+      "date": "2025-04-20",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhCkowbQv5xP_lGXrJqxHoKFK8Ep2U4UmMJ0RpMlvj28RUVWWqFIICTqWE0bfV5vJQyOl0txg1rCS_3Y_w3BlWMdMBH8FQ0Aou-Vt250cA3BH-0fVgfHAKOTaFdXEsINzEBzUozSM5gEWWUT5Md9hfycI1LIAi3j0axfFB-JZv_5xWIaLqzm3V6Bb72pGH",
+      "summary": "Logan Henderson shone in his big league debut against the Athletics on April 20, 2025, for the Milwaukee Brewers."
+    },
+    {
+      "title": "Logan Henderson Strikes Out 9, Allows Only 3 Hits in His MLB Debut!",
+      "source": "Swing and Miss",
+      "date": "2025-04-20",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYh2a5tperLXeLwpMkmxkzHAPQs91tjzHOOAbaE0H3GH4UmZBUc-yGfsuIqYqkMMdB6c1w3M_2bE8pgdo4ir3Ukr62Q_iEypeY2Ofq1QU-vdxDZEfZZerHYavGOG75JhK3oB3SdD4=",
+      "summary": "Logan Henderson made his MLB debut on April 20, 2025, against the Athletics, striking out nine batters and allowing only three hits in six innings to earn the win."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Logan Henderson 2025 MLB Highlights!",
+      "channel": "Baseball is Everything Network",
+      "date": "2025-10-31",
+      "url": "https://www.youtube.com/results?search_query=Baseball+is+Everything+Network+Logan+Henderson",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Logan Henderson's seven strikeouts",
+      "channel": "Milwaukee Brewers",
+      "date": "2025-07-13",
+      "url": "https://www.mlb.com/brewers/video/logan-henderson-s-seven-strikeouts-07-13-2025",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Logan Henderson Dominates: Brewers Pitching Ace!",
+      "channel": "The Athletic Edge",
+      "date": "2025-05-22",
+      "url": "https://www.youtube.com/results?search_query=The+Athletic+Edge+Logan+Henderson",
+      "type": "analysis",
+      "urlType": "search"
+    },
+    {
+      "title": "Every Pitch of Logan Henderson's PHENOMENAL Debut!! 9K's in 6 1-Run Innings!!",
+      "channel": "Swing and Miss",
+      "date": "2025-04-26",
+      "url": "https://www.youtube.com/results?search_query=Swing+and+Miss+Logan+Henderson",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Logan Henderson shines in big league debut vs. A's",
+      "channel": "Milwaukee Brewers",
+      "date": "2025-04-20",
+      "url": "https://www.mlb.com/brewers/video/logan-henderson-shines-in-big-league-debut-vs-a-s-04-20-2025",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Logan Henderson Strikes Out 9, Allows Only 3 Hits in His MLB Debut!",
+      "channel": "Swing and Miss",
+      "date": "2025-04-20",
+      "url": "https://www.youtube.com/results?search_query=Swing+and+Miss+Logan+Henderson",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Logan Henderson 2023 Highlights",
+      "channel": "Wilson Warbirds",
+      "date": "2023-11-10",
+      "url": "https://www.youtube.com/results?search_query=Wilson+Warbirds+Logan+Henderson",
+      "type": "highlights",
+      "urlType": "search"
+    }
+  ]
+}

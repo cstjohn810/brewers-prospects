@@ -1,0 +1,238 @@
+{
+  "playerId": "josh-adamczewski",
+  "name": "Josh Adamczewski",
+  "position": "SS",
+  "level": "ACL",
+  "age": 20,
+  "updatedAt": "2026-04-04T02:46:07.111Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": 55,
+    "power": 50,
+    "run": 45,
+    "field": 30,
+    "arm": 40,
+    "ofp": 45,
+    "risk": "Average"
+  },
+  "rankings": [
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 12,
+      "grade": null,
+      "listName": "Milwaukee Brewers Top 30 Prospects",
+      "date": "2026",
+      "url": "https://www.milb.com/prospects/adamczewski-josh-694665"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 9,
+      "grade": "45",
+      "listName": "Milwaukee Brewers Top 53 Prospects",
+      "date": "2025-11",
+      "url": "https://www.fangraphs.com/prospects/the-board/milwaukee-brewers-top-53-prospects/summary?org=MIL&draft=undefined"
+    }
+  ],
+  "summary": "Josh Adamczewski is a left-handed hitting prospect known for an advanced feel to hit, a calm, balanced swing, and an all-fields approach. He has demonstrated good plate discipline and average raw power, but his defense at second base is below-average with a fringe-average run tool and below-average arm. He recently underwent a position change to corner outfield.",
+  "strengths": [
+    "Advanced feel to hit"
+  ],
+  "concerns": [
+    "Below-average infield defense"
+  ],
+  "eta": "2028",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "2026 Dynasty Prospect Breakouts",
+      "source": "Pitcher List",
+      "date": "2026-03",
+      "url": "https://www.pitcherlist.com/2026-dynasty-prospect-breakouts/"
+    },
+    {
+      "type": "article",
+      "title": "Five Under-The-Radar Brewers Prospects To Watch in 2026",
+      "source": "Just Baseball",
+      "date": "2026-02",
+      "url": "https://www.justbaseball.com/mlb/five-under-the-radar-brewers-prospects-to-watch-in-2026/"
+    },
+    {
+      "type": "article",
+      "title": "MLB Pipeline teases inclusion of Brewers' 2025 breakout prospect in updated Top 100",
+      "source": "MLB Pipeline",
+      "date": "2026-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3d7pe8ZJNz0qRaNugEcCOJlBH71lYHq9pybf9um2T_nOM7EeWP-EqzwbLxjBayyu_zPNXn_y6CDSMR5i3WbExplfhMmDbw3lqqYSlugiACW46XCvPUl-NHjyCzToDI3Hs5grdojBnKOVm0MTNlC1JEkd5f0KRlS2M8eEwXe6HFcxp1jem8iZlQartiiSZ9onuYxtK-UN6ZC55OPqUZ0eQQSG4IfXh_ysmW5Cs83kiwJg3b0C9o"
+    },
+    {
+      "type": "article",
+      "title": "Brewers Josh Adamczewski Hits Third Home Run Of Fall League",
+      "source": "Baseball America",
+      "date": "2025-10",
+      "url": "https://www.baseballamerica.com/stories/brewers-josh-adamczewski-hits-third-home-run-of-fall-league/"
+    },
+    {
+      "type": "video",
+      "title": "Josh Adamczewski's two-run home run",
+      "source": "MLB.com",
+      "date": "2025-02",
+      "url": "https://www.mlb.com/video/josh-adamczewski-s-two-run-home-run-02-27-2025"
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "FanGraphs",
+    "MiLB.com",
+    "Just Baseball",
+    "Pitcher List"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [
+    {
+      "title": "Milwaukee Brewers 2026 Top Prospects Rankings, #11-15",
+      "url": "https://brewerfanatic.com/forums/topic/46765-milwaukee-brewers-2026-top-prospects-rankings-11-15/",
+      "date": "2026-02",
+      "type": "forum"
+    },
+    {
+      "title": "Brewers Minor League Observations: Josh Adamczewski Keeps Hitting and ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-observations-josh-adamczewski-keeps-hitting-and-tyler-renz-makes-his-carolina-debut-r3671/",
+      "date": "2025-08",
+      "type": "article"
+    },
+    {
+      "title": "The Brewers&#x27; Best-Hitting Prospect Isn&#x27;t Who You Think",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/the-brewers-best-hitting-prospect-isnt-who-you-think-r3736/",
+      "date": "2025-08",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (7/1): 2B Josh Adamczewski Returns in ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-71-2b-josh-adamczewski-returns-in-rehab-debut-acl-kay-lan-nicasias-two-run-jack-the-difference-for-t-rats-r3543/",
+      "date": "2025-07",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (7/22): Adamczewski Returns to Five ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-722-adamczewski-returns-to-five-county-stadium-in-style-cameron-extends-rbi-streak-to-seven-consecutive-games-r3624/",
+      "date": "2025-07",
+      "type": "article"
+    },
+    {
+      "title": "Top 20 Brewers Prospects, May 2025 Update: Three New Names to Know",
+      "url": "https://brewerfanatic.com/forums/topic/45061-top-20-brewers-prospects-may-2025-update-three-new-names-to-know/",
+      "date": "2025-05",
+      "type": "forum"
+    },
+    {
+      "title": "Brewers Minor League Link Report (4/6): INF Josh Adamczewski Dazzles ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-46-inf-josh-adamczewski-dazzles-again-rhp-yerlin-rodriguez-shoves-in-impressive-2-ip-save-r3224/",
+      "date": "2025-04",
+      "type": "article"
+    },
+    {
+      "title": "Josh Adamczewski - 2023 Milwaukee Brewers Draft Picks - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-draft-picks/2023/josh-adamczewski-round-fifteen/",
+      "date": "2025-04",
+      "type": "article"
+    },
+    {
+      "title": "Josh Adamczewski - 2026 Milwaukee Brewers Top Prospects Ranking ...",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-top-prospect-rankings/josh-adamczewski-r63/",
+      "date": "2025-04",
+      "type": "article"
+    }
+  ],
+  "recentNews": [
+    {
+      "title": "Josh Adamczewski Roster Updates and Assignments",
+      "source": "MiLB.com",
+      "date": "2026-02-21",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXtrBvNtkKQss174UkI0a1BnZo_GCNm9_i7YDihH1Wtp6UdfyINqefndUbdF_hSfdH8gAdmr22IuNoxyncDPeqzDG033oEbYtLkIG_nP35wUaOxjXevwIG4gRZpsxTpD7QtesGSnH9SW256c_iMQ==",
+      "summary": "Josh Adamczewski was assigned to the Milwaukee Brewers as a second baseman on February 21, 2026, and previously to the Surprise Saguaros on September 10, 2025, for the Arizona Fall League."
+    },
+    {
+      "title": "MLB Pipeline Teases Inclusion of Brewers' 2025 Breakout Prospect Josh Adamczewski in Updated Top 100",
+      "source": "Milwaukee Brewers On Tap",
+      "date": "2026-01-07",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEEgzPDBq63MHrrtuZDMVQL2vI_YQeWgpide7j6uD1A0wTw86kih7ojMJvX2R9278nHjm0ijkuUz2jXHszNDZ3jLJA-ETtMR0XAKboYY4cOMKufRxxMercRhJZ05z7KkjFkZy2YVPOtRV2jKjJ7744XSqUYXSy3ejbiNLQnJO1kayQlDuKdZ4nWjjNkXjAv8-ONZE2iq0nsSJ-YCg4ZcQIluTfRHtOi6FxdZg_YoHtNnHKG0_-2FA",
+      "summary": "Josh Adamczewski, a Milwaukee Brewers prospect, is being considered for MLB Pipeline's Top 100 list after an impressive 2025 campaign and Arizona Fall League performance, which included a promotion to High-A and a position change to corner outfielder."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Josh Adamczewski, Milwaukee Brewers INF/OF Prospect",
+      "channel": "YouTube",
+      "date": "2026-01-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExl02Plvdf85XpX438a6l9VephVfzKSCd1HGibSQxb18Y_BK0vrZcAelKBAZe7N5umzOwscGVBU5D1z6F5fxAxPqbEI01KP3z4ew-1VF1w3P0oGL1KdIWpmTHNliDFwdjTK6jtd8=",
+      "type": "scouting",
+      "urlType": "direct"
+    },
+    {
+      "title": "Josh Adamczewski's two-run double",
+      "channel": "MLB",
+      "date": "2025-11-14",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnaLOzRX88q8FS_2FRpmMxm2g0Wi84pTT3JezEiSdjVwkoqANdBSvFrevQ-MWL_GLlvEFMmi66BWtbRb_oTjwpxYJXqgDc-ApzCBkWknDUKz6C-kH9uCjJnYrXTPEC3QLIr8sQbO50RpGibmfB2o59Hffb9QGuy8XBCJohytU",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Josh Adamczewski's RBI single",
+      "channel": "MiLB.com",
+      "date": "2025-11-01",
+      "url": "https://www.youtube.com/results?search_query=MiLB.com+Josh+Adamczewski+RBI+single",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Josh Adamczewski tallies four hits, four RBIs",
+      "channel": "MiLB.com",
+      "date": "2025-10-25",
+      "url": "https://www.youtube.com/results?search_query=MiLB.com+Josh+Adamczewski+four+hits+four+RBIs",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Josh Adamczewski's solo home run",
+      "channel": "MiLB.com",
+      "date": "2025-10-25",
+      "url": "https://www.youtube.com/results?search_query=MiLB.com+Josh+Adamczewski+solo+home+run",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Adamczewski discusses his Fall League success",
+      "channel": "MiLB.com",
+      "date": "2025-10-22",
+      "url": "https://www.youtube.com/results?search_query=MiLB.com+Adamczewski+Fall+League+success+interview",
+      "type": "interview",
+      "urlType": "search"
+    },
+    {
+      "title": "Josh Adamczewski's two-run home run",
+      "channel": "MLB",
+      "date": "2025-10-22",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy7skfrOl0G3KCjmPC59YDH64L2QkhgupIx4fhE0OQHtDYaLicxJjWHDROdjNUcagWGgmi6RtU3dEkuv1JwmdfNndsQvRXh_KXbWrbXB30fe8oeWlsj2qXqy7iJ9tOWGg-Ei72NWGQ-QXBrfcanePJu40RiifYU1JfzTICXH1yJqvnwCCzg==",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Josh Adamczewski, 2B, Milwaukee Brewers (19-year-old Prospect in A)",
+      "channel": "YouTube",
+      "date": "2025-04-30",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDiKkppgG7DqhYpxAj4V4x63ibzx5m4vXbe87n_-OSuXUJ33xpO6qcFJqfyrOWG-7RtP5h-azlNIg3WmVd1DniFE7V-iygijeAbE7-iYeQ8b4ncOCfAstJ70Z7ZrMiYYErqr7Yqgc=",
+      "type": "scouting",
+      "urlType": "direct"
+    },
+    {
+      "title": "Josh Adamczewski's two-run home run",
+      "channel": "MLB",
+      "date": "2025-02-27",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEC9LnYEF4y6r7_HeJWVMu0j2SXUe-CZsVQjvCCVxpAB-nzaC3lIgmv-Bo2w8msdbnk_Yy4TDePGAIJBwmNrKL8-SLtQtfZFoYyv4Dw53ZW9uUnNmHoUI8OTkTvKUzdvl4grB3kAYXOm965sXNra-synRKy-sQkhL-1LocEmp_NwQ==",
+      "type": "highlights",
+      "urlType": "direct"
+    }
+  ]
+}

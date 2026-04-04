@@ -1,0 +1,210 @@
+{
+  "playerId": "craig-yoho",
+  "name": "Craig Yoho",
+  "position": "SP",
+  "level": "AAA",
+  "age": 26,
+  "updatedAt": "2026-04-04T03:09:49.745Z",
+  "pitchGrades": {
+    "fastball": 45,
+    "slider": 55,
+    "curveball": 55,
+    "changeup": 70,
+    "cutter": 50,
+    "control": 55,
+    "command": null,
+    "breakingBall": null
+  },
+  "grades": {
+    "ofp": 45,
+    "risk": "High"
+  },
+  "rankings": [
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 24,
+      "grade": "45/High",
+      "listName": "Milwaukee Brewers Top Prospects",
+      "date": "2026-03",
+      "url": "https://www.baseballamerica.com/prospects/milwaukee-brewers-top-prospects-2026-mlb-draft/"
+    },
+    {
+      "source": "Prospects1500",
+      "rank": null,
+      "systemRank": 21,
+      "grade": null,
+      "listName": "Milwaukee Brewers Top 50 Prospects",
+      "date": "2026-03",
+      "url": "https://www.prospects1500.com/nl-central/brewers/milwaukee-brewers-top-50-prospects-2026/"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 20,
+      "grade": null,
+      "listName": "Brewers Top 30 Prospects",
+      "date": "2026",
+      "url": "https://www.milb.com/brewers/prospects/craig-yoho-677949"
+    }
+  ],
+  "summary": "Craig Yoho is a right-handed reliever for the Milwaukee Brewers, recognized for his elite, plus-plus changeup. After dominating the minor leagues and being named the Brewers Minor League Pitcher of the Year in 2024, he made his MLB debut in 2025. While his raw stuff, particularly his changeup, is highly regarded, he has faced challenges with inconsistent control and high walk rates during his limited major league outings.",
+  "strengths": [
+    "Elite, plus-plus changeup",
+    "High strikeout rates in minors",
+    "Lively fastball with armside run"
+  ],
+  "concerns": [
+    "Inconsistent control/command in MLB",
+    "High walk rates in MLB",
+    "Older for a prospect"
+  ],
+  "eta": "2026",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "What should Brewers fans expect from Craig Yoho in 2026?",
+      "source": "Reviewing the Brew",
+      "date": "2026-02",
+      "url": "https://reviewingthebrew.com/posts/what-should-brewers-fans-expect-from-craig-yoho-in-2026"
+    },
+    {
+      "type": "article",
+      "title": "Milwaukee Brewers Calling Up Dynamite Prospect Who Has Dominated Minor Leagues",
+      "source": "Wisconsin Sports Heroics",
+      "date": "2025-04",
+      "url": "https://www.wisconsinsportsheroics.com/milwaukee-brewers-calling-up-dynamite-prospect-who-has-dominated-minor-leagues/"
+    },
+    {
+      "type": "youtube",
+      "title": "Spring Training Sit-Down | Curt Hogg, Milwaukee Journal-Sentiel",
+      "source": "Biloxi Shuckers",
+      "date": "2025-03",
+      "url": "https://www.youtube.com/watch?v=0k1L4R4-F_0"
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline (MiLB.com)",
+    "Baseball America",
+    "Just Baseball",
+    "Prospects1500",
+    "Wisconsin Sports Heroics",
+    "Reviewing the Brew",
+    "Sports Illustrated"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "Brewers' Craig Yoho on 15-day IL with calf strain; projected mid-April return",
+      "source": "FOX Sports",
+      "date": "2026-03-18",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDu2RbLBQxpRzD0r_B98U8r9E6Vr2Z-pBFdpj9o8tfWddU6ieOoGEd5Z_77mK0ZFe_d9w8Nnzjjl-qGhRQBmELjHK37r6ytDiMl6L8ng_NIn0XsfinPwUQxa-s6vHfsBmdPX1382aox0BC",
+      "summary": "Craig Yoho was placed on the 15-day injured list due to a low-grade right soleus calf strain in mid-March 2026, with a projected return to action in mid-April, impacting his opportunity for an Opening Day bullpen spot."
+    },
+    {
+      "title": "Brewers Reliever Craig Yoho Aims to Harness Control Issues in 2026",
+      "source": "Today in Milwaukee",
+      "date": "2026-02-04",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6kbS93at6lRC4D17ogsHwwsP7CIrIR5liUvID-Bd5gTPloY0o0ZCLukdNHe04vdrk5YFrpcrsvunaLr4gI5AvinY1XZDeJLBjqNthpaHsVUARjK7O6iusxFiYeBeRAb53cqBCv_GlWFJ6CDoB7HPgjwP19HhDXlDqA1zO7oYaFb0iVnt1RystkU3oo_6FgQeMmzbibLTFeUxtndTTnycS1M0ci7hLI-3hi3dWylrF7dMgDGIGuYo=",
+      "summary": "Craig Yoho, a right-handed reliever for the Milwaukee Brewers, struggled with control issues during his 2025 MLB debut, recording a 7.27 ERA, and will need to improve his command in 2026 Spring Training to secure a bullpen spot."
+    },
+    {
+      "title": "Craig Yoho: Recalled from Triple-A, struggled in majors in 2025",
+      "source": "FOX Sports",
+      "date": "2025-09-08",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDu2RbLBQxpRzD0r_B98U8r9E6Vr2Z-pBFdpj9o8tfWddU6ieOoGEd5Z_77mK0ZFe_d9w8Nnzjjl-qGhRQBmELjHK37r6ytDiMl6L8ng_NIn0XsfinPwUQxa-s6vHfsBmdPX1382aox0BC",
+      "summary": "After being recalled from Triple-A Nashville multiple times in 2025, Craig Yoho struggled in the majors with an 8.22 ERA across 7.2 innings, despite a dominant 1.04 ERA in Triple-A."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Craig Yoho records the last out",
+      "channel": "Milwaukee Brewers - MLB.com",
+      "date": "2025-09-07",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnGhEIlSUDFZR4Kxp5xfYg-myqU__6C_bHIsueRtoYRh1wgojfwl-8mRnnJlMh1jzWdzVzq0krO5iY3xcJUN6C36yliNKn4cm1K43tX7PaaEa81tjL8ipdv50wCqTB39MPvo4VYcGaTJGbmmlAUNYa_XMotpN4ukB9toocUB5P9I_AwJKArzcqXY_uDaOa1z2horLeDI5ndmCwFQPmo7ZLxc8fdwe",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Craig Yoho's behind-the-back stop.",
+      "channel": "MiLB.com",
+      "date": "2025-05-30",
+      "url": "https://www.milb.com/milb/video/craig-yoho-videos",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Craig Yoho, RHP, Milwaukee Brewers",
+      "channel": "FanGraphs",
+      "date": "2025-05-14",
+      "url": "https://www.youtube.com/results?search_query=FanGraphs+Craig+Yoho",
+      "type": "scouting",
+      "urlType": "search"
+    },
+    {
+      "title": "Craig Yoho's first Major League strikeout",
+      "channel": "Milwaukee Brewers - MLB.com",
+      "date": "2025-04-21",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdkHJGViqHw199TG8Dcn6gBygt5nxFi6T_GYJRikR8L9-3A3UoWh3bfjJHvYIi_WDCoPVzCDgJIzFW-vuCaei5E3Cc3m-DTLlTm_9viTWcIvykO0PlT0EGNmc3CSh67n2jkhQJ0jc_1d6QSiBXCAmOT4hDeK0zMGlaojSOgbYWkz-GFB4G",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Craig Yoho records the K after ABS challenge",
+      "channel": "Milwaukee Brewers - MLB.com",
+      "date": "2025-02-23",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWRvvC5KARfj9C75WytOdgRFo9EZ1eCM41ruiB1V2pHDDFtXuNw4a_ZIWgUDNcKyqHVKahygFmr7703Iwp3mW1BnaENYHYP0FI8DMNthG3A4P18y_IS196GBDcQ4N2VR3OD40AEI5mL8cXriiBAdWJBGPATPb3JnsqasSEI7kMOJa1YyiL3pfzjg==",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Craig Yoho strikes out his third batter.",
+      "channel": "MiLB.com",
+      "date": "2024-08-17",
+      "url": "https://www.milb.com/milb/video/craig-yoho-videos",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Craig Yoho's third strikeout.",
+      "channel": "MiLB.com",
+      "date": "2024-07-11",
+      "url": "https://www.milb.com/milb/video/craig-yoho-videos",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Craig Yoho could be an IMPACT Brewers reliever",
+      "channel": "YouTube",
+      "date": "2024-06-12",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6rrykX-Aqrsd_80v-usndgRwO84-coSGlYOoIXEjH61E21QIh5u5rhTVL603XCHk4G_3yGoT4yUfuUXZoHSeddA9I0Omiji2MNua22dU5T41VG7Y2FxYFx29UlYCPW1wdOEOiUQ",
+      "type": "scouting",
+      "urlType": "direct"
+    },
+    {
+      "title": "Craig Yoho, Brewers Minor League Relief Pitcher of the Month",
+      "channel": "YouTube",
+      "date": "2024-06-08",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuNj3YqqV0zku1Nk8fa9nI6dyk3-siT5xsbEAlBZ24C0HUqiVdbb08_sC9a-s9ta0eBWLMVgb7biqsK_-1bB2iMcbDNyjNOLd3tGBnzd3NNc2h84UxeNZo67JSn0XmPbEzvyHliC1w=",
+      "type": "interview",
+      "urlType": "direct"
+    },
+    {
+      "title": "Craig Yoho records fifth strikeout in two innings.",
+      "channel": "MiLB.com",
+      "date": "2024-06-01",
+      "url": "https://www.milb.com/milb/video/craig-yoho-videos",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Craig Yoho's seventh strikeout.",
+      "channel": "MiLB.com",
+      "date": "2024-05-07",
+      "url": "https://www.milb.com/milb/video/craig-yoho-videos",
+      "type": "highlights",
+      "urlType": "search"
+    }
+  ]
+}

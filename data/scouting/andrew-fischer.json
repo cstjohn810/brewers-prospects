@@ -1,0 +1,304 @@
+{
+  "playerId": "andrew-fischer",
+  "name": "Andrew Fischer",
+  "position": "3B",
+  "level": "A+",
+  "age": 21,
+  "updatedAt": "2026-04-04T03:04:58.893Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": 50,
+    "power": 60,
+    "run": 40,
+    "field": 45,
+    "arm": 55,
+    "ofp": 50,
+    "risk": "High"
+  },
+  "rankings": [
+    {
+      "source": "MiLB.com",
+      "rank": 2,
+      "systemRank": null,
+      "grade": null,
+      "listName": "Top Third Base Prospects",
+      "date": "2027 (ETA)",
+      "url": "https://www.milb.com/prospects/rankings/third-base"
+    },
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 12,
+      "grade": "50/Average",
+      "listName": "Milwaukee Brewers Top Prospects",
+      "date": "2026-03",
+      "url": "https://www.baseballamerica.com/prospects/andrew-fischer-stats-scouting-report/"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 6,
+      "grade": "50",
+      "listName": "Brewers Top Prospects",
+      "date": "2026-02",
+      "url": "https://www.mlb.com/player/andrew-fischer-804919"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 8,
+      "grade": "45+",
+      "listName": "Milwaukee Brewers Top 53 Prospects",
+      "date": "2025-11",
+      "url": "https://blogs.fangraphs.com/milwaukee-brewers-top-53-prospects/"
+    },
+    {
+      "source": "Prospect361",
+      "rank": null,
+      "systemRank": 7,
+      "grade": null,
+      "listName": "Milwaukee Brewers Prospects",
+      "date": "2025-10",
+      "url": "https://prospect361.com/milwaukee-brewers/"
+    }
+  ],
+  "summary": "Andrew Fischer is a left-handed hitting corner infielder with plus raw power and advanced plate discipline. He had a standout 2025 season at Tennessee, leading to his selection 20th overall by the Brewers in the 2025 MLB Draft. While he primarily played first base in college, the Brewers are giving him an opportunity at third base, where he possesses an above-average arm.",
+  "strengths": [
+    "Plus raw power",
+    "Advanced plate discipline",
+    "Advanced bat"
+  ],
+  "concerns": [
+    "Limited range at third base",
+    "Defense at third base needs improvement",
+    "May be challenged by pro breaking stuff"
+  ],
+  "eta": "2027",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Andrew Fischer Stats & Scouting Report",
+      "source": "Baseball America",
+      "date": "2026-03",
+      "url": "https://www.baseballamerica.com/prospects/andrew-fischer-stats-scouting-report/"
+    },
+    {
+      "type": "video",
+      "title": "Andrew Fischer's go-ahead double",
+      "source": "MLB.com",
+      "date": "2026-03",
+      "url": "https://www.mlb.com/video/andrew-fischer-s-go-ahead-double"
+    },
+    {
+      "type": "article",
+      "title": "Projecting how fast Andrew Fischer will reach Brewers after WBC breakout",
+      "source": "Wisconsin Sports Heroics",
+      "date": "2026-03",
+      "url": "https://wisconsinsheroics.com/projecting-how-fast-andrew-fischer-will-reach-brewers-after-wbc-breakout/"
+    },
+    {
+      "type": "article",
+      "title": "Brewers' 2025 first-round pick earns high praise from top prospect evaluators",
+      "source": "Wisconsin Sports Heroics",
+      "date": "2026-01",
+      "url": "https://wisconsinsportsheroics.com/brewers-2025-first-round-pick-andrew-fischer-named-top-3b-prospect/"
+    },
+    {
+      "type": "video",
+      "title": "Top Prospects: Andrew Fischer, 3B, Brewers",
+      "source": "MLB.com",
+      "date": "2026-01",
+      "url": "https://www.mlb.com/video/top-prospects-andrew-fischer-3b-brewers"
+    },
+    {
+      "type": "article",
+      "title": "Brewers Strike, Land Potential Future Star Slugger At No. 20",
+      "source": "Yardbarker",
+      "date": "2025-07",
+      "url": "https://www.yardbarker.com/mlb/news/brewers_strike_land_potential_future_star_slugger_at_no_20/s1_17032_43872081"
+    },
+    {
+      "type": "article",
+      "title": "Andrew Fischer: Baseball News, Stats & Analysis",
+      "source": "Just Baseball",
+      "date": null,
+      "url": "https://www.justbaseball.com/players/andrew-fischer/"
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "FanGraphs",
+    "Baseball Prospectus",
+    "Prospects Live",
+    "Just Baseball",
+    "Prospect361",
+    "Milwaukee Journal Sentinel",
+    "Wisconsin Sports Heroics",
+    "MiLB.com",
+    "Yardbarker"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [
+    {
+      "title": "Andrew Fischer - 2025 Milwaukee Brewers Draft Pick Tracker - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-draft-picks/2025/andrew-fischer-r1/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Andrew Fischer - 2026 Milwaukee Brewers Top Prospects Ranking - Brewer ...",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-top-prospect-rankings/andrew-fischer-r69/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Milwaukee Brewers 2026 Top Prospects, No. 8: Andrew Fischer",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/milwaukee-brewers-2026-top-prospects-no-8-andrew-fischer-r4206/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "The 2027 Brewers Infield is Up in the Air, and That&#x27;s Actually Very ...",
+      "url": "https://brewerfanatic.com/forums/topic/46958-the-2027-brewers-infield-is-up-in-the-air-and-thats-actually-very-good-news/",
+      "date": "2026-03",
+      "type": "forum"
+    },
+    {
+      "title": "When Will Andrew Fischer Debut For The Brewers?",
+      "url": "https://brewerfanatic.com/videos/brewers-minor-leagues/when-will-andrew-fischer-debut-for-the-brewers-r387/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Andrew Fischer Ranked As No. 1 Third Base Prospect",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-free-agents-trade-rumors/notes/andrew-fischer-ranked-as-no-1-third-base-prospect-r174/",
+      "date": "2026-01",
+      "type": "article"
+    },
+    {
+      "title": "Milwaukee Brewers Select Andrew Fischer With 20th Pick of 2025 MLB ...",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers-draft-picks/milwaukee-brewers-select-andrew-fischer-with-20th-pick-of-2025-mlb-draft-r3586/",
+      "date": "2025-07",
+      "type": "article"
+    }
+  ],
+  "recentNews": [
+    {
+      "title": "Andrew Fischer's go-ahead double",
+      "source": "MLB.com",
+      "date": "2026-03-22",
+      "url": "https://www.mlb.com/brewers/video/andrew-fischer-s-go-ahead-double",
+      "summary": "Andrew Fischer hit a go-ahead double for the Milwaukee Brewers."
+    },
+    {
+      "title": "Flashing in WBC",
+      "source": "FOX Sports",
+      "date": "2026-03-15",
+      "url": "https://www.foxsports.com/mlb/andrew-fischer-player-news",
+      "summary": "Andrew Fischer went 1-for-3 with a double and two RBI for the Italian team in a WBC game, displaying a 1.235 OPS."
+    },
+    {
+      "title": "Andrew Fischer's first pro home run",
+      "source": "MLB.com",
+      "date": "2025-08-28",
+      "url": "https://www.mlb.com/brewers/video/andrew-fischer-s-first-pro-home-run",
+      "summary": "Brewers prospect Andrew Fischer swatted his first professional home run for the High-A Wisconsin Timber Rattlers."
+    },
+    {
+      "title": "Andrew Fischer's first High-A homer",
+      "source": "MiLB.com",
+      "date": "2025-08-27",
+      "url": "https://www.milb.com/player/andrew-fischer-694380/videos",
+      "summary": "Andrew Fischer hit his first High-A homer."
+    },
+    {
+      "title": "Brewers ink first-round pick Andrew Fischer for $3.5M deal",
+      "source": "WBIR",
+      "date": "2025-07-25",
+      "url": "https://www.wbir.com/article/sports/mlb/brewers/brewers-ink-first-round-pick-andrew-fischer-for-35m-deal/51-14c1d683-057d-411a-bf41-8636b0488665",
+      "summary": "The Milwaukee Brewers officially signed their first-round draft pick, Andrew Fischer, to a $3.5 million contract after selecting him 20th overall in the 2025 MLB Draft."
+    },
+    {
+      "title": "Milwaukee Brewers sign infielder Andrew Fischer",
+      "source": "Milwaukee Brewers",
+      "date": "2025-07-25",
+      "url": "https://www.mlb.com/brewers/news/brewers-sign-andrew-fischer",
+      "summary": "The Milwaukee Brewers announced the signing of University of Tennessee infielder Andrew Fischer, the No. 20 overall selection in the 2025 First-Year Player Draft."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Andrew Fischer's go-ahead double",
+      "channel": "Milwaukee Brewers",
+      "date": "2026-03-22",
+      "url": "https://www.mlb.com/brewers/video/andrew-fischer-s-go-ahead-double",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Andrew Fischer 2025 Highlights",
+      "channel": "Wisconsin Timber Rattlers",
+      "date": "2026-01-22",
+      "url": "https://www.youtube.com/watch?v=k_lR73-x354",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Andrew Fischer's first pro home run",
+      "channel": "Milwaukee Brewers",
+      "date": "2025-08-28",
+      "url": "https://www.mlb.com/brewers/video/andrew-fischer-s-first-pro-home-run",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Andrew Fischer rips two XBHs, two RBIs",
+      "channel": "MiLB",
+      "date": "2025-08-27",
+      "url": "https://www.milb.com/player/andrew-fischer-694380/videos",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Andrew Fischer's first High-A homer",
+      "channel": "MiLB",
+      "date": "2025-08-27",
+      "url": "https://www.milb.com/player/andrew-fischer-694380/videos",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Andrew Fischer 2025 College Baseball Highlights! | Tennessee Volunteers",
+      "channel": "The Hub For BB Highlights",
+      "date": "2025-06-18",
+      "url": "https://www.youtube.com/watch?v=9oNksj0-k2c",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Every Andrew Fischer Tennessee Home Run",
+      "channel": "benito_mc04",
+      "date": "2025-06-11",
+      "url": "https://www.youtube.com/watch?v=FwX8NlFwTzg",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Andrew Fischer | 2025 Tennessee Highlights",
+      "channel": "Baseball is Everything Network",
+      "date": "2025-06-08",
+      "url": "https://www.youtube.com/watch?v=F0pLzWwzP_A",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Andrew Fischer's Three-HR Weekend",
+      "channel": "Rebels Sports",
+      "date": "2024-05-06",
+      "url": "https://www.youtube.com/watch?v=L2GgI8DqU0k",
+      "type": "highlights",
+      "urlType": "direct"
+    }
+  ]
+}

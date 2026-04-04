@@ -1,0 +1,156 @@
+{
+  "playerId": "jett-williams",
+  "name": "Jett Williams",
+  "position": "Unknown",
+  "level": "Unknown",
+  "age": null,
+  "updatedAt": "2026-04-04T02:54:55.353Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": 55,
+    "power": 50,
+    "run": 60,
+    "field": 50,
+    "arm": 55,
+    "ofp": 55,
+    "risk": "Average"
+  },
+  "rankings": [
+    {
+      "source": "MLB Pipeline",
+      "rank": 51,
+      "systemRank": 3,
+      "grade": null,
+      "listName": "Top 100 MLB Prospects / Brewers Top 30",
+      "date": "2026-03-12",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFez8juUIajysyyGzNhCu5wnwk0rwLzRSjRz9zCGfJeMQ4aspMjzmbYmhRMZcY_ELlqCSn1zQpo_OLBE5Lzi2ZvNKxSS_bq385vZS7Jc8e_GpuXSqBOg74NOEhXC7_LCcD0NXCHDyBzKsAywS1RkpQV2-b7k3KklDqvDxrnw0E0G3RImoc34LX4aNeb"
+    },
+    {
+      "source": "FanGraphs OOPSY",
+      "rank": 23,
+      "systemRank": null,
+      "grade": "3.5 WAR",
+      "listName": "OOPSY 2026 Top 100 Prospects (Projected WAR)",
+      "date": "2026-02-18",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjD9SPWb-tD_gkqNzXWDmmrcUilyulElGrEy3MTu07etEhq98Mk2359FkCCCPf9kjInPXezSSqykGUU61OSnBzpn0-BWbThXY-qvZgYTHOLdUYAU4X25pQMBveZmc7l-fe_Xndz8NnYOZvXJIMK2W9XdkUXQ=="
+    },
+    {
+      "source": "Just Baseball",
+      "rank": 45,
+      "systemRank": null,
+      "grade": "50+",
+      "listName": "Top 100 MLB Prospects for 2026",
+      "date": "2026-02-18",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFuWsBg5Hpb6WPgVsazSWPtDJ11aLrbbHxfjQ9OPqiCkF1mFUy4JOQ1M4GsbW9Kc6m9rnl1v40FdD52Qc_9QdsC_od7LItlFYo545_VJBepH6-oXGsTacw3ewlTosDyKl0f-hozcZiCrsT__QHfMv3yhB6jFL9Vec="
+    },
+    {
+      "source": "Baseball America",
+      "rank": 71,
+      "systemRank": 4,
+      "grade": "55",
+      "listName": "Top 100 Rankings / Milwaukee Brewers Prospects",
+      "date": "2026-02-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuj-3lVDImvAzDSSFe6dvtPEprOGOGJ4pAlvxTYA-rHbwezbrUvyrf8OJEFNQ1pbdBlqk2XxuwbMiWEDLYGRqQCEWSRG2q3BTRPC1az-340tir_5MCCibFCFzllbQzVdn2pe0TIKt46_lAFbhxE6ZmUPUVV_Fx"
+    }
+  ],
+  "summary": "Jett Williams is a versatile middle infielder and outfielder, acquired by the Milwaukee Brewers from the New York Mets in a January 2026 trade. Known for his strong plate discipline, impressive on-base skills, and plus speed, he projects as a potential top-of-the-order hitter. Despite his smaller stature, he displays surprising power, and his defensive flexibility allows him to play shortstop, second base, and center field, currently playing at Triple-A.",
+  "strengths": [
+    "Elite plate discipline",
+    "Plus speed and baserunning",
+    "Positional versatility",
+    "Surprising power for size"
+  ],
+  "concerns": [
+    "Lingering questions on arm strength",
+    "Inconsistent defensive accuracy",
+    "History of wrist injury",
+    "Smaller stature (5'6\"-5'7\")"
+  ],
+  "eta": "2026",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Brewers prospect Jett Williams returns from quad injury",
+      "source": "MLB.com",
+      "date": "2026-03-12",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFez8juUIajysyyGzNhCu5wnwk0rwLzRSjRz9zCGfJeMQ4aspMjzmbYmhRMZcY_ELlqCSn1zQpo_OLBE5Lzi2ZvNKxSS_bq385vZS7Jc8e_GpuXSqBOg74NOEhXC7_LCcD0NXCHDyBzKsAywS1RkpQV2-b7k3KklDqvDxrnw0E0G3RImoc34LX4aNeb"
+    },
+    {
+      "type": "podcast",
+      "title": "Brewers Trade for Top Prospect Jett Williams",
+      "source": "Apple Podcasts",
+      "date": "2026-01-31",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZ-cE0B2v9YI4kglPpFbtq_S1sansZ-jteWoW5990a0Ur6sQTJv3GcwM6LSXCZ6Mm3eiJOjXUpLlx3jNx2IeMW339xr3y07jRZW4EwjaHVeppvKGPjQy4YMIWFyrXeg91f7LJSROgiZkR7Fk5A9FxakEJD1kpEKf8EsnrQUZzozTIoAsDPqVoUOz5UfjxyJL1jDYwUARC2Misdr7YU10xwSskA6PXK2P-oNVKfJ8OZWQZNNkfMWq0="
+    },
+    {
+      "type": "article",
+      "title": "Former Mets prospects Jett Williams, Brandon Sproat discuss trade to Brewers",
+      "source": "SNY",
+      "date": "2026-01-26",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsUcuymjWmjFzZoGeq0eNGmq45_WhIyyxG-aAej-hlRSQcy_z2DHgDmvB5TRB-zUJAia0JFqhVDpS-uCpA6qjD3ySJIZwiA-GbcgU4fvHUGYPEU7tYokIQswP8wBUQM3BohGNxnd1dlxiBbkRQ1Wfo49lysQb0EPJyZxkRN_5jUZW8aaUcfregWRCebcUgeDSOYp7fjWc="
+    },
+    {
+      "type": "youtube",
+      "title": "MLB Pipeline Sr. Writer Jim Callis Breaks Down New Brewers Prospects Jett Williams & Brandon Sproat",
+      "source": "MLB.com",
+      "date": "2026-01-23",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7b5SF3xrllUhQ19OJ2oJZTPoxklrcRFCy-_tk56AxXjzMKtzq1TC0zHgaHW6wUGVyi80GwonZLRyLM6Ny4vVcl_9rJhBxGMdYaazi448v-b_A9Uh0OfPYIDR8zt5TZ3vztrQQ5eI="
+    },
+    {
+      "type": "article",
+      "title": "Brewing with Gas: Evaluating Jett Williams and Brandon Sproat",
+      "source": "FanGraphs Baseball",
+      "date": "2026-01-22",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiLIxrXQSwRx8ot1h9QvjYV0GPgD7mvqmaIQMRMR7qgm-u6lTkwB9G16FgAEDqR_eM_g3sJR-x2tdxVv1NOTfoY-U2uST4I546jQg2DoJx7Ae9aT-bz3VpFNV0G2GSHENynic3h26z4w0zUY1vAaXT_V5ZQGBe4ELqXoD_3YD3EbYm8JBJUMPs0JLW2-ixuzQmdLBz"
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "FanGraphs",
+    "Baseball Prospectus",
+    "Prospects Live",
+    "Just Baseball",
+    "Prospect361",
+    "MiLB.com",
+    "SNY",
+    "Sports Illustrated",
+    "Wikipedia",
+    "Baseball-Reference.com",
+    "Prospect Savant",
+    "Apple Podcasts"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "Brewers' Flurry of Roster Moves Includes Decision on Jett Williams",
+      "source": "Sports Illustrated",
+      "date": "2026-03-17",
+      "url": "https://www.si.com/mlb/brewers/news/brewers-flurry-of-roster-moves-includes-decision-on-jett-williiams-01hqn219h403",
+      "summary": "Jett Williams was included in the latest round of Spring Training roster cuts on March 17, 2026, and is expected to begin the season at Triple-A Nashville after returning from a left quad injury."
+    },
+    {
+      "title": "Brewers Invite Non-Roster SS Jett Williams to Spring Training",
+      "source": "Baseball Prospectus",
+      "date": "2026-01-23",
+      "url": "https://www.baseballprospectus.com/player/jett-williams-97996/",
+      "summary": "The Milwaukee Brewers invited non-roster shortstop Jett Williams to Spring Training on January 23, 2026."
+    },
+    {
+      "title": "Brewers acquire Jett Williams in trade with Mets",
+      "source": "MiLB.com",
+      "date": "2026-01-21",
+      "url": "https://www.milb.com/player/jett-williams-694625",
+      "summary": "Jett Williams was traded from the New York Mets to the Milwaukee Brewers on January 21, 2026, as part of a deal that sent Freddy Peralta and Tobias Myers to the Mets for Williams and Brandon Sproat."
+    },
+    {
+      "title": "Jett Williams 2025 Minor League Baseball Season Highlights with Mets Affiliates",
+      "source": "Wikipedia",
+      "date": "2025",
+      "url": "https://en.wikipedia.org/wiki/Jett_Williams_(baseball)",
+      "summary": "During the 2025 season with the New York Mets' affiliates, Binghamton Rumble Ponies and Syracuse Mets, Jett Williams hit .261 with 17 home runs, 52 RBI, 34 doubles, and 34 stolen bases over 130 games, being promoted to Triple-A Syracuse in August."
+    }
+  ],
+  "videoLinks": []
+}
