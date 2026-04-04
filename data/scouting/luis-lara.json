@@ -4,7 +4,8 @@
   "position": "Outfielder",
   "level": "AA",
   "age": 21,
-  "updatedAt": "2026-04-04T01:55:31.135Z",
+  "updatedAt": "2026-04-04T04:57:57.722Z",
+  "pitchGrades": null,
   "grades": {
     "hit": 50,
     "power": 30,
@@ -22,61 +23,68 @@
       "grade": "50/Average",
       "listName": "Milwaukee Brewers Top Prospects",
       "date": "2026-03",
-      "url": "https://www.baseballamerica.com/prospects/luis-lara-stats-scouting-report/"
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxJmMSw9VHwwAgvdIAMegRYGyCkG5BNmiFxykYe-MIVpi3HU7CIJGxOttM0d6YSMyuMb8HnXOx0-EhzkW43sOZDmoqQesbvlMuZXcirfaX_CUlwqOzMAL0ZVE5g75ZgTBAjenKAR6YodTCW8---Krap-xm"
     },
     {
-      "source": "FanGraphs The Board",
+      "source": "FanGraphs OOPSY",
+      "rank": 35,
+      "systemRank": null,
+      "grade": "3.3 WAR",
+      "listName": "OOPSY 2026 Top 100 Prospects",
+      "date": "2026-02",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL9ofQpJaepeRcNKCCtnDJJ5CxvEPogEY_wnKyP_QfkhlDJbYMxhrHGOfRII3YGfdDUZbQbY9J15uX8nFUGOY_81aisrDbpuLBlazNxWB3cXNsoZ272PmlXiGvN6sCdGUw2vtN6UbY2PknIl_jJjIyuVZ4SQ=="
+    },
+    {
+      "source": "MLB Pipeline / Prospect Savant",
       "rank": null,
       "systemRank": 11,
-      "grade": "50 FV",
-      "listName": "The Board: Scouting + Stats",
-      "date": "2026-03",
-      "url": "https://www.fangraphs.com/prospects/the-board-scouting-stats"
+      "grade": null,
+      "listName": "2026 Report Organizational Rank",
+      "date": "2026",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVQ5hZPuybbjTAQVJ4rcvyEXOAQhFIL4EN_Cp9fgoKeTPXSewoTXJwvZj0yLnJQPgaDRZkiONXTbWeZ9wzghuocLCPEpJRw9CKdRW7z0C7rSLDgLsEDB4kZTkfiP8sM8IcBLw="
     },
     {
-      "source": "MLB Pipeline",
+      "source": "FanGraphs",
       "rank": null,
-      "systemRank": 16,
-      "grade": "45 Overall",
-      "listName": "Brewers Top Prospects",
-      "date": "2026",
-      "url": "https://www.milb.com/milwaukee-brewers/prospects/luis-lara-800325"
+      "systemRank": 11,
+      "grade": "45 FV",
+      "listName": "Milwaukee Brewers Top 53 Prospects",
+      "date": "2025-11",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6iJFLhd009CEPC5ctc_RHUDsAPAcbhK6sY5-_ykkH1oNFvxTUs9V_epEzybjxrvZr8riQ-RfMeCO3B-f75aZFzd7SUZzO3WqOQMGrjHoXVWzv-4RqzAhhNtXIDtP6jspxm7Wipebc3kJ3cwc8NwsRa__4z9Ntj-ag_g=="
     }
   ],
-  "summary": "Luis Lara is a 5-foot-8 switch-hitting outfielder with quick-twitch athleticism and refined game skills. He is an elite defender in center field with plus-plus speed and a strong arm, currently playing at the Triple-A level for the Nashville Sounds. While he possesses outstanding bat-to-ball skills and a good approach at the plate, his biggest current concern remains a lack of power. Lara has been turning heads in Spring Training with his defense and speed.",
+  "summary": "Luis Lara is a quick-twitch, switch-hitting outfielder known for his elite defense in center field and refined bat-to-ball skills. He possesses plus-plus speed and has demonstrated excellent reads off the bat with great range. While he makes consistent contact and uses a small strike zone to his advantage, his power development remains a key area for growth, though his exit velocities have shown improvement. Lara was with Double-A Biloxi in 2025 and has since been assigned to Triple-A Nashville in March 2026.",
   "strengths": [
     "Elite defense in center field",
-    "Plus-plus speed and quick acceleration",
-    "Outstanding bat-to-ball skills, contact",
-    "Strong, accurate arm"
+    "Plus-plus speed",
+    "Bat-to-ball skills",
+    "High contact rates"
   ],
   "concerns": [
-    "Lack of game power",
-    "Physical projection limited"
+    "Limited power production"
   ],
-  "eta": "2026",
+  "eta": "2026-2027",
   "mediaReferences": [
     {
       "type": "article",
       "title": "Brewers Luis Lara Hits His Second Home Run Of 2026",
       "source": "Baseball America",
       "date": "2026-04",
-      "url": "https://www.baseballamerica.com/stories/brewers-luis-lara-hits-his-second-home-run-of-2026/"
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgl4ejDs9qdScp26ZX8NbEX5e0aCxep-f_SzEv8CkAVwkpYWYJyiIOpcDubwC-g3PwK9WDswjJrj0VhzCiOdWop4QkvOS1zGI80Kv-idyQRoT9KRuo4RfIC9TUqp3sonvh08q_ubKICLJGjUHBn287OlMDYQRM3TN0BICAv_mQMUNFCZr0dRvM0movjaReki302K46DnM2LOCaVwLSlmm0GmQ-igGE4w=="
     },
     {
       "type": "article",
       "title": "Brewers Manager, Players Hint 21-Year-Old OF is Milwaukee's Next Star",
       "source": "Sports Illustrated",
       "date": "2026-03",
-      "url": "https://www.si.com/mlb/brewers/news/brewers-manager-players-hint-21-year-old-of-is-milwaukees-next-star-tk10"
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoMCWMXCVbLPcUX7HxwRv1ADnFtk1Xb8ewWOg3Mbt1o8Y4w2v6nn3zlPmlExNt5rwc6GNZSM1xlxmgGSSMrrTcFkYIUN6L-M_pwYRheXVeLGzK6ien6nZVF6GXYbxU48TWRZPi1tG3_lEmjhlvoLu9hulGADXJFNTyCHENjtKy62KfyprdKNFQWCG1znCFdZi-I7MFW8uh6tpzfzStO11tAsInLPKJFY0K9Us1Z6r0L1sg7Q=="
     }
   ],
   "sourcesConsulted": [
     "Baseball America",
-    "MLB Pipeline (MiLB.com)",
-    "FanGraphs The Board",
-    "FanGraphs OOPSY",
-    "FanGraphs ZiPS",
+    "MLB Pipeline",
+    "FanGraphs",
+    "MiLB.com",
     "Prospect Savant",
     "Sports Illustrated"
   ],
@@ -108,14 +116,14 @@
     },
     {
       "title": "Brewers Prospects Luis Lara, Ryan Birchard Have Intriguing Week 2 in ...",
-      "url": "https://brewerfanatic.com/forums/topic/43750-brewers-prospects-luis-lara-ryan-birchard-have-intriguing-week-2-in-arizona-fall-league/",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-prospects-luis-lara-ryan-birchard-have-intriguing-week-2-in-arizona-fall-league-r2729/",
       "date": "2024-10",
-      "type": "forum"
+      "type": "article"
     },
     {
-      "title": "Brewers Minor League Link Report (8/14): Lara Goes ... - Brewer Fanatic",
-      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-814-lara-goes-long-for-third-time-in-2024-woodward-flashes-plus-stuff-in-low-a-debut-ashby-dominates-in-two-innings-of-relief-r2518/",
-      "date": "2024-08",
+      "title": "Brewers Top Prospects: Luis Lara - Milwaukee Brewers Videos - Brewer ...",
+      "url": "https://brewerfanatic.com/videos/milwaukee-brewers/brewers-top-prospects-luis-lara-r144/",
+      "date": "2024-01",
       "type": "article"
     },
     {
@@ -123,50 +131,185 @@
       "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewer-fanatic-2023-offseason-top-20-prospect-8-luis-lara-r1600/",
       "date": "2023-10",
       "type": "article"
-    },
-    {
-      "title": "Young Brew Crew Spotlight: Luis Lara - Brewer Fanatic",
-      "url": "https://brewerfanatic.com/blogs/entry/75-young-brew-crew-spotlight-luis-lara/",
-      "date": "2023-03",
-      "type": "article"
     }
   ],
   "recentNews": [
     {
+      "title": "Luis Lara singles on a ground ball to right fielder Dustin Harris. Greg Jones scores.",
+      "source": "MiLB.com",
+      "date": "2026-04-03",
+      "url": "https://www.milb.com/video/luis-lara-singles-on-a-ground-ball-to-right-fielder-dustin-harris-greg-jones-scores-6330559795120",
+      "summary": "Luis Lara records a single on a ground ball to right field, allowing Greg Jones to score."
+    },
+    {
       "title": "Brewers Luis Lara Hits His Second Home Run Of 2026",
       "source": "Baseball America",
       "date": "2026-04-02",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRlQXPXDSHXzohKheUWGVNL79LVQnn_DLeH8pbppZnhH63a-ViNxe2H3X2kVf0pcGBVpH-r5ym7aJKWtTuMrwnPM_p7B0_qxqKjq8NheyJgOumXphhBMY_nKWGAMCs3kuZ7tuYqU8QBH-vsL0DakqaCGEK6brY6FOGumyGREkkn1f6Lq0G6EYzAczRsGpfeA6r1BK3f40CABqMkx8__ErppS7Ua5EJ",
-      "summary": "Brewers outfield prospect Luis Lara has hit two home runs in five games with Triple-A Nashville early in the 2026 season, surpassing his total of three home runs from the entire previous season."
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEadmWdIl-AXdIWXiNLvghnyOGdoCUBro3eqGxffrya2No3VVcBohg4mP0gGPiTJ_QmEN6nQjfX5lqPAPwfHUNOdPmWOa17sJoQc7EXR_x6QG1wkxUc7zecM4HUKjbJNsHYTim3M4p9otHJIa3I2MZeACys69FLvecCfr1UD2Rll6UdQDhxVEyS8tpJSr6mSbSS9gJmjZ1Rcn0o3yUkR36qnRJBxOtJ",
+      "summary": "Luis Lara hit his second home run of 2026 in just five Triple-A games, showcasing improved power to complement his strong defense and bat-to-ball skills."
+    },
+    {
+      "title": "Brewers' Outfielder Luis Lara Off to Hot Start in Triple-A Nashville for 2026 Season",
+      "source": "Baseball America",
+      "date": "2026-04-02",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEY_bNEzQM4u2OWcU5b277d8kBqw86LlU43znOOXubzdEo1b0hvTQTxH0zOHW0KQG00VGHqOm2FAycTZ97YgGq7PJNFrO7ZJ635yhYx_JKrTurklmPwEOCfohITUWL5UUcHd9wZcnEEePhcX1vMjFRgiIVKwXWcXWJBnp_j-oSf7JjrJVRAYsZB7Hdzqf8JSTLbys3Xg_iyMp3ol44LthRO2ebPV5RwAiAPfKD62K5geg==",
+      "summary": "Luis Lara, Milwaukee's No. 12-ranked prospect, has started the 2026 season in Triple-A with the Nashville Sounds, posting a .750 slugging percentage through his first 22 plate appearances after leading the Southern League in 2025 with 32 doubles for the Double-A Biloxi Shuckers."
     },
     {
       "title": "Brewers' top outfield prospect silences doubters with early 2026 power surge",
-      "source": "Brewers.com (implied from context)",
+      "source": "Reviewing the Brew (inferred from content)",
       "date": "2026-04-02",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERV5RtUA6JWBFR26BOUfNAeIL-Dj9ZzJarGbtJ67BwfvUPs2AD3BmF2oPRnkiwdQoVKGwtPq6e3vu-7RultZPkIZOKku07z_gvIcYqvH-tRKlDTw8680Sp95p3YLZK3PMuxBmb9Z4jgmxikeQ564b7z--Ll7dUeAqb62IwRshy7Lk_glRZKwBEoH35NYRmofmH8rCTEBmhe-7ccW-_Z37RHDFdAYCqDlYdT9Vl9hbE",
-      "summary": "Luis Lara, starting the 2026 season in Triple-A Nashville, is off to a hot start with a .750 slugging percentage through 22 plate appearances, following a Minor League Gold Glove win in 2025 with Double-A Biloxi."
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqSzjnKAdAidR7N56GM2SYXA0-iCbWrJaav84aOumDHG9ovF_hICuWSlwPX8Vg3UWTUhhyp-41OtYD_7c-f7mzzvV7QDuYtwhfBB9k6pMEmNj1yAchpHpuH8Ql8pkpMeIDL-ZZNOumBXF6YOe36OzFwSPyFV11YiC6enDLmirmSOlJ9sGyIl0ZmjBDsXt-64HzkkXgHMpuFllYdknBJHjqOKpJTuyvV85bAD_d_vNg",
+      "summary": "Luis Lara is off to a hot start in Triple-A Nashville in 2026, posting a .750 slugging percentage through his first 22 plate appearances, following a strong 2025 season in Double-A and a prominent role in Cactus League games."
     },
     {
-      "title": "Luis Lara assigned to Nashville Sounds (AAA)",
+      "title": "Ethan Murray hit by pitch. Luis Lara scores. Brock Wilken to 3rd. Luke Adams to 2nd.",
+      "source": "MiLB.com",
+      "date": "2026-04-02",
+      "url": "https://www.milb.com/video/ethan-murray-hit-by-pitch-luis-lara-scores-brock-wilken-to-3rd-luke-adams-to-2nd-6330559794120",
+      "summary": "Ethan Murray is hit by a pitch, resulting in Luis Lara scoring a run."
+    },
+    {
+      "title": "Here's where all of the Brewers' Top 30 prospects will begin 2026 season.",
+      "source": "MiLB.com",
+      "date": "2026-04-02",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkHFAuS3_Af5LnumCPvYktzPU06yRuU3Ix12whq3q9KLjef-zqevyvOWIL6GjWg6S0Fby4Z5Rkd405SX8VTF4X_9X2h8JUhid7raT75BVOwrXO_YIVk31lwnkb9nTBW2Ax_tPVIpYL1aysLNkP4JTig8UawLZb",
+      "summary": "This article details the starting assignments for all of the Brewers' Top 30 prospects, including Luis Lara, for the 2026 season."
+    },
+    {
+      "title": "Here's where all of the Brewers' Top 30 prospects will begin 2026 season.",
+      "source": "MiLB.com",
+      "date": "2026-04-02",
+      "url": "https://www.milb.com/milwaukee-brewers/news/milwaukee-brewers-top-30-prospects-2026-season-start",
+      "summary": "Luis Lara is listed among the Milwaukee Brewers' Top 30 prospects and will start the 2026 season with the Nashville Sounds (AAA)."
+    },
+    {
+      "title": "Luis Lara's solo homer",
+      "source": "MiLB.com",
+      "date": "2026-03-28",
+      "url": "https://www.milb.com/video/luis-lara-s-solo-homer-6330444558120",
+      "summary": "Brewers No. 12 prospect Luis Lara hits a solo home run in his Triple-A Nashville debut."
+    },
+    {
+      "title": "Luis Lara assigned to Nashville Sounds",
       "source": "MiLB.com",
       "date": "2026-03-26",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGC0UGeryohfIMY16R3CI8PYPtQWzsanQ06wLynFJHloQwm7mBeWXKMIRPi-VYrzBYcVgKVAoz1pM_OAERbtQIhlYohOJxMVm3Wspe0ojAUwyICMzZePOlUWV47VWw1Fu7FCaVflcs=",
-      "summary": "CF Luis Lara was assigned to the Triple-A Nashville Sounds from the Double-A Biloxi Shuckers on March 26, 2026, and was invited to Spring Training by the Milwaukee Brewers on January 27, 2026."
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpJSV8UhwOZ4nbx59ua5IODgtneP2uULir6X861Z8EXGs4FXk2JQO0U691s1rYC3Pkmmekh4Z2xx6bpHvLZzRlOB3RIdgGM7ERENxVTLIAgFq4ru6_e6OcRAr37Xt3O2A2vWN4oGFD",
+      "summary": "Outfielder Luis Lara was assigned to the Triple-A Nashville Sounds from the Double-A Biloxi Shuckers on March 26, 2026."
     },
     {
-      "title": "Luis Lara assigned to Biloxi Shuckers (AA)",
+      "title": "Luis Lara assigned to Nashville Sounds from Biloxi Shuckers",
+      "source": "MiLB.com",
+      "date": "2026-03-26",
+      "url": "https://www.milb.com/player/luis-lara-691167",
+      "summary": "Luis Lara was assigned to the Triple-A Nashville Sounds from the Double-A Biloxi Shuckers."
+    },
+    {
+      "title": "Luis Lara's Recent Minor League Assignments and Spring Training Invitation",
+      "source": "MiLB.com / MLB.com",
+      "date": "2026-03-26",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCyqihvRZp4Qgmkfnjozi4eH4KWikK2Cdx99s3OSiR2xI2ukwvtV8YeavbXe-gzY5EoISItcFZH3EnqlndTylvwkYl-GYYLDfrPdcAHeBeNgfCHEpfYA69WZbmeAcbzHh8RFgtdi0=",
+      "summary": "Luis Lara was assigned to the Triple-A Nashville Sounds on March 26, 2026, after being invited to the Milwaukee Brewers' spring training on January 27, 2026, and previously assigned to the Double-A Biloxi Shuckers on March 31, 2025."
+    },
+    {
+      "title": "Luis Lara's excellent running catch",
       "source": "MLB.com",
+      "date": "2026-03-20",
+      "url": "https://www.mlb.com/brewerstv/video/luis-lara-s-excellent-running-catch",
+      "summary": "Luis Lara makes an excellent running catch during a Spring Breakout game."
+    },
+    {
+      "title": "Luis Lara's two-run single",
+      "source": "MLB.com",
+      "date": "2026-03-16",
+      "url": "https://www.mlb.com/brewerstv/video/luis-lara-s-two-run-single",
+      "summary": "Luis Lara hits a two-run single in a Spring Training game."
+    },
+    {
+      "title": "Luis Lara assigned to Milwaukee Brewers Prospects",
+      "source": "MiLB.com",
+      "date": "2026-03-05",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpJSV8UhwOZ4nbx59ua5IODgtneP2uULir6X861Z8EXGs4FXk2JQO0U691s1rYC3Pkmmekh4Z2xx6bpHvLZzRlOB3RIdgGM7ERENxVTLIAgFq4ru6_e6OcRAr37Xt3O2A2vWN4oGFD",
+      "summary": "Outfielder Luis Lara was assigned to Milwaukee Brewers Prospects on March 5, 2026."
+    },
+    {
+      "title": "Brewers' Gold Glove winning prospect looks right at home in big league camp",
+      "source": "Sports Illustrated",
+      "date": "2026-03-04",
+      "url": "https://www.si.com/mlb/brewers/prospects/brewers-gold-glove-winning-prospect-looks-right-at-home-in-big-league-camp-l3k342",
+      "summary": "Luis Lara, a minor league Gold Glove winner in 2025, is having a strong showing in big league Spring Training and might make his MLB debut before the end of the 2026 season."
+    },
+    {
+      "title": "Brewers Skipper Spotlights 21-Year-Old Speedster As MLB 'Darkhorse'",
+      "source": "Sports Illustrated",
+      "date": "2026-02-19",
+      "url": "https://www.si.com/mlb/brewers/news/brewers-skipper-spotlights-21-year-old-speedster-as-mlb-darkhorse",
+      "summary": "Brewers manager Pat Murphy highlighted Luis Lara as a potential impact player for the major league roster, praising his energy and defense."
+    },
+    {
+      "title": "Luis Lara invited to Spring Training by Milwaukee Brewers",
+      "source": "MiLB.com",
+      "date": "2026-01-27",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpJSV8UhwOZ4nbx59ua5IODgtneP2uULir6X861Z8EXGs4FXk2JQO0U691s1rYC3Pkmmekh4Z2xx6bpHvLZzRlOB3RIdgGM7ERENxVTLIAgFq4ru6_e6OcRAr37Xt3O2A2vWN4oGFD",
+      "summary": "Luis Lara received a non-roster invitation to Spring Training by the Milwaukee Brewers on January 27, 2026."
+    },
+    {
+      "title": "Milwaukee Brewers invited non-roster CF Luis Lara to spring training",
+      "source": "MiLB.com",
+      "date": "2026-01-27",
+      "url": "https://www.milb.com/player/luis-lara-691167",
+      "summary": "Luis Lara received an invitation to the Milwaukee Brewers' spring training as a non-roster player."
+    },
+    {
+      "title": "Luis Lara assigned to Biloxi Shuckers",
+      "source": "MiLB.com",
       "date": "2025-03-31",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjDpKpdXxtUSM77wXZ8C2MB1B4AW3sRq2go138ZpwLwyztJnNrp-ZPMfQhiMVPF7wWOzZhdUbtPt0lK-aeUc6SrSV7JXxjW9mYHpS1_SRsHnP3fJYtD921tsEg_D8jMWdLAPshdQ==",
-      "summary": "CF Luis Lara was assigned to the Double-A Biloxi Shuckers on March 31, 2025."
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpJSV8UhwOZ4nbx59ua5IODgtneP2uULir6X861Z8EXGs4FXk2JQO0U691s1rYC3Pkmmekh4Z2xx6bpHvLZzRlOB3RIdgGM7ERENxVTLIAgFq4ru6_e6OcRAr37Xt3O2A2vWN4oGFD",
+      "summary": "Outfielder Luis Lara was assigned to the Double-A Biloxi Shuckers on March 31, 2025."
+    },
+    {
+      "title": "baseballamerica.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOVSctvfKz8R80z7RN9I-t7owI5Xl6reYwLhMQ9dRBQu8OC3YJHm8pWfWGbaMPFzjjnOSQI-PyET4F-Zxo6V-sWyhhbt1QLqVp6gQUpfiBmOMd-45auiPRJ6YXQeNAy1gYUsoboG8abvwe_c6Mhlje_MeGKmEi66Z_m3aht5pq_zBqxIM8HeWt_l_JsYOZ7qqD0Lgmh_W5EVvHk66HarLVl3Fa6jVxTA==",
+      "summary": ""
+    },
+    {
+      "title": "milb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpJSV8UhwOZ4nbx59ua5IODgtneP2uULir6X861Z8EXGs4FXk2JQO0U691s1rYC3Pkmmekh4Z2xx6bpHvLZzRlOB3RIdgGM7ERENxVTLIAgFq4ru6_e6OcRAr37Xt3O2A2vWN4oGFD",
+      "summary": ""
+    },
+    {
+      "title": "mlb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkHFAuS3_Af5LnumCPvYktzPU06yRuU3Ix12whq3q9KLjef-zqevyvOWIL6GjWg6S0Fby4Z5Rkd405SX8VTF4X_9X2h8JUhid7raT75BVOwrXO_YIVk31lwnkb9nTBW2Ax_tPVIpYL1aysLNkP4JTig8UawLZb",
+      "summary": ""
+    },
+    {
+      "title": "reviewingthebrew.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEY_bNEzQM4u2OWcU5b277d8kBqw86LlU43znOOXubzdEo1b0hvTQTxH0zOHW0KQG00VGHqOm2FAycTZ97YgGq7PJNFrO7ZJ635yhYx_JKrTurklmPwEOCfohITUWL5UUcHd9wZcnEEePhcX1vMjFRgiIVKwXWcXWJBnp_j-oSf7JjrJVRAYsZB7Hdzqf8JSTLbys3Xg_iyMp3ol44LthRO2ebPV5RwAiAPfKD62K5geg==",
+      "summary": ""
     }
   ],
   "videoLinks": [
     {
       "title": "Luis Lara singles on a ground ball to right fielder Dustin Harris. Greg Jones scores.",
       "channel": "MiLB.com",
+      "date": "2026-04-03",
+      "url": "https://www.milb.com/video",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Ethan Murray hit by pitch. Luis Lara scores. Brock Wilken to 3rd. Luke Adams to 2nd.",
+      "channel": "MiLB.com",
       "date": "2026-04-02",
-      "url": "https://www.milb.com/milwaukee-brewers/video/luis-lara-singles-on-a-ground-ball-to-right-fielder-dustin-harris-greg-jones-scores-04-03-2026-64670002",
+      "url": "https://www.milb.com/video",
       "type": "highlights",
       "urlType": "direct"
     },
@@ -174,23 +317,39 @@
       "title": "Luis Lara's solo homer",
       "channel": "MiLB.com",
       "date": "2026-03-28",
-      "url": "https://www.milb.com/milwaukee-brewers/video/luis-lara-s-solo-homer-03-28-2026-64669866",
+      "url": "https://www.milb.com/video",
       "type": "highlights",
       "urlType": "direct"
     },
     {
       "title": "Luis Lara's excellent running catch",
-      "channel": "Milwaukee Brewers - MLB.com",
+      "channel": "MLB.com",
       "date": "2026-03-20",
-      "url": "https://www.mlb.com/brewers/video/luis-lara-s-excellent-running-catch-03-20-2026-64669865",
+      "url": "https://www.mlb.com/brewerstv/video/luis-lara-s-excellent-running-catch",
       "type": "highlights",
       "urlType": "direct"
     },
     {
       "title": "Luis Lara's two-run single",
-      "channel": "Milwaukee Brewers - MLB.com",
-      "date": "2026-03-17",
-      "url": "https://www.mlb.com/brewers/video/luis-lara-s-two-run-single-03-16-2026-64669864",
+      "channel": "MLB.com",
+      "date": "2026-03-16",
+      "url": "https://www.mlb.com/brewerstv/video/luis-lara-s-two-run-single",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Games That Made Us: A 2024 Retrospective | Episode 7 - \"The Luis Lara Game\"",
+      "channel": "Wisconsin Timber Rattlers",
+      "date": "2025-02-18",
+      "url": "https://www.youtube.com/watch?v=R9M4nI5l88g",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Luis Lara's two-run home run",
+      "channel": "MLB.com",
+      "date": "2024-03-24",
+      "url": "https://www.mlb.com/brewerstv/video/luis-lara-s-two-run-home-run-00959082",
       "type": "highlights",
       "urlType": "direct"
     },
@@ -198,25 +357,17 @@
       "title": "Luis Lara: A Scout the Statline 2024 Player Evaluation!",
       "channel": "Scout the Statline",
       "date": "2024-01-29",
-      "url": "https://www.youtube.com/results?search_query=Scout+the+Statline+Luis+Lara+2024+Player+Evaluation",
+      "url": "https://www.youtube.com/watch?v=n78uC4i3Izo",
       "type": "scouting",
-      "urlType": "search"
+      "urlType": "direct"
     },
     {
       "title": "Luis Lara 2023 Highlights",
       "channel": "Carolina Mudcats",
       "date": "2023-11-01",
-      "url": "https://www.youtube.com/results?search_query=Carolina+Mudcats+Luis+Lara+2023+Highlights",
+      "url": "https://www.youtube.com/watch?v=W13a1r8aGk4",
       "type": "highlights",
-      "urlType": "search"
-    },
-    {
-      "title": "Luis Lara, OF, Milwaukee Brewers",
-      "channel": "FanGraphs",
-      "date": "2022-12-20",
-      "url": "https://www.youtube.com/results?search_query=FanGraphs+Luis+Lara+OF+Milwaukee+Brewers",
-      "type": "scouting",
-      "urlType": "search"
+      "urlType": "direct"
     }
   ]
 }

@@ -1,0 +1,37 @@
+{
+  "season": 2025,
+  "updatedAt": "2026-04-04T05:24:23.311Z",
+  "source": "MLB Stats API",
+  "players": {
+    "cooper-pratt": {
+      "season": 2025,
+      "source": "MLB Stats API",
+      "sportId": 12,
+      "sportName": null,
+      "teamName": "Biloxi Shuckers",
+      "g": 120,
+      "pa": 527,
+      "ab": 437,
+      "avg": 0.238,
+      "obp": 0.343,
+      "slg": 0.348,
+      "ops": 0.691,
+      "hr": 8,
+      "rbi": 62,
+      "sb": 31,
+      "sbAtt": 36,
+      "bbPct": 12.7134724857685,
+      "kPct": 15.180265654648956,
+      "iso": 0.10999999999999999,
+      "babip": 0.267,
+      "hardHitPct": null,
+      "ev90": null,
+      "gbPct": 45.28301886792453,
+      "leagueAvgAvg": 1,
+      "leagueAvgObp": 1,
+      "leagueAvgSlg": 1,
+      "leagueAvgBbPct": 0,
+      "leagueAvgKPct": 0
+    }
+  }
+}

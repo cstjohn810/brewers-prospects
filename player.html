@@ -829,7 +829,10 @@
 
         const p = {
           ...base, ...scout,
+          statsBySeason: base.statsBySeason || {},
+          latestStatsSeason: base.latestStatsSeason || null,
           stats2025:   base.stats2025,
+          stats2026:   base.stats2026,
           id:          base.id,
           affiliate:   base.affiliate,
           height:      base.height,
@@ -874,6 +877,27 @@
     function fmt3(v) { return v != null ? v.toFixed(3).replace(/^0/, '') : '\u2014'; }
     function fmtPct(v) { return v != null ? v.toFixed(1) + '%' : '\u2014'; }
     function fmtN(v, d) { return v != null ? v.toFixed(d || 2) : '\u2014'; }
+    function hasNum(v) { return typeof v === 'number' && Number.isFinite(v); }
+    function joinCtx(parts) { return parts.filter(Boolean).join(' · '); }
+    function latestSeasonStats(p) {
+      const seasons = Object.keys(p.statsBySeason || {})
+        .map((season) => Number(season))
+        .filter(Number.isFinite)
+        .sort((a, b) => b - a);
+
+      if (seasons.length) {
+        const season = seasons[0];
+        return { season, stats: p.statsBySeason[String(season)] };
+      }
+
+      if (p.latestStatsSeason && p.statsBySeason?.[String(p.latestStatsSeason)]) {
+        return { season: Number(p.latestStatsSeason), stats: p.statsBySeason[String(p.latestStatsSeason)] };
+      }
+
+      if (p.stats2026) return { season: 2026, stats: p.stats2026 };
+      if (p.stats2025) return { season: 2025, stats: p.stats2025 };
+      return { season: null, stats: null };
+    }
 
     function tier(val, lgVal, lower) {
       if (val == null || lgVal == null) return 'neutral';
@@ -1023,6 +1047,53 @@
     }
 
     /* ── Video tab content ────────────────────────────────────────────────── */
+    function extractKnownPlayerMediaId(p) {
+      const sources = []
+        .concat(p.rankings || [])
+        .concat(p.mediaReferences || [])
+        .concat(p.recentNews || [])
+        .concat(p.videoLinks || []);
+
+      for (const item of sources) {
+        const url = String(item?.url || '');
+        const match = url.match(/(?:\/player\/|\/prospects\/)[^\/?#]*-(\d{5,})/i);
+        if (match) return match[1];
+      }
+
+      return null;
+    }
+
+    function normalizeVideoHref(url, p) {
+      if (!url || !url.startsWith('http')) return url;
+
+      try {
+        const parsed = new URL(url);
+        const playerMediaId = extractKnownPlayerMediaId(p);
+
+        if (parsed.hostname === 'www.milb.com') {
+          const milbTeamVideo = parsed.pathname.match(/^\/[^\/]+\/video\/(.+)$/i);
+          if (milbTeamVideo) {
+            parsed.pathname = '/video/' + milbTeamVideo[1];
+          }
+
+          if (parsed.pathname.startsWith('/video/') && playerMediaId && !parsed.searchParams.has('t')) {
+            parsed.searchParams.set('t', 'playerid-' + playerMediaId);
+          }
+        }
+
+        if (parsed.hostname === 'www.mlb.com') {
+          const mlbTeamVideo = parsed.pathname.match(/^\/[^\/]+\/video\/(.+)$/i);
+          if (mlbTeamVideo) {
+            parsed.pathname = '/video/' + mlbTeamVideo[1];
+          }
+        }
+
+        return parsed.toString();
+      } catch {
+        return url;
+      }
+    }
+
     function buildVideoTab(p) {
       const videos = (p.videoLinks || []).slice().sort(function(a, b) {
         const parse = (date) => {
@@ -1048,7 +1119,7 @@
         // 3. Fall back to a plain YouTube search for the player + title
         let href = null;
         if (v.url && v.url.startsWith('http')) {
-          href = v.url;
+          href = normalizeVideoHref(v.url, p);
         } else if (v.channel) {
           const q = encodeURIComponent(v.channel + ' ' + (v.title || p.name));
           href = 'https://www.youtube.com/results?search_query=' + q;
@@ -1073,7 +1144,9 @@
 
     /* ── Main render ──────────────────────────────────────────────────────── */
     function render(p) {
-      const s    = p.stats2025;
+      const latestStats = latestSeasonStats(p);
+      const s    = latestStats.stats;
+      const statsSeason = latestStats.season;
       const g    = p.grades;
       const risk = g?.risk || '';
       const pitch = p.pitchGrades || {};
@@ -1105,21 +1178,21 @@
 
       /* Stat tiles */
       const hTiles = s ? [
-        { val:fmt3(s.avg),    name:'AVG',    ctx:'Lg .'+Math.round(s.leagueAvgAvg*1000), t:tier(s.avg,s.leagueAvgAvg) },
-        { val:fmt3(s.obp),    name:'OBP',    ctx:'Lg .'+Math.round(s.leagueAvgObp*1000), t:tier(s.obp,s.leagueAvgObp) },
-        { val:fmt3(s.slg),    name:'SLG',    ctx:'Lg .'+Math.round(s.leagueAvgSlg*1000), t:tier(s.slg,s.leagueAvgSlg) },
-        { val:fmtPct(s.bbPct),name:'BB%',    ctx:'Lg '+s.leagueAvgBbPct+'%',             t:tier(s.bbPct,s.leagueAvgBbPct) },
-        { val:fmtPct(s.kPct), name:'K%',     ctx:'Lg '+s.leagueAvgKPct+'%',              t:tier(s.kPct,s.leagueAvgKPct,true) },
+        { val:fmt3(s.avg),    name:'AVG',    ctx:hasNum(s.leagueAvgAvg) ? 'Lg ' + fmt3(s.leagueAvgAvg) : '', t:tier(s.avg,s.leagueAvgAvg) },
+        { val:fmt3(s.obp),    name:'OBP',    ctx:hasNum(s.leagueAvgObp) ? 'Lg ' + fmt3(s.leagueAvgObp) : '', t:tier(s.obp,s.leagueAvgObp) },
+        { val:fmt3(s.slg),    name:'SLG',    ctx:hasNum(s.leagueAvgSlg) ? 'Lg ' + fmt3(s.leagueAvgSlg) : '', t:tier(s.slg,s.leagueAvgSlg) },
+        { val:fmtPct(s.bbPct),name:'BB%',    ctx:hasNum(s.leagueAvgBbPct) ? 'Lg ' + fmtPct(s.leagueAvgBbPct) : '', t:tier(s.bbPct,s.leagueAvgBbPct) },
+        { val:fmtPct(s.kPct), name:'K%',     ctx:hasNum(s.leagueAvgKPct) ? 'Lg ' + fmtPct(s.leagueAvgKPct) : '', t:tier(s.kPct,s.leagueAvgKPct,true) },
         { val:s.hr??'\u2014', name:'HR',     ctx:(s.g??'\u2014')+' G',                   t:'neutral' },
-        { val:s.sb!=null?s.sb+'/'+s.sbAtt:'\u2014', name:'SB/ATT', ctx:s.sbAtt?Math.round(s.sb/s.sbAtt*100)+'%':'', t:'neutral' },
-        { val:fmt3(s.iso),    name:'ISO',    ctx:'BABIP .'+Math.round(s.babip*1000),      t:tier(s.iso,0.140) },
+        { val:s.sb!=null?s.sb+'/'+s.sbAtt:'\u2014', name:'SB/ATT', ctx:(hasNum(s.sb) && hasNum(s.sbAtt) && s.sbAtt > 0) ? Math.round(s.sb/s.sbAtt*100)+'%' : '', t:'neutral' },
+        { val:fmt3(s.iso),    name:'ISO',    ctx:hasNum(s.babip) ? 'BABIP ' + fmt3(s.babip) : '', t:tier(s.iso,0.140) },
       ] : [];
 
       const pTiles = (s && p.isPitcher) ? [
-        { val:fmtN(s.era),    name:'ERA',    ctx:'Lg '+fmtN(s.leagueAvgEra),             t:tier(s.era,s.leagueAvgEra,true) },
-        { val:fmtPct(s.kPct), name:'K%',     ctx:'Lg '+fmtPct(s.leagueAvgKPct),          t:tier(s.kPct,s.leagueAvgKPct) },
+        { val:fmtN(s.era),    name:'ERA',    ctx:hasNum(s.leagueAvgEra) ? 'Lg ' + fmtN(s.leagueAvgEra) : '', t:tier(s.era,s.leagueAvgEra,true) },
+        { val:fmtPct(s.kPct), name:'K%',     ctx:hasNum(s.leagueAvgKPct) ? 'Lg ' + fmtPct(s.leagueAvgKPct) : '', t:tier(s.kPct,s.leagueAvgKPct) },
         { val:fmtPct(s.bbPct),name:'BB%',    ctx:'',                                      t:tier(s.bbPct,10,true) },
-        { val:fmtN(s.fip),    name:'FIP',    ctx:'xFIP '+fmtN(s.xfip),                   t:tier(s.fip,s.leagueAvgEra,true) },
+        { val:fmtN(s.fip),    name:'FIP',    ctx:hasNum(s.xfip) ? 'xFIP ' + fmtN(s.xfip) : '', t:tier(s.fip,s.leagueAvgEra,true) },
         { val:fmtN(s.ip,1),   name:'IP',     ctx:(s.gs||'\u2014')+' GS',                 t:'neutral' },
         { val:fmtPct(s.swStrPct),name:'SwStr%',ctx:'',                                   t:tier(s.swStrPct,11) },
         { val:fmtPct(s.gbPct),name:'GB%',    ctx:'',                                      t:tier(s.gbPct,44) },
@@ -1205,6 +1278,14 @@
 
       /* Build perf bars */
       const perfsHTML = perfs.map(perf => {
+        if (perf.val == null || perf.lg == null || perf.lg === 0) {
+          return '<div class="perf-row">'
+            + '<span class="perf-label">' + perf.label + '</span>'
+            + '<div class="perf-track"><div class="perf-fill" style="width:0%;background:var(--surface3)"></div></div>'
+            + '<span class="perf-value" style="color:var(--text3)">' + perf.fmt(perf.val) + '</span>'
+            + '<span class="perf-vs">avg ' + perf.fmt(perf.lg) + '</span>'
+            + '</div>';
+        }
         const good = perf.low ? perf.val < perf.lg : perf.val > perf.lg;
         const pct  = perf.low
           ? Math.min(100, Math.max(5, (2 - perf.val/perf.lg)*50))
@@ -1272,7 +1353,7 @@
         + '<div class="main-col">'
 
         /* Stats */
-        + '<div class="section-head"><span class="label">2025 Season \u00B7 ' + (LEVEL_LABELS[p.level]||p.level) + '</span></div>'
+        + '<div class="section-head"><span class="label">' + (statsSeason ? statsSeason + ' Season' : 'Season Stats') + ' \u00B7 ' + (LEVEL_LABELS[p.level]||p.level) + '</span></div>'
         + '<div class="stat-row stagger">' + tilesHTML + '</div>'
 
         /* Tool grades */
