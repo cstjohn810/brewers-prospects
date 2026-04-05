@@ -1,0 +1,353 @@
+{
+  "playerId": "brett-wichrowski",
+  "name": "Brett Wichrowski",
+  "position": "SP",
+  "level": "AA",
+  "age": 23,
+  "updatedAt": "2026-04-04T19:37:45.656Z",
+  "pitchGrades": {
+    "fastball": 60,
+    "slider": 60,
+    "curveball": 60,
+    "changeup": 40,
+    "cutter": 50,
+    "control": 45,
+    "command": 40,
+    "breakingBall": null
+  },
+  "grades": {
+    "ofp": 40,
+    "risk": "Medium"
+  },
+  "rankings": [
+    {
+      "source": "Prospects1500",
+      "rank": null,
+      "systemRank": 26,
+      "grade": "Tier 5",
+      "listName": "Milwaukee Brewers Top 50 Prospects (2026)",
+      "date": "2026-03",
+      "url": "https://www.prospects1500.com/milwaukee-brewers-top-50-prospects-2026/"
+    },
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 15,
+      "grade": null,
+      "listName": "Brewers Top Prospects",
+      "date": "2026-02",
+      "url": "https://www.baseballamerica.com/players/114660/brett-wichrowski/"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 22,
+      "grade": "40+ FV (SIRP)",
+      "listName": "Milwaukee Brewers Top 53 Prospects",
+      "date": "2025-11",
+      "url": "https://blogs.fangraphs.com/milwaukee-brewers-top-53-prospects/"
+    },
+    {
+      "source": "MiLB.com",
+      "rank": null,
+      "systemRank": 14,
+      "grade": null,
+      "listName": "Brewers Top Prospects",
+      "date": "2025-06",
+      "url": "https://www.milb.com/player/brett-wichrowski-694389"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 13,
+      "grade": "40 Overall",
+      "listName": "Brewers Top 30 Prospects",
+      "date": "2025-06",
+      "url": "https://www.milb.com/player/brett-wichrowski-694389"
+    },
+    {
+      "source": "Prospects1500",
+      "rank": null,
+      "systemRank": 15,
+      "grade": "Tier 4",
+      "listName": "Milwaukee Brewers Top 50 Prospects (2025)",
+      "date": "2025-01",
+      "url": "https://www.prospects1500.com/milwaukee-brewers-top-50-prospects-2025/"
+    },
+    {
+      "source": "Prospect361",
+      "rank": null,
+      "systemRank": 6,
+      "grade": null,
+      "listName": "2025 Milwaukee Brewers Top Prospects",
+      "date": "2024-10",
+      "url": "https://www.prospect361.com/2025-prospects/2025-milwaukee-brewers-top-prospects/"
+    }
+  ],
+  "summary": "Brett Wichrowski is a right-handed pitching prospect for the Milwaukee Brewers, known for a fastball that can reach triple digits and an above-average slider. He moved quickly through the minors, reaching Double-A in his first professional season, but has faced questions regarding durability and control. Despite underwhelming strikeout rates for his stuff, he remains effective as he works to build stamina.",
+  "strengths": [
+    "High-velocity fastball",
+    "Above-average slider",
+    "Impressive stuff"
+  ],
+  "concerns": [
+    "Durability questions",
+    "Control consistency",
+    "Underwhelming strikeout rate"
+  ],
+  "eta": "2026-2027",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "10 Brewers Prospects To Know Beyond The Top 30 In 2026",
+      "source": "Baseball America",
+      "date": "2026-02",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPa9ZUU6Hyh5Yr9RUmEU0GM_Cnp27oQ8wRTlLgfM7dZGZTR78nMCaGILLQGBgg_93L2xSNyXzGo-2RolmsZZEP0F5Gb5Ha-yripv7L_lmPPtaqDoyUn8MDQDwHz9-bfNWC7J_wI3KEnT6yYwHGT3Q3Gjg4GsWiuSakHLFD7MoJ4mVuu8-4S9dtxZabOousP6_r_qOA2V09XpNh"
+    },
+    {
+      "type": "article",
+      "title": "Electric Brewers pitching prospect continues to overpower Double-A hitters",
+      "source": "Reviewing The Brew (FanSided)",
+      "date": "2025-06",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2IxJxYtX1NKVot57b79akpQ7vKIzVzoZ09r2NX2T-xEsenihVNxDWy1fAmcMah82LICiIXtbmygqwkcl9LqPOB4eG7QKsfhJSSoO9JgtrMajRqzR06NuoIj8cIuznIFrIc5eDTXsZfIsgPEavb91BRpS398jpm2LPL85HmB92GD2R9c3cqjdNWsJCH8H500iYzOLMHjAi2pmiyKzGbNLHXM0yqD06ASehnrJnUQFb"
+    },
+    {
+      "type": "article",
+      "title": "3 Brewers prospects to keep at all costs, 2 to gamble with in trade talks at Deadline",
+      "source": "Reviewing The Brew (FanSided)",
+      "date": "2024-07",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFsYSJ8Nzk6BCK21XJBfFzuD4oYBD5mlQVYc9Zbg2EGqvWYe73YC6zQPYv4n7DEKpoCuk3_grl8TUGYrAFSNxxN7CQJolOcjl5nRxYlRgb9VwOs4uro_upSOebQlLavVqklMVvSu9MHPtsieBLTWa-GLt8yZZqWmagX8w--W4WKkRRTl94giceAGvFF7GEXp08UHdb9O0w1m586ru5KWvzinCbJ-lG0mmnAkkwOTxtQhxGrJc="
+    },
+    {
+      "type": "article",
+      "title": "Brewers Brett Wichrowski Continues On A Excellent Run",
+      "source": "Baseball America",
+      "date": "2024-07",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxP0Bx4PKA0TZcOg-uVd60kUG88rdJp-xsquKUzhS_e9wpiBNKt29kjGIC6RfrQqA4eqZnWohl756N8dqqU3e3EH5V9abJ1HK3tUIm_MKQZ_4Xey8WGl8c1X44zwLY1m3SHJNTWsbLw31T1kWTXhsbRIQiZIcz_mpxgLVGn7rXwzbjY84BJ4QEu_uPDbALqzldRQEOtsMNll27DtsxjGNqbksJc1p6j28Mbg=="
+    },
+    {
+      "type": "article",
+      "title": "Brewers' Brett Wichrowski: Moves up to Double-A",
+      "source": "CBS Sports",
+      "date": "2024-04",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcyrwbbedvya72N7ZC36AzSjdSpsvH2gZMXdLXBfDGPPUG8cZ-SaAevDn9jPqKfQJQBeX9NxwrCF0v-KwJI2nNntHPloTJYvptaAtn7dQ2-J1tQoPKwiAqhkUKt8FfOCRUrJsgvTxZFCoL6O_ZIZmyLB979Jhpu3OlqMkMCbXl-jB8wg=="
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "MiLB.com",
+    "Baseball America",
+    "FanGraphs The Board",
+    "Baseball Prospectus",
+    "Just Baseball",
+    "Prospect361",
+    "Reviewing The Brew (FanSided)",
+    "CBS Sports",
+    "Prospects1500"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [
+    {
+      "title": "Brett Wichrowski - 2023 Milwaukee Brewers Draft Picks - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-draft-picks/2023/brett-wichrowski-round-thirteen/",
+      "date": "2026-04",
+      "type": "article"
+    },
+    {
+      "title": "Brett Wichrowski - 2026 Milwaukee Brewers Top Prospects Ranking ...",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-top-prospect-rankings/brett-wichrowski-r54/",
+      "date": "2026-04",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (7/3): Crow, Wichrowski and Smith All ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-73-crow-wichrowski-and-smith-all-solid-but-affiliates-drop-4-of-6-r3551/",
+      "date": "2025-07",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (6/4): Peña Keeps Coming; Birchard ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-64-peña-keeps-coming-birchard-sets-career-high-k-mark-wichrowski-is-flashing-filth-r3439/",
+      "date": "2025-06",
+      "type": "article"
+    },
+    {
+      "title": "Showing The Signs: Brett Wichrowski has the weapons, but controlling ...",
+      "url": "https://brewerfanatic.com/blogs/entry/148-showing-the-signs-brett-wichrowski-has-the-weapons-but-controlling-them-is-key/",
+      "date": "2025-06",
+      "type": "article"
+    },
+    {
+      "title": "Brewer Fanatic 2024 Offseason Top 20 Prospects: #16-20",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/offseason-top-20-prospects-luis-lara-pena-hunt-wichrowski-rodriguez/",
+      "date": "2024-10",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (7/3): Dominant ... - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-73-dominant-starting-pitching-the-theme-in-3-1-affiliate-evening-r2354/",
+      "date": "2024-07",
+      "type": "article"
+    },
+    {
+      "title": "The Brewers Farm System Is (Once Again) An Arm Factory",
+      "url": "https://brewerfanatic.com/forums/topic/42849-the-brewers-farm-system-is-once-again-an-arm-factory/",
+      "date": "2024-06",
+      "type": "forum"
+    },
+    {
+      "title": "Brewers Minor League Link Report (5/10): Carlos ... - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-510-carlos-rodriguez-and-brett-wichrowski-shine-in-gassers-shadow-r2133/",
+      "date": "2024-05",
+      "type": "article"
+    },
+    {
+      "title": "A Way-Too-Early Look At The Bright Side In the Brewers Farm System",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/a-way-too-early-look-at-the-bright-side-in-the-brewers-farm-system-r2028/",
+      "date": "2024-04",
+      "type": "article"
+    }
+  ],
+  "recentNews": [
+    {
+      "title": "Brewers to throw cast of minor league pitchers in 2026 Cactus League opener",
+      "source": null,
+      "date": "2026-02-21",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETjXbvMrtyvUDBFLRsi6AZvoF2tKmGZEmow1zy9cTiHz7oCKvle0LKokhFwZy-8awZ9YZWDDIUUUa1zcRv_eIgTdsed0aG_qlKiNC2HZUrPE9kTsiKPXgGb6ecPX46mATquFkGhqzm8Z-oevEstM6o2g-Bd1Xg-zDfAp9fn3GuRW-_2HHzmf5QbLtrWWEiUTM4pvsXkkEq-QKZoaVa0z_7o4M3wIXj32_tGN5cE20LPA==",
+      "summary": "Brett Wichrowski was among the minor league pitchers made available for the Milwaukee Brewers' 2026 Cactus League opener against the Cleveland Guardians."
+    },
+    {
+      "title": "Brett Wichrowski's between-the-legs tag",
+      "source": "MLB.com",
+      "date": "2025-06-28",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV4xtK5CHxzH7TG6WLJ1_kNBiF9uRhnUqD7ygb_LdVQOUUk4-mDwW3la-f85xVSs_F7ORESvHebsFdz8JCQA5rnQ0Ip8sIeM_1Ib5Z089gkxeHh8cXiDdI_oWEEtJ1TK41XZgfDCrjSFXZTKrN81M42RdIu6FA0UrV78QvLZeEHVezx1E=",
+      "summary": "Brewers No. 13 prospect Brett Wichrowski made a remarkable between-the-legs tag at third base for Double-A Biloxi."
+    },
+    {
+      "title": "Brett Wichrowski makes season debut for Double-A Biloxi after injury",
+      "source": "RotoWire",
+      "date": "2025-05-06",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpcHlEk8h2VRN40_EHBWTfFpRYbnZIBShXILmlUg615M-4xFFCcS13oVFtbjKYoOZ_fEbUOROf10-ksUUWBeEy5WU10ZbDdv_YB0AuTpk4sur4npQ4uXJHyvgdr0VX8StNZaCLYqGO12z1CeXMcQNbgDBfbtBPSCDCrA==",
+      "summary": "Brett Wichrowski (undisclosed) struck out four and allowed one hit and four walks over three scoreless innings in his season debut for Double-A Biloxi after being reinstated from the 7-day injured list."
+    },
+    {
+      "title": "Brett Wichrowski placed on 7-day injured list",
+      "source": "RotoWire",
+      "date": "2025-04-08",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpcHlEk8h2VRN40_EHBWTfFpRYbnZIBShXILmlUg615M-4xFFCcS13oVFtbjKYoOZ_fEbUOROf10-ksUUWBeEy5WU10ZbDdv_YB0AuTpk4sur4npQ4uXJHyvgdr0VX8StNZaCLYqGO12z1CeXMcQNbgDBfbtBPSCDCrA==",
+      "summary": "Brett Wichrowski was placed on the 7-day injured list by Double-A Biloxi for an undisclosed reason."
+    },
+    {
+      "title": "Brett Wichrowski's fifth strikeout",
+      "source": "MLB.com",
+      "date": "2024-07-21",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmF7l5MrA7MQVrIYBXXrSiKhmK6wwBsjoWAhz3w-jBzfroVHMXtF7XhgNt_CRorlFTQmh9iCY6E4MsxOz8ylrCzhqEdNt4qDvZNBF3JO39AMauZwXjj24JvkvNJLOmqDgllJFoigemVgX8o3NuWDoEb2ArUZq7dQoHq9aP_jOI",
+      "summary": "Brewers No. 14 prospect Brett Wichrowski struck out his fifth batter to end a six-inning start for Double-A Biloxi."
+    },
+    {
+      "title": "Brett Wichrowski's strong outing on the mound",
+      "source": "MLB.com",
+      "date": "2024-07-04",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9xi1-amKPG-yN_uRiGT-SHGzTTQaHd0mjOQjCWRSFSwFoVWRuDGKrRPZ9NxqwqKhmw__RGdLLfmQqJgDD8AXfk1pOj6iMiOO7Moqlw03sl8rkWpMhuBodzEWxqyluEK_tCBTjUjgBJWpuiyCZQqG6TbtVqJEzGFgimc_Sm35yyKegO20CWPDqx9s=",
+      "summary": "Brewers No. 14 prospect Brett Wichrowski fanned the side in the third inning en route to four strikeouts in a shutout six-inning start for Double-A Biloxi."
+    },
+    {
+      "title": "Wichrowski ended 2024 on injured list with dead arm, expected to be ready for 2025",
+      "source": "MiLB.com",
+      "date": "2024",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsV2GoFNp8dwuIBjXCS98GqqUGgeyq0D5LrOw5mOFFFhROfoh3NcgSbBHsa_q7XATRFndA2R-muPHRCdxOBa7Ss8gHbJT7Hl8bclT3rqgFyDJrryyV4ood8fIMkvFlmxDOm1g3oZ_X0_kjY7Vfb_xhXjH1fVXIsjIjry7zBleGXOOu",
+      "summary": "Brett Wichrowski ended the 2024 season on the injured list with a dead arm but was expected to be good to go to begin the 2025 season."
+    },
+    {
+      "title": "Wichrowski promoted to Double-A Biloxi in 2024",
+      "source": "MiLB.com",
+      "date": "2024",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsV2GoFNp8dwuIBjXCS98GqqUGgeyq0D5LrOw5mOFFFhROfoh3NcgSbBHsa_q7XATRFndA2R-muPHRCdxOBa7Ss8gHbJT7Hl8bclT3rqgFyDJrryyV4ood8fIMkvFlmxDOm1g3oZ_X0_kjY7Vfb_xhXjH1fVXIsjIjry7zBleGXOOu",
+      "summary": "Brett Wichrowski was promoted from High-A Wisconsin to Double-A Biloxi after only four starts in 2024."
+    },
+    {
+      "title": "mlb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV4xtK5CHxzH7TG6WLJ1_kNBiF9uRhnUqD7ygb_LdVQOUUk4-mDwW3la-f85xVSs_F7ORESvHebsFdz8JCQA5rnQ0Ip8sIeM_1Ib5Z089gkxeHh8cXiDdI_oWEEtJ1TK41XZgfDCrjSFXZTKrN81M42RdIu6FA0UrV78QvLZeEHVezx1E=",
+      "summary": ""
+    },
+    {
+      "title": "mlb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmF7l5MrA7MQVrIYBXXrSiKhmK6wwBsjoWAhz3w-jBzfroVHMXtF7XhgNt_CRorlFTQmh9iCY6E4MsxOz8ylrCzhqEdNt4qDvZNBF3JO39AMauZwXjj24JvkvNJLOmqDgllJFoigemVgX8o3NuWDoEb2ArUZq7dQoHq9aP_jOI",
+      "summary": ""
+    },
+    {
+      "title": "mlb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9xi1-amKPG-yN_uRiGT-SHGzTTQaHd0mjOQjCWRSFSwFoVWRuDGKrRPZ9NxqwqKhmw__RGdLLfmQqJgDD8AXfk1pOj6iMiOO7Moqlw03sl8rkWpMhuBodzEWxqyluEK_tCBTjUjgBJWpuiyCZQqG6TbtVqJEzGFgimc_Sm35yyKegO20CWPDqx9s=",
+      "summary": ""
+    },
+    {
+      "title": "mlb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsV2GoFNp8dwuIBjXCS98GqqUGgeyq0D5LrOw5mOFFFhROfoh3NcgSbBHsa_q7XATRFndA2R-muPHRCdxOBa7Ss8gHbJT7Hl8bclT3rqgFyDJrryyV4ood8fIMkvFlmxDOm1g3oZ_X0_kjY7Vfb_xhXjH1fVXIsjIjry7zBleGXOOu",
+      "summary": ""
+    },
+    {
+      "title": "reviewingthebrew.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETjXbvMrtyvUDBFLRsi6AZvoF2tKmGZEmow1zy9cTiHz7oCKvle0LKokhFwZy-8awZ9YZWDDIUUUa1zcRv_eIgTdsed0aG_qlKiNC2HZUrPE9kTsiKPXgGb6ecPX46mATquFkGhqzm8Z-oevEstM6o2g-Bd1Xg-zDfAp9fn3GuRW-_2HHzmf5QbLtrWWEiUTM4pvsxkkEq-QKZoaVa0z_7o4M3wIXj32_tGN5cE20LPA==",
+      "summary": ""
+    },
+    {
+      "title": "rotowire.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpcHlEk8h2VRN40_EHBWTfFpRYbnZIBShXILmlUg615M-4xFFCcS13oVFtbjKYoOZ_fEbUOROf10-ksUUWBeEy5WU10ZbDdv_YB0AuTpk4sur4npQ4uXJHyvgdr0VX8StNZaCLYqGO12z1CeXMcQNbgDBfbtBPSCDCrA==",
+      "summary": ""
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Brett Wichrowski's between-the-legs tag",
+      "channel": "Milwaukee Brewers",
+      "date": "2025-06-28",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV4xtK5CHxzH7TG6WLJ1_kNBiF9uRhnUqD7ygb_LdVQOUUk4-mDwW3la-f85xVSs_F7ORESvHebsFdz8JCQA5rnQ0Ip8sIeM_1Ib5Z089gkxeHh8cXiDdI_oWEEtJ1TK41XZgfDCrjSFXZTKrN81M42RdIu6FA0UrV78QvLZeEHVezx1E=",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brett Wichrowski, RHP, Milwaukee Brewers",
+      "channel": null,
+      "date": "2025-05-13",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9P5uwCP9sxwDJutI_eNkvKWr35Shprvb8DfEyPlI2NxM9LxvoX7PQMty8R8YhgTx7JD651T0KCx1l1XwhjNbPb5vfa-6p7-71IOERl_2btFRnxwzrFbVK92kGbU-k-6JC6OabHt4=",
+      "type": "scouting",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brett Wichrowski's fifth strikeout",
+      "channel": "Milwaukee Brewers",
+      "date": "2024-07-21",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmF7l5MrA7MQVrIYBXXrSiKhmK6wwBsjoWAhz3w-jBzfroVHMXtF7XhgNt_CRorlFTQmh9iCY6E4MsxOz8ylrCzhqEdNt4qDvZNBF3JO39AMauZwXjj24JvkvNJLOmqDgllJFoigemVgX8o3NuWDoEb2ArUZq7dQoHq9aP_jOI",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brett Wichrowski's strong outing on the mound",
+      "channel": "Milwaukee Brewers",
+      "date": "2024-07-04",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9xi1-amKPG-yN_uRiGT-SHGzTTQaHd0mjOQjCWRSFSwFoVWRuDGKrRPZ9NxqwqKhmw__RGdLLfmQqJgDD8AXfk1pOj6iMiOO7Moqlw03sl8rkWpMhuBodzEWxqyluEK_tCBTjUjgBJWpuiyCZQqG6TbtVqJEzGFgimc_Sm35yyKegO20CWPDqx9s=",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brett Wichrowski Pregame Interview | June 23rd, 2023",
+      "channel": "Wareham Gatemen",
+      "date": "2023-06-24",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG45u9ZpnbOV5B_jxvc5vhZ_6k9M3zx6reAtTSUx7xIaxM_LMLnvlF0vR3fDFIjKou2eQEEFGT-wqmgnWDOjcbtNrCJKZygfizZ8F5sSJTDUM_N0abSiHcsmMuOfVnbpM-mYz87e3Q=",
+      "type": "interview",
+      "urlType": "direct"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "playerId": "brailyn-antunez",
+  "name": "Brailyn Antunez",
+  "position": "OF",
+  "level": "ACL",
+  "age": 18,
+  "updatedAt": "2026-04-04T19:39:03.723Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": 20,
+    "power": 20,
+    "run": 60,
+    "field": 30,
+    "arm": null,
+    "ofp": 40,
+    "risk": "High"
+  },
+  "rankings": [
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 32,
+      "grade": "40 FV",
+      "listName": "2026 Preseason",
+      "date": "2026-03",
+      "url": "https://www.fangraphs.com/prospects/player-pages/brailyn-antunez-1000755/dashboard"
+    },
+    {
+      "source": "Prospects1500",
+      "rank": null,
+      "systemRank": 33,
+      "grade": null,
+      "listName": "Milwaukee Brewers Top 50 Prospects (2026)",
+      "date": "2026-03",
+      "url": "https://www.prospects1500.com/milwaukee-brewers-top-50-prospects-2026/"
+    },
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 40,
+      "grade": null,
+      "listName": "10 Brewers Prospects To Know Beyond The Top 30 In 2026",
+      "date": "2026-02",
+      "url": "https://www.baseballamerica.com/stories/10-brewers-prospects-to-know-beyond-the-top-30-in-2026/"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 28,
+      "grade": null,
+      "listName": "Brewers Top Prospects",
+      "date": "2025-06",
+      "url": "https://www.mlb.com/prospects/brewers/"
+    }
+  ],
+  "summary": "Brailyn Antunez is an outfielder for the Milwaukee Brewers, signed in 2025. He is noted for his advanced plate discipline, ability to hit to all fields, and potential for 25+ home runs. He possesses plus-plus speed and a strong arm, giving him a chance to stick in center field, though his defensive instincts and routes are still developing. He debuted in the DSL in 2025, hitting .215.",
+  "strengths": [
+    "Advanced plate discipline",
+    "Plus-plus speed",
+    "Strong arm",
+    "Power potential"
+  ],
+  "concerns": [
+    "Developing defensive instincts",
+    "Struggled in pro debut"
+  ],
+  "eta": "2031",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "10 Brewers Prospects To Know Beyond The Top 30 In 2026",
+      "source": "Baseball America",
+      "date": "2026-02",
+      "url": "https://www.baseballamerica.com/stories/10-brewers-prospects-to-know-beyond-the-top-30-in-2026/"
+    },
+    {
+      "type": "article",
+      "title": "Brailyn Antunez Slugs First Pro Homer",
+      "source": "Baseball America",
+      "date": "2025-08",
+      "url": "https://www.baseballamerica.com/prospects/brailyn-antunez-slugs-first-pro-homer/"
+    },
+    {
+      "type": "article",
+      "title": "4 Brewers prospects in the Dominican Summer League to keep an eye on",
+      "source": "Wisconsin Sports Heroics",
+      "date": "2025-06",
+      "url": null
+    },
+    {
+      "type": "reddit",
+      "title": "[Ben Badler] - The Milwaukee Brewers sign outfielder Brailyn Antunez. Some scouts think he's the best prospect in Venezuela for 2025.",
+      "source": "r/baseball",
+      "date": "2025-01",
+      "url": "https://www.reddit.com/r/baseball/comments/197w6c0/ben_badler_the_milwaukee_brewers_sign_outfielder/"
+    },
+    {
+      "type": "article",
+      "title": "Milwaukee Brewers 2025 International Class Scouting Report",
+      "source": "Baseball America",
+      "date": "2025-01",
+      "url": "https://www.baseballamerica.com/stories/milwaukee-brewers-2025-international-class-scouting-report/"
+    },
+    {
+      "type": "article",
+      "title": "Prospect with fun Jackson Chourio link headlines Brewers' international signing class",
+      "source": "Wisconsin Sports Heroics",
+      "date": "2025-01",
+      "url": null
+    },
+    {
+      "type": "youtube",
+      "title": "Top Int'l Prospect: Brailyn Antunez, OF",
+      "source": "MLB.com",
+      "date": "2024-09",
+      "url": "https://www.mlb.com/player/brailyn-antunez-809228"
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "FanGraphs",
+    "Prospects Live",
+    "Prospects1500",
+    "MLB.com",
+    "Baseball-Reference.com",
+    "Wisconsin Sports Heroics",
+    "Reddit"
+  ],
+  "confidence": "medium",
+  "brewerFanaticLinks": [
+    {
+      "title": "2026 Prospect Reports / Lists / Rankings / Interviews / Etc.",
+      "url": "https://brewerfanatic.com/forums/topic/46173-2026-prospect-reports-lists-rankings-interviews-etc/page/11/",
+      "date": "2025-10",
+      "type": "forum"
+    },
+    {
+      "title": "Brewers Minor League Link Report (8/4): The Hits (And Walks) Keep ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-84-the-hits-and-walks-keep-coming-as-dsl-rookies-sweep-a-pair-of-monday-games-r3674/",
+      "date": "2025-08",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (7/15): DSL Squads Sweep Morning ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-715-dsl-squads-sweep-morning-docket-acl-crew-shutout-in-two-hit-loss-r3602/",
+      "date": "2025-07",
+      "type": "article"
+    },
+    {
+      "title": "Tue. 7/8 - Back to a Full Slate (Heavy on TBD Starters)",
+      "url": "https://brewerfanatic.com/forums/topic/45523-tue-78-back-to-a-full-slate-heavy-on-tbd-starters/",
+      "date": "2025-07",
+      "type": "forum"
+    },
+    {
+      "title": "Brewers Minor League Link Report (6/2): The Dominican Summer League ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-62-the-dominican-summer-league-returns-acl-brewers-lose-one-late-r3435/",
+      "date": "2025-06",
+      "type": "article"
+    },
+    {
+      "title": "2025 prospect voting has closed! - Brewers Minor League Talk - Brewer ...",
+      "url": "https://brewerfanatic.com/forums/topic/45007-2025-prospect-voting-has-closed/",
+      "date": "2025-05",
+      "type": "forum"
+    },
+    {
+      "title": "Brewers Expected to Add 3 Top-50 International Prospects Next Week",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/ifa-signings-dominican-republic-venezuela-fenelon-antunez-acosta/",
+      "date": "2025-01",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Expected to Sign #42 International Prospect Brailyn Antunez",
+      "url": "https://brewerfanatic.com/videos/milwaukee-brewers-minor-leagues/brewers-expected-to-sign-42-international-prospect-brailyn-antunez-r270/",
+      "date": "2025-01",
+      "type": "article"
+    },
+    {
+      "title": "Video: Brewers Expected to Sign #42 International Prospect Brailyn Antunez",
+      "url": "https://brewerfanatic.com/forums/topic/44252-video-brewers-expected-to-sign-42-international-prospect-brailyn-antunez/",
+      "date": "2025-01",
+      "type": "forum"
+    }
+  ],
+  "recentNews": [
+    {
+      "title": "Milwaukee Brewers 2025 International Signings Review",
+      "source": "Baseball America",
+      "date": "2025-06-02",
+      "url": "https://www.baseballamerica.com/stories/milwaukee-brewers-2025-international-signings-review/",
+      "summary": "Baseball America highlighted Brailyn Antunez as the 'Top Of The Class' among the Brewers' 2025 international signings, noting his $900,000 bonus, strong athletic build, and potential for power and speed."
+    },
+    {
+      "title": "OF Brailyn Antunez assigned to DSL Brewers 1 and activated by DSL Brewers Blue",
+      "source": "MiLB.com",
+      "date": "2025-02-28",
+      "url": "https://www.milb.com/player/brailyn-antunez-840939",
+      "summary": "Brailyn Antunez was assigned to DSL Brewers 1 and activated by DSL Brewers Blue on February 28, 2025."
+    },
+    {
+      "title": "Milwaukee Brewers signed free agent OF Brailyn Antunez to a minor league contract",
+      "source": "MiLB.com",
+      "date": "2025-01-15",
+      "url": "https://www.milb.com/player/brailyn-antunez-840939",
+      "summary": "The Milwaukee Brewers signed outfielder Brailyn Antunez to a minor league contract on January 15, 2025."
+    },
+    {
+      "title": "baseballamerica.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaPFVYYcH_vUt2Pdm4TqYNemuU4KQHFjcU9dHNvfs0l2-aLqXX3tkXRn0vsgzJu2kiKa9NPtE5JG3QwCCgKO6Kke0dfRMyLa5OYI7dteWo_CG3tqMX7J2NmawhjqBizo1WHCVYkIPGsjIXT9OEDMui2oZaegvwJYip1oHqIQS7VUkibqr_IIxrQqtUZWVt_dyfTwYXw2xAiA==",
+      "summary": ""
+    },
+    {
+      "title": "baseballamerica.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxxf1ktZf8BtCo4zjr0F74laLOPHV5ax3KGO6xfwajc9pfG8qtP7Sz4fOMQbdc5b6BwMBROrUQbrjRnKAVkYw0dPkNN0l47nzjzx_S23XUl7WzENnN4DhAgsG1J9_Edhxyd0NoyL8xLDETHECVIytGB2O3FHuYcLj8OL4=",
+      "summary": ""
+    },
+    {
+      "title": "milb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_RCi7F-4ScvBHax8t0jCJICCBN5nq7SJtq1qpF-Af8xaZ20-bXbTvUKWIBXDAlnUeAbucgP39MnNXDSEa74oFlluIby60DRikrphLMPMBSLDUQ-3NNhBWDgsHNImBuG9hTNHI3axJD_3RTuz_",
+      "summary": ""
+    },
+    {
+      "title": "mlb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH2kYk9FQd92zn7xMNVKmSoziFFBJmo9pTJ7N_8dnzqdewh05lEBjUvrBBuVlJaaM27VW45N6zdeJustvtfW-3EjIw0eFLXQ7Jaomd1gTAYISSyVTZTITHntAEQ0d_SCm67zfd3vbZrNw-sBc=",
+      "summary": ""
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Brailyn Antunez's diving catch",
+      "channel": "Little League Baseball",
+      "date": "2024-08-02",
+      "url": "https://www.youtube.com/results?search_query=Little+League+Baseball+Brailyn+Antunez",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "BRAILYN ANTUNEZ | INF 2024 | From GO PRO BASEBALL | VIDEO DATE: 2021-APR-20",
+      "channel": "GO PRO BASEBALL",
+      "date": "2021-04-20",
+      "url": "https://www.youtube.com/results?search_query=GO+PRO+BASEBALL+Brailyn+Antunez",
+      "type": "scouting",
+      "urlType": "search"
+    }
+  ]
+}

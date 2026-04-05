@@ -4,102 +4,192 @@
   "position": "Unknown",
   "level": "Unknown",
   "age": null,
-  "updatedAt": "2026-04-04T03:17:10.109Z",
+  "updatedAt": "2026-04-04T19:43:49.308Z",
   "pitchGrades": null,
   "grades": {
-    "hit": null,
-    "power": null,
-    "run": null,
-    "field": null,
-    "arm": null,
-    "ofp": null,
+    "hit": 55,
+    "power": 50,
+    "run": 55,
+    "field": 55,
+    "arm": 50,
+    "ofp": 50,
     "risk": "null"
   },
   "rankings": [
     {
+      "source": "Prospects1500",
+      "rank": null,
+      "systemRank": null,
+      "grade": "Tier 5",
+      "listName": "Milwaukee Brewers Top 50 Prospects",
+      "date": "2026-03",
+      "url": "https://www.prospects1500.com/nl-central/milwaukee/milwaukee-brewers-top-50-prospects-2026/"
+    },
+    {
       "source": "Baseball America",
       "rank": 24,
       "systemRank": null,
-      "grade": "null",
-      "listName": "2026 MLB International Prospects: Top 100 Bonus Board",
+      "grade": null,
+      "listName": "Top 100 International Bonus Board",
       "date": "2026-01",
       "url": "https://www.baseballamerica.com/stories/2026-mlb-international-prospects-top-100-bonus-board/"
     },
     {
-      "source": "FanGraphs The Board",
-      "rank": null,
-      "systemRank": 52,
-      "grade": "null",
-      "listName": "Milwaukee Brewers Top Prospects",
-      "date": "2025-11",
-      "url": "https://blogs.fangraphs.com/milwaukee-brewers-top-53-prospects/"
+      "source": "MiLB.com",
+      "rank": 24,
+      "systemRank": null,
+      "grade": null,
+      "listName": "Top Baseball International Prospects",
+      "date": "2026-01",
+      "url": "https://www.milb.com/milb/prospects/international"
     },
     {
       "source": "MLB Pipeline",
-      "rank": 24,
+      "rank": null,
       "systemRank": null,
-      "grade": "null",
+      "grade": null,
       "listName": "Top International Prospects",
-      "date": "2025-09",
-      "url": "https://www.mlb.com/prospects/international/diego-frontado-696783"
+      "date": "2026-01",
+      "url": "https://www.mlb.com/prospects/international/diego-frontado-699741"
     }
   ],
-  "summary": "Diego Frontado is a 17-year-old Venezuelan shortstop signed by the Milwaukee Brewers for $1.6 million in January 2026. He is described as a projectable athlete with a promising blend of quick-twitch athleticism, tools, and right-handed hitting ability. Frontado is known for his elite bat-to-ball skills, impressive speed, and strong defense at shortstop, making him a high-floor prospect.",
+  "summary": "Diego Frontado is a 17-year-old Venezuelan shortstop signed by the Milwaukee Brewers for $1.6 million in January 2026. He is recognized as a top international prospect with a promising blend of athleticism, tools, and hitting ability. Frontado possesses an elite bat-to-ball skill set, solid defense at shortstop, and plus running ability.",
   "strengths": [
-    "Elite bat-to-ball hitter",
-    "Elite runner and defender",
-    "Quick-twitch athleticism",
-    "Power trending up"
+    "Elite contact hitter",
+    "Plus runner",
+    "Solid shortstop defense",
+    "Advanced plate approach"
   ],
   "concerns": [
-    "Power still developing"
+    "Power still developing",
+    "Long-term defensive home at shortstop (minor)"
   ],
   "eta": "2031",
   "mediaReferences": [
     {
       "type": "article",
       "title": "Brewers Struck Gold, Landed Potential Star in International Free Agency",
-      "source": "Sports Illustrated",
+      "source": "Wisconsin Sports Heroics",
       "date": "2026-03",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDslP8ENSIvq7g1w3p1jxNAS_4EqbLKnqg-vW9Wmz63MijDScyxMpXZDXIoTWUgK5V8kC_JuQ9o9AY8vUzLkaoJSrzSDs-Bs_k5rjwxoCLQfv1y6y3npmZBM9E9k1KMpF2nwOYTokNiTsBH2CKgvvzkm7NSqZEk2tcKhlGm6yuA4sC9EFkQ_Kq8py31aHMtZWKVxTINs8XUcuaIttMPbnGxujFTS9TJMdlNea1FeqDr1FlS7dn"
+      "url": "https://www.wisconsinsportsheroics.com/brewers-struck-gold-landed-potential-star-in-international-free-agency/"
     },
     {
       "type": "article",
       "title": "Brewers Sign 17-Year-Old 5-Tool Shortstop Prospect",
       "source": "Sports Illustrated",
       "date": "2026-01",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlEJOF5XxmUZehXoprrgDAytTKLnKrykMXz99H7F0N62TEXLwV52eYmnzYvEQdLTJsmGvjQQuuJ2Tn8Rb8dP666UUbQzoStq_-vsKdDTjq8vLJJpG9IRGavi3ZSRi4_uMTqmWGNABczahl3g11lE7-kgpt2QlI3dHW1bzZT_bXkf3EM2Y6kxIUUCI0N2wAZvBN_sU0vBv429zc7Qcpa8bKUw=="
+      "url": "https://www.si.com/mlb/brewers/news/brewers-sign-17-year-old-5-tool-shortstop-prospect"
+    },
+    {
+      "type": "article",
+      "title": "Frontado - Top Baseball International Prospects",
+      "source": "MiLB.com",
+      "date": "2026-01",
+      "url": "https://www.milb.com/milb/prospects/international"
     },
     {
       "type": "article",
       "title": "Milwaukee Brewers 2026 International Class Scouting Report",
       "source": "Baseball America",
       "date": "2026-01",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiSD1LbY8agi1TWbqb8C8W64mWe7ILGoTSA_oBa0zhx9jwVejvLEv-M8PQ9rK9m65neSdLH4VJ9emmzIheedl1anCJZWSWH-g4aCPi0W6-df9Ndzxf08WQgFYaJ-vbH9whnvYRhBUd1BEKtFTJjrpWsJ4cBlEehZfZsefwVsuUJDfaDEXEqJu_5Hft3Bt3z_YWXaV2sZ1STM8hy5FbPA=="
+      "url": "https://www.baseballamerica.com/stories/milwaukee-brewers-2026-international-class-scouting-report/"
     },
     {
-      "type": "article",
-      "title": "Milwaukee Brewers Top 53 Prospects",
-      "source": "FanGraphs Baseball",
-      "date": "2025-11",
-      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH15sjYRUK-8m_hj7KoERy1P2kmBevqtiw_pylOwKTkP8jmjwReA-8Gicca6mrWoxziw6A1OyHWVnZA0sEcCUx7reJLWYoqBYB28M5YyoPwvHb-11UL5BiVCs_oLaXeMDVJgMXQ7TsvLRdxc30DDPyMPfg_gOzvj8XORQ=="
+      "type": "video",
+      "title": "Top Int'l Prospects: Frontado, SS",
+      "source": "MLB.com",
+      "date": "2025-09",
+      "url": "https://www.mlb.com/video/top-int-l-prospects-frontado-ss"
     }
   ],
   "sourcesConsulted": [
-    "Sports Illustrated",
-    "MLB.com",
+    "MLB Pipeline",
     "Baseball America",
+    "MiLB.com",
+    "Sports Illustrated",
+    "Prospects1500",
+    "Wisconsin Sports Heroics",
+    "Roundtable",
     "FanGraphs"
   ],
   "confidence": "medium",
-  "brewerFanaticLinks": [],
+  "brewerFanaticLinks": [
+    {
+      "title": "Milwaukee Brewers 2026 Position Analysis: Second Base",
+      "url": "https://brewerfanatic.com/forums/topic/46854-milwaukee-brewers-2026-position-analysis-second-base/",
+      "date": "2026-03",
+      "type": "forum"
+    },
+    {
+      "title": "01/15/26 - New International Signing Period Updates",
+      "url": "https://brewerfanatic.com/forums/topic/46583-011526-new-international-signing-period-updates/",
+      "date": "2026-01",
+      "type": "forum"
+    },
+    {
+      "title": "Scouting All 22 Players Of The Brewers&#x27; 2026 International Free Agent ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/scouting-all-22-players-of-the-brewers-2026-international-free-agent-class-r4089/",
+      "date": "2026-01",
+      "type": "article"
+    },
+    {
+      "title": "2026 International Free Agent Market - MLB Draft & International ...",
+      "url": "https://brewerfanatic.com/forums/topic/45904-2026-international-free-agent-market/",
+      "date": "2025-08",
+      "type": "forum"
+    },
+    {
+      "title": "2026 International Free Agent Market - Page 2 - MLB Draft ...",
+      "url": "https://brewerfanatic.com/forums/topic/45904-2026-international-free-agent-market/page/2/",
+      "date": "2025-08",
+      "type": "forum"
+    },
+    {
+      "title": "International Free Agent Market (January 2025) - MLB Draft ...",
+      "url": "https://brewerfanatic.com/forums/topic/43611-international-free-agent-market-january-2025/",
+      "date": "2024-09",
+      "type": "forum"
+    },
+    {
+      "title": "International Free Agent Market (January 2025) - Page 2 - MLB Draft ...",
+      "url": "https://brewerfanatic.com/forums/topic/43611-international-free-agent-market-january-2025/page/2/",
+      "date": "2024-09",
+      "type": "forum"
+    },
+    {
+      "title": "Spencer Michaelis&#x27;s Content - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/profile/4229-spencer-michaelis/content/?type=cms_records1",
+      "date": "2016-08",
+      "type": "article"
+    },
+    {
+      "title": "Spencer Michaelis&#x27;s Content - Page 2 - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/profile/4229-spencer-michaelis/content/page/2/",
+      "date": "2016-08",
+      "type": "article"
+    }
+  ],
   "recentNews": [
+    {
+      "title": "Brewers Struck Gold, Landed Potential Star in International Free Agency",
+      "source": null,
+      "date": "2026-03-05",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7gsWbIb02t9HVZZHkJbBjxmzQotAsYtetf2mTHLUB9Bh8UDL8hTup5MzhZeSs56kqSptfjtEEsQWW0lKH4WG8ztJRXLEMou1t2DgeRtJ2XD46gygX-lA3xkoSnwUiX3vWj7y8XFieDCrVAt42cf53z6UXXo8P2UdoAlH67KIenJAmUkIJDTSy3nE3xoWJbQiLYwTVGydCKZI3cWUfk4XaInGN3a6mYHgipVBBficFmupk8JA=",
+      "summary": "Diego Frontado, a 17-year-old infielder, received the largest bonus in the Brewers' 2026 international class at $1.6 million and is seen as a potential breakout prospect with contact, running, and defensive tools."
+    },
     {
       "title": "Brewers Struck Gold, Landed Potential Star in International Free Agency - Sports Illustrated",
       "source": "Sports Illustrated",
       "date": "2026-03-05",
       "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErvVm4-Zb2_rIENZZb_a5avRhcbyAmdGs44LJIqvzJ2pc45y-6q1ofbQ_c5MRIad7nTGloV2I4XbFXZdic9FX5GhoQ2X6tIyMUSxRoPcBn-O3uKyxbjklml8HUgReqf6_PQCbdmaxtgNXS_8WmtqnH-DdHN58neUJyD4Jv_pZ3h9ETJ0uvjR5TaV1wkk7tlVrp3iUv0Mg2SgJJhP3AA54zY5H3OTZW_DVr0i30GX9XRXzA-WoJ",
       "summary": "Diego Frontado, a 17-year-old infielder signed by the Brewers in international free agency, is highlighted as a potential breakout prospect with five-tool potential."
+    },
+    {
+      "title": "Brewers sign 22 international free agents - Green Bay - WTAQ",
+      "source": "WTAQ",
+      "date": "2026-01-16",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1yjSKPuaTfRceOD-t6V1HFcy8I5t5qt9gZoRy0oT1680_w-0J0po5z-8zypZMdWIMM88P3NktGWXpCGQKCwEIHL09IGy4ZaBUUFgu8yK_JWwNrRpc2k-8p9P1t8gcV5bE13THtq8CntU4LQ8qgfm5gPTngsVJ-R0l8aowqCvFDQ==",
+      "summary": "The Milwaukee Brewers officially announced the signing of 22 international free agents for the 2026 signing period, including Venezuelan shortstop Diego Frontado, who was ranked No. 24 overall."
     },
     {
       "title": "Brewers sign 22 international free agents - Green Bay - WTAQ",
@@ -119,6 +209,13 @@
       "title": "Milwaukee Brewers 2026 International Class Scouting Report - Baseball America",
       "source": "Baseball America",
       "date": "2026-01-15",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpqLfCMMP7PnSIDzvo6LdlKqliIYI0qJ8qCDizO_hb5nR2gKF_khoYMbIfN8V-CTDRM6PVLGmBZeYKPB1ZubwMr6x7udmDQVabiCRkl9H8tDBNloOjqfS4bFWJF1DeVqi_IihFY3CakBJvbvbBNfukFVSVeQCkONdyB-e62lFkRcsdMu0DvZXxJuLfWHHvc-s7_L4TYf5ni9JE5coh",
+      "summary": "Diego Frontado was signed by the Brewers for $1.6 million and is described as a Venezuelan shortstop with quick-twitch athleticism, tools, right-handed hitting ability, and a strong track record of game performance."
+    },
+    {
+      "title": "Milwaukee Brewers 2026 International Class Scouting Report - Baseball America",
+      "source": "Baseball America",
+      "date": "2026-01-15",
       "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzzgcLQm2DuSCgJYW_bklW9Eeqk1_VydUN2d6HPFdTd7_OXXytLoWWQw3h5jFCahHclyj3SR6vCTwaRidyel8GMQ61OhO0iWLUMRQsntM-I11S3SHBI5JS19P5oLVPWwfbB_M3bNV_p80nrUGpNPsm8EX_Q5slxORTvhf5IMcb2zUID1EUgH9aCaS1vWAm6TYLQ4L1aRGiu1-ua9jWaQ==",
       "summary": "This scouting report highlights Diego Frontado as the Brewers' top international signing in 2026, noting his athleticism, hitting ability, and potential for future power as a shortstop."
     },
@@ -126,11 +223,54 @@
       "title": "3 intriguing shortstop prospects headline Brewers' 2025 international free agent class",
       "source": null,
       "date": "2026-01-14",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG85iFqodMYPQS8a3KGU16U0OnJ6gIopH_BE4SEJfuju1D9y7XQX5DQJTwARA4-U0hufY6AIcTisX0HrvnRqB8t_hIYtce94QE8limo_bCwEirSOtYSHDRLhL3tqg3FKOn0YYPyZKd8kql_IofAixoJ3WGyI1SFeoHVDH5GZhtLnsY1dL8omHHz1-bMKt01BbICknMoqTlzvvHLTuBcmGle78eirTq8QmsRaY_Y2J76NiBr7a9i7l07Dg==",
+      "summary": "Diego Frontado is highlighted as a top international prospect for the Milwaukee Brewers' 2026 signing class, with evaluations on his advanced hit tool, quick hands, and defensive abilities at shortstop."
+    },
+    {
+      "title": "3 intriguing shortstop prospects headline Brewers' 2025 international free agent class",
+      "source": null,
+      "date": "2026-01-14",
       "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG4vgaIpLgbNngAoBVwYj6vchNEJXF-O8ezKqZlZYxbjTDA6UFMO_Hn-SCnnyHeG_dO1NqL-gFIVDTafl0UPXPAmNL_6VxRsFY4PoyxDNDiI_TZfs7_IcehL_t9AEvp1zQVGneGGOaVPX4xFvdLgwMr1QDnZzhsYT8PXiq8NAu3HjKSaV7uaPPjFKXI1aQFfytdIRX6Lzjey1o4C8h5XSxgYAgLV_Zhpg0I01pGxVGrrggvlf28vHfmk0=",
       "summary": "Diego Frontado was a top international free agent signing for the Milwaukee Brewers in 2026, noted for his advanced hit tool, defensive potential, and developing power."
+    },
+    {
+      "title": "baseballamerica.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpqLfCMMP7PnSIDzvo6LdlKqliIYI0qJ8qCDizO_hb5nR2gKF_khoYMbIfN8V-CTDRM6PVLGmBZeYKPB1ZubwMr6x7udmDQVabiCRkl9H8tDBNloOjqfS4bFWJF1DeVqi_IihFY3CakBJvbvbBNfukFVSVeQCkONdyB-e62lFkRcsdMu0DvZXxJuLfWHHvc-s7_L4TYf5ni9JE5coh",
+      "summary": ""
+    },
+    {
+      "title": "reviewingthebrew.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG85iFqodMYPQS8a3KGU16U0OnJ6gIopH_BE4SEJfuju1D9y7XQX5DQJTwARA4-U0hufY6AIcTisX0HrvnRqB8t_hIYtce94QE8limo_bCwEirSOtYSHDRLhL3tqg3FKOn0YYPyZKd8kql_IofAixoJ3WGyI1SFeoHVDH5GZhtLnsY1dL8omHHz1-bMKt01BbICknMoqTlzvvHLTuBcmGle78eirTq8QmsRaY_Y2J76NiBr7a9i7l07Dg==",
+      "summary": ""
+    },
+    {
+      "title": "si.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7gsWbIb02t9HVZZHkJbBjxmzQotAsYtetf2mTHLUB9Bh8UDL8hTup5MzhZeSs56kqSptfjtEEsQWW0lKH4WG8ztJRXLEMou1t2DgeRtJ2XD46gygX-lA3xkoSnwUiX3vWj7y8XFieDCrVAt42cf53z6UXXo8P2UdoAlH67KIenJAmUkIJDTSy3nE3xoWJbQiLYwTVGydCKZI3cWUfk4XaInGN3a6mYHgipVBBficFmupk8JA=",
+      "summary": ""
+    },
+    {
+      "title": "wtaq.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1yjSKPuaTfRceOD-t6V1HFcy8I5t5qt9gZoRy0oT1680_w-0J0po5z-8zypZMdWIMM88P3NktGWXpCGQKCwEIHL09IGy4ZaBUUFgu8yK_JWwNrRpc2k-8p9P1t8gcV5bE13THtq8CntU4LQ8qgfm5gPTngsVJ-R0l8aowqCvFDQ==",
+      "summary": ""
     }
   ],
   "videoLinks": [
+    {
+      "title": "Top Int'l Prospects: Frontado, SS",
+      "channel": "MLB.com",
+      "date": "2025-09-21",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKgcs6Pn-LJ3dWGwOAHXlw2WuR1V1eeCXxMBwY6Vkf8cK4rYas3NH7ZfzNKdH3Z7l89eNaIfN3KEYfGV9l6TL_RFbogwGJLrPLRTSFHBUXoXsKFA9XBxFkUdOZIiBIKT5MEKdko9-IA8WSUrfW3HxEHDD0",
+      "type": "scouting",
+      "urlType": "direct"
+    },
     {
       "title": "Top Int'l Prospects: Frontado, SS",
       "channel": "MLB.com",
@@ -141,10 +281,26 @@
     },
     {
       "title": "Diego Frontado:SS_RR_2025 (HyL)",
+      "channel": "Futura Estrella del béisbol",
+      "date": "2021-12-17",
+      "url": "https://www.youtube.com/watch?v=F0Nl_P_F0qU",
+      "type": "other",
+      "urlType": "direct"
+    },
+    {
+      "title": "Diego Frontado:SS_RR_2025 (HyL)",
       "channel": "Futura Estrella del beisbol",
       "date": "2021-12-17",
       "url": "https://www.youtube.com/watch?v=F_fG1_Uq1xQ",
       "type": "scouting",
+      "urlType": "direct"
+    },
+    {
+      "title": "Diego FRONTADO SS 2025 Academia HYL UNO AA",
+      "channel": "Franklin Santana baseball tv",
+      "date": "2021-11-25",
+      "url": "https://www.youtube.com/watch?v=R93D1j0jM4I",
+      "type": "other",
       "urlType": "direct"
     },
     {

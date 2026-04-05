@@ -1,0 +1,378 @@
+{
+  "playerId": "mike-boeve",
+  "name": "Mike Boeve",
+  "position": "3B",
+  "level": "ACL",
+  "age": 23,
+  "updatedAt": "2026-04-04T19:36:37.863Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": 60,
+    "power": 45,
+    "run": 40,
+    "field": 40,
+    "arm": 50,
+    "ofp": 50,
+    "risk": "High"
+  },
+  "rankings": [
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": null,
+      "grade": "45",
+      "listName": "Brewers Farm System Top 30",
+      "date": "2026-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqzWJwjfjwkNFNo0p0K7d6wGxregU97t7A3wkFe3UFKmV3ZcXMx7Sf7JOJ3QaxWqpH131HWaADTf-crXIe5mJSlXLvCttSVHt8OgsQM2G6HsFb0ZZVl7c83KbgbRdeVi7pCmQzdmScjU6QprJvCVYmDsakTTKWd5-ve8UUQJMAy0KmLeqwgiVDJaG0zBUyQBiGPD3TTUWbocyY6zwO7h47rMUIdrdIciTS1BYEW8I9O52Y5mY="
+    },
+    {
+      "source": "Prospects1500",
+      "rank": null,
+      "systemRank": 27,
+      "grade": null,
+      "listName": "Milwaukee Brewers Top 50 Prospects (2026)",
+      "date": "2026-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFePcy6ObEIhhK0SgbkGYW07q_SYy1WY87mKtZLQ93trE1e9DXu0Siw8VX3HMEplgHIiZ_58tF-kGjXqtUhr0o23abtGaYlOcZUhynr30jGErCFk8d63oE_sbpligT29yeNOEnXuIgD40SgMSoFh7xYWHsVT2PCRoTo67VfR4iOnd0E2Jx4lbT22C-VUJMc"
+    },
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 7,
+      "grade": "50/High",
+      "listName": "Organization Prospect Rankings",
+      "date": "2026-02",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHt11_g-RCGS6QFLv-G73TKrbXAW5it05sHsmQcCEDE-ArSkQdFJ6lX1r90GJpMrCh5cmAJ9qKpv5mzXDk6TBnVWXhczy19FmXnUyCUZI58E-TgdACJrfFh27MPYDPASmUGXF1RL23hDDmdQ8u1f1dbMV0oQ=="
+    }
+  ],
+  "summary": "Mike Boeve is known for his elite contact skills and plate discipline, consistently putting the ball in play with a low strikeout rate. While his hit tool is highly regarded, questions persist about his ability to develop significant game power due to a bat path that generates more ground balls. His defensive home is uncertain, having played third base, second base, and first base, with some projecting a move to first or corner outfield due to below-average running and limited arm strength for third. A shoulder injury in 2025 significantly impacted his performance and led to a drop in prospect rankings.",
+  "strengths": [
+    "Elite contact skills",
+    "Excellent plate discipline",
+    "High contact rate"
+  ],
+  "concerns": [
+    "Limited power projection",
+    "Defensive position uncertainty",
+    "Shoulder injury impact"
+  ],
+  "eta": "2026",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Brewers 2nd-Round Pick Tumbles Out of Latest Top Prospect Rankings",
+      "source": "Sports Illustrated",
+      "date": "2026-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqzWJwjfjwkNFNo0p0K7d6wGxregU97t7A3wkFe3UFKmV3ZcXMx7Sf7JOJ3QaxWqpH131HWaADTf-crXIe5mJSlXLvCttSVHt8OgsQM2G6HsFb0ZZVl7c83KbgbRdeVi7pCmQzdmScjU6QprJvCVYmDsakTTKWd5-ve8UUQJMAy0KmLeqwgiVDJaG0zBUyQBiGPD3TTUWbocyY6zwO7h47rMUIdrdIciTS1BYEW8I9O52Y5mY="
+    },
+    {
+      "type": "article",
+      "title": "Brewers farm system receives huge boost with the return of a top prospect",
+      "source": "Wisconsin Sports Heroics",
+      "date": "2025-05",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_wJ5dyocGfzuO8ntClQdH2qhwR9I6d0PtHIlI5EePw9_3MAXwNuh4dElwgJEQJClewr8kc2zx8EMLH_C4ckRPZOflJDfU5uCvz1jRvZ2YtM_1Nb0kjKQDbcTTG8r5007MODRuOFkuEuU8442RW5ndxVbH14DuvtHMeoQrkOxOc0m53YDWjW9Wb5eHvCspEn3YX89QYLbKuCPWlNFSf0PbBORwT6EdMmMxTmDrzEM="
+    },
+    {
+      "type": "youtube",
+      "title": "Prospect Interview: Mike Boeve, 3B, Milwaukee Brewers",
+      "source": "Baseball Prospect Journal",
+      "date": "2025-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQET1VNKFE35PSZSDzQSH1QLYxsr8ISJkssv2EGMi4913ri-tS4Fy30hU0OmIVsKFrU9SNZHminUbZZEMHjFKY5XCebAESaN4QtrhXraGUctt6v7EFrVLI3jOTz1RJ71xOGhXNnJDSU="
+    },
+    {
+      "type": "podcast",
+      "title": "Brewers Top Prospects for 2025",
+      "source": "Just Baseball",
+      "date": "2024-12",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGM33xoKPMefeqVYkyXZCILH3O0pxjnRUPln_WvlYER_cwUAQ2_7DsnM0_3hXWnL1V-W0j8uO6ioYPa1tlvzh7hHzWnwpzVxUCS0HIm1ZNPu1cniLFA_rOw6lqiZINGky9ZG9xiOd2psSU5Oj4634Q4qN5pjLt9T9gPCowlTEbniwxdqCud"
+    }
+  ],
+  "sourcesConsulted": [
+    "Baseball America",
+    "MLB Pipeline",
+    "MiLB.com",
+    "FanGraphs",
+    "Just Baseball",
+    "Prospects1500",
+    "Sports Illustrated",
+    "Wisconsin Sports Heroics",
+    "Baseball Prospect Journal"
+  ],
+  "confidence": "medium",
+  "brewerFanaticLinks": [
+    {
+      "title": "Mike Boeve - 2023 Milwaukee Brewers Draft Picks - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-draft-picks/2023/mike-boeve-round-two/",
+      "date": "2025-01",
+      "type": "article"
+    },
+    {
+      "title": "Mike Boeve - 2026 Milwaukee Brewers Top Prospects Ranking - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-top-prospect-rankings/mike-boeve-r45/",
+      "date": "2025-01",
+      "type": "article"
+    },
+    {
+      "title": "Brewer Fanatic 2024 Offseason Top 20 Prospects - No. 9: Mike Boeve",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewer-fanatic-2024-offseason-top-20-prospects-no-9-mike-boeve-r2738/",
+      "date": "2024-10",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (4/27): Mike Boeve&#x27;s Hit Tool ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-427-mike-boeves-hit-tool-continues-to-amaze-r2079/",
+      "date": "2024-04",
+      "type": "article"
+    },
+    {
+      "title": "2024 Prospect Previews: Mike Boeve - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/forums/topic/41907-2024-prospect-previews-mike-boeve/",
+      "date": "2024-01",
+      "type": "forum"
+    },
+    {
+      "title": "2024 Prospect Previews: Mike Boeve - Minor Leagues - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/mike-boeve-prospect-scouting-report-batted-ball-milb-data/",
+      "date": "2024-01",
+      "type": "article"
+    },
+    {
+      "title": "Brewer Fanatic 2023 Offseason Top 20 Prospect #10 - Mike Boeve",
+      "url": "https://brewerfanatic.com/forums/topic/41403-brewer-fanatic-2023-offseason-top-20-prospect-10-mike-boeve/",
+      "date": "2023-10",
+      "type": "forum"
+    },
+    {
+      "title": "Brewers Minor League Link Report (8/9): ACL Legend INF Mike Boeve ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-89-acl-legend-inf-mike-boeve-debuts-in-wisconsin-boeve-and-wilken-go-back-to-back-mudcats-win-fifth-straight-r1378/",
+      "date": "2023-08",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Select Mike Boeve (3B) #54 Overall - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers-draft-picks/brewers-select-mike-boeve-3b-54-overall-r1242/",
+      "date": "2023-07",
+      "type": "article"
+    }
+  ],
+  "recentNews": [
+    {
+      "title": "Predicting where the Brewers' top corner infield prospects will start the 2026 season",
+      "source": "Reviewing The Brew",
+      "date": "2026-03-15",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSA8L0AHgB6mcheyGjqyUd3H5Hflod-IVDlqCd_E5Q0eD54dLdrxnn3NZDmWz7mkHKMnVsluUeYAyzvO3XP32LJ0E3eJi0KIPwBKGpXtgNHViZ2yNn8Q5ygA1S0yRssbnuwQXoNWTPbhYqa5TxuLMuFXvVZzhq27ateYwyp1epzDo7MShbrjpfh8H2Y8BNmOesF_9QOm7p-S8V_MspifS9uc9Mw692ELeVdJ5vKA5HswFJsaT1ceahWA==",
+      "summary": "Mike Boeve is predicted to start the 2026 season in Double-A with the Biloxi Shuckers, along with Luke Adams and Blake Burke, as all three have more to prove at that level after injury-limited 2025 seasons."
+    },
+    {
+      "title": "2B Mike Boeve assigned to Milwaukee Brewers",
+      "source": "MiLB.com",
+      "date": "2026-02-22",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYzzkr85c2f2rPmajNh2vzBYr-4Jri03RZHwooSuud3kndbOKQbZOOcK-KVEEdGHWjMDDyA_4yKyoPClsoxNNA-wpVz4LsqAOfrh8l80c4Gf_Sua-vV7ShZHPFwSSJ4FvVA==",
+      "summary": "On February 22, 2026, Mike Boeve's roster status was changed by the Milwaukee Brewers, assigning him to the Milwaukee Brewers organization."
+    },
+    {
+      "title": "Mike Boeve hits his fourth homer of the year",
+      "source": "MLB.com",
+      "date": "2025-06-15",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFANSs35EYGXrt8FrvSroRY1Cl0-cb8GtxFuGF61R9FjHofTGGZ2Y6eN3EJ8eoIS6IWORJzam39jFmLnSmVf4fMFv14T7Snahq2loz6vTUSDafKbzOJVPxq1H72OsMZKORcG_Q9Xb7xLObayv_zWFncsTEqvknwbjU5Q3LAun26E4BqCDh3RB584g==",
+      "summary": "Brewers No. 6 prospect Mike Boeve hit his fourth home run of the year for Double-A Biloxi on June 15, 2025."
+    },
+    {
+      "title": "Back in action for Biloxi",
+      "source": "RotoWire",
+      "date": "2025-05-12",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkkYuoVl2QHolOarKHLpzdVErlktNxVnSNoSVRhM0-ie9UWvd3o1Pzh47YJneCChadU834_3oidVVasKVPnCR7id1HGDXwxvFZEd4SM63RhqY3gADmRIRuW8jIif27r0ELzBARLt-XE1ST6od7I8GhxOjj3A==",
+      "summary": "Mike Boeve returned to Double-A Biloxi after being reinstated from the 7-day injured list following shoulder surgery, initially serving as a designated hitter."
+    },
+    {
+      "title": "Brewers farm system receives huge boost with the return of a top prospect",
+      "source": "Reviewing The Brew",
+      "date": "2025-05-06",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaZnWE-z64etJtGur8XTs37fJlheo-PduoRJZk27bB9ndbqV5Sa2md5r36lC0QqNPnw8hOhymQBX4J1L-YTPsMwWaNkubKn1xbCaySVcm-pE1yenj48EVMjXjNccKzcbl-njfRMEOriqHBMwvN4QDvMr0BNPm9bekhLMCO1P2dB_SOlJj4fCvPCiNgurMMDXbnPyX2soc2DpEvfCMyIL2R9vb-r-zyrE2kZbzSRLI=",
+      "summary": "Mike Boeve, the Brewers' fifth-ranked prospect, returned to Double-A Biloxi on May 6, 2025, after recovering from offseason shoulder surgery that sidelined him for the first month of the season."
+    },
+    {
+      "title": "Recovering from shoulder surgery",
+      "source": "RotoWire",
+      "date": "2025-04-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsYDTKQyLmMIqF48ZeN9fbKeK6_lIAa-LeZFfw3fE289Pf3NmhzcMPGibFrbyqHGMUd_d1ob-g6ErNJQdE9CodsQiwaqyHcupnG0W8G6wKRcDFDNxruNCyIM4sfhAVyloIdHh3YLxCRDwu",
+      "summary": "Mike Boeve underwent right labrum surgery in October 2024 and was building back up in extended spring training as of April 2025, with expectations to potentially head to Triple-A once fully recovered."
+    },
+    {
+      "title": "Mike Boeve shines in 2024 despite injury, eager for new season",
+      "source": "Baseball Prospect Journal",
+      "date": "2025-01-24",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGV2u-o8eipcv5do2oNsNKfJsNPsUhjlHvSm8FB5aY5rvhMWVki9uCZ1TshfKaddIhszM5-ezsezE-a_0j3asCh7Jy6QpJ1gtHUmTD0pfqHJvQCIZj00nPuNyn3hKS9qaSZkihFeZBmf1JJ5ZzowgHmCu4PLwupz-wTCu6kBWZLXc61C_Y2ILV_Gu9o_P_WsBfkGWNgp_7tSYJMRYcnqcM3LQ==",
+      "summary": "Mike Boeve had a strong 2024 season, hitting .338 with six home runs and 36 RBIs in 79 games across Class A and Double-A despite playing through a shoulder injury, for which he underwent labrum surgery post-season."
+    },
+    {
+      "title": "baseballprospectjournal.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGV2u-o8eipcv5do2oNsNKfJsNPsUhjlHvSm8FB5aY5rvhMWVki9uCZ1TshfKaddIhszM5-ezsezE-a_0j3asCh7Jy6QpJ1gtHUmTD0pfqHJvQCIZj00nPuNyn3hKS9qaSZkihFeZBmf1JJ5ZzowgHmCu4PLwupz-wTCu6kBWZLXc61C_Y2ILV_Gu9o_P_WsBfkGWNgp_7tSYJMRYcnqcM3LQ==",
+      "summary": ""
+    },
+    {
+      "title": "foxsports.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsYDTKQyLmMIqF48ZeN9fbKeK6_lIAa-LeZFfw3fE289Pf3NmhzcMPGibFrbyqHGMUd_d1ob-g6ErNJQdE9CodsQiwaqyHcupnG0W8G6wKRcDFDNxruNCyIM4sfhAVyloIdHh3YLxCRDwu",
+      "summary": ""
+    },
+    {
+      "title": "milb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAJQOa5CbLEegCmqcNpZdYVdFjVweyDCe8-kBdTS86OzkrIhxF2xEHo9ctcLevT0pKfA8Xcz-2n_sSMhQu6AqkhgVsijyzziLziW52D0OS0dhytLBhXfj5vhoB35KCM_sYaBjFbvVkyWhMyA==",
+      "summary": ""
+    },
+    {
+      "title": "milb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYzzkr85c2f2rPmajNh2vzBYr-4Jri03RZHwooSuud3kndbOKQbZOOcK-KVEEdGHWjMDDyA_4yKyoPClsoxdsDKIQntdw_VkLDfKPKWTjmTfgidiB5cZEeR205MKqWDzZM5kSJdodfqg==",
+      "summary": ""
+    },
+    {
+      "title": "mlb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFANSs35EYGXrt8FrvSroRY1Cl0-cb8GtxFuGF61R9FjHofTGGZ2Y6eN3EJ8eoIS6IWORJzam39jFmLnSmVf4fMFv14T7Snahq2loz6vTUSDafKbzOJVPxq1H72OsMZKORcG_Q9Xb7xLObayv_zWFncsTEqvknwbjU5Q3LAun26E4BqCDh3RB584g==",
+      "summary": ""
+    },
+    {
+      "title": "reviewingthebrew.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaZnWE-z64etJtGur8XTs37fJlheo-PduoRJZk27bB9ndbqV5Sa2md5r36lC0QqNPnw8hOhymQBX4J1L-YTPsMwWaNkubKn1xbCaySVcm-pE1yenj48EVMjXjNccKzcbl-njfRMEOriqHBMwvN4QDvMr0BNPm9bekhLMCO1P2dB_SOlJj4fCvPCiNgurMMDXbnPyX2soc2DpEvfCMyIL2R9vb-r-zyrE2kZbzSRLI=",
+      "summary": ""
+    },
+    {
+      "title": "reviewingthebrew.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSA8L0AHgB6mcheyGjqyUd3H5Hflod-IVDlqCd_E5Q0eD54dLdrxnn3NZDmWz7mkHKMnVsluUeYAyzvO3XP32LJ0E3eJi0KIPwBKGpXtgNHViZ2yNn8Q5ygA1S0yRssbnuwQXoNWTPbhYqa5TxuLMuFXvVZzhq27ateYwyp1epzDo7MShbrjpfh8H2Y8BNmOesF_9QOm7p-S8V_MspifS9uc9Mw692ELeVdJ5vKA5HswFJsaT1ceahWA==",
+      "summary": ""
+    },
+    {
+      "title": "rotowire.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkkYuoVl2QHolOarKHLpzdVErlktNxVnSNoSVRhM0-ie9UWvd3o1Pzh47YJneDChadU834_3oidVVasKVPnCR7id1HGDXwxvFZEd4SM63RhqY3gADmRIRuW8jIif27r0ELzBARLt-XE1ST6od7I8GhxOjj3A==",
+      "summary": ""
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Mike Boeve triples to right-center",
+      "channel": "MiLB.com",
+      "date": "2025-07-03",
+      "url": "https://www.milb.com/milwaukee/video/mike-boeve-triples-to-right-center",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Mike Boeve hits his fourth homer of the year",
+      "channel": "MLB.com",
+      "date": "2025-06-15",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFANSs35EYGXrt8FrvSroRY1Cl0-cb8GtxFuGF61R9FjHofTGGZ2Y6eN3EJ8eoIS6IWORJzam39jFmLnSmVf4fMFv14T7Snahq2loz6vTUSDafKbzOJVPxq1H72OsMZKORcG_Q9Xb7xLObayv_zWFncsTEqvknwbjU5Q3LAun26E4BqCDh3RB584g==",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Mike Boeve's solo home run",
+      "channel": "MiLB.com",
+      "date": "2025-06-12",
+      "url": "https://www.milb.com/milwaukee/video/mike-boeve-s-solo-home-run",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Mike Boeve powers his second homer of the year",
+      "channel": "MiLB.com",
+      "date": "2025-05-22",
+      "url": "https://www.milb.com/milwaukee/video/mike-boeve-powers-his-second-homer-of-the-year",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Mike Boeve's first homer of the season",
+      "channel": "MiLB.com",
+      "date": "2025-05-16",
+      "url": "https://www.milb.com/milwaukee/video/mike-boeve-s-first-homer-of-the-season",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Mike Boeve - Prospect Breakdown",
+      "channel": "Scout the Statline",
+      "date": "2025-03-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGi26QG-mgivANF0a4fMIiX262lkPRzDilNt85AtlsYW8I4io9apox6-yHjqYsUxlIZrPQ3rqAhxGhLBwVuClXSTBg-Nzk0zauZuj_CH-emdxuEY76OhR8V4Ecr0NpTpC8sczaaccs=",
+      "type": "scouting",
+      "urlType": "direct"
+    },
+    {
+      "title": "Prospect Interview: Mike Boeve, 3B, Milwaukee Brewers",
+      "channel": "Baseball Prospect Journal",
+      "date": "2025-01-23",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVylQPajRm9geRI6YAWaWiKnF2ob0ptW9sdt4oNYkh19LglkYHoy2KUFlnyOzNljIKyurYDXm5LpqnaoCvllA9iLMuBDudJJStSYJiqpZQ1y2QYiRkCE0jdrQT7x8DsOV-WhlTq5g=",
+      "type": "interview",
+      "urlType": "direct"
+    },
+    {
+      "title": "Top Prospects: Mike Boeve, 3B, Brewers",
+      "channel": "MLB.com",
+      "date": "2025-01-16",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGF1dXFyNl_fDAxbhHt5MtVOqcRzrk4lIuT7nVftgSeG47lEiQSx8pLDrTW0KVUsHH-0r7lOgF0Ltofc7gJ_eT4ziIzrPlOtjnoBnPzthUBFFh9qoNSP04XgPjVjqRdS_RnviU6kBfoYWdR8uOuwmHwyWckJFJyf6waj3BvaatfIg==",
+      "type": "scouting",
+      "urlType": "direct"
+    },
+    {
+      "title": "Mike Boeve's solo home run",
+      "channel": "MiLB.com",
+      "date": "2024-08-07",
+      "url": "https://www.milb.com/milwaukee/video/mike-boeve-s-solo-home-run-7607755",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Mike Boeve's solo homer",
+      "channel": "MLB.com",
+      "date": "2024-08-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzKYWt2t7LjodTLPyGhsNtFpSuTvV2IUIQnLuR1uNLanz7_b5Gft5jmf0EL-5Edk4e9WgQR-Esk8ziWHgegqnNlqPtQO3N-ZTKRqb-1z7hfc6Pvr0WIhKlwd8OGsKzruHS2Thtpte8TRuk-01RBrYZPQPXfw==",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Mike Boeve's four-hit game",
+      "channel": "MLB.com",
+      "date": "2024-06-07",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEW5b21joNxzSGxMkKseYlfTNaw4iQ69u9837uCg4pOKpmaNFhuPV9KXzHT4nikw4O-S2-UqkSsePLgDQScAtbF8HppOPxjMkxlVbwZbpYw5zjqEJSHoWR0VscyeIHgE0MaM8BOrnRjcJDGFVIVeIpkJG7MhcI1Q==",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Mike Boeve hits his first home run",
+      "channel": "MLB.com",
+      "date": "2024-05-05",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOkBmuKw3eapOtwmsGSLzArXFmcpNWfgChg4rn4an3FZ_GaRjhi-B8DsxWQ3hXMu06jh0NOe-Ls13yixpPvD2dl6ga4Z3l3d_guWOvd1LzeckJFKMWiEbiMLCYDcTMkczRYaMFE7RG6eA9vsQ9Gl-XxDjjPjEpmC6JeZSRUt4A",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "From Omaha To The Majors: Mike Boeve's Journey To The MLB | INTERVIEW",
+      "channel": "Hurrdat Sports",
+      "date": "2023-07-11",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8Gq68_pW2c7bc0NByQWeADTcrVpy8exOzwwvOCaiInLA__KuTi3-aneD_b8tKNLeU4wDY1f9o04_18VhwJNZqgvVt-yXccXx9vhgDzjik3jtdbivp0QIVX4JNKMCjSGMg8Qz_m0-8=",
+      "type": "interview",
+      "urlType": "direct"
+    },
+    {
+      "title": "Mike Boeve 2024 Minor League Highlights!",
+      "channel": "The Baseball Archives",
+      "date": null,
+      "url": "https://www.youtube.com/results?search_query=The+Baseball+Archives+Mike+Boeve+2024+Minor+League+Highlights!",
+      "type": "highlights",
+      "urlType": "search"
+    }
+  ]
+}

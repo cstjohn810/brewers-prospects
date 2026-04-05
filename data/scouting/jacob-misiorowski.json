@@ -1,0 +1,170 @@
+{
+  "playerId": "jacob-misiorowski",
+  "name": "Jacob Misiorowski",
+  "position": "SP",
+  "level": "AAA",
+  "age": 24,
+  "updatedAt": "2026-04-04T21:54:37.015Z",
+  "pitchGrades": {
+    "fastball": 80,
+    "slider": 70,
+    "curveball": 70,
+    "changeup": 40,
+    "cutter": null,
+    "control": 40,
+    "command": null,
+    "breakingBall": null
+  },
+  "grades": {
+    "ofp": 55,
+    "risk": "High"
+  },
+  "rankings": [
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": null,
+      "grade": "55 FV",
+      "listName": "The Board",
+      "date": "2026-03",
+      "url": "https://www.fangraphs.com/prospects/the-board/2026-mlb-draft/summary?sort=-1,1&type=0"
+    },
+    {
+      "source": "Prospects Live",
+      "rank": null,
+      "systemRank": 2,
+      "grade": null,
+      "listName": "Brewers Farm System Rankings",
+      "date": "2025-02",
+      "url": "https://www.youtube.com/watch?v=F07_Q_mQhM4"
+    },
+    {
+      "source": "Baseball America",
+      "rank": 44,
+      "systemRank": 3,
+      "grade": "55/High",
+      "listName": "Top 100 Prospects",
+      "date": "2025",
+      "url": "https://www.baseballamerica.com/players/145889/jacob-misiorowski/"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": 66,
+      "systemRank": 3,
+      "grade": "55",
+      "listName": "Top 100 Prospects",
+      "date": "2025-01",
+      "url": "https://www.mlb.com/prospects/brewers/jacob-misiorowski-694819"
+    }
+  ],
+  "summary": "Jacob Misiorowski is a tall, right-handed pitcher with some of the most electric stuff in the minors, consistently hitting triple digits with his fastball and featuring two wipeout breaking balls. While he was a top prospect expected to debut in 2025, he made his MLB debut in June 2025, became an All-Star in 2025, and is projected to be an Opening Day starter for the Milwaukee Brewers in 2026. His command has been a work in progress, but his raw talent offers front-end starter or elite reliever upside.",
+  "strengths": [
+    "Explosive fastball",
+    "Plus breaking balls",
+    "Elite raw stuff"
+  ],
+  "concerns": [
+    "Inconsistent command",
+    "Developing changeup"
+  ],
+  "eta": "2025",
+  "mediaReferences": [
+    {
+      "type": "podcast",
+      "title": "Five & Dive Episode 474: My Favorite Miztake",
+      "source": "Baseball Prospectus",
+      "date": "2025-10",
+      "url": null
+    },
+    {
+      "type": "podcast",
+      "title": "Five & Dive, Episode 466: In Our Banter Era",
+      "source": "Baseball Prospectus",
+      "date": "2025-05",
+      "url": null
+    },
+    {
+      "type": "youtube",
+      "title": "Brewers Prospect Breakdown: Jacob Misiorowski",
+      "source": "Prospects Live",
+      "date": "2025-02",
+      "url": "https://www.youtube.com/watch?v=F07_Q_mQhM4"
+    }
+  ],
+  "sourcesConsulted": [
+    "Baseball America",
+    "MLB Pipeline",
+    "FanGraphs",
+    "Baseball Prospectus",
+    "Prospects Live",
+    "MiLB.com",
+    "Wikipedia",
+    "Prospect Savant",
+    "RotoChamp"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [
+    {
+      "title": "Is Jacob Misiorowski in Line to Be Brewers&#x27; Opening Day Starter?",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/is-jacob-misiorowski-in-line-to-be-brewers-opening-day-starter-r4234/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Pat Murphy Confirms Jacob Misiorowski, Chad Patrick in Brewers ...",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-free-agents-trade-rumors/notes/pat-murphy-confirms-jacob-misiorowski-chad-patrick-in-brewers-starting-rotation-r186/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Jacob Misiorowski Throws Two Fastballs - Brewers - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/jacob-misiorowski-throws-two-fastballs-r4049/",
+      "date": "2025-12",
+      "type": "article"
+    },
+    {
+      "title": "Jacob Misiorowski Announced Himself On The Biggest of Stages",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/jacob-misiorowski-announced-himself-on-the-biggest-of-stages-r3897/",
+      "date": "2025-10",
+      "type": "article"
+    },
+    {
+      "title": "Can Jacob Misiorowski Be Trusted to Start Games in October?",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/can-jacob-misiorowski-be-trusted-to-start-games-in-october-r3759/",
+      "date": "2025-09",
+      "type": "article"
+    },
+    {
+      "title": "For Jacob Misiorowski, Getting Back in Control is Key to Returning to ...",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/for-jacob-misiorowski-getting-back-in-control-is-key-to-returning-to-dominance-r3831/",
+      "date": "2025-09",
+      "type": "article"
+    },
+    {
+      "title": "Jacob Misiorowski&#x27;s Sensational Outing Highlights Why His Curveball is ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/jacob-misiorowskis-sensational-outing-highlights-why-his-curveball-is-key-to-his-success-r3281/",
+      "date": "2025-04",
+      "type": "article"
+    },
+    {
+      "title": "The Big Question That Will Decide Whether Jacob Misiorowski is a ...",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/the-big-question-that-will-decide-whether-jacob-misiorowski-is-a-starter-or-reliever-this-spring-r2989/",
+      "date": "2025-01",
+      "type": "article"
+    },
+    {
+      "title": "Brewer Fanatic 2024 Offseason Top 20 Prospect - No. 1: Jacob Misiorowski",
+      "url": "https://brewerfanatic.com/forums/topic/43836-brewer-fanatic-2024-offseason-top-20-prospect-no-1-jacob-misiorowski/",
+      "date": "2024-11",
+      "type": "forum"
+    },
+    {
+      "title": "Jacob Misiorowski-Timeline - Brewers Minor League Talk - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/forums/topic/41714-jacob-misiorowski-timeline/",
+      "date": "2023-12",
+      "type": "forum"
+    }
+  ],
+  "recentNews": [],
+  "videoLinks": []
+}

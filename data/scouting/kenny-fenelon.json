@@ -1,0 +1,237 @@
+{
+  "playerId": "kenny-fenelon",
+  "name": "Kenny Fenelon",
+  "position": "OF",
+  "level": "ACL",
+  "age": 18,
+  "updatedAt": "2026-04-04T19:40:18.452Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": 20,
+    "power": 50,
+    "run": 60,
+    "field": 35,
+    "arm": null,
+    "ofp": null,
+    "risk": "Medium"
+  },
+  "rankings": [
+    {
+      "source": "Prospects1500",
+      "rank": null,
+      "systemRank": 42,
+      "grade": null,
+      "listName": "Milwaukee Brewers Top 50 Prospects (2026)",
+      "date": "2026-03",
+      "url": "https://www.prospects1500.com/milwaukee-brewers-top-50-prospects-2026/"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 31,
+      "grade": "40 FV",
+      "listName": "Milwaukee Brewers Top 53 Prospects",
+      "date": "2025-11",
+      "url": "https://blogs.fangraphs.com/milwaukee-brewers-top-53-prospects/"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 27,
+      "grade": "40 FV",
+      "listName": "Milwaukee Brewers Top 45 Prospects",
+      "date": "2025-05",
+      "url": "https://blogs.fangraphs.com/milwaukee-brewers-top-45-prospects/"
+    },
+    {
+      "source": "MiLB.com (MLB Pipeline)",
+      "rank": null,
+      "systemRank": 26,
+      "grade": null,
+      "listName": "Brewers Top Prospects",
+      "date": null,
+      "url": "https://www.milb.com/prospects/brewers/kenny-fenelon-680456"
+    }
+  ],
+  "summary": "Kenny Fenelon, an outfielder for the Milwaukee Brewers, signed for $1.3 million as the top prospect in their 2025 international signing class. He is known for an exciting combination of power and speed, and is considered an above-average defender in center field with impressive arm strength. Despite an underwhelming first professional season in the Dominican Summer League in 2025, he is noted for strong off-the-field makeup and dedication to learning English. Fenelon is projected for a significant improvement in 2026.",
+  "strengths": [
+    "Power and speed combination",
+    "Above-average center field defense",
+    "Impressive arm strength",
+    "Strong makeup"
+  ],
+  "concerns": [
+    "Underwhelming 2025 offensive stats",
+    "Contact ability"
+  ],
+  "eta": "2031",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "4 Milwaukee Brewers prospects who could have breakout seasons in 2026",
+      "source": "Wisconsin Sports Heroics",
+      "date": "2026-02",
+      "url": "https://www.wisconsinsportsheroics.com/4-milwaukee-brewers-prospects-who-could-have-breakout-seasons-in-2026/"
+    },
+    {
+      "type": "article",
+      "title": "Brewers Name Minor League Player and Pitcher of the Month for August",
+      "source": "Urban Milwaukee",
+      "date": "2025-09",
+      "url": "https://urbanmilwaukee.com/pressrelease/brewers-name-minor-league-player-and-pitcher-of-the-month-for-august/"
+    },
+    {
+      "type": "article",
+      "title": "4 Brewers prospects in the Dominican Summer League to keep an eye on",
+      "source": "Reviewing The Brew",
+      "date": "2025-06",
+      "url": "https://reviewingthebrew.com/posts/4-brewers-prospects-in-the-dominican-summer-league-to-keep-an-eye-on"
+    },
+    {
+      "type": "article",
+      "title": "Milwaukee Brewers Lauded For Having Three Top-50 International Signings",
+      "source": "Wisconsin Sports Heroics",
+      "date": "2025-02",
+      "url": "https://www.wisconsinsportsheroics.com/milwaukee-brewers-lauded-for-having-three-top-50-international-signings/"
+    },
+    {
+      "type": "article",
+      "title": "Milwaukee Brewers Give Dominican Outfielder Top Bonus in International Class",
+      "source": "Just Baseball",
+      "date": "2025-01",
+      "url": "https://www.justbaseball.com/milwaukee-brewers-give-dominican-outfielder-top-bonus-in-international-class/"
+    },
+    {
+      "type": "youtube",
+      "title": "Top Int'l Prospect: Kenny Fenelon, CF",
+      "source": "MLB.com",
+      "date": "2024-09",
+      "url": "https://www.mlb.com/video/top-int-l-prospect-kenny-fenelon-cf-601445"
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "FanGraphs",
+    "MiLB.com",
+    "Prospects1500",
+    "Just Baseball",
+    "Reviewing The Brew",
+    "Wisconsin Sports Heroics",
+    "Urban Milwaukee"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [
+    {
+      "title": "Brewers Minor League Link Report (7/14): A Trio of Garcias Highlight ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-714-a-trio-of-garcias-highlight-one-win-monday-r3598/",
+      "date": "2025-07",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (7/15): DSL Squads Sweep Morning ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-715-dsl-squads-sweep-morning-docket-acl-crew-shutout-in-two-hit-loss-r3602/",
+      "date": "2025-07",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (7/21): Brewers&#x27; Rookie Ball Squads ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-721-brewers-rookie-ball-squads-bust-out-the-bats-in-flawless-monday-r3622/",
+      "date": "2025-07",
+      "type": "article"
+    },
+    {
+      "title": "Tue. 7/8 - Back to a Full Slate (Heavy on TBD Starters)",
+      "url": "https://brewerfanatic.com/forums/topic/45523-tue-78-back-to-a-full-slate-heavy-on-tbd-starters/",
+      "date": "2025-07",
+      "type": "forum"
+    },
+    {
+      "title": "Brewers Expected to Add 3 Top-50 International Prospects Next Week",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/ifa-signings-dominican-republic-venezuela-fenelon-antunez-acosta/",
+      "date": "2025-01",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Expected to Sign #36 International Prospect Kenny Fenelon",
+      "url": "https://brewerfanatic.com/videos/milwaukee-brewers/brewers-expected-to-sign-36-international-prospect-kenny-fenelon-r269/",
+      "date": "2025-01",
+      "type": "article"
+    },
+    {
+      "title": "Video: Brewers Expected to Sign #36 International Prospect Kenny Fenelon",
+      "url": "https://brewerfanatic.com/forums/topic/44238-video-brewers-expected-to-sign-36-international-prospect-kenny-fenelon/",
+      "date": "2025-01",
+      "type": "forum"
+    },
+    {
+      "title": "International Free Agent Market (January 2025) - Page 4 - MLB Draft ...",
+      "url": "https://brewerfanatic.com/forums/topic/43611-international-free-agent-market-january-2025/page/4/",
+      "date": "2024-09",
+      "type": "forum"
+    }
+  ],
+  "recentNews": [
+    {
+      "title": "4 Milwaukee Brewers prospects who could have breakout seasons in 2026",
+      "source": "Reviewing the Brew",
+      "date": "2026-02-09",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3nrhAFcYQnBsPLXBB_huXAugL66vaLJ72KKs0FzlWvLsj1IA6GKdp5K8nqrCpTXAdHrUMDFQq2HupAKOGch9XbolwAef6D_f__ZxxUexXNGxjF-vNlgC7pA8YgR_lN1W2qMtIkzbK_p7JIBaYIiMHbWt6WEbXMwg_VSI1Gmk-1vH2rHOsFyiyiBskOVH2vpit33TKxqLrDFSKGEHT933JF6tllMvoL6pmmw==",
+      "summary": "This article discusses Kenny Fenelon's potential for a breakout season in 2026, reviewing his 2025 DSL performance, highlighting his power, speed, and defense, and mentioning his $1.3 million signing bonus."
+    },
+    {
+      "title": "Kenny Fenelon Transaction History",
+      "source": "MiLB.com / MLB.com",
+      "date": "2025-06-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvgsrG0Bwh85Xs_LyutvOryUD4CUlS6XSrxdngd1Kk8U8zDLogMDDemg2HZdcCQFMubPXsEPsyZeXHumzLv_SKuv8IP5CJyKYnkJjJKRVo3LXFYuFtHkc1ipNqWUwrIARieu7uDW_o1KdWg==",
+      "summary": "Kenny Fenelon was assigned to DSL Brewers Gold from DSL Brewers Blue on June 1, 2025, after being signed to a minor league contract by the Milwaukee Brewers on January 15, 2025."
+    },
+    {
+      "title": "milb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvgsrG0Bwh85Xs_LyutvOryUD4CUi1S6XSrxdngd1Kk8U8zDLogMDDemg2HZdcCQFMubPXlEPSyaeXHumzLv_SKuv8IP5CJyKYnkJjJKRVo3LXFYuFtHkc1ipNqWUwrIARieu7uDW_o1KdWg==",
+      "summary": ""
+    },
+    {
+      "title": "mlb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqF0NktbbYBYG5KX1v8OMarXRVsbnbmpTZjJs4mjxYN8xCx9ov_3F6PAMbeW4zjabHQUTJ_r_eSmNVt5m2lQQlve8HHNqY5E6cP-T7rf912Yro2Z7mZZqtDttwOrhlWYriEPBkREnLeG8g",
+      "summary": ""
+    },
+    {
+      "title": "reviewingthebrew.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3nrhAFcYQnBsPLXBB_huXAugL66vaLJ72KKs0FzlWvLsj1IA6GKdp5K8nqrCpTXAdHrUMDFQq2HupAKOGch9XbolwAef6D_f__ZxxUexXNGxjF-vNlgC7pA8YgR_lN1W2qMtIkzbK_p7JIBaYIiMHbWt6WEbXMwg_VSI1Gmk-1vH2rHOsFyiyiBskOVH2vpit33TKxqLrDFSKGEHT933JF6tllMvoL6pmmw==",
+      "summary": ""
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Kenny Fenelon MLB highlights",
+      "channel": "YouTube search",
+      "date": "2025-02-06",
+      "url": "https://www.youtube.com/results?search_query=Kenny+Fenelon+MLB+highlights",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Kenny Fenelon baseball highlights",
+      "channel": "YouTube search",
+      "date": null,
+      "url": "https://www.youtube.com/results?search_query=Kenny+Fenelon+baseball+highlights",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Kenny Fenelon MiLB highlights",
+      "channel": "YouTube search",
+      "date": null,
+      "url": "https://www.youtube.com/results?search_query=Kenny+Fenelon+MiLB+highlights",
+      "type": "highlights",
+      "urlType": "search"
+    }
+  ]
+}

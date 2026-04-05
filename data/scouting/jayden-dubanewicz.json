@@ -1,0 +1,164 @@
+{
+  "playerId": "jayden-dubanewicz",
+  "name": "Jayden Dubanewicz",
+  "position": "SP",
+  "level": "ACL",
+  "age": 20,
+  "updatedAt": "2026-04-04T19:44:58.138Z",
+  "pitchGrades": {
+    "fastball": null,
+    "slider": null,
+    "curveball": null,
+    "changeup": null,
+    "cutter": null,
+    "control": null,
+    "command": null,
+    "breakingBall": null
+  },
+  "grades": {
+    "ofp": null,
+    "risk": null
+  },
+  "rankings": [
+    {
+      "source": "Brew Crew Review",
+      "rank": null,
+      "systemRank": null,
+      "grade": null,
+      "listName": "Top 30 Future Brewers 2026",
+      "date": "2026-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM9bjQw7vWgZ6vISRChP47nAnV2fxuRA4hIUN7popMDEbzqE3YiqvlkQGX0u2a7zHIK_KOXdY27xhX6cwlZbjJEQWyfW0SGvLy5xl5toFj842POhfpdok17GfyaDc="
+    },
+    {
+      "source": "Perfect Game USA",
+      "rank": 500,
+      "systemRank": null,
+      "grade": null,
+      "listName": "2024 MLB Draft Class",
+      "date": "2024-08",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKw1E5bRh-VDBnpyrkEW5pc9mwqnUzVgmoDUBgfcLlpw9wcrCeOeC0TVAcXzrhdQqCZcfk0wMy4Ca5acNviRyDn6YyXv8PnzPH3VO0EoCF-K2HQlRHVxWJTKWxQfdbw2SiVm5ityU6voAKsU3pLgEH63N_rR19UifREcZIZGLnQ5fzESG69VoHXVb2oUnQmTRukWtS6EEa11e7svx8yI_Az1HIrzDrKDJxww=="
+    }
+  ],
+  "summary": "Jayden Dubanewicz is a right-handed pitcher for the Milwaukee Brewers, drafted in the 16th round of the 2024 MLB Draft. He reportedly signed for $665,000. He was assigned to the ACL Brewers in March 2026. In August 2025, his fastball was observed in the 92-94 MPH range, with a changeup at 85-87 MPH and a slider at 81-84 MPH. He is noted for his improved bat-missing stuff and very strong command.",
+  "strengths": [
+    "Improved bat-missing stuff",
+    "Very strong command",
+    "Good arm speed"
+  ],
+  "concerns": [],
+  "eta": null,
+  "mediaReferences": [
+    {
+      "type": "podcast",
+      "title": "Brew Crew Review Podcast #257= Top 30 Future Brewers 2026",
+      "source": "The Brew Crew Review - Milwaukee Brewers Baseball Podcast",
+      "date": "2026-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFM9bjQw7vWgZ6vISRChP47nAnV2fxuRA4hIUN7popMDEbzqE3YiqvlkQGX0u2a7zHIK_KOXdY27xhX6cwlZbjJEQWyfW0SGvLy5xl5toFj842POhfpdok17GfyaDc="
+    },
+    {
+      "type": "youtube",
+      "title": "Jayden Dubanewicz, RHP, Milwaukee Brewers Prospect",
+      "source": "The Dynasty Dugout",
+      "date": "2025-08",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjEDif5Aj3T4qh88-0zntSR4bDznCbM6scAOOgshDjS__z-2NLOf_AiLgmBcDCag8pbqujlXCtWPtXgFRK8UBNZpmXagCBmBF4JOuSmuF2r5DlAhs-rO5qrV-WPPejhmI7jEfgOg=="
+    }
+  ],
+  "sourcesConsulted": [
+    "Baseball America",
+    "FanGraphs",
+    "MiLB.com",
+    "Baseball-Reference.com",
+    "MLB.com",
+    "Perfect Game USA",
+    "Prep Baseball Report",
+    "Prospect361",
+    "The Dynasty Dugout (YouTube)",
+    "RotoWire",
+    "Brew Crew Review"
+  ],
+  "confidence": "medium",
+  "brewerFanaticLinks": [
+    {
+      "title": "Jayden Dubanewicz - 2024 Milwaukee Brewers Draft Picks - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-draft-picks/2024/jayden-dubanewicz-r18/",
+      "date": "2026-04",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (8/10): Anderson, Dubanewicz and ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-810-anderson-dubanewicz-and-carlos-rodriguez-impress-in-sunday-action-r3690/",
+      "date": "2025-08",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (8/30): A Hard Day&#x27;s Night, As ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-830-a-hard-days-night-as-affiliates-manage-one-win-in-five-games-r3754/",
+      "date": "2025-08",
+      "type": "article"
+    },
+    {
+      "title": "Sat. 8/30 - Mudcats Look to Dubanewicz in Playoff Chase Effort",
+      "url": "https://brewerfanatic.com/forums/topic/45972-sat-830-mudcats-look-to-dubanewicz-in-playoff-chase-effort/",
+      "date": "2025-08",
+      "type": "forum"
+    },
+    {
+      "title": "Brewers Minor League Link Report (6/11): An 0-4 Night Caps an 0-5 Day ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-611-an-0-4-night-caps-an-0-5-day-as-an-organization-black-returns-to-nashville-in-lf-dubanewicz-debuts-in-low-a-r3463/",
+      "date": "2025-06",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (6/28): Shuckers & Mudcats Continue to ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-628-shuckers-mudcats-continue-to-provide-quality-2025-results-r3529/",
+      "date": "2025-06",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (5/5): Jadyn, Jayden and Jose Lead the ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-55-jadyn-jayden-and-jose-lead-the-way-for-acl-brewers-r3333/",
+      "date": "2025-05",
+      "type": "article"
+    },
+    {
+      "title": "2025 Minor League Transaction Thread - Page 14 - Brewers Minor League ...",
+      "url": "https://brewerfanatic.com/forums/topic/44208-2025-minor-league-transaction-thread/page/14/",
+      "date": "2025-01",
+      "type": "forum"
+    }
+  ],
+  "recentNews": [
+    {
+      "title": "Jayden Dubanewicz Assigned to ACL Brewers",
+      "source": "MiLB.com",
+      "date": "2026-02-24",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9GRYRCabDHvgTCubJJdXiQWkFinjZE-5p-XPortZ4a7uwy1hFoLMm20aT0Ja9lmGyuz_L22Nuildcg2U7NchUq-ilmVhe_Lt_NKbMA-61QM5o8ATpnIpw0f1Q0KESN3y6d3hg17ENPylpygVtGZ0=",
+      "summary": "RHP Jayden Dubanewicz was assigned to the ACL Brewers from the Wilson Warbirds on February 24, 2026."
+    },
+    {
+      "title": "milb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9GRYRCabDHvgTCubJJdXiQWkFinjZE-5p-XPortZ4a7uwy1hFoLMm20aT0Ja9lmGyuz_L22Nuildcg2U7NchUq-ilmVhe_Lt_NKbMA-61QM5o8ATpnIpw0f1Q0KESN3y6d3hg17ENPylpygVtGZ0=",
+      "summary": ""
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Jayden Dubanewicz, RHP, Milwaukee Brewers Prospect",
+      "channel": "The Dynasty Dugout",
+      "date": "2025-08-05",
+      "url": "https://www.youtube.com/results?search_query=The+Dynasty+Dugout+Jayden+Dubanewicz",
+      "type": "scouting",
+      "urlType": "search"
+    },
+    {
+      "title": "2024 RHP Jayden Dubanewicz (Stoneman Douglas HS, FL)",
+      "channel": "YouTube",
+      "date": "2023-06-03",
+      "url": "https://www.youtube.com/results?search_query=Jayden+Dubanewicz+Stoneman+Douglas+HS+FL",
+      "type": "scouting",
+      "urlType": "search"
+    }
+  ]
+}

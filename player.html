@@ -214,57 +214,118 @@
     }
 
     /* ── Stat tiles ────────────────────────────────────────────────────────── */
-    .stat-row {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(82px, 1fr));
-      gap: 8px;
+    .stats-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
       margin-bottom: 28px;
     }
 
-    .stat-tile {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 14px 10px;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
+    .stats-card-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, color-mix(in srgb, var(--surface2) 70%, transparent), transparent);
     }
 
-    .stat-tile::after {
-      content: '';
-      position: absolute;
-      bottom: 0; left: 0; right: 0;
-      height: 3px;
-      background: var(--surface3);
-    }
-    .stat-tile.above::after  { background: var(--green); }
-    .stat-tile.avg-::after   { background: var(--yellow); }
-    .stat-tile.below::after  { background: var(--orange); }
-    .stat-tile.neutral::after { background: var(--border2); }
-
-    .tile-val {
+    .stats-card-title {
       font-family: var(--font-display);
-      font-size: 26px;
+      font-size: 13px;
       font-weight: 700;
-      color: var(--text);
-      line-height: 1;
+      letter-spacing: 1.6px;
+      text-transform: uppercase;
+      color: var(--text2);
     }
 
-    .tile-name {
+    .stats-card-note {
       font-family: var(--font-mono);
       font-size: 10px;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
       color: var(--text3);
-      margin-top: 5px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      white-space: nowrap;
     }
 
-    .tile-ctx {
+    .stats-scroll {
+      overflow-x: auto;
+    }
+
+    .stats-table {
+      width: 100%;
+      min-width: 880px;
+      border-collapse: collapse;
+    }
+
+    .stats-table th,
+    .stats-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .stats-table th {
       font-family: var(--font-mono);
-      font-size: 9px;
+      font-size: 10px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
       color: var(--text3);
-      margin-top: 3px;
+      background: color-mix(in srgb, var(--surface2) 82%, transparent);
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+
+    .stats-table td {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--text2);
+    }
+
+    .stats-table tbody tr:nth-child(odd) td {
+      background: color-mix(in srgb, var(--surface) 88%, var(--surface2));
+    }
+
+    .stats-table tbody tr:hover td {
+      background: color-mix(in srgb, var(--gold) 10%, var(--surface));
+    }
+
+    .stats-table tbody tr.summary-row td {
+      border-top: 1px solid var(--border2);
+      background: color-mix(in srgb, var(--gold) 8%, var(--surface));
+    }
+
+    .stats-table tbody tr.stop-row td:first-child,
+    .stats-table tbody tr.stop-row td:nth-child(3) {
+      color: var(--text);
+    }
+
+    .stats-table .cell-left {
+      text-align: left;
+    }
+
+    .stats-table .cell-strong {
+      font-family: var(--font-display);
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .stats-table .cell-level {
+      color: var(--mil-gold);
+      font-weight: 700;
+    }
+
+    .stats-table .is-muted {
+      color: var(--text3);
+    }
+
+    .stats-empty {
+      padding: 18px;
+      text-align: left;
     }
 
     /* ── Tool grade bars ───────────────────────────────────────────────────── */
@@ -760,7 +821,9 @@
     @media (max-width: 640px) {
       .scout-grid { grid-template-columns: 1fr; }
       .hero-layout { flex-direction: column; }
-      .stat-row { grid-template-columns: repeat(3, 1fr); }
+      .stats-card-head { align-items: flex-start; flex-direction: column; }
+      .stats-table th,
+      .stats-table td { padding: 9px 10px; }
       .tab-btn { font-size: 12px; padding: 8px 12px; }
     }
   </style>
@@ -877,6 +940,7 @@
     function fmt3(v) { return v != null ? v.toFixed(3).replace(/^0/, '') : '\u2014'; }
     function fmtPct(v) { return v != null ? v.toFixed(1) + '%' : '\u2014'; }
     function fmtN(v, d) { return v != null ? v.toFixed(d || 2) : '\u2014'; }
+    function fmtInt(v) { return v != null ? String(Math.round(v)) : '\u2014'; }
     function hasNum(v) { return typeof v === 'number' && Number.isFinite(v); }
     function joinCtx(parts) { return parts.filter(Boolean).join(' · '); }
     function latestSeasonStats(p) {
@@ -897,6 +961,151 @@
       if (p.stats2026) return { season: 2026, stats: p.stats2026 };
       if (p.stats2025) return { season: 2025, stats: p.stats2025 };
       return { season: null, stats: null };
+    }
+    const SPORT_LEVEL_LABELS = {
+      1: 'MLB',
+      11: 'AAA',
+      12: 'AA',
+      13: 'A+',
+      14: 'A',
+      16: 'ACL',
+      17: 'DSL',
+    };
+    const SPORT_LEVEL_SORT = {
+      1: 7,
+      11: 6,
+      12: 5,
+      13: 4,
+      14: 3,
+      16: 2,
+      17: 1,
+    };
+
+    function levelFromSportId(sportId, fallbackLevel) {
+      return SPORT_LEVEL_LABELS[Number(sportId)] || fallbackLevel || '\u2014';
+    }
+
+    function estimateSeasonAge(p, season, latestSeason) {
+      if (!hasNum(p.age) || !season) return null;
+      const anchorSeason = latestSeason || new Date().getFullYear();
+      return p.age - (anchorSeason - Number(season));
+    }
+
+    function renderStatTable(p, latestSeason) {
+      const seasons = Object.entries(p.statsBySeason || {})
+        .map(([season, stats]) => ({ season: Number(season), ...(stats || {}) }))
+        .filter((row) => Number.isFinite(row.season))
+        .sort((a, b) => b.season - a.season)
+        .slice(0, 3);
+
+      if (!seasons.length) {
+        return '<div class="stats-card"><div class="stats-empty empty-state" style="text-align:left">No season stats available yet.</div></div>';
+      }
+
+      const columns = p.isPitcher ? [
+        { label: 'Year', value: (row) => row.season, className: 'cell-left cell-strong' },
+        { label: 'Age', value: (row) => fmtInt(estimateSeasonAge(p, row.season, latestSeason)) },
+        { label: 'Tm', value: (row) => row.teamName || p.affiliate || '\u2014', className: 'cell-left' },
+        { label: 'Lev', value: (row) => levelFromSportId(row.sportId, p.level), className: 'cell-level' },
+        { label: 'W', value: (row) => fmtInt(row.wins) },
+        { label: 'L', value: (row) => fmtInt(row.losses) },
+        { label: 'SV', value: (row) => fmtInt(row.saves) },
+        { label: 'G', value: (row) => fmtInt(row.g) },
+        { label: 'GS', value: (row) => fmtInt(row.gs) },
+        { label: 'IP', value: (row) => fmtN(row.ip, 1) },
+        { label: 'H', value: (row) => fmtInt(row.hits) },
+        { label: 'ER', value: (row) => fmtInt(row.earnedRuns) },
+        { label: 'HR', value: (row) => fmtInt(row.homeRuns) },
+        { label: 'BB', value: (row) => fmtInt(row.bb) },
+        { label: 'SO', value: (row) => fmtInt(row.so) },
+        { label: 'ERA', value: (row) => fmtN(row.era) },
+        { label: 'WHIP', value: (row) => fmtN(row.whip) },
+        { label: 'FIP', value: (row) => fmtN(row.fip) },
+        { label: 'K%', value: (row) => fmtPct(row.kPct) },
+        { label: 'BB%', value: (row) => fmtPct(row.bbPct) },
+        { label: 'K/9', value: (row) => fmtN(row.strikeoutsPer9Inn) },
+        { label: 'BB/9', value: (row) => fmtN(row.walksPer9Inn) },
+        { label: 'HR/9', value: (row) => fmtN(row.homeRunsPer9) },
+        { label: 'Strike%', value: (row) => fmtPct(row.strikePercentage) },
+      ] : [
+        { label: 'Year', value: (row) => row.season, className: 'cell-left cell-strong' },
+        { label: 'Age', value: (row) => fmtInt(estimateSeasonAge(p, row.season, latestSeason)) },
+        { label: 'Tm', value: (row) => row.teamName || p.affiliate || '\u2014', className: 'cell-left' },
+        { label: 'Lev', value: (row) => levelFromSportId(row.sportId, p.level), className: 'cell-level' },
+        { label: 'G', value: (row) => fmtInt(row.g) },
+        { label: 'PA', value: (row) => fmtInt(row.pa) },
+        { label: 'AB', value: (row) => fmtInt(row.ab) },
+        { label: 'R', value: (row) => fmtInt(row.runs) },
+        { label: 'H', value: (row) => fmtInt(row.hits) },
+        { label: '2B', value: (row) => fmtInt(row.doubles) },
+        { label: '3B', value: (row) => fmtInt(row.triples) },
+        { label: 'HR', value: (row) => fmtInt(row.hr) },
+        { label: 'RBI', value: (row) => fmtInt(row.rbi) },
+        { label: 'SB', value: (row) => fmtInt(row.sb) },
+        { label: 'CS', value: (row) => fmtInt(row.cs) },
+        { label: 'BB', value: (row) => fmtInt(row.bb) },
+        { label: 'HBP', value: (row) => fmtInt(row.hbp) },
+        { label: 'SO', value: (row) => fmtInt(row.so) },
+        { label: 'K/BB', value: (row) => fmtN(row.strikeoutWalkRatio) },
+        { label: 'BA', value: (row) => fmt3(row.avg) },
+        { label: 'OBP', value: (row) => fmt3(row.obp) },
+        { label: 'SLG', value: (row) => fmt3(row.slg) },
+        { label: 'OPS', value: (row) => fmt3(row.ops) },
+      ];
+
+      const headerHtml = columns.map((col) => '<th' + (col.className?.includes('cell-left') ? ' class="cell-left"' : '') + '>' + col.label + '</th>').join('');
+      const renderedRows = [];
+
+      for (const seasonRow of seasons) {
+        const stops = Array.isArray(seasonRow.stops) ? seasonRow.stops.slice().sort((a, b) => {
+          const rankB = SPORT_LEVEL_SORT[Number(b.sportId)] || 0;
+          const rankA = SPORT_LEVEL_SORT[Number(a.sportId)] || 0;
+          return rankB - rankA;
+        }) : [];
+
+        if (stops.length > 1) {
+          for (const stop of stops) {
+            renderedRows.push({
+              ...stop,
+              season: seasonRow.season,
+              _rowClass: 'stop-row',
+            });
+          }
+          renderedRows.push({
+            ...seasonRow,
+            teamName: 'All Levels',
+            _rowClass: 'summary-row',
+          });
+        } else {
+          renderedRows.push({
+            ...(stops[0] || seasonRow),
+            season: seasonRow.season,
+            _rowClass: 'summary-row',
+          });
+        }
+      }
+
+      const rowsHtml = renderedRows.map((row) => '<tr class="' + (row._rowClass || '') + '">'
+        + columns.map((col) => {
+          const value = col.value(row);
+          const extraClass = row._rowClass === 'summary-row' ? ' cell-strong' : '';
+          return '<td class="' + ((col.className || '') + extraClass + (value === '\u2014' ? ' is-muted' : '')).trim() + '">' + value + '</td>';
+        }).join('')
+        + '</tr>'
+      ).join('');
+
+      return '<div class="stats-card">'
+        + '<div class="stats-card-head">'
+        + '<div class="stats-card-title">' + (p.isPitcher ? 'Pitching Stats' : 'Batting Stats') + '</div>'
+        + '<div class="stats-card-note">Last 3 seasons</div>'
+        + '</div>'
+        + '<div class="stats-scroll">'
+        + '<table class="stats-table">'
+        + '<thead><tr>' + headerHtml + '</tr></thead>'
+        + '<tbody>' + rowsHtml + '</tbody>'
+        + '</table>'
+        + '</div>'
+        + '</div>';
     }
 
     function tier(val, lgVal, lower) {
@@ -1176,30 +1385,7 @@
       const ofpClr   = gradeColor(ofp);
       const arcCirc  = 2 * Math.PI * 32;
 
-      /* Stat tiles */
-      const hTiles = s ? [
-        { val:fmt3(s.avg),    name:'AVG',    ctx:hasNum(s.leagueAvgAvg) ? 'Lg ' + fmt3(s.leagueAvgAvg) : '', t:tier(s.avg,s.leagueAvgAvg) },
-        { val:fmt3(s.obp),    name:'OBP',    ctx:hasNum(s.leagueAvgObp) ? 'Lg ' + fmt3(s.leagueAvgObp) : '', t:tier(s.obp,s.leagueAvgObp) },
-        { val:fmt3(s.slg),    name:'SLG',    ctx:hasNum(s.leagueAvgSlg) ? 'Lg ' + fmt3(s.leagueAvgSlg) : '', t:tier(s.slg,s.leagueAvgSlg) },
-        { val:fmtPct(s.bbPct),name:'BB%',    ctx:hasNum(s.leagueAvgBbPct) ? 'Lg ' + fmtPct(s.leagueAvgBbPct) : '', t:tier(s.bbPct,s.leagueAvgBbPct) },
-        { val:fmtPct(s.kPct), name:'K%',     ctx:hasNum(s.leagueAvgKPct) ? 'Lg ' + fmtPct(s.leagueAvgKPct) : '', t:tier(s.kPct,s.leagueAvgKPct,true) },
-        { val:s.hr??'\u2014', name:'HR',     ctx:(s.g??'\u2014')+' G',                   t:'neutral' },
-        { val:s.sb!=null?s.sb+'/'+s.sbAtt:'\u2014', name:'SB/ATT', ctx:(hasNum(s.sb) && hasNum(s.sbAtt) && s.sbAtt > 0) ? Math.round(s.sb/s.sbAtt*100)+'%' : '', t:'neutral' },
-        { val:fmt3(s.iso),    name:'ISO',    ctx:hasNum(s.babip) ? 'BABIP ' + fmt3(s.babip) : '', t:tier(s.iso,0.140) },
-      ] : [];
-
-      const pTiles = (s && p.isPitcher) ? [
-        { val:fmtN(s.era),    name:'ERA',    ctx:hasNum(s.leagueAvgEra) ? 'Lg ' + fmtN(s.leagueAvgEra) : '', t:tier(s.era,s.leagueAvgEra,true) },
-        { val:fmtPct(s.kPct), name:'K%',     ctx:hasNum(s.leagueAvgKPct) ? 'Lg ' + fmtPct(s.leagueAvgKPct) : '', t:tier(s.kPct,s.leagueAvgKPct) },
-        { val:fmtPct(s.bbPct),name:'BB%',    ctx:'',                                      t:tier(s.bbPct,10,true) },
-        { val:fmtN(s.fip),    name:'FIP',    ctx:hasNum(s.xfip) ? 'xFIP ' + fmtN(s.xfip) : '', t:tier(s.fip,s.leagueAvgEra,true) },
-        { val:fmtN(s.ip,1),   name:'IP',     ctx:(s.gs||'\u2014')+' GS',                 t:'neutral' },
-        { val:fmtPct(s.swStrPct),name:'SwStr%',ctx:'',                                   t:tier(s.swStrPct,11) },
-        { val:fmtPct(s.gbPct),name:'GB%',    ctx:'',                                      t:tier(s.gbPct,44) },
-        { val:fmtN(s.whip),   name:'WHIP',   ctx:'',                                      t:tier(s.whip,1.30,true) },
-      ] : [];
-
-      const tiles = p.isPitcher ? pTiles : hTiles;
+      const statsTableHTML = renderStatTable(p, statsSeason);
 
       /* Perf bars */
       const hPerfs = s ? [
@@ -1266,15 +1452,6 @@
         + '</div>'
         );
       }).join('');
-
-      /* Build stat tiles */
-      const tilesHTML = tiles.map(t =>
-        '<div class="stat-tile ' + t.t + '">'
-        + '<div class="tile-val">' + t.val + '</div>'
-        + '<div class="tile-name">' + t.name + '</div>'
-        + (t.ctx ? '<div class="tile-ctx">' + t.ctx + '</div>' : '')
-        + '</div>'
-      ).join('');
 
       /* Build perf bars */
       const perfsHTML = perfs.map(perf => {
@@ -1353,8 +1530,8 @@
         + '<div class="main-col">'
 
         /* Stats */
-        + '<div class="section-head"><span class="label">' + (statsSeason ? statsSeason + ' Season' : 'Season Stats') + ' \u00B7 ' + (LEVEL_LABELS[p.level]||p.level) + '</span></div>'
-        + '<div class="stat-row stagger">' + tilesHTML + '</div>'
+        + '<div class="section-head"><span class="label">' + ((statsSeason ? statsSeason + ' Season' : 'Season Stats') + ' \u00B7 ' + (LEVEL_LABELS[p.level]||p.level)) + '</span></div>'
+        + statsTableHTML
 
         /* Tool grades */
         + '<div class="tool-section">'

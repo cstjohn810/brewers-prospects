@@ -1,0 +1,184 @@
+{
+  "playerId": "manuel-rodriguez",
+  "name": "Manuel Rodriguez",
+  "position": "SP",
+  "level": "AA",
+  "age": 20,
+  "updatedAt": "2026-04-04T19:41:29.984Z",
+  "pitchGrades": {
+    "fastball": null,
+    "slider": null,
+    "curveball": null,
+    "changeup": null,
+    "cutter": null,
+    "control": null,
+    "command": null,
+    "breakingBall": null
+  },
+  "grades": {
+    "ofp": null,
+    "risk": null
+  },
+  "rankings": [
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 28,
+      "grade": null,
+      "listName": "Milwaukee Brewers Team Rankings",
+      "date": "2026",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdZP6-pkmAHUEIHgQp_oK9aS5kGE_AIBios947X1fH4sVT-IwugdNmgYhIp--AY13s3LDpsakuPc-Vm3uLZQOPkLxbtELLbgyHCh6ieL7FtGKbJ0S-nmIkK5rxslf8DVtlrLA_chkQCLGVjGP5puym5A=="
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 7,
+      "grade": null,
+      "listName": "Top 30 Brewers prospects",
+      "date": "2025-08",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsxXiavRSObyTfrRHTLEl0tqP8eLxtWuZjvIr9u1jC-2tgqpMDV8oWu-WGX246JqfGNbUQ39LuyUyKBqZArdSPbfVwp4ZYm3KB4zRNKXVTJY-8K7PkoLfCjnASE91-Q_c9c0iMeufZm8EeqJPKDFcGSRFnhLTMq55QxANbzizzmojSIhIFXy19p4lul0VxavnqL7g7AXLsbreOHI0I3uoOohs89zwrlXc4_Gy5_nMHjqwy"
+    },
+    {
+      "source": "Reviewing the Brew (Prospects1500)",
+      "rank": null,
+      "systemRank": 43,
+      "grade": null,
+      "listName": "Milwaukee Brewers Top 50 Prospects (2025)",
+      "date": "2025-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEb8iPEegK_aRvghQU_jhB4BLJW9R_SjbupjTgtLKBqY1obtB19e9-OA08sb5J4qGFOfdEDp37iSLkNj05Hl3l3bGtW8Ov-QFaciIy9DaLbxMF6VahxpufIh96Kp3fQ6KjxEQr40-B2nIyJoelTIFW_28_UW_B4reh4rGJobqyXWgttd4NybPKvHVpegTb8"
+    }
+  ],
+  "summary": "Manuel Rodriguez is a 20-year-old right-handed starting pitcher in the Milwaukee Brewers system, reaching Double-A in 2025. He signed with the Brewers in 2022. He exhibits excellent control and throws a fastball that typically sits around 88-91 mph, a sharp mid-80s slider, and a low-80s curveball. He was noted for being young for his level and having good control over velocity.",
+  "strengths": [
+    "Excellent control",
+    "Sharp slider",
+    "Young for level"
+  ],
+  "concerns": [
+    "Fastball velocity can drop",
+    "Inconsistent ranking presence"
+  ],
+  "eta": null,
+  "mediaReferences": [
+    {
+      "type": "youtube",
+      "title": "Are you taking a chance on Manuel Rodriguez?",
+      "source": "YouTube (Dice League)",
+      "date": "2025-04",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpOWDbtBr1nvu_SWXXQ05m3JY3HffZdQxde4Xwe9FMQLBavypX7LDkaxgBPejKK5gQwvLAC3Ubt_sruIc5IlQFAi8EhBlKIBSCPPXivJefgb1VR2B8vUPEOtEa2CO0lHi8FodSEw=="
+    }
+  ],
+  "sourcesConsulted": [
+    "Reviewing the Brew",
+    "Baseball America",
+    "MiLB.com",
+    "Baseball-Reference",
+    "RotoWire",
+    "TBC",
+    "YouTube (Dice League)"
+  ],
+  "confidence": "medium",
+  "brewerFanaticLinks": [
+    {
+      "title": "Brewer Fanatic 2025 Brewers Minor League Starting Pitcher Of The Year",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewer-fanatic-2025-brewers-minor-league-starting-pitcher-of-the-year-r3919/",
+      "date": "2025-10",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (8/31): Affiliates Drop 3 of 4 Despite ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-831-affiliates-drop-3-of-4-despite-solid-sunday-starts-r3756/",
+      "date": "2025-09",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (9/14): Rodriguez Makes AA Debut and ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-914-rodriguez-makes-aa-debut-and-dunn-slams-nashville-to-victory-r3802/",
+      "date": "2025-09",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (7/31): Manuel Rodriguez and Gustavo ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-731-manuel-rodriguez-and-gustavo-garcia-lead-squads-to-two-thursday-wins-r3662/",
+      "date": "2025-08",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (8/20): Made Continues to Shine in ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-820-made-continues-to-shine-in-high-a-manuel-rodriguez-pitches-master-class-r3724/",
+      "date": "2025-08",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (4/10): Misiorowski Shines Again but ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-410-misiorowski-shines-again-but-wisconsin-is-days-sole-winner-r3243/",
+      "date": "2025-04",
+      "type": "article"
+    },
+    {
+      "title": "Winners of the Brewers Minor League Roster Reveals",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/winners-of-the-brewers-minor-league-roster-reveals-r3215/",
+      "date": "2025-04",
+      "type": "article"
+    },
+    {
+      "title": "Do The Brewers Actually Have the Best Teenage Prospect Group in ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/do-the-brewers-actually-have-the-best-teenage-prospect-group-in-baseball-part-3-the-battle-among-the-best-r3043/",
+      "date": "2025-02",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (7/9): Comebacks ... - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-79-comebacks-aplenty-in-5-0-affiliate-evening-rhp-manuel-rodriguez-continues-to-breakout-r2372/",
+      "date": "2024-07",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (5/7): RHP&#x27;s TJ Shook and Manuel ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-57-rhps-tj-shook-and-manuel-rodriguez-dominate-hicklen-and-clarke-wow-with-bats-r2121/",
+      "date": "2024-05",
+      "type": "article"
+    }
+  ],
+  "recentNews": [
+    {
+      "title": "Manuel Rodriguez Transactions (Promotions/Assignments)",
+      "source": "MLB.com / MiLB.com",
+      "date": "2025-09-14",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDaii8BrcL7OiOn5NR0c9cl7ILejfTDkO0xp5f3_hjPjr0p9Tv2VN0BWn-GcjnpORDBJpG8CxwGHEEanyj8N51xTrYs6Dss56J85JSrPTYkL_2cuSx0UywG5aDpRleWxr9xe0nUpFQbaL6_2w4",
+      "summary": "Manuel Rodriguez was assigned to the Biloxi Shuckers from the Wisconsin Timber Rattlers on September 14, 2025, activated by the Shuckers on September 21, 2025, and later assigned to the Milwaukee Brewers on February 21, 2026."
+    },
+    {
+      "title": "3 Brewers starting pitching prospects that have earned late season promotions",
+      "source": "Reviewing the Brew",
+      "date": "2025-08-24",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeSxY8M7HnufCH1y8eGbCyIxNUjZomNDmkOe-fBMcp_F49G_Or7Kwims0wsMNpfkHig94whXxE5jHAZabxTEA354urwoBUPe-IvtgRWu8ky-F1J-ITcIhgxTQTgD8rjiwHxsIQV5C2rUw_FCrXOdn7fjFqI4j76HZOvENp94D-XwKKzvvoqEy9PaTgpgKvOPKAVqOkbISoyvn_142d1jy2bbqnA23r5w20GdMFpfSWIFUI",
+      "summary": "Manuel Rodriguez, a 20-year-old Brewers prospect, was a candidate for promotion to the Double-A Biloxi Shuckers after posting a 2.97 ERA, 0.98 WHIP, 64 strikeouts, and 12 walks over 66.2 innings with the High-A Wisconsin Timber Rattlers."
+    },
+    {
+      "title": "Manuel Rodriguez's 11 strikeouts",
+      "source": "MLB.com",
+      "date": "2025-04-05",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFlknhv16-RKTcBB4Jx5alzpd7tdWlFcENv363T7HQYHfo2zpKsMu0maXTvRd119Z9OlFbgeFV0NgT52y529V6kHVZv_DWCUrkDmAN3eEPzbOWpT8aAPMbtZxl5_LKy9X1BkTLYOihodgsdpTefjmTbFN9Vyr_UMnS3YpjrA==",
+      "summary": "Brewers prospect Manuel Rodriguez struck out a career-high 11 batters over 4 1/3 innings for High-A Wisconsin."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Manuel Rodriguez strikes out eight | 08/21/2025",
+      "channel": "MLB.com",
+      "date": "2025-08-21",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGzdXE5AmIaE24y5hcmGFgZ5S6mUiQd0bhp0xzDTmv0FfI4bKPlFz06Mv8UUQY6WKXHOUR3FOYXSdaDwocKBEwPBQ7jZ1E4NYAWJOzsRjnXJ0tWeKpsZWicynOQVX0-0nPKlBT9DW7d5pr-5LU0eRwoQ5swrRUg==",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Manuel Rodriguez's 11 strikeouts | 04/05/2025",
+      "channel": "MLB.com",
+      "date": "2025-04-05",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFlknhv16-RKTcBB4Jx5alzpd7tdWlFcENv363T7HQYHfo2zpKsMu0maXTvRd119Z9OlFbgeFV0NgT52y529V6kHVZv_DWCUrkDmAN3eEPzbOWpT8aAPBbtZxl5_LKy9X1BkTLYOihodgsdpTefjmTbFN9Vyr_UMnS3YpjrA==",
+      "type": "highlights",
+      "urlType": "direct"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "playerId": "jose-anderson",
+  "name": "José Anderson",
+  "position": "OF",
+  "level": "ACL",
+  "age": 19,
+  "updatedAt": "2026-04-04T19:42:40.659Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": 30,
+    "power": 50,
+    "run": 40,
+    "field": 45,
+    "arm": null,
+    "ofp": null,
+    "risk": null
+  },
+  "rankings": [
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 27,
+      "grade": null,
+      "listName": "Brewers Top Prospects",
+      "date": "2025-05",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJ7VISyK62QMrCA1A_gO-CX1NWsDD5tFJdy5f3arkKD7lKNV5Ta_Sp33HfozDX3DhJNlI2qZOkiQ5Vxi8knhyiq2TvcJNy8rFXkbke6Zhy_JKu-dl-53U3f7H3Su__74Fc48yD24YzOGugKavxZQvAi4XafttBS6OobPbOQ5eo-iF0L-rReppECUD4T1gHytJhiSqcgRf-vzU5C1inA7YqEA6SVtiBJ7aKtJ_wInZ31Jep89O7G7IjKjoPA1-HoOeGAEKYh6Gc"
+    },
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 29,
+      "grade": null,
+      "listName": "Brewers Top Prospects",
+      "date": "2025-02",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSazvka6dJ69d2AdObQMmIdMQUKkig8aXncN9UPKP5UnzJKAzKLVy5RZFZn51RSu4L_tzdRykF-cSqkcJopsvu3lUOTbR9t0gGGPiKLVk42LnOjGIuP55fCalzXksjgJEB0HyQW1daa10dFSLexdrThpRuxsNcc91G"
+    },
+    {
+      "source": "Prospect361",
+      "rank": null,
+      "systemRank": 30,
+      "grade": null,
+      "listName": "Milwaukee Brewers Top 50 Prospects (2025)",
+      "date": "2025-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHa0lXaeftEHEQfmw1tIkGPEsHkeUSsTAiO0braq0twhpk7flmDWvm55wYkpgAWUTck2APWb9Ac5g678o6_HQepp_wj62fkEOwQN_jNRibaD843UMs1z0mLgL03cAN5XMXXjCnINW4fcz3TDZigOK5s-3BujJhDNosJh18-dfOM_U-hMPwQKqO8aS8aLFOh"
+    }
+  ],
+  "summary": "José Anderson is a 19-year-old outfielder for the Milwaukee Brewers, signed as an international free agent in 2024. He showcased strong offensive skills in the Dominican Summer League in 2024 and dominated the Arizona Complex League in early 2025 before struggling with a high strikeout rate after a promotion to Low-A. He possesses significant raw power and decent baserunning ability, but his hit tool remains a concern.",
+  "strengths": [
+    "Massive raw power",
+    "Decent baserunning",
+    "Best outfield arm"
+  ],
+  "concerns": [
+    "Hit tool",
+    "High strikeout rate"
+  ],
+  "eta": null,
+  "mediaReferences": [
+    {
+      "type": "reddit",
+      "title": "Any insight into Jose Anderson?",
+      "source": "r/Brewers",
+      "date": "2026-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5RAvL2CFl09wI8fiDDG8PURDh-chBJ1LudAXtIyB5Lo3rzcNZwS92op6YlqfdbV5DBnonVowHclGRYLQHQSr4vucCDds7dBLRIvWbggnX3dkCUZKtXu_0q-RMZghpO6vGlcRFwAFl3U1YFPw8F3yXpsJPkiARUzReiQ-ChqY1bdFm3Gex2_-T0yQc8g=="
+    },
+    {
+      "type": "article",
+      "title": "4 Milwaukee Brewers prospects who could have breakout seasons in 2026",
+      "source": "Wisconsin Sports Heroics",
+      "date": "2026-02",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIz9VKx40GqvweW1COYx_7eq5E4c0LLcZEa2YxugGyZpAFzLj_B4n5iZ-JVkgn7WcDggHhCQdkGl9zXbHH6th5pwuPQ_0uhbfPJrLRBeehB7nlVtCcMjdx5e0Fob-7DbP2TtnO3dN5Vxmdf-Ki7FF6YypNaYmf5iiPnT-9-3REymFbviZZKv0EAiPoyilocxRymDA50a9xs2aZVpLe6_LZeej-CX_cmSgzmA=="
+    },
+    {
+      "type": "article",
+      "title": "Brewers Outfielder Jose Anderson Hits Pair Of Homers",
+      "source": "Baseball America",
+      "date": "2025-05",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUWvS5yhh-5RgDIUM5NB2rhgPZdxrIq3Ija2nQPzwczN9yNEF767jKzg5IkSd-KUACjhqaQWDexEVleVfr5q0BhXvk_lhd0x9fcN1l2RuQIXpxMmOaxMi_5SpdoJO74st7-lCeTjGSKYqRJgzcwTUFUphnPwpZZwJEBfepP_ccgzx2QaY5yIswYhJZfOuixfO_5psHtsJskmZEEZA_X1tCTvX0UlzQaTnd"
+    },
+    {
+      "type": "article",
+      "title": "Milwaukee Brewers prospect news: Players of the Week, Marco Dinges promotion, José Anderson to Low-A",
+      "source": "Reviewing the Brew",
+      "date": "2025-05",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJ7VISyK62QMrCA1A_gO-CX1NWsDD5tFJdy5f3arkKD7lKNV5Ta_Sp33HfozDX3DhJNlI2qZOkiQ5Vxi8knhyiq2TvcJNy8rFXkbke6Zhy_JKu-dl-53U3f7H3Su__74Fc48yD24YzOGugKavxZQvAi4XafttBS6OobPbOQ5eo-iF0L-rReppECUD4T1gHytJhiSqcgRf-vzU5C1inA7YqEA6SVtiBJ7aKtJ_wInZ31Jep89O7G7IjKjoPA1-HoOeGAEKYh6Gc"
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "FanGraphs",
+    "Prospect361",
+    "Wisconsin Sports Heroics",
+    "Reviewing the Brew",
+    "r/Brewers"
+  ],
+  "confidence": "medium",
+  "brewerFanaticLinks": [
+    {
+      "title": "Brewers Minor League Link Report (6/10): Wake up, Brewers Fans. C Marco ...",
+      "url": "https://brewerfanatic.com/forums/topic/45296-brewers-minor-league-link-report-610-wake-up-brewers-fans-c-marco-dinges-is-capital-special/",
+      "date": "2025-06",
+      "type": "forum"
+    },
+    {
+      "title": "Brewers Minor League Link Report (6/25): INF Ethan Murray Continues to ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-625-inf-ethan-murray-continues-to-put-2024-in-the-rearview-mirror-josé-anderson-is-maturing-in-real-time-r3519/",
+      "date": "2025-06",
+      "type": "article"
+    }
+  ],
+  "recentNews": [
+    {
+      "title": "Jose Anderson Latest Transactions",
+      "source": "MLB.com",
+      "date": "2026-02-24",
+      "url": "https://www.mlb.com/player/jose-anderson-821262",
+      "summary": "José Anderson's roster status was changed by the Milwaukee Brewers on February 24, 2026, after previously being assigned to the Carolina Mudcats from ACL Brewers on May 20, 2025, and activated by ACL Brewers on April 30, 2025."
+    },
+    {
+      "title": "Jose Anderson's two-run single",
+      "source": "MLB.com",
+      "date": "2025-03-24",
+      "url": "https://www.mlb.com/brewers/video/jose-anderson-s-two-run-single-03-24-2025",
+      "summary": "José Anderson hit a two-run single to left field, giving the Brewers a 4-2 lead in the top of the 7th inning."
+    },
+    {
+      "title": "Jose Anderson's two-run home run",
+      "source": "MLB.com",
+      "date": "2025-03-16",
+      "url": "https://www.mlb.com/brewers/video/jose-anderson-s-two-run-home-run-03-16-2025",
+      "summary": "José Anderson hit a two-run home run to left-center field during a Spring Breakout game, cutting the Brewers prospects' deficit to 8-4 in the bottom of the 4th inning."
+    },
+    {
+      "title": "mlb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5COsjM6DubV_I9MyFweaYWqldBNJc-6p8zdVzKRA5JxDjuLHbX_CsjDLDa4QurwMUzdCHj1teJKKPsHi5pC4NB3KNiH6K6j3sR6ZmFIOq2nel-087ZhTFTWUas-QHD-QeSyV-i9tHPCokLqqHNq5gbOSYr3oBS7Q=",
+      "summary": ""
+    },
+    {
+      "title": "mlb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCs5D6YV_HVYZiGur_bQunaMtUGNmJzIXeXOZ5bKMQhxBC2Kv7jEQD5ib0wHNAcMKZDkn7cpT8vOvyI4-bRJrCZ4NplLb-LnSOiERwX85DdjB4HwbSftrXge72paWo620LkiC3-QB0Z0ZfCuRI9njuhRqYYc4=",
+      "summary": ""
+    },
+    {
+      "title": "mlb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWCU4KFuDNTwtkkes2CzrWQkOsc4ORwV8au82DaofYUscL-xeOP3EMg_rUzO9hGePpP-geI3kGgIFKdRAUWz4QJdwU0VWviP4-zOeRbh1WfivVTkGk2O3Tesd58n9a-pKD1B2P4ZzVGT3pYVD4ED1tpBVDVhNxwpJ0NaME-nrWse5LuLKf3FRWH3nSz9VHwoWMTylDzxOOIWczIa5TOjj_F9M5VDrV",
+      "summary": ""
+    },
+    {
+      "title": "mlb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGi1XFgIYGabHrELKGwPPzgbd_V2Ki5-LO24ARvs6_-_C9Ltravp_ZVSxKgsPlTMe1-xgRAWlBD2gRbnAtmRWnVx6V902EAzTPXQxL-DPKGAzOjPbwgRJebjuVCznl3d5J86m6_GbeR4Js4",
+      "summary": ""
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Brewers prospect Jose Anderson tallies four hits",
+      "channel": "MiLB.com",
+      "date": "2025-09-03",
+      "url": "https://www.youtube.com/results?search_query=MiLB.com+Jose+Anderson+tallies+four+hits",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Jose Anderson's three-run homer",
+      "channel": "MiLB.com",
+      "date": "2025-07-01",
+      "url": "https://www.milb.com/wilson/video/jose-anderson-s-three-run-homer-07-01-2025",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Jose Anderson's two-run single",
+      "channel": "MLB.com",
+      "date": "2025-03-24",
+      "url": "https://www.mlb.com/brewers/video/jose-anderson-s-two-run-single-03-24-2025",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Jose Anderson's two-run home run",
+      "channel": "MLB.com",
+      "date": "2025-03-16",
+      "url": "https://www.mlb.com/brewers/video/jose-anderson-s-two-run-home-run-03-16-2025",
+      "type": "highlights",
+      "urlType": "direct"
+    }
+  ]
+}

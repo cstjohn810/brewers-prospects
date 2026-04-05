@@ -1,0 +1,165 @@
+{
+  "playerId": "handelfry-encarnacion",
+  "name": "Handelfry Encarnacion",
+  "position": "OF",
+  "level": "ACL",
+  "age": 18,
+  "updatedAt": "2026-04-04T19:46:17.066Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": 20,
+    "power": 20,
+    "run": 45,
+    "field": 45,
+    "arm": null,
+    "ofp": 35,
+    "risk": null
+  },
+  "rankings": [
+    {
+      "source": "FanGraphs The Board",
+      "rank": null,
+      "systemRank": 38,
+      "grade": "35+",
+      "listName": "Milwaukee Brewers Top 53 Prospects",
+      "date": "2025-11",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeCLKADpVeBAcSC59SX2Nf8w9BvTxS43OBclYxpv6FWomTluHNUCUo2MzR25shpJuKjQcjORDANFSPcF9784JQfvR1_qG9RPivlWe6G2ZfuUUT3lEM1w4pqZj-fXzoJkB_M6IZr9vSxE7xRIHTu78tFnyl702GMre8ZQ=="
+    }
+  ],
+  "summary": "Handelfry Encarnacion is a young, left-handed outfielder with impressive raw power, evidenced by exit velocities up to 118.5 mph. He demonstrates solid swing decisions and good bat-to-ball skills with a flat swing path. Currently in A-ball, he projects for an MLB ETA of 2029.",
+  "strengths": [
+    "Plus raw power",
+    "Good plate discipline",
+    "Above-average speed"
+  ],
+  "concerns": [
+    "Game power needs to develop",
+    "Defense TBD"
+  ],
+  "eta": "2029",
+  "mediaReferences": [
+    {
+      "type": "youtube",
+      "title": "Encarnacion's Big Bat",
+      "source": "Prospects Live",
+      "date": "2026-02",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiUVeDbS79P_V3y3UJfD3ufpIjygjNTuRTZbDvpJPjST3eQWuyvx9B_XFMEas50v9QK7VBkhkr9icb1kCYWKDpfPZapwAezp5WmBrqPeyiWegI1NKGbSqcLO_D8PEu0mekazWfGw=="
+    }
+  ],
+  "sourcesConsulted": [
+    "FanGraphs",
+    "Baseball America",
+    "Prospects Live"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [
+    {
+      "title": "Brewers Minor League Link Report (4/3): Burke&#x27;s Blasts, Adams&#x27; Slam ...",
+      "url": "https://brewerfanatic.com/forums/topic/46989-brewers-minor-league-link-report-43-burkes-blasts-adams-slam-mercedes-start-highlight-3-win-friday/",
+      "date": "2026-04",
+      "type": "forum"
+    },
+    {
+      "title": "Brewers Minor League Link Report (8/20): Made Continues to Shine in ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-820-made-continues-to-shine-in-high-a-manuel-rodriguez-pitches-master-class-r3724/",
+      "date": "2025-08",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (8/5): Made and Peña Impress in High-A ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-85-made-and-peña-impress-in-high-a-debuts-newly-acquired-miller-aces-his-sounds-rehab-debut-r3676/",
+      "date": "2025-08",
+      "type": "article"
+    },
+    {
+      "title": "Tue. 8/19 - DSL Season Ends, The Full-Season Squads Roll On",
+      "url": "https://brewerfanatic.com/forums/topic/45898-tue-819-dsl-season-ends-the-full-season-squads-roll-on/",
+      "date": "2025-08",
+      "type": "forum"
+    },
+    {
+      "title": "Brewer Minor League Link Report (6/24): Dinges and Made are Shining ...",
+      "url": "https://brewerfanatic.com/forums/topic/45414-brewer-minor-league-link-report-624-dinges-and-made-are-shining-defensively-handelfry-is-mashing-in-the-desert/",
+      "date": "2025-06",
+      "type": "forum"
+    },
+    {
+      "title": "Brewers Minor League Link Report (6/3): Peña, Bitonti, and Cornielle ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-63-peña-bitonti-and-cornielle-shine-early-news-is-favorable-for-brandon-woodruffs-elbow-r3436/",
+      "date": "2025-06",
+      "type": "article"
+    },
+    {
+      "title": "2025 Minor League Transaction Thread - Page 23 - Brewers Minor League ...",
+      "url": "https://brewerfanatic.com/forums/topic/44208-2025-minor-league-transaction-thread/page/23/",
+      "date": "2025-01",
+      "type": "forum"
+    },
+    {
+      "title": "Wed. 7/17: Another Trio of Rookie-Level Games - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/forums/topic/43097-wed-717-another-trio-of-rookie-level-games/",
+      "date": "2024-07",
+      "type": "forum"
+    },
+    {
+      "title": "Brewers Minor League Link Report (6/15): Timber ... - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-615-timber-rattlers-on-the-playoff-cusp-mudcats-not-there-yet-r2273/",
+      "date": "2024-06",
+      "type": "article"
+    }
+  ],
+  "recentNews": [
+    {
+      "title": "Handelfry Encarnacion assigned to Milwaukee Brewers Prospects",
+      "source": "MiLB.com",
+      "date": "2026-03-22",
+      "url": "https://www.milb.com/player/handelfry-encarnacion-694294",
+      "summary": "Outfielder Handelfry Encarnacion was assigned to Milwaukee Brewers Prospects on March 22, 2026."
+    },
+    {
+      "title": "Handelfry Encarnacion assigned to Milwaukee Brewers",
+      "source": "MiLB.com",
+      "date": "2026-03-05",
+      "url": "https://www.milb.com/player/handelfry-encarnacion-694294",
+      "summary": "Outfielder Handelfry Encarnacion was assigned to the Milwaukee Brewers on March 5, 2026."
+    },
+    {
+      "title": "Handelfry Encarnacion assigned to Carolina Mudcats",
+      "source": "MiLB.com",
+      "date": "2025-08-05",
+      "url": "https://www.milb.com/player/handelfry-encarnacion-694294",
+      "summary": "Outfielder Handelfry Encarnacion was assigned to the Carolina Mudcats from the ACL Brewers on August 5, 2025."
+    },
+    {
+      "title": "ACL Brewers activated OF Handelfry Encarnacion",
+      "source": "MiLB.com",
+      "date": "2025-04-30",
+      "url": "https://www.milb.com/player/handelfry-encarnacion-694294",
+      "summary": "The ACL Brewers activated outfielder Handelfry Encarnacion on April 30, 2025."
+    },
+    {
+      "title": "Handelfry Encarnacion assigned to ACL Brewers",
+      "source": "MiLB.com",
+      "date": "2025-04-30",
+      "url": "https://www.milb.com/player/handelfry-encarnacion-694294",
+      "summary": "Outfielder Handelfry Encarnacion was assigned to the ACL Brewers from DSL Brewers Blue on April 30, 2025."
+    },
+    {
+      "title": "milb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvKr_eQmU7pIdk7-GGj9895W8Fb4T_UenaiZSlV7KsTLrCSN2y4x4bcaR8yT0eRlOf9jKOFG66HlYUeurLyyFPY-0YTFzekBhI9Pft4FoEgncvCdl0e9WTPj5LQZCbcP7BqtC8dyKZ8rFck0HQiikjNc6R",
+      "summary": ""
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Encarnacion's Big Bat",
+      "channel": "MiLB",
+      "date": "2026-02-05",
+      "url": "https://www.youtube.com/results?search_query=MiLB+Handelfry+Encarnacion",
+      "type": "highlights",
+      "urlType": "search"
+    }
+  ]
+}

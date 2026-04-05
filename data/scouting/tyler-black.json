@@ -1,0 +1,359 @@
+{
+  "playerId": "tyler-black",
+  "name": "Tyler Black",
+  "position": "3B",
+  "level": "ACL",
+  "age": 25,
+  "updatedAt": "2026-04-04T19:35:09.394Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": 60,
+    "power": 40,
+    "run": 55,
+    "field": 45,
+    "arm": 45,
+    "ofp": 55,
+    "risk": "Medium"
+  },
+  "rankings": [
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 27,
+      "grade": "40",
+      "listName": "Brewers Organization Prospect Rankings",
+      "date": "2026-03",
+      "url": "https://www.baseballamerica.com/players/120281/tyler-black/"
+    },
+    {
+      "source": "FanGraphs The Board",
+      "rank": 10,
+      "systemRank": null,
+      "grade": "40+",
+      "listName": "Top 100 Prospects",
+      "date": "2026-03",
+      "url": "https://www.fangraphs.com/prospects/the-board"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 8,
+      "grade": null,
+      "listName": "Brewers Top Prospects",
+      "date": "2026",
+      "url": "https://www.milb.com/brewers/prospects/tyler-black-678028"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": 73,
+      "systemRank": null,
+      "grade": null,
+      "listName": "Top 100 MLB Prospects",
+      "date": "2024-05",
+      "url": "https://www.youtube.com/watch?v=kR6J1XwN3qI"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": 5,
+      "systemRank": null,
+      "grade": null,
+      "listName": "Best 3B Prospect",
+      "date": "2024-01",
+      "url": "https://www.reddit.com/r/Brewers/comments/19e9t8r/tyler_black_comes_in_at_5_best_3b_prospect/"
+    }
+  ],
+  "summary": "Tyler Black is an offensive-minded prospect known for elite plate discipline and high on-base ability, combined with plus speed. While he makes consistent contact, his power is projected to be modest. He is a versatile defender, having played second base, third base, and outfield, but his below-average arm strength and lack of a true defensive home are concerns. Injuries have impacted his development, and he is working to establish a consistent role in the majors. He debuted in MLB in April 2024 but has had brief call-ups and was optioned to Triple-A Nashville in March 2026.",
+  "strengths": [
+    "Elite plate discipline",
+    "Plus speed",
+    "On-base ability"
+  ],
+  "concerns": [
+    "Defensive home",
+    "Below-average arm",
+    "Modest power",
+    "Injury history"
+  ],
+  "eta": "2026",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Tyler Black's RBI single",
+      "source": "MLB.com",
+      "date": "2026-03",
+      "url": "https://www.mlb.com/video/tyler-black-s-rbi-single-x8995"
+    },
+    {
+      "type": "article",
+      "title": "How Will Tyler Black Impact The Brewers? | BA Prospect Profile",
+      "source": "Baseball America",
+      "date": "2024-05",
+      "url": "https://www.baseballamerica.com/stories/how-will-tyler-black-impact-the-brewers-ba-prospect-profile/"
+    },
+    {
+      "type": "youtube",
+      "title": "Tyler Black makes his Brewers debut! | Prospect Profile",
+      "source": "MLB.com",
+      "date": "2024-05",
+      "url": "https://www.youtube.com/watch?v=kR6J1XwN3qI"
+    },
+    {
+      "type": "article",
+      "title": "Tyler Black Comes In At #5 Best 3B Prospect According To MLB Pipeline",
+      "source": "r/Brewers (referencing MLB Pipeline)",
+      "date": "2024-01",
+      "url": "https://www.reddit.com/r/Brewers/comments/19e9t8r/tyler_black_comes_in_at_5_best_3b_prospect/"
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "FanGraphs",
+    "MiLB.com",
+    "Reddit",
+    "Reviewing the Brew",
+    "Canadian Baseball Network",
+    "Just Baseball"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [
+    {
+      "title": "Tyler Black - 2026 Milwaukee Brewers Top Prospects Ranking - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-top-prospect-rankings/tyler-black-r12/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Tyler Black&#x27;s Power Surge Has Revived His Career Prospects",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/tyler-blacks-power-surge-has-revived-his-career-prospects-r4302/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Is 2026 a Make-or-Break Year for Brewers&#x27; Tyler Black?",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/is-2026-a-make-or-break-year-for-brewers-tyler-black-r4005/",
+      "date": "2025-12",
+      "type": "article"
+    },
+    {
+      "title": "Are the Brewers Blowing It with Tyler Black? - brewerfanatic.com",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/are-the-brewers-blowing-it-with-tyler-black-r3102/",
+      "date": "2025-03",
+      "type": "article"
+    },
+    {
+      "title": "Make Or Break Players On The 2025 Brewers: Tyler Black",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/make-or-break-players-on-the-2025-brewers-tyler-black-r3057/",
+      "date": "2025-02",
+      "type": "article"
+    },
+    {
+      "title": "Tyler Black Won&#x27;t (and Shouldn&#x27;t) Make the 2025 Brewers, at Least Right ...",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/tyler-black-wont-and-shouldnt-make-the-2025-brewers-at-least-right-away-r3091/",
+      "date": "2025-02",
+      "type": "article"
+    },
+    {
+      "title": "Tyler Black Has Options Remaining, But That Doesn&#x27;t Make Him More ...",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/tyler-black-has-options-remaining-but-that-doesnt-make-him-more-helpful-to-the-brewers-r2900/",
+      "date": "2024-12",
+      "type": "article"
+    },
+    {
+      "title": "What to do with Tyler Black - Milwaukee Brewers Talk - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/forums/topic/44139-what-to-do-with-tyler-black/",
+      "date": "2024-12",
+      "type": "forum"
+    },
+    {
+      "title": "Brewer Fanatic 2024 Offseason Top 20 Prospects - No. 5: Tyler Black",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewer-fanatic-2024-offseason-top-20-prospects-no-5-tyler-black-r2758/",
+      "date": "2024-11",
+      "type": "article"
+    },
+    {
+      "title": "How Close is Tyler Black to Being a Force at the Plate in MLB?",
+      "url": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/tyler-black-batted-ball-data-brewers-prospects/",
+      "date": "2024-04",
+      "type": "article"
+    }
+  ],
+  "recentNews": [
+    {
+      "title": "Black played well for the Brewers in the Cactus League",
+      "source": "CBS Sports",
+      "date": "2026-04-02",
+      "url": "https://www.cbssports.com/mlb/players/playerpage/3180424/tyler-black/",
+      "summary": "Tyler Black performed well for the Brewers in the Cactus League, going 11-for-20 with 14 RBI, six runs scored, and three steals in six games, although he cooled down playing for Canada in the World Baseball Classic and is expected to spend most of the 2026 season in Nashville."
+    },
+    {
+      "title": "Brewers' Tyler Black: Sizzling early this spring",
+      "source": "Rotowire (via CBS Sports)",
+      "date": "2026-02-27",
+      "url": "https://www.cbssports.com/mlb/players/playerpage/3180424/tyler-black/",
+      "summary": "Tyler Black had a strong start to Spring Training in 2026, hitting .667 with a home run, two doubles, a triple, eight RBIs, and three stolen bases through four games, making a case for a spot on the Brewers' roster despite defensive uncertainty."
+    },
+    {
+      "title": "3 Brewers with the most to prove in 2026 Spring Training",
+      "source": "Reviewing the Brew",
+      "date": "2026-02-18",
+      "url": "https://www.reviewingthebrew.com/posts/3-brewers-most-to-prove-2026-spring-training-milwaukee-tyler-black-joan-yoho-joseph-costello-01hqyvrmb8x5",
+      "summary": "Tyler Black enters 2026 Spring Training needing to prove his ability to carve out a consistent role at the big-league level, showcasing his offensive approach, speed, and settling into a defined defensive position."
+    },
+    {
+      "title": "Brewers' Tyler Black: Returning to Triple-A",
+      "source": "Rotowire (via CBS Sports)",
+      "date": "2025-08-18",
+      "url": "https://www.cbssports.com/mlb/players/playerpage/3180424/tyler-black/",
+      "summary": "Tyler Black was optioned back to Triple-A Nashville after a brief call-up to the Brewers when other players were placed on the bereavement and paternity lists."
+    },
+    {
+      "title": "Brewers' Tyler Black: Closing in on 2025 Triple-A debut",
+      "source": "CBS Sports",
+      "date": "2025",
+      "url": "https://www.cbssports.com/mlb/players/playerpage/3180424/tyler-black/",
+      "summary": "Black, recovering from a hamate fracture in his right hand, made six appearances in the rookie-level Arizona Complex League during his rehab assignment before his anticipated Triple-A debut."
+    },
+    {
+      "title": "Brewers' Tyler Black: Makes season debut at Triple-A",
+      "source": "CBS Sports",
+      "date": "2025",
+      "url": "https://www.cbssports.com/mlb/players/playerpage/3180424/tyler-black/",
+      "summary": "Tyler Black was cleared to make his 2025 Triple-A debut after recovering from surgery to repair a fractured right hand and completing a rehab assignment in the rookie-level Arizona Complex League."
+    },
+    {
+      "title": "cbssports.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtNz4BnSgz_Pbq2n63loMEdZnJZ1KMLwjn3SajXDc3oncAIdWN32DpWBdjFGdje5slidEYTOY1idrs1nMNXLbvIqTprHQkwtImWAbIzxkuO5xrIhXGQpSerlMY2oMCmRPtZqxhrn-gOrNeGIIMQRIRmuTBsvrv",
+      "summary": ""
+    },
+    {
+      "title": "mlb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0LMe-NIBJOS2QuLsGp1uMkbZFp0tZO70BNTrS_bkOyS6L9jQLz6JPhzWZTDbVx94AuM28a6pkzD5lBve255ZJJ1BD1mRXv5duGB9LXxY-MATqbR1SRcpGZFRzxRP1_0YQWnVx2pGEkA==",
+      "summary": ""
+    },
+    {
+      "title": "reviewingthebrew.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxSn-trmEfWJtkV40HEKo60DR1JrucYnFiO7vzLL7ACqB-wST7JkBRVlSKrZfKPp8txmgYUr6xQSd1SX_cffnJqZ0ERAkEWQVu4GSlAmWAzYX6zb1hUlZRt5X-PaScc4CKsLKZ_56Ormy3F-wA8cOkOPhYPgS_FM6zEi0EZvAVGsQL4G-uIMbk-5Z_QW8paSVyBCz9mdzUsyxDYm_8",
+      "summary": ""
+    },
+    {
+      "title": "Tyler Black Stats, Age, Position, Height, Weight, Fantasy & News",
+      "source": "MLB.com",
+      "date": null,
+      "url": "https://www.mlb.com/player/tyler-black-672582",
+      "summary": "Tyler Black underwent surgery on March 26, 2025, to repair a fractured hamate bone in his right hand, appeared in 10 rehab games, batted .243 in 61 Triple-A games, and had two stints with Milwaukee in 2025."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Tyler Black's two-run triple",
+      "channel": "MLB.com",
+      "date": "2026-03-18",
+      "url": "https://www.youtube.com/results?search_query=MLB.com+Tyler+Black+two-run+triple",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Tyler Black's RBI single",
+      "channel": "MLB.com",
+      "date": "2026-03-13",
+      "url": "https://www.youtube.com/results?search_query=MLB.com+Tyler+Black+RBI+single",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Tyler Black's three-run home run",
+      "channel": "MiLB.com",
+      "date": "2025-09-20",
+      "url": "https://www.youtube.com/results?search_query=MiLB.com+Tyler+Black+three-run+home+run",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Tyler Black swats a solo homer",
+      "channel": "MiLB.com",
+      "date": "2025-07-09",
+      "url": "https://www.youtube.com/results?search_query=MiLB.com+Tyler+Black+solo+homer",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Tyler Black 2024 Minor League Highlights!",
+      "channel": "Baseball is Everything Network",
+      "date": "2025-02-03",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs-FCY0w57kY6wa9CMKgGg49DFB1Mbu5OBKT9K8penJIRTjyCu9Wq3neOtmdAvOxqgAU4i1cJoDemhe9wtr7oqDgU8DkqrFr2L8EQQwuMAXUJUmeoK1Wf65muoXw9u06cchm2kMCg=",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Tyler Black's two-run homer",
+      "channel": "MiLB.com",
+      "date": "2024-09-22",
+      "url": "https://www.youtube.com/results?search_query=MiLB.com+Tyler+Black+two-run+homer",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Tyler Black's solo home run",
+      "channel": "MiLB.com",
+      "date": "2024-09-21",
+      "url": "https://www.youtube.com/results?search_query=MiLB.com+Tyler+Black+solo+home+run",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Tyler Black's amazing diving play",
+      "channel": "MiLB.com",
+      "date": "2024-09-10",
+      "url": "https://www.youtube.com/results?search_query=MiLB.com+Tyler+Black+amazing+diving+play",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Tyler Black's four-RBI performance",
+      "channel": "MiLB.com",
+      "date": "2024-08-27",
+      "url": "https://www.youtube.com/results?search_query=MiLB.com+Tyler+Black+four-RBI+performance",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Tyler Black's two-run homer",
+      "channel": "Minor League Baseball",
+      "date": "2024-08-04",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUIcKYdLKkkM-Jrwe1fXhmDLtl-fdum5lL2Sn_oKJTFdQIoP77Vekm9Xv15Ha7eSdgp1GWLcAWxY-LsBPoI7FgVLPXLzHQsVJSt-OrM3pqnYCZhLDApeYsKywWuFoaywLpyeXcwgQ=",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brewers' Tyler Black belts a grand slam",
+      "channel": "Minor League Baseball",
+      "date": "2024-06-02",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXf_b2gA_lvJQZ6HfQvWsK0Jg2rmfEJajRYxTbaYgqo_EM3ZSH-5EiaYu9RbIqNLqmwcBcyxfFxtO6TJ1mVgpL-XOEEsBtrSu8ucOmSHXejX6w-pPSkaf-AzzngT8ymG7vLTZGZQw=",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Tyler Black homers twice",
+      "channel": "Minor League Baseball",
+      "date": "2024-04-29",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcKn4HiIdA-j9zgse3b6utBbAoUZmbxN9AySmmhOMLgpiAeBlbvxC29ucDg-iBRsAyiwuXo1F9sz2uZlMZxYOgbYb918_i3-Nu34ub-hqQCl0nbn46qJqcE1iknW9PNAutnNyt2k=",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Tyler Black can play anywhere on the diamond",
+      "channel": "Minor League Baseball",
+      "date": "2024-04-22",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtzCNsuU_IURfNZuxZzgyKRshdDLhW_V4XNUvEZ2B8n3PBR5IfYt-moacVCKOYIfR_FUikWayk9FLKD_p5omp_RKbrWyanLBfyWYqrbOlh9mVNPi8CdQ-qadqgD4LpoNDKfwfBG2U=",
+      "type": "highlights",
+      "urlType": "direct"
+    }
+  ]
+}
