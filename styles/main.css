@@ -33,6 +33,7 @@
   --font-display: 'Rajdhani', sans-serif;
   --font-mono:    'IBM Plex Mono', monospace;
   --font-body:    'Source Serif 4', Georgia, serif;
+  --font-stats:   'Cascadia Mono', 'IBM Plex Mono', Consolas, 'SFMono-Regular', monospace;
 
   --radius:     6px;
   --radius-lg:  10px;
