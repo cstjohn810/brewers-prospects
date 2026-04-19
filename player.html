@@ -828,6 +828,40 @@
       margin-top: 4px;
     }
 
+    /* ── External links ────────────────────────────────────────────────── */
+    .ext-links {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+    }
+
+    .ext-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 10px;
+      background: var(--surface2);
+      border-radius: var(--radius);
+      text-decoration: none;
+      color: var(--text);
+      font-size: 12px;
+      font-family: var(--font-body);
+      transition: background var(--transition), color var(--transition);
+    }
+
+    .ext-link:hover {
+      background: var(--surface3);
+      color: var(--gold);
+    }
+
+    .ext-link-icon {
+      font-size: 10px;
+      flex-shrink: 0;
+    }
+
     /* ── Empty state ───────────────────────────────────────────────────────── */
     .empty-state {
       font-family: var(--font-display);
@@ -927,6 +961,7 @@
           stats2025:   base.stats2025,
           stats2026:   base.stats2026,
           id:          base.id,
+          mlbId:       base.mlbId,
           affiliate:   base.affiliate,
           height:      base.height,
           weight:      base.weight,
@@ -951,6 +986,15 @@
       if (g >= 50) return 'fill-50';
       if (g >= 45) return 'fill-45';
       return 'fill-sub';
+    }
+
+    function slugifyName(name) {
+      return name
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-|-$/g, '');
     }
 
     function gradeColor(g) {
@@ -1590,7 +1634,14 @@
         + '<div class="meta-tile"><div class="mt-val" style="color:'+riskColor(risk)+'">'+risk+'</div><div class="mt-lbl">Risk</div></div>'
         + '<div class="meta-tile"><div class="mt-val">'+(p.confidence||'\u2014')+'</div><div class="mt-lbl">Coverage</div></div>'
         + '<div class="meta-tile"><div class="mt-val">'+((p.updatedAt||'').slice(0,10))+'</div><div class="mt-lbl">Updated</div></div>'
-        + '</div></div>'
+        + '</div>'
+        + (p.mlbId ? '<div class="ext-links">'
+          + '<a href="https://baseballsavant.mlb.com/savant-player/' + slugifyName(p.name) + '-' + p.mlbId + '?stats=career-r-hitting-milb" target="_blank" rel="noopener" class="ext-link">'
+          + '<span class="ext-link-icon">\u26F2</span>'
+          + '<span>Baseball Savant</span>'
+          + '</a>'
+          + '</div>' : '')
+        + '</div>'
 
         /* TABS: Rankings / News / Video */
         + '<div class="side-card">'

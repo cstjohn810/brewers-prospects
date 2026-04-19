@@ -1,0 +1,378 @@
+{
+  "playerId": "luis-pena",
+  "name": "Luis Peña",
+  "position": "SS",
+  "level": "A+",
+  "age": 19,
+  "updatedAt": "2026-04-19T13:59:31.263Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": 55,
+    "power": 55,
+    "run": 70,
+    "field": 45,
+    "arm": 55,
+    "ofp": 55,
+    "risk": "High"
+  },
+  "rankings": [
+    {
+      "source": "Just Baseball",
+      "rank": 18,
+      "systemRank": 2,
+      "grade": null,
+      "listName": "Top 100 Prospects / Milwaukee Brewers Top 15 Prospects",
+      "date": "2026-04",
+      "url": "https://justbaseball.com/prospects/milwaukee-brewers-top-15-prospects/"
+    },
+    {
+      "source": "Prospect361",
+      "rank": 15,
+      "systemRank": null,
+      "grade": null,
+      "listName": "Top 100 Prospects",
+      "date": "2026-04",
+      "url": "https://prospect361.com/prospect-rankings/top-100-prospects-in-baseball/"
+    },
+    {
+      "source": "MLB Pipeline",
+      "rank": 26,
+      "systemRank": 2,
+      "grade": "55",
+      "listName": "Top 100 Prospects / Brewers Top 30",
+      "date": "2026-03",
+      "url": "https://www.milb.com/player/luis-pena-821270"
+    },
+    {
+      "source": "Baseball America",
+      "rank": 47,
+      "systemRank": 2,
+      "grade": "60/High",
+      "listName": "Top 100 Prospects / Milwaukee Brewers Top Prospects",
+      "date": "2026-02",
+      "url": "https://www.baseballamerica.com/players/151740/luis-pena/"
+    },
+    {
+      "source": "FanGraphs OOPSY",
+      "rank": 24,
+      "systemRank": null,
+      "grade": null,
+      "listName": "OOPSY 2026 Top 100 Prospects",
+      "date": "2026-02",
+      "url": "https://blogs.fangraphs.com/oopsy-2026-top-100-prospects/"
+    },
+    {
+      "source": "FanGraphs ZiPS",
+      "rank": 24,
+      "systemRank": null,
+      "grade": null,
+      "listName": "ZiPS 2026 Top 100 Prospects",
+      "date": "2026-02",
+      "url": "https://blogs.fangraphs.com/zips-2026-top-100-prospects/"
+    }
+  ],
+  "summary": "Luis Peña is an athletic, offensive-minded infielder for the Milwaukee Brewers, known for his impressive bat-to-ball skills and plus-plus speed. He has shown improved power, reaching High-A as a teenager. While his defense at shortstop is considered shaky, his athleticism and arm strength suggest he could develop at second or third base.",
+  "strengths": [
+    "Advanced bat-to-ball skills",
+    "Plus-plus speed",
+    "Emerging power",
+    "Plus arm",
+    "Athleticism"
+  ],
+  "concerns": [
+    "Shaky shortstop defense",
+    "Aggressive approach",
+    "Chase tendencies on breaking balls",
+    "Contact rate in High-A"
+  ],
+  "eta": "2028",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Brewers Phenom Luis Peña Kicking Off 2026 With Loud Statement",
+      "source": "Sports Illustrated",
+      "date": "2026-04",
+      "url": "https://www.si.com/mlb/brewers/news/brewers-phenom-luis-pena-kicking-off-2026-with-loud-statement"
+    },
+    {
+      "type": "article",
+      "title": "Brewers' Peña (MLB's No. 21 prospect) continues hot start with first homer of '26",
+      "source": "MiLB.com",
+      "date": "2026-04",
+      "url": "https://www.milb.com/milb/news/brewers-pena-mlb-s-no-21-prospect-continues-hot-start-with-first-homer-of-26"
+    },
+    {
+      "type": "youtube",
+      "title": "Brewers No. 2 prospect Luis Peña crushes an opposite-field three-run homer! (He's only 19! )",
+      "source": "YouTube",
+      "date": "2026-03",
+      "url": "https://www.youtube.com/watch?v=F_Yc2-6uY2A"
+    },
+    {
+      "type": "youtube",
+      "title": "Brewers Prospect Luis Peña's Full Scouting Report",
+      "source": "YouTube",
+      "date": "2026-03",
+      "url": "https://www.youtube.com/watch?v=R2j1P0_8A-Q"
+    },
+    {
+      "type": "article",
+      "title": "Luis Pena discusses Spring Breakout, opportunity",
+      "source": "MLB.com",
+      "date": "2026-03",
+      "url": "https://www.mlb.com/brewers/video/luis-pena-discusses-spring-breakout-opportunity-c12488812"
+    },
+    {
+      "type": "article",
+      "title": "Luis Peña draws comparisons to fellow Brewers prospect Jesús Made",
+      "source": "MiLB.com",
+      "date": "2026-03",
+      "url": "https://www.milb.com/news/brewers-prospect-luis-pena-draws-comparisons-to-jesus-made"
+    },
+    {
+      "type": "article",
+      "title": "Brewers 19-Year-Old Star Infielder Already Turning Heads",
+      "source": "Sports Illustrated",
+      "date": "2026-02",
+      "url": "https://www.si.com/mlb/brewers/news/brewers-19-year-old-star-infielder-already-turning-heads"
+    },
+    {
+      "type": "article",
+      "title": "Down on the Farm: Brewers Top Prospects Notes",
+      "source": "Just Baseball",
+      "date": "2026-02",
+      "url": "https://justbaseball.com/prospects/down-on-the-farm-brewers-top-prospects-notes/"
+    },
+    {
+      "type": "article",
+      "title": "Luis Pena Stats & Scouting Report",
+      "source": "Baseball America",
+      "date": "2026-02",
+      "url": "https://www.baseballamerica.com/players/151740/luis-pena/"
+    },
+    {
+      "type": "podcast",
+      "title": "FBB 037 - The Brew Crew with Curt Hogg",
+      "source": "Pitcher List",
+      "date": "2025-09",
+      "url": "https://www.pitcherlist.com/articles/fbb-037-the-brew-crew-with-curt-hogg/"
+    }
+  ],
+  "sourcesConsulted": [
+    "MLB Pipeline",
+    "Baseball America",
+    "Just Baseball",
+    "FanGraphs",
+    "Prospect361",
+    "Sports Illustrated",
+    "MiLB.com",
+    "MLB.com",
+    "Baseball HQ",
+    "Pitcher List"
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [
+    {
+      "title": "Four Shortstops? Five, Even? No Problem! - Minor Leagues - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/four-shortstops-five-even-no-problem-r4317/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Luis Peña&#x27;s Full Scouting Report - Milwaukee Brewers Minor League ...",
+      "url": "https://brewerfanatic.com/videos/brewers-minor-leagues/luis-peñas-full-scouting-report-r390/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Milwaukee Brewers 2026 Top Prospects, No. 2: Luis Peña",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/milwaukee-brewers-2026-top-prospects-no-2-luis-peña-r4230/",
+      "date": "2026-03",
+      "type": "article"
+    },
+    {
+      "title": "Video: Luis Peña&#x27;s Full Scouting Report - Brewers Minor League Talk ...",
+      "url": "https://brewerfanatic.com/forums/topic/46851-video-luis-peñas-full-scouting-report/",
+      "date": "2026-03",
+      "type": "forum"
+    },
+    {
+      "title": "Video: Why Luis Peña Is One Of Baseball&#x27;s Best Prospects",
+      "url": "https://brewerfanatic.com/forums/topic/46399-video-why-luis-peña-is-one-of-baseballs-best-prospects/",
+      "date": "2025-11",
+      "type": "forum"
+    },
+    {
+      "title": "Why Luis Peña Is One Of Baseball&#x27;s Best Prospects",
+      "url": "https://brewerfanatic.com/videos/milwaukee-brewers/why-luis-peña-is-one-of-baseballs-best-prospects-r366/",
+      "date": "2025-11",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (8/5): Made and Peña Impress in High-A ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-85-made-and-peña-impress-in-high-a-debuts-newly-acquired-miller-aces-his-sounds-rehab-debut-r3676/",
+      "date": "2025-08",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (6/3): Peña, Bitonti, and Cornielle ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-63-peña-bitonti-and-cornielle-shine-early-news-is-favorable-for-brandon-woodruffs-elbow-r3436/",
+      "date": "2025-06",
+      "type": "article"
+    }
+  ],
+  "recentNews": [
+    {
+      "title": "Luis Peña's first home run of the season",
+      "source": "MLB.com",
+      "date": "2026-04-19",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtnuV1wtRPxgl1oezDe1zWhVMtX-vfvhZcSJbbs-_uu_oEuxY4XPyk6nwRUe_FISQFFnlGXiFytLhGmcg0a-B1b5_kQb6G4mzDHdzKUoQvK-Y4dMXuGhLl_w7PxP3TVojcmo_Pt8dc_L5hBkQxWlNmhu0Qu_dwDP3mdMm9UA==",
+      "summary": "Brewers No. 2 prospect Luis Peña drilled his first home run of the 2026 season in the 5th inning for High-A Wisconsin."
+    },
+    {
+      "title": "Luis Pena Flashing Elite Upside at High-A",
+      "source": "RotoBaller",
+      "date": "2026-04-17",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFknNckrPYySieUucZRGg9YssWZmuGF7r_eID7PMhOM_cGJixO_BkjV9XIAwtSImMAdTo8XmPqkl6wLkvgF2PfdzVSD_MbB_3Orm-fMKIFpUm5cpnBQT9z_b-kbZM89qW9lzlmAn8NTLo9a_RyAIZi0wEcbiscEC-oV8qCMbhvT2SADw9fgV8xOrVp9QSoogi1b4Gk=",
+      "summary": "Milwaukee Brewers infield prospect Luis Peña is enjoying an outstanding start with High-A Wisconsin in 2026, recording at least one hit in his last seven games after going hitless in his season debut, and showing promising adjustment to the level after struggling there in 2025."
+    },
+    {
+      "title": "Brewers Phenom Luis Pena Kicking Off 2026 With Loud Statement",
+      "source": "Sports Illustrated",
+      "date": "2026-04-13",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbBUwI3xM0zgQ-wL0VFbsyDX3eBUguiR0VI1B27SY_lw7wsxhRRh1rmD4s_knQWPdU4hvNneUWZ5r83bGKfw0g-YIxvogkOtKlqYytLf4SFSTVKfuyJq36kT88sbXx99HdxxtXDTzWFDYWs_PrDdNaUPHQZJhO0taLU2EHz9mjhbpSVaODTNM1o32jKXNDUrollqpAjx92ybOdGIJeE-xM1dWtBVkpTSL8_Xc=",
+      "summary": "Milwaukee Brewers' No. 2 prospect Luis Peña is having an outstanding start to the 2026 season with High-A Wisconsin, slashing .500/.593/.650 with a 1.243 OPS, six RBIs, five stolen bases, six walks, a double, a triple, and eight runs scored in six games."
+    },
+    {
+      "title": "Luis Peña's two-run triple",
+      "source": "MLB.com",
+      "date": "2026-04-12",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQbfMJ1nveU3Ot2xDz-Q8VJtrLZMk1zd463VUqIuHhRrlI12Fx3FABOKquppU0ysoBdMYU9BAUuS3AbFltY86zO4VNwKWZmzy4LmeN8dK48fXZFWEo7d-FXWp_Wr9OcaplBzEj1esoVDvEtw-Kik8a3XZU37V9hBdqdkKNrNY1Le06buE1apeDLnxb_8JEOBawwySz51uNXiofldF9Bm2p_Cj7oSPG",
+      "summary": "Luis Peña hit a two-run triple to right field for the Wisconsin Timber Rattlers."
+    },
+    {
+      "title": "Luis Peña walks. Braylon Payne scores. Wild pitch by pitcher Liomar Martinez.",
+      "source": "MLB.com",
+      "date": "2026-04-04",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZ11GhC34lKObgCRDkTxBBtAvW8MJTiBCCHuUBKCHmHtvp2jfHA2I8HTRGpW_vpd28mq76RisWPf_C4drfyEf1fu36mp_6GBPGx-jBFrT5X2_p4WKhAFaCFCA-IzYSjrPE1vn5mGaBwZTOX4iFXsPP7GjPG_o1kjiik_QHSWqRn7PYzqwr4ZLpRiToCOlCVXlI5R71Y71c0puWLiBjBJ0lxIQHuh4L",
+      "summary": "Luis Peña walked, allowing Braylon Payne to score on a wild pitch during a game for the Wisconsin Timber Rattlers."
+    },
+    {
+      "title": "mlb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtnuV1wtRPxgl1oezDe1zWhVMtX-vfvhZcSJbbs-_uu_oEuxY4XPyk6nwRUe_FISQFFnlGXiFytLhGmcg0a-B1b5_kQb6G4mzDHdzKUoQvK-Y4dMXuGhLl_w7PxP3TVojcmo_Pt8dc_L5hBkQxWlNmhu0Qu_dwDP3mdMm9UA==",
+      "summary": ""
+    },
+    {
+      "title": "mlb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQbfMJ1nveU3Ot2xDz-Q8VJtrLZMk1zd463VUqIuHhRrlI12Fx3FABOKquppU0ysoBdMYU9BAUuS3AbFltY86zO4VNwKWZmzy4LmeN8dK48fXZFWEo7d-FXWp_Wr9OcaplBzEj1esoVDvEtw-Kik8a3XZU37V9hBdqdkKNrNY1Le06buE1apeDLnxb_8JEOBawwySz51uNXiofldF9Bm2p_Cj7oSPG",
+      "summary": ""
+    },
+    {
+      "title": "mlb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZ11GhC34lKObgCRDkTxBBtAvW8MJTiBCCHuUBKCHmHtvp2jfHA2I8HTRGpW_vpd28mq76RisWPf_C4drfyEf1fu36mp_6GBPGx-jBFrT5X2_p4WKhAFaCFCA-IzYSjrPE1vn5mGaBwZTOX4iFXsPP7GjPG_o1kjiik_QHSWqRn7PYzqwr4ZLpRiToCOlCVXlI5R71Y71c0puWLiBjBJ0lxIQHuh4L",
+      "summary": ""
+    },
+    {
+      "title": "rotoballer.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFknNckrPYySieUucZRGg9YssWZmuGF7r_eID7PMhOM_cGJixO_BkjV9XIAwtSImMAdTo8XmPqkl6wLkvgF2PfdzVSD_MbB_3Orm-fMKIFpUm5cpnBQT9z_b-kbZM89qW9lzlmAn8NTLo9a_RyAIZi0wEcbiscEC-oV8qCMbhvT2SADw9fgV8xOrVp9QSoogi1b4Gk=",
+      "summary": ""
+    },
+    {
+      "title": "si.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbBUwI3xM0zgQ-wL0VFbsyDX3eBUguiR0VI1B27SY_lw7wsxhRRh1rmD4s_knQWPdU4hvNneUWZ5r83bGKfw0g-YIxvogkOtKlqYytLf4SFSTVKfuyJq36kT88sbXx99HdxxtXDTzWFDYWs_PrDdNaUPHQZJhO0taLU2EHz9mjhbpSVaODTNM1o32jKXNDurollqpAjx92ybOdGIJeE-xM1dWtBVkpTSL8_Xc=",
+      "summary": ""
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Luis Peña's first home run of the season",
+      "channel": "MLB.com",
+      "date": "2026-04-19",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtnuV1wtRPxgl1oezDe1zWhVMtX-vfvhZcSJbbs-_uu_oEuxY4XPyk6nwRUe_FISQFFnlGXiFytLhGmcg0a-B1b5_kQb6G4mzDHdzKUoQvK-Y4dMXuGhLl_w7PxP3TVojcmo_Pt8dc_L5hBkQxWlNmhu0Qu_dwDP3mdMm9UA==",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Luis Peña singles on a sharp line drive to center fielder Asbel Gonzalez.",
+      "channel": "MiLB.com",
+      "date": "2026-04-07",
+      "url": "https://www.milb.com/milb/video/luis-pena-singles-on-a-sharp-line-drive-to-center-fielder-asbel-gonzalez-juan-baez-scores-braylon-payne-to-2nd-04-07-2026",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Luis Peña walks. Braylon Payne scores. Wild pitch by pitcher Liomar Martinez.",
+      "channel": "MLB.com",
+      "date": "2026-04-04",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZ11GhC34lKObgCRDkTxBBtAvW8MJTiBCCHuUBKCHmHtvp2jfHA2I8HTRGpW_vpd28mq76RisWPf_C4drfyEf1fu36mp_6GBPGx-jBFrT5X2_p4WKhAFaCFCA-IzYSjrPE1vn5mGaBwZTOX4iFXsPP7GjPG_o1kjiik_QHSWqRn7PYzqwr4ZLpRiToCOlCVXlI5R71Y71c0puWLiBjBJ0lxIQHuh4L",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Brewers No. 2 prospect Luis Peña crushes an opposite-field three-run homer! (He's only 19! )",
+      "channel": "MLB",
+      "date": "2026-03-20",
+      "url": "https://www.youtube.com/watch?v=R9_uM6D_4gQ",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Luis Peña 2025 Highlights",
+      "channel": "Wisconsin Timber Rattlers",
+      "date": "2026-01-07",
+      "url": "https://www.youtube.com/watch?v=cM35KjT-e1k",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Luis Peña's solo home run",
+      "channel": "Minor League Baseball",
+      "date": "2025-08-13",
+      "url": "https://www.youtube.com/watch?v=Yf1lY1K8pQ0",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Luis Peña homers for High-A Wisconsin",
+      "channel": "Minor League Baseball",
+      "date": "2025-08-06",
+      "url": "https://www.youtube.com/watch?v=xV3fV5V6_p4",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Luis Pena 2025 Minor League Highlights! (Mid-Season)",
+      "channel": "Baseball is Everything Network",
+      "date": "2025-07-22",
+      "url": "https://www.youtube.com/watch?v=Fj-y1oYtU_k",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Luis Peña hits a triple, steals three bases",
+      "channel": "MiLB.com",
+      "date": "2025-06-21",
+      "url": "https://www.milb.com/milb/video/luis-pena-hits-a-triple-steals-three-bases-06-21-2025",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "Luis Peña's home run",
+      "channel": "MiLB.com",
+      "date": "2025-06-12",
+      "url": "https://www.milb.com/milb/video/luis-pena-s-home-run-06-12-2025",
+      "type": "highlights",
+      "urlType": "direct"
+    }
+  ]
+}

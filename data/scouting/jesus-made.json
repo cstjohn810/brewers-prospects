@@ -4,7 +4,8 @@
   "position": "SS",
   "level": "AA",
   "age": 18,
-  "updatedAt": "2026-04-04T02:15:54.379Z",
+  "updatedAt": "2026-04-19T13:56:23.227Z",
+  "pitchGrades": null,
   "grades": {
     "hit": 70,
     "power": 60,
