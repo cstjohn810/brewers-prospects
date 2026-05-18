@@ -1,0 +1,159 @@
+{
+  "adHocPlayer": false,
+  "playerId": "cristopher-acosta",
+  "name": "Cristopher Acosta",
+  "position": "SS",
+  "level": "ACL",
+  "age": 18,
+  "updatedAt": "2026-05-18T14:41:12.329Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": 45,
+    "power": 30,
+    "run": 50,
+    "field": 50,
+    "arm": null,
+    "ofp": 35,
+    "risk": "High"
+  },
+  "rankings": [
+    {
+      "source": "Athlon Sports",
+      "rank": null,
+      "systemRank": 42,
+      "grade": null,
+      "listName": "2025 Milwaukee Brewers Top 50 Prospects June Update",
+      "date": "2025-06-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb-On-KPTUKysHMlW3XW9JwGcOptVpV_7GeYG2CsP17_jVDz8jpUx1Q18YLb9CN1P7LJz6d9eQpAhN5jfWs4dEI4Fpek8S2mm7fyaBZYWFSOznC4vrYIdSQxV_8oc1wqqdFfSIsyt1Ppki6YY6u3bPx-RpOG7O7p44mmUwyO-B3QpfB1dyaGGJK19Jg0M17_yTBDVPx2BKBVluOBc="
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": null,
+      "grade": "35+",
+      "listName": "Milwaukee Brewers Top 45 Prospects",
+      "date": "2025-05-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsDQZLS3b3xi-sTkIkhnQxIP12YYijlE4vKXZAgTV-Jz7urwRn9xT3znttDRH7mB87UO3qOp5YGip3XzcMjXwEXeB5KHV6gjQjBKq-CQ91SYjMm408VO-UKo25ZTGYOxoRVwkSOLj7Q5W7UGJMHcYPJvqz1T942fMY"
+    },
+    {
+      "source": "Baseball America",
+      "rank": null,
+      "systemRank": 35,
+      "grade": null,
+      "listName": "10 Brewers Prospects To Know Beyond The Top 30 in 2025",
+      "date": "2025-02-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVi2ETGHDwtCJR7vfL58xAOYuSUj-CAd1S4_xIkIalm9q3lQNZP8wSRwyl1GVZQ38wXUkSYxZVhSvsMEyzbm7Z-SkIx9xfTy3TA573U6D_7uYf1ia4IW0pJBZq4_0NCmetsycFAIKAnNcgf9gXpRPcXDtoNwxtH4ACEIgFbniqBj03zcOeSt4pHKXfhe5ofbTf72XeEDSnNsk="
+    }
+  ],
+  "summary": "Cristopher Acosta, a Brewers shortstop prospect, was a top international signing in 2025. He is recognized for his elite defensive skills, including quick hands and a strong arm, which project him to stay at shortstop. While his bat is still developing, scouts anticipate future power as he physically matures.",
+  "strengths": [
+    "Elite defensive skills at shortstop",
+    "Quick hands and strong throwing arm",
+    "Potential for future power development"
+  ],
+  "concerns": [
+    "Bat development still a question mark",
+    "Swing can be long"
+  ],
+  "eta": "2028",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "4 Brewers prospects in the Dominican Summer League to keep an eye on",
+      "source": "Wisconsin Sports Heroics",
+      "date": "2025-06-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELj6jxz3tCTk4Wxbgmdo8Q80M0tDI13PKyojoPi9UGsyZCvsx13UxUmJdfBhptTrJ6cEtcRjyyW6EVl9tiCt2tMDOA1mjYUWVcs5xcERZd72BQS20Nna_uTkWdXG3Cu9fwy2Wro8v5VbrP9XSEG7tk3yO5NuzJqGVGfle2GzOjvOK1NKtQgrhKmyohpw_-okmTI2G7JB40ai2Ow8f5WRfvvkLUclptBYU="
+    },
+    {
+      "type": "article",
+      "title": "Top Int'l Prospects: Cristopher Acosta, SS",
+      "source": "MLB.com",
+      "date": "2024-09-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZlZnpajsf42IhLTTN8X5RvfnsRCLRPKGZODoDtiYQl1BimV1nMnDCmQCQx0wt2EfoE9vgmeZH0yBvb5PVLQ53qjwg7bYDf3ukftcBdbtu54zglUiYS9d8f7T7gBsv5GUfBptbphkpVDHSI6uxvJOULEKCEaAsLa1zvxG1"
+    }
+  ],
+  "sourcesConsulted": [
+    {
+      "source": "MLB Pipeline",
+      "website": "https://www.mlb.com/prospects",
+      "usedFor": "summary|media"
+    },
+    {
+      "source": "Baseball America",
+      "website": "https://www.baseballamerica.com",
+      "usedFor": "rankings|summary|concerns"
+    },
+    {
+      "source": "FanGraphs",
+      "website": "https://www.fangraphs.com/prospects/the-board",
+      "usedFor": "grades|rankings|summary|eta"
+    },
+    {
+      "source": "Athlon Sports",
+      "website": "https://athlonsports.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Wisconsin Sports Heroics",
+      "website": "https://wisportsheroics.com",
+      "usedFor": "summary|media"
+    }
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "ACL Brewers activate SS Cristopher Acosta and assign him to the team",
+      "source": "MiLB.com / MLB.com",
+      "date": "2026-04-29",
+      "url": "https://www.milb.com/player/cristopher-acosta-699119",
+      "summary": "Shortstop Cristopher Acosta was activated and assigned to the Arizona Complex League (ACL) Brewers on April 29, 2026, after previously being assigned to the DSL Brewers Gold in June 2025 and signed by the Brewers in January 2025."
+    },
+    {
+      "title": "4 Brewers prospects in the Dominican Summer League to keep an eye on",
+      "source": "MLB.com",
+      "date": "2025-06-02",
+      "url": "https://www.mlb.com/prospects/international/cristopher-acosta-699119",
+      "summary": "Cristopher Acosta was highlighted as one of four Brewers prospects to watch in the Dominican Summer League in June 2025, with Director of International Scouting James Armstrong praising his defensive abilities, quick hands, and potential for power."
+    },
+    {
+      "title": "milb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx6mrcLZ0GUhNsfOa1juIM-03ZHp5wTru8xBOYugqADDf--EkkYLBhST1x7QtjWdQmmWYO9EMfvc1l-y8M_Qjh2FFuXAV_0MSdN_QgDklYnUIdXLCP4KyNK74oIDgiH3qZjnRuex8SmSpQyDeW8oM=",
+      "summary": ""
+    },
+    {
+      "title": "mlb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr7mRG27DxM-FZKEeZVPGIgXAKoVPxgAhj7wpp6q8cxqVQaZ1Q2qaq3VMF1nHsjnCeCB6DeHwyC_2m-AXswYAdcRIkM9_LLlgDDyoC3deJUnHprASqbNSJEJH5kwrNjtvss2mZeZgWhJjk0qZxqQ==",
+      "summary": ""
+    },
+    {
+      "title": "reviewingthebrew.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDi-ySxjwIM5NLEST9BBUBBk7qVztT42_4_SZLKKpLH7EYqo907nsiMvBDXbHzqJMezlEXq4HZkYNKAkfoKb4PkfrDU5zeTDzNdQeMlMu8qrudXdIzIJiUhO_AIQOoZ9W1mRImC40kEljv5t0re59SwmxlyfPW7q30p954mNwy7ZhGwSu5WgJ3cb6Z_-hAtjKKwSW0xPcuQY1mPPnMv2BfEPhTt83JEuNh",
+      "summary": ""
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Top Int'l Prospects: Cristopher Acosta, SS",
+      "channel": "MLB.com",
+      "date": "2024-09-22",
+      "url": "https://www.mlb.com/video/top-int-l-prospects-cristopher-acosta-ss-699119",
+      "type": "scouting",
+      "urlType": "direct"
+    },
+    {
+      "title": "Cristopher Acosta YouTube Channel",
+      "channel": "Cristopher Acosta",
+      "date": null,
+      "url": "https://www.youtube.com/results?search_query=Cristopher+Acosta",
+      "type": "other",
+      "urlType": "search"
+    }
+  ]
+}

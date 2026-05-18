@@ -1,0 +1,188 @@
+{
+  "adHocPlayer": false,
+  "playerId": "eddys-leonard",
+  "name": "Eddys Leonard",
+  "position": "SS",
+  "level": "AAA",
+  "age": 25,
+  "updatedAt": "2026-05-18T15:53:10.664Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": 40,
+    "power": 50,
+    "run": 45,
+    "field": 55,
+    "arm": 50,
+    "ofp": 40,
+    "risk": "Medium"
+  },
+  "rankings": [
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": null,
+      "grade": null,
+      "listName": "Top 30 Prospects",
+      "date": "2026-05-01",
+      "url": "https://www.mlb.com/prospects"
+    }
+  ],
+  "summary": "Eddys Leonard is a versatile infielder known for his bat speed and ability to make hard contact, showing raw power when he squares the ball up. While he has been a streaky hitter and his defensive abilities are considered below-average at some infield positions, he offers multi-positional flexibility. Currently in Triple-A with the Brewers, he is producing loud offensive numbers and could be a valuable utility player for the big league club, despite not being on top prospect lists.",
+  "strengths": [
+    "Bat speed and raw power"
+  ],
+  "concerns": [
+    "Defensive inconsistencies"
+  ],
+  "eta": "2026",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Brewers Unranked Prospect Suddenly Looks Ready for MLB Debut",
+      "source": "Sports Illustrated",
+      "date": "2026-05-01",
+      "url": "https://www.si.com/mlb/brewers/news/brewers-unranked-prospect-suddenly-looks-ready-for-mlb-debut"
+    },
+    {
+      "type": "article",
+      "title": "Brewers have another infield option who is tearing the cover off the ball in Triple-A",
+      "source": "Wisconsin Sports Heroics",
+      "date": "2026-04-01",
+      "url": "https://wisportsheroics.com/brewers-have-another-infield-option-who-is-tearing-the-cover-off-the-ball-in-triple-a/"
+    },
+    {
+      "type": "reddit",
+      "title": "The Game Ball 4/9/26: Eddys Leonard",
+      "source": "r/MiLB",
+      "date": "2026-04-01",
+      "url": "https://www.reddit.com/r/MiLB/comments/1c6s0r3/the_game_ball_4926_eddys_leonard/"
+    },
+    {
+      "type": "article",
+      "title": "Brewers Sign Eddys Leonard To Minor League Deal",
+      "source": "MLB Trade Rumors",
+      "date": "2025-11-01",
+      "url": "https://www.mlbtraderumors.com/2025/11/brewers-sign-eddys-leonard-to-minor-league-deal.html"
+    },
+    {
+      "type": "youtube",
+      "title": "Eddys Leonard, Dodgers #18 Prospect Feature as Part of the MLB Pipeline Top 30 Prospects Series.",
+      "source": "Dodgers Daily",
+      "date": "2023-03-01",
+      "url": "https://www.youtube.com/watch?v=F3_6e_R3h-Y"
+    }
+  ],
+  "sourcesConsulted": [
+    {
+      "source": "Baseball America",
+      "website": "https://www.baseballamerica.com",
+      "usedFor": "grades|summary|rankings"
+    },
+    {
+      "source": "MLB Pipeline (via MiLB.com)",
+      "website": "https://www.mlb.com/prospects",
+      "usedFor": "rankings|summary|eta"
+    },
+    {
+      "source": "FanGraphs",
+      "website": "https://www.fangraphs.com/prospects/the-board",
+      "usedFor": "grades"
+    },
+    {
+      "source": "Baseball Prospectus",
+      "website": "https://www.baseballprospectus.com",
+      "usedFor": "summary|eta"
+    },
+    {
+      "source": "Sports Illustrated",
+      "website": "https://www.si.com",
+      "usedFor": "summary|rankings|eta|media"
+    },
+    {
+      "source": "Wisconsin Sports Heroics",
+      "website": "https://wisportsheroics.com",
+      "usedFor": "summary|media"
+    },
+    {
+      "source": "Heavy.com",
+      "website": "https://heavy.com",
+      "usedFor": "eta"
+    },
+    {
+      "source": "MLB Trade Rumors",
+      "website": "https://www.mlbtraderumors.com",
+      "usedFor": "media"
+    },
+    {
+      "source": "Reddit (r/MiLB)",
+      "website": "https://www.reddit.com/r/MiLB",
+      "usedFor": "media"
+    },
+    {
+      "source": "YouTube (Dodgers Daily)",
+      "website": "https://www.youtube.com",
+      "usedFor": "media"
+    }
+  ],
+  "confidence": "high",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "Eddys Leonard singles on a sharp line drive to center fielder Brett Bateman. Luis Lara scores. Freddy Zamora to 2nd.",
+      "source": "Minor League Baseball",
+      "date": "2026-05-17",
+      "url": "https://www.milb.com/milwaukee/video/eddys-leonard-singles-on-a-sharp-line-drive-to-center-fielder-brett-bateman-luis-lara-scores-freddy-zamora-to-2nd-05-17-2026",
+      "summary": "Eddys Leonard hit an RBI single on May 17, 2026, scoring Luis Lara and advancing Freddy Zamora to second base for the Nashville Sounds."
+    },
+    {
+      "title": "Sounds Cruise Past I-Cubs in Lopsided Win (Eddys Leonard hits grand slam)",
+      "source": "MiLB.com",
+      "date": "2026-05-16",
+      "url": "https://www.milb.com/player/eddys-leonard-677554",
+      "summary": "Eddys Leonard hit a grand slam, his seventh home run of the season, on May 16, 2026, contributing to the Nashville Sounds' lopsided win."
+    },
+    {
+      "title": "Eddys Leonard Stats, Age, Position, Height, Weight, Fantasy & News",
+      "source": "MiLB.com",
+      "date": "2026-01-10",
+      "url": "https://www.milb.com/player/eddys-leonard-677554",
+      "summary": "Eddys Leonard was invited to spring training by the Milwaukee Brewers on January 10, 2026, and had been assigned to the Nashville Sounds after signing a minor league contract with the Brewers on November 11, 2025."
+    },
+    {
+      "title": "Brewers Sign Eddys Leonard To Minor League Deal",
+      "source": "MLB Trade Rumors",
+      "date": "2025-11-15",
+      "url": "https://www.mlbtrumors.com/2025/11/brewers-sign-eddys-leonard-to-minor-league-deal.html",
+      "summary": "The Milwaukee Brewers signed infielder Eddys Leonard to a minor league deal that includes an invitation to spring training."
+    },
+    {
+      "title": "milb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9obOQHbemvCllce7BGSoA0bLv_KCqFxch4UVmX-nKfPkfFHQbipVcf6MSby_R4jNKBlXrQMdo_vfMuDfOBqueJvll-axLwMaOifytw0FnaMsI9youbF9Q7rd25XQM6uvo5p1oFM0tS9zo7SiQCr7CLhE6XMe2Y5X13GBdYr92aQ1-0Q==",
+      "summary": ""
+    },
+    {
+      "title": "milb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMnZAvPgM2n6pLuObrEKajM-Qfi0yE09ZiESQo1NVdOwAkNBF1nIbABrelg4IBJEwDTQsSMy_bKuHardvB5dcf0pexkBDxlKSvXGS6FeX93uy7sAYuU8J8o8MeZC3hGAvzDAM4aGaa8ssYxw==",
+      "summary": ""
+    },
+    {
+      "title": "milb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeSBkNZ2wf1i1fUFBHDG8JXfDWHV4U_tUGTXhCl0Yl0EZ5gwRVdlXDRC27iqKjQbBkbJLqk78k-pzZRtF85ufoEWpoJ5EyaU127BQuD9k03EZ-QP-jo-c_ppw0WsYk2Wdi6T-J1XixNClkVbCkqWRElAOi3-OklGgD12R4nvl2OoSy2nS5g4y1qUl5q0Wtgj-IW013xf0bqaEkSbwUkAoQ5HbZ93qaTB9n",
+      "summary": ""
+    },
+    {
+      "title": "mlbtraderumors.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF77-l14aQEaXQB4v6kerq7RvUTg9-CjWS--tencXRadHGY9xWAvvdF01WbLEnGPCDKaflwBdzkJ43QMxvOFK57fYVqzCE6bVp-2DDKaN-RlY4mIcyVmdlxa-FHezEPsLmG9c2bLybWAmDrxSaFNz5lTxVRK8qZUSF_ljn9nIaMAcSNTOUx7bVy_s3MRMXRNCScbPDnfbM=",
+      "summary": ""
+    }
+  ],
+  "videoLinks": []
+}

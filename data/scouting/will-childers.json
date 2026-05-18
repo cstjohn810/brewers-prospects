@@ -1,0 +1,158 @@
+{
+  "playerId": "will-childers",
+  "name": "Will Childers",
+  "position": "SP",
+  "level": "AAA",
+  "age": 25,
+  "updatedAt": "2026-05-18T14:12:09.161Z",
+  "pitchGrades": {
+    "fastball": null,
+    "slider": null,
+    "curveball": null,
+    "changeup": null,
+    "cutter": null,
+    "control": null,
+    "command": null,
+    "breakingBall": null
+  },
+  "grades": {
+    "ofp": null,
+    "risk": null
+  },
+  "rankings": [],
+  "summary": "Will Childers is a 25-year-old right-handed pitcher for the Milwaukee Brewers, currently assigned to the Triple-A Nashville Sounds. He was drafted by the Arizona Diamondbacks in 2019. He had a strong start to his 2026 season out of the bullpen, tossing seven scoreless innings. He was placed on the 7-day injured list retroactive to April 24, 2026.",
+  "strengths": [
+    "Strong start to 2026 season out of bullpen"
+  ],
+  "concerns": [
+    "Currently on 7-day injured list",
+    "Not highly ranked by major outlets"
+  ],
+  "eta": "2026-2027",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Early Standouts in the Milwaukee Brewers' System",
+      "source": "Just Baseball",
+      "date": "2026-04-01",
+      "url": "https://www.justbaseball.com/mlb/milwaukee-brewers-early-standouts-farm-system/"
+    },
+    {
+      "type": "youtube",
+      "title": "Will Childers, Milwaukee Brewers RHP Prospect (2024 Arizona Fall League)",
+      "source": "YouTube",
+      "date": "2024-11-01",
+      "url": "https://www.youtube.com/watch?v=J3v7N_W_h_c"
+    }
+  ],
+  "sourcesConsulted": [
+    {
+      "source": "MLB Pipeline",
+      "website": "https://www.mlb.com/prospects",
+      "usedFor": "summary"
+    },
+    {
+      "source": "MiLB.com",
+      "website": "https://www.milb.com",
+      "usedFor": "summary"
+    },
+    {
+      "source": "Baseball America",
+      "website": "https://www.baseballamerica.com",
+      "usedFor": "summary"
+    },
+    {
+      "source": "FanGraphs The Board",
+      "website": "https://www.fangraphs.com/prospects/the-board",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Baseball Prospectus",
+      "website": "https://www.baseballprospectus.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Just Baseball",
+      "website": "https://www.justbaseball.com",
+      "usedFor": "summary|strengths|media"
+    },
+    {
+      "source": "Prospect361",
+      "website": "https://prospect361.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Milwaukee Journal Sentinel",
+      "website": "https://www.jsonline.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Wisconsin Sports Heroics",
+      "website": "https://wisportsheroics.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Brew Crew Review",
+      "website": "https://reviewingthebrew.com",
+      "usedFor": "rankings"
+    }
+  ],
+  "confidence": "low",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "Brewers' Will Childers: Sidelined at Triple-A",
+      "source": "CBS Sports",
+      "date": "2026-04-28",
+      "url": "https://www.cbssports.com/mlb/player/will-childers-4015629/",
+      "summary": "Triple-A Nashville placed Will Childers on the 7-day injured list on April 25th with an undisclosed injury, after he had a strong start to the season with a 0.00 ERA and four saves in 10 innings."
+    },
+    {
+      "title": "Will Childers assigned to Milwaukee Brewers Prospects",
+      "source": "MiLB.com",
+      "date": "2026-02-21",
+      "url": "https://www.milb.com/player/will-childers-687847",
+      "summary": "RHP Will Childers was assigned to the Milwaukee Brewers Prospects on February 21, 2026."
+    },
+    {
+      "title": "cbssports.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECEVNUVQF-HVeqSlaeRNY3quvWgBzBPsGHkXB_mCmX52KYLHH7QKZo3h0w_HITZe5fyeWPLBtBxwF6TmeI9PqydR8RAMWeTEfsMVbNR52lxETmSypOY1vMcd1CykVJBBUaxZJZC6BDZ1xOvhG9sud9Jb1Yv8fRuD7hkMZrZYzUlA==",
+      "summary": ""
+    },
+    {
+      "title": "milb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrmonwdjBm-vYKIpzL7aY85g77-t6K8r0D2HpZd2O2twzxSCg2YSpqgRNGRY_HlayH86QhBSrOwx6Nzs1hxgZ0zSMv2hGpwoiUBB2orSfUG3rdjMjUjtmRPKFXNF6MgYbQ5DyG__3O1a9gXw==",
+      "summary": ""
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Will Childers strikes out three in relief outing",
+      "channel": "Milwaukee Brewers",
+      "date": "2024-05-06",
+      "url": "https://www.mlb.com/brewers/video/will-childers-strikes-out-three",
+      "type": "highlights",
+      "urlType": "direct"
+    },
+    {
+      "title": "UGA Baseball: Will Childers Georgia vs. Richmond Postgame Interview - February 16th, 2020",
+      "channel": "UGA Baseball",
+      "date": "2020-02-16",
+      "url": "https://www.youtube.com/results?search_query=UGA+Baseball+Will+Childers+Georgia+vs.+Richmond+Postgame+Interview",
+      "type": "interview",
+      "urlType": "search"
+    },
+    {
+      "title": "Lakeside's Will Childers",
+      "channel": "AugustaChronicleTV",
+      "date": "2018-11-14",
+      "url": "https://www.youtube.com/results?search_query=AugustaChronicleTV+Lakeside%27s+Will+Childers",
+      "type": "interview",
+      "urlType": "search"
+    }
+  ]
+}

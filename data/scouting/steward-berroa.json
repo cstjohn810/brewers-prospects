@@ -1,0 +1,175 @@
+{
+  "playerId": "steward-berroa",
+  "name": "Steward Berroa",
+  "position": "Outfielder",
+  "level": "AAA",
+  "age": 26,
+  "updatedAt": "2026-05-18T14:08:07.843Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": null,
+    "power": null,
+    "run": 70,
+    "field": 55,
+    "arm": 55,
+    "ofp": null,
+    "risk": null
+  },
+  "rankings": [],
+  "summary": "Steward Berroa is an outfielder known for his elite speed and above-average defensive skills. He has had brief stints in MLB with the Toronto Blue Jays and Milwaukee Brewers, but has spent most of his recent time in Triple-A. He was recently traded to the Philadelphia Phillies in April 2026 and is currently playing for their Triple-A affiliate, the Lehigh Valley IronPigs.",
+  "strengths": [
+    "Elite speed",
+    "Above-average defensive range",
+    "Above-average arm strength"
+  ],
+  "concerns": [
+    "Offensive consistency",
+    "Limited power output"
+  ],
+  "eta": "2024",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Brewers Designate Steward Berroa For Assignment",
+      "source": "MLB Trade Rumors",
+      "date": "2026-04-03",
+      "url": "https://www.mlbtraderumors.com/2026/04/brewers-designate-steward-berroa-for-assignment.html"
+    },
+    {
+      "type": "article",
+      "title": "Why hasn't this Brewers outfielder made his 2026 Spring Training debut yet?",
+      "source": "Wisconsin Sports Heroics",
+      "date": "2026-03-10",
+      "url": "https://wisportsheroics.com/milwaukee-brewers/steward-berroa-spring-training-debut-2026/"
+    },
+    {
+      "type": "article",
+      "title": "Steward Berroa Stats, Age, Position, Height, Weight, Fantasy & News",
+      "source": "MiLB.com",
+      "date": null,
+      "url": "https://www.milb.com/player/steward-berroa-672642"
+    }
+  ],
+  "sourcesConsulted": [
+    {
+      "source": "Baseball Prospectus",
+      "website": "https://www.baseballprospectus.com",
+      "usedFor": "summary"
+    },
+    {
+      "source": "MiLB.com",
+      "website": "https://www.milb.com",
+      "usedFor": "summary, rankings, eta, media"
+    },
+    {
+      "source": "Baseball America",
+      "website": "https://www.baseballamerica.com",
+      "usedFor": "summary"
+    },
+    {
+      "source": "Wikipedia",
+      "website": "https://en.wikipedia.org",
+      "usedFor": "summary"
+    },
+    {
+      "source": "MLB Trade Rumors",
+      "website": "https://www.mlbtraderumors.com",
+      "usedFor": "grades, summary, strengths, concerns, media"
+    },
+    {
+      "source": "MLB.com",
+      "website": "https://www.mlb.com",
+      "usedFor": "summary"
+    },
+    {
+      "source": "Toronto Blue Jays Prospect Profile: Outfielder Steward Berroa",
+      "website": "https://bluejaysnation.com",
+      "usedFor": "strengths, concerns"
+    },
+    {
+      "source": "Baseball-Reference.com",
+      "website": "https://www.baseball-reference.com",
+      "usedFor": "summary, eta"
+    },
+    {
+      "source": "FanGraphs",
+      "website": "https://www.fangraphs.com",
+      "usedFor": "summary"
+    },
+    {
+      "source": "Wisconsin Sports Heroics",
+      "website": "https://wisportsheroics.com",
+      "usedFor": "summary, concerns, media"
+    },
+    {
+      "source": "Reddit (r/phillies)",
+      "website": "https://www.reddit.com/r/phillies/",
+      "usedFor": "summary, concerns"
+    }
+  ],
+  "confidence": "medium",
+  "brewerFanaticLinks": [
+    {
+      "title": "Brewers Minor League Link Report (4/8): Second Verse, Same As The First",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-48-second-verse-same-as-the-first-r4394/",
+      "date": "2026-04-09",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (3/31): Drohan and Henderson Prop Up ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-331-drohan-and-henderson-prop-up-early-black-blast-to-win-home-opener-r4361/",
+      "date": "2026-04-01",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (8/14): Fischer, Vargas and Oliva Lead ...",
+      "url": "https://brewerfanatic.com/forums/topic/45869-brewers-minor-league-link-report-814-fischer-vargas-and-oliva-lead-affiliates-to-4-win-thursday/",
+      "date": "2025-08-15",
+      "type": "forum"
+    },
+    {
+      "title": "Brewers Minor League Link Report (8/12): After DSL Squads Both Lose ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-812-after-dsl-squads-both-lose-the-stateside-brewers-go-4-0-in-a-night-filled-with-intrigue-r3697/",
+      "date": "2025-08-13",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (8/9): KC Hunt Shines, Marco Dinges ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-89-kc-hunt-shines-marco-dinges-returns-as-shuckers-and-rattlers-win-r3686/",
+      "date": "2025-08-10",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (8/5): Made and Peña Impress in High-A ...",
+      "url": "https://brewerfanatic.com/forums/topic/45797-brewers-minor-league-link-report-85-made-and-peña-impress-in-high-a-debuts-newly-acquired-miller-aces-his-sounds-rehab-debut/",
+      "date": "2025-08-06",
+      "type": "forum"
+    },
+    {
+      "title": "Brewers Minor League Link Report (8/3): Affiliates Drop Three Sunday ...",
+      "url": "https://brewerfanatic.com/forums/topic/45785-brewers-minor-league-link-report-83-affiliates-drop-three-sunday-contests/",
+      "date": "2025-08-04",
+      "type": "forum"
+    },
+    {
+      "title": "Brewers Minor League Link Report (7/23): A Wild Evening of Sounds and ...",
+      "url": "https://brewerfanatic.com/forums/topic/45676-brewers-minor-league-link-report-723-a-wild-evening-of-sounds-and-timber-rattlers-ball-rounds-out-3-1-day-all-eyes-on-queros-early-exit-details-within/",
+      "date": "2025-07-24",
+      "type": "forum"
+    },
+    {
+      "title": "Brewers acquire Steward Berroa - Milwaukee Brewers Talk - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/forums/topic/45543-brewers-acquire-steward-berroa/",
+      "date": "2025-07-09",
+      "type": "forum"
+    },
+    {
+      "title": "2025 Minor League Transaction Thread - Page 19 - Brewers Minor League ...",
+      "url": "https://brewerfanatic.com/forums/topic/44208-2025-minor-league-transaction-thread/page/19/",
+      "date": "2025-01-01",
+      "type": "forum"
+    }
+  ],
+  "recentNews": [],
+  "videoLinks": []
+}

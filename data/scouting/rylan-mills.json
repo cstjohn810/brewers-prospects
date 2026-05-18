@@ -1,0 +1,303 @@
+{
+  "playerId": "rylan-mills",
+  "name": "Rylan Mills",
+  "position": "Unknown",
+  "level": "Unknown",
+  "age": null,
+  "updatedAt": "2026-05-18T13:39:35.928Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": null,
+    "power": null,
+    "run": null,
+    "field": null,
+    "arm": null,
+    "ofp": null,
+    "risk": null
+  },
+  "rankings": [],
+  "summary": "Rylan Mills is a right-handed hitting catcher drafted by the Milwaukee Brewers in the 18th round (545th overall) of the 2025 MLB Draft out of Oran High School in Missouri. He signed for $247,500 and was initially committed to Southeast Missouri State University. Mills has displayed significant raw power with high exit velocities and long home runs in pre-draft showcases. He is currently playing in the Brewers' rookie league system (ACL Brewers, Wilson Warbirds).",
+  "strengths": [
+    "Significant raw power",
+    "High exit velocity",
+    "Strong catcher arm"
+  ],
+  "concerns": [
+    "Raw prospect profile",
+    "Development needed across tools"
+  ],
+  "eta": null,
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "Complete breakdown of Milwaukee Brewers' Day 2 2025 MLB Draft selections",
+      "source": "Wisconsin Sports Heroics",
+      "date": "2025-07-01",
+      "url": "https://wisportsheroics.com/milwaukee-brewers-day-2-2025-mlb-draft-selections/"
+    },
+    {
+      "type": "article",
+      "title": "Flag City Sluggers, Rylan Mills, has been drafted to the Milwaukee Brewers",
+      "source": "Flag City Sluggers",
+      "date": "2025-07-01",
+      "url": "https://www.flagcitysluggers.com/news/flag-city-sluggers-rylan-mills-has-been-drafted-to-the-milwaukee-brewers"
+    },
+    {
+      "type": "youtube",
+      "title": "Mills is Oran's first player picked in MLB Draft",
+      "source": "KFVS12 | Heartland News, Weather & Sports",
+      "date": "2025-07-01",
+      "url": "https://www.youtube.com/watch?v=FjI5jY1W2tU"
+    }
+  ],
+  "sourcesConsulted": [
+    {
+      "source": "Baseball America",
+      "website": "https://www.baseballamerica.com",
+      "usedFor": "summary"
+    },
+    {
+      "source": "MiLB.com",
+      "website": "https://www.milb.com",
+      "usedFor": "summary"
+    },
+    {
+      "source": "Baseball-Reference.com",
+      "website": "https://www.baseball-reference.com",
+      "usedFor": "summary"
+    },
+    {
+      "source": "Prep Baseball Report",
+      "website": "https://www.prepbaseballreport.com",
+      "usedFor": "summary, strengths"
+    },
+    {
+      "source": "Wisconsin Sports Heroics",
+      "website": "https://wisportsheroics.com",
+      "usedFor": "summary, media"
+    },
+    {
+      "source": "Flag City Sluggers",
+      "website": "https://www.flagcitysluggers.com",
+      "usedFor": "summary, media"
+    },
+    {
+      "source": "KFVS12 | Heartland News, Weather & Sports",
+      "website": "https://www.youtube.com/@KFVS12news",
+      "usedFor": "media"
+    },
+    {
+      "source": "MLB.com",
+      "website": "https://www.mlb.com/prospects",
+      "usedFor": "summary"
+    },
+    {
+      "source": "FanGraphs",
+      "website": "https://www.fangraphs.com/prospects/the-board",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Baseball Prospectus",
+      "website": "https://www.baseballprospectus.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Just Baseball",
+      "website": "https://www.justbaseball.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Prospects Live",
+      "website": "https://www.prospectslive.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Prospect361",
+      "website": "https://prospect361.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "TJStats / Thomas Nestico",
+      "website": "https://www.tjstats.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Milwaukee Journal Sentinel",
+      "website": "https://www.jsonline.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Brew Crew Review",
+      "website": "https://reviewingthebrew.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Perfect Game",
+      "website": "https://www.perfectgame.org",
+      "usedFor": "rankings"
+    }
+  ],
+  "confidence": "low",
+  "brewerFanaticLinks": [
+    {
+      "title": "Brewers Minor League Link Report (5/17): Hardin, Leonard and Mills Lead ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-517-hardin-leonard-and-mills-lead-affiliates-to-two-sunday-wins-r4541/",
+      "date": "2026-05-18",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (5/15): Rick Sweet Told Us He&#x27;d Do ...",
+      "url": "https://brewerfanatic.com/news-rumors/brewers-minor-league/brewers-minor-league-link-report-515-rick-sweet-told-us-hed-do-this-just-last-week-r4535/",
+      "date": "2026-05-16",
+      "type": "article"
+    },
+    {
+      "title": "Rylan Mills - 2025 Milwaukee Brewers Draft Pick Tracker - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/milwaukee-brewers-draft-picks/2025/rylan-mills-r20/",
+      "date": "2026-05-15",
+      "type": "article"
+    },
+    {
+      "title": "Brewers Minor League Link Report (5/2): Sweet Mound Debuts and Kicking ...",
+      "url": "https://brewerfanatic.com/forums/topic/47188-brewers-minor-league-link-report-52-sweet-mound-debuts-and-kicking-off-rookie-ball-in-style/",
+      "date": "2026-05-03",
+      "type": "forum"
+    },
+    {
+      "title": "ACL Starts Saturday! - Brewers Minor League Talk - Brewer Fanatic",
+      "url": "https://brewerfanatic.com/forums/topic/47156-acl-starts-saturday/",
+      "date": "2026-04-27",
+      "type": "forum"
+    },
+    {
+      "title": "2026 Minor League Transaction Thread - Page 6 - Brewers Minor League ...",
+      "url": "https://brewerfanatic.com/forums/topic/46523-2026-minor-league-transaction-thread/page/6/",
+      "date": "2026-01-01",
+      "type": "forum"
+    },
+    {
+      "title": "2025 Official Draft Signings Thread - MLB Draft & International ...",
+      "url": "https://brewerfanatic.com/forums/topic/45593-2025-official-draft-signings-thread/",
+      "date": "2025-07-14",
+      "type": "forum"
+    }
+  ],
+  "recentNews": [
+    {
+      "title": "MiLB Transactions",
+      "source": "MiLB.com",
+      "date": "2026-05-15",
+      "url": "https://www.milb.com/transactions/2026-05-15",
+      "summary": "MiLB transaction records show that catcher Rylan Mills was assigned to the Wilson Warbirds from the ACL Brewers on May 15, 2026."
+    },
+    {
+      "title": "Rylan Mills Stats, Age, Position, Height, Weight, Fantasy & News",
+      "source": "MiLB.com",
+      "date": "2026-05-15",
+      "url": "https://www.milb.com/player/rylan-mills-692345",
+      "summary": "This MiLB.com player profile for Rylan Mills details his draft by the Brewers in 2025 and includes transaction history, most recently his assignment to the Wilson Warbirds from the ACL Brewers on May 15, 2026."
+    },
+    {
+      "title": "Rylan Mills Stats & Scouting Report",
+      "source": "Baseball America",
+      "date": "2026-05-08",
+      "url": "https://www.baseballamerica.com/players/120689/rylan-mills/",
+      "summary": "This Baseball America profile provides Rylan Mills' stats and scouting report, noting he was drafted in the 18th round of the 2025 MLB Draft by the Milwaukee Brewers and includes his current stats with the ACL Brewers in 2026."
+    },
+    {
+      "title": "Complete breakdown of Milwaukee Brewers' Day 2 2025 MLB Draft selections",
+      "source": "Reviewing the Brew",
+      "date": "2025-07-15",
+      "url": "https://www.reviewingthebrew.com/posts/complete-breakdown-milwaukee-brewers-day-2-2025-mlb-draft-selections-01j3v92c73r5",
+      "summary": "This article provides a breakdown of the Milwaukee Brewers' Day 2 selections in the 2025 MLB Draft, highlighting Rylan Mills as an 18th-round pick with serious power potential."
+    },
+    {
+      "title": "Flag City Sluggers, Rylan Mills, has been drafted to the Milwaukee Brewers",
+      "source": "Great Lakes Summer Collegiate League",
+      "date": "2025-07-15",
+      "url": "https://www.greatlakessummercollegiateleague.org/news/flag-city-sluggers-rylan-mills-has-been-drafted-to-the-milwaukee-brewers",
+      "summary": "Flag City Sluggers catcher Rylan Mills was selected by the Milwaukee Brewers in the 18th round of the 2025 MLB Draft, making him the first GLSCL draft pick straight out of high school."
+    },
+    {
+      "title": "Rylan Mills - Prep Baseball Report",
+      "source": "Prep Baseball Report",
+      "date": "2025-01-26",
+      "url": "https://www.prepbaseballreport.com/player/mo/rylan-mills-0a711467-33a5-4841-a3f2-898efb045353",
+      "summary": "This Prep Baseball Report highlights Rylan Mills' record-breaking performance at a scout day in January 2025, where he achieved a 110.8 mph exit velocity and an average of 101 mph on batted balls."
+    },
+    {
+      "title": "baseball-reference.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEN3-eAA6vmvxFWXK5Bsj4SbmkUB61lFO97MSYsi7vwfZ8bZX2AHqCsgjFnIUgwbrK7_IdlLXm0_tqHfb6ej16SDibsXx0zuINMfBpp1UJKlCrGOL0Dvq_on8Gtg17KdUj94MSONd93tGpTy1nYpcc9pg6NmIdyWhyn52agXn4SdFOY",
+      "summary": ""
+    },
+    {
+      "title": "baseballamerica.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQST6qeyIO2ozBxXM3J8wGiNiX80P0Ldc4LgwHiwVNExEYHAdDSpTT8lzC6HvXpWW_2EgiVexeko2xsCsleYxaudtHjg9Y7bgFxnNYGhWZE07ZPS8DVJri80AtlAUSr4jon5Ta89zg4nY4VURh_ThxA3dc91-BSQ==",
+      "summary": ""
+    },
+    {
+      "title": "flagcitysluggers.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGG_PFRI7Efu8Gft43SnZVXFtvPejO67LtRhuTxNTLTJXKzqCUn0dy8yRqjkNyT8T4uVhT2YFBuIN-GCziN6MZ4kmc2yFBD5CDEmddw27uE5M_K9v7t1AJpyTez5OuD169DDMSFqVT3WYKZ2a_OBr-AeNbN_dlrtllb1UJYUKKJ",
+      "summary": ""
+    },
+    {
+      "title": "milb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeK2wsHNrrEiRB87bxxBdN3A3ytZGNi7r84eUTaTnHe8hYDl7vw_Y94XOlOaV9SLSTNXqf5xSj71nGdUH6ujlqGWOzY6vcAEX-HHNPj6uJeRyA0URrsdv7rmnsyzGmQdeYMEbjPQVkClo=",
+      "summary": ""
+    },
+    {
+      "title": "milb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMDSdoBnS2hxb2OFJBH65ogUuRdAJuuX8RbGtL0iS9NgQffXDI8QxcdaZafIk0W0vFneILPhDT06K4ZsWOtLIoIfEXRU-1SFRsnkuM7Gt93DLemcUIux7KhrjUG9v4UoARMWvvRXN6cLPN8w==",
+      "summary": ""
+    },
+    {
+      "title": "prepbaseballreport.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2-yfj3-vJLGNgTjCKyK2l8_iNz3ztD7s2VHgf9qyOMs_apJgP1OOgJP0Xc7xH0i0oc4M_QQ8-VSQHfqjB8ALMCa-Ygl7eRddiwrHh8K0Q0vaZJpaquucPrek14AcdMak31L1rwPyUxUYVG2d9rwbLULOweUkShdKlhOJK72J5dg==",
+      "summary": ""
+    },
+    {
+      "title": "reviewingthebrew.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuxtWBbni8KQpK1JiUyKUYLGBRK7GgW354u28n8Qp7ygeE3qgZ_OfqrKpaYMGLJe-n7gBk6lVjBlht9m5Q36HdrcgTAXOhxMKfMqg1NzAQRBf231MXIZe9PGqHpHOaPb_taO1j5zMnBhHeM2__FpdNFeT0DCi2qB8PhO3jshxLKFeo8MbH6Zyc4OoWtzYd2DWFUF4pptjtrXxwtQhjjQcRm3gL9VLaLtKIWgSk",
+      "summary": ""
+    },
+    {
+      "title": "Rylan Mills Amateur & Minor Leagues Statistics",
+      "source": "Baseball-Reference.com",
+      "date": null,
+      "url": "https://www.baseball-reference.com/register/player.fcgi?id=mills-000ryl",
+      "summary": "This page provides Rylan Mills' amateur and minor league statistics, including his draft information by the Milwaukee Brewers in 2025 and his performance in 2025 with Flag City GRCL and in 2026 with Brewers ACL."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Rylan Mills baseball highlights",
+      "channel": "YouTube Search",
+      "date": null,
+      "url": "https://www.youtube.com/results?search_query=Rylan+Mills+baseball+highlights",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Rylan Mills MiLB highlights",
+      "channel": "YouTube Search",
+      "date": null,
+      "url": "https://www.youtube.com/results?search_query=Rylan+Mills+MiLB+highlights",
+      "type": "highlights",
+      "urlType": "search"
+    }
+  ]
+}

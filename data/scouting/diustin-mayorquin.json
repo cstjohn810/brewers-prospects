@@ -1,0 +1,154 @@
+{
+  "adHocPlayer": false,
+  "playerId": "diustin-mayorquin",
+  "name": "Diustin Mayorquin",
+  "position": "SP",
+  "level": "ACL",
+  "age": 18,
+  "updatedAt": "2026-05-18T14:42:54.224Z",
+  "pitchGrades": {
+    "fastball": null,
+    "slider": null,
+    "curveball": null,
+    "changeup": null,
+    "cutter": null,
+    "control": null,
+    "command": null,
+    "breakingBall": null
+  },
+  "grades": {
+    "ofp": null,
+    "risk": null
+  },
+  "rankings": [],
+  "summary": "Diustin Mayorquin is a young right-handed pitcher signed by the Milwaukee Brewers in January 2025. He was 17 at the time of signing and has a compact, thicker build at 5-foot-11, 190 pounds. He features a fastball that reaches up to 93 mph and demonstrates advanced pitchability for a young pitcher, mixing a curveball, slider, and changeup.",
+  "strengths": [
+    "Advanced pitchability for age",
+    "Mixes multiple pitches",
+    "Fastball up to 93 mph"
+  ],
+  "concerns": [
+    "Very low-level prospect",
+    "No public 20-80 grades or rankings found"
+  ],
+  "eta": null,
+  "mediaReferences": [],
+  "sourcesConsulted": [
+    {
+      "source": "MLB Pipeline",
+      "website": "https://www.mlb.com/prospects",
+      "usedFor": "general info"
+    },
+    {
+      "source": "Baseball America",
+      "website": "https://www.baseballamerica.com",
+      "usedFor": "summary|general info"
+    },
+    {
+      "source": "FanGraphs The Board",
+      "website": "https://www.fangraphs.com/prospects/the-board",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Baseball Prospectus",
+      "website": "https://www.baseballprospectus.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Prospects Live",
+      "website": "https://www.prospectslive.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Just Baseball",
+      "website": "https://www.justbaseball.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Prospect361",
+      "website": "https://prospect361.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "TJStats / Thomas Nestico",
+      "website": "https://www.tjstats.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Milwaukee Journal Sentinel",
+      "website": "https://www.jsonline.com",
+      "usedFor": "general info"
+    },
+    {
+      "source": "Wisconsin Sports Heroics",
+      "website": "https://wisportsheroics.com",
+      "usedFor": "general info"
+    },
+    {
+      "source": "Brew Crew Review",
+      "website": "https://reviewingthebrew.com",
+      "usedFor": "general info"
+    }
+  ],
+  "confidence": "low",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "Diustin Mayorquin Assigned to ACL Brewers; Early 2026 Season Stats",
+      "source": "MiLB.com / Baseball America",
+      "date": "2026-04-29",
+      "url": "https://www.milb.com/player/diustin-mayorquin-808605",
+      "summary": "Right-handed pitcher Diustin Mayorquin was assigned to the ACL Brewers on April 29, 2026, and has started the 2026 season with a 0.00 ERA and 14.4 SO/9 over 5.0 innings."
+    },
+    {
+      "title": "Brewers' 2025 International Signing Class Includes Diustin Mayorquin",
+      "source": "Baseball America",
+      "date": "2025-06-02",
+      "url": null,
+      "summary": "Nicaraguan right-hander Diustin Mayorquin was signed by the Brewers for $27,500, noted for his compact build, fastball up to 93 mph, and advanced pitchability."
+    },
+    {
+      "title": "Diustin Mayorquin Assigned to DSL Brewers",
+      "source": "MiLB.com",
+      "date": "2025-03-21",
+      "url": "https://www.milb.com/player/diustin-mayorquin-808605",
+      "summary": "Right-handed pitcher Diustin Mayorquin was assigned to DSL Brewers 1 and activated by DSL Brewers Blue."
+    },
+    {
+      "title": "Milwaukee Brewers Sign RHP Diustin Mayorquin",
+      "source": "MiLB.com",
+      "date": "2025-01-15",
+      "url": "https://www.milb.com/player/diustin-mayorquin-808605",
+      "summary": "The Milwaukee Brewers signed right-handed pitcher Diustin Mayorquin to a minor league contract."
+    },
+    {
+      "title": "baseballamerica.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEi_WKAR96vK1tp_ffphEoR3CaJSRoDq3UKIlKJXMpRDnC-kAl0Mp5ofu8jCG8pYhyWgt-gVCwWKi5J1FnBa2G34XigtxeZkkNxlPChJmy_95C6FsKxGmpwS3cNS_aE4Nm0oUec--6yjqvcD12BWrrAgcW2uByhnQ3S8A-GhBpqJba_X67rhUnaDGKInZ3S_PIJBzO4FIzx6A==",
+      "summary": ""
+    },
+    {
+      "title": "baseballamerica.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoptKEvZXZxTgpIsehHUShjK40g9brPAJApt32GskSnfl_SURALFVNSYM5B55mTPeP471VedM-DMzse8KurEiqXh2zCz531DvYQUXEoosTES0-P_TlZpNt5cv396CzkBVOZdaRiQREUd2zvWeyibiXyfTGPJy4pshXLklIPg==",
+      "summary": ""
+    },
+    {
+      "title": "milb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5ddzuG_14hN1rx0HPzRXdLHi-QujZj_ZqK-wsbRDmP2tilW3bQxKo0q7MR4fokEx5aQMbGiOTVQt_9Ggc2r1LVJue6yH71_qqEux0irsmI1c_IRIQ3OeFNVhorZI4xuQBAlqu-BX1fOPjt9coCGc=",
+      "summary": ""
+    },
+    {
+      "title": "mlb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVrbx-nvib9OgOA5sYAZAyU6Cf5VjcuRFJw5mF1Ws1HHseIZrlvTwqsMrx0Xg1K-qVdKwWBPHOqX6h-LUk4Mhrm_3D_JLLhcJgwemUYXwUW0T5ZXzdhIxXxXN2Dyy4RLCzZ1tZUuhZ_Y5qgE1zeA==",
+      "summary": ""
+    }
+  ],
+  "videoLinks": []
+}

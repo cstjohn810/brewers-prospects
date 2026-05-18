@@ -1,0 +1,202 @@
+{
+  "adHocPlayer": false,
+  "playerId": "ma-kale-holden",
+  "name": "Ma'Kale Holden",
+  "position": "SP",
+  "level": "ACL",
+  "age": 19,
+  "updatedAt": "2026-05-18T14:44:44.386Z",
+  "pitchGrades": {
+    "fastball": null,
+    "slider": null,
+    "curveball": null,
+    "changeup": null,
+    "cutter": null,
+    "control": null,
+    "command": null,
+    "breakingBall": null
+  },
+  "grades": {
+    "ofp": null,
+    "risk": "null"
+  },
+  "rankings": [],
+  "summary": "Ma'Kale Holden is a right-handed pitcher for the Milwaukee Brewers, drafted in the 20th round (605th overall) in 2025 and currently assigned to the ACL Brewers. He reportedly throws a fastball that touches mid-90s, an excellent changeup, a low-70s curveball, and an upper-70s slider, demonstrating good command of all four pitches.",
+  "strengths": [
+    "Mid-90s fastball velocity",
+    "Excellent changeup",
+    "Good command of pitches"
+  ],
+  "concerns": [
+    "Very early in professional career",
+    "Late-round draft pick (initial signability concerns)"
+  ],
+  "eta": null,
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "3 Brewers prospects to look out for in the Arizona Complex League in 2026",
+      "source": "Wisconsin Sports Heroics",
+      "date": "2026-05-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvzKVbOr_zl3dT6xUvsZk8_s1C6q5RAzU3q17Pwu7_-0TGDEUkIXTE_eizXWQAA4Uwdht05mBN46WaeDyEEcC6wJMmxOKxnf0CJ5_D_p88aITj3m8Z7u-xGZOajw8tbtO6qervw_qosotgGOo8YQ2mwgxg4W4WTR7eQiBrUTTFNb8m2CqbYR01UwV2I436QlmcK-jj67nVWVdcFEzrygkKBXQ6VYteSunK8p0PExY="
+    },
+    {
+      "type": "article",
+      "title": "Complete breakdown of Milwaukee Brewers' Day 2 2025 MLB Draft selections",
+      "source": "Brewers Crew Review",
+      "date": "2025-07-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQpB7HCVlOs7O01yvEEsppJUEExf5xqV_gGYe0B2Q_u4jA8Vu53hCXu-PHsmjkgDqKjc8l750sQkq7hbZxSnb44SDBheBPHCcznHmTkCGQrBqJJoEytlDxYMOriyDaHVEZ-BWGeKM2eVPm3z-MU54v_01-sykCStnaBJKu_Ju6MKtGMVsJtFg6zaxtS91LqygqtPOzf9SkicDmfroADNW_hH2VKBwK1MFaQv68"
+    },
+    {
+      "type": "article",
+      "title": "Ma'Kale Holden Signs with Milwaukee Brewers: Just a Minute",
+      "source": "Yardbarker",
+      "date": "2025-07-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQ16g68VOlwcrQnoWgAGy-7RpP_KPPCz58T1naXeXKnBwRQ3G5WKfSrZQiXr5aqQ9tn5yo40hhLSHcpnz8Pvyh07sgFSrpZAxum4259G-ieupvIwXPyyTT5SuLR36sliVdLn7wm5gP4AR0ISvHa6rrTXwTAY8w1lgj-spm9sGNCCesLw8lVCAG1yYdIM3HP3nhQ2Jf4gKIGTsuMuDwzd49jbL-ZKp_5ecux5YO0w=="
+    },
+    {
+      "type": "podcast",
+      "title": "On Deck #12: MLB Draft Combine Recap with Xavier Neyens and Ma'Kale Holden",
+      "source": "Prospects Live",
+      "date": "2025-06-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEo8abM0ZlQ-4rJFVK1TYRTx_4tsLvMYO1OUuv7bhzrf2HP26W3XJAsk96c8CyuBauLuSGPUR8Z5t04gBM0EsLxxCS4kTpORgtzeBi2_Wz28xsjxXFwatDOl1ODWCcg1NR-eV0kQA="
+    },
+    {
+      "type": "youtube",
+      "title": "Ma'Kale Holden (2025 Thompson HS AL RHP/INF) Interview",
+      "source": "Prospects Live",
+      "date": "2025-05-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBb2rzA-oKaXCfsomQ8s4qIq-xS23ZSFkSktVmvyRZcQtGLJNZqYofDrJW7UyvxAjQxTzAWtWz7tRqlQfoogGlnlVsOhGNwbLaAH8c5PnIMOagle1L09b8b_qNzp8NWm11oqSVVu8="
+    }
+  ],
+  "sourcesConsulted": [
+    {
+      "source": "MLB Pipeline",
+      "website": "https://www.mlb.com/prospects",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Baseball America",
+      "website": "https://www.baseballamerica.com",
+      "usedFor": "grades|rankings"
+    },
+    {
+      "source": "FanGraphs The Board",
+      "website": "https://www.fangraphs.com/prospects/the-board",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Baseball Prospectus",
+      "website": "https://www.baseballprospectus.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Prospects Live",
+      "website": "https://www.prospectslive.com",
+      "usedFor": "media"
+    },
+    {
+      "source": "Just Baseball",
+      "website": "https://www.justbaseball.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Prospect361",
+      "website": "https://prospect361.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "TJStats / Thomas Nestico",
+      "website": "https://www.tjstats.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Milwaukee Journal Sentinel",
+      "website": "https://www.jsonline.com",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Wisconsin Sports Heroics",
+      "website": "https://wisportsheroics.com",
+      "usedFor": "summary|strengths|concerns|media"
+    },
+    {
+      "source": "Brew Crew Review",
+      "website": "https://reviewingthebrew.com",
+      "usedFor": "media"
+    },
+    {
+      "source": "MiLB.com",
+      "website": "https://www.milb.com",
+      "usedFor": "summary"
+    },
+    {
+      "source": "Prep Baseball Report",
+      "website": "https://www.prepbaseballreport.com",
+      "usedFor": "summary"
+    },
+    {
+      "source": "Yardbarker",
+      "website": "https://www.yardbarker.com",
+      "usedFor": "summary|media"
+    }
+  ],
+  "confidence": "low",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "3 Brewers prospects to look out for in the Arizona Complex League in 2026",
+      "source": "Brewers News Source",
+      "date": "2026-05-08",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF66EfF85lBoVr8G9dy1Fh2EGssjnOE-PtxnpWCBGnQZVJElUCFbSh1lhdeMI7koO-BpHqrV-jKVcdyZg__sp08VF35pSj7pi_-FPtQqvSVb0_yrj14gb9qaULQOUXO0yG1Wp6bcwyFKRVM8E9mX3XDgyoi-I3yUpxx6D1fWmZPi9ahsZ1AgTZluu73glc4mytgh7yKSzYywNMbZfbyVMnDmQ9nENKSiQkRS_MtwyHjQ==",
+      "summary": "Ma'Kale Holden is highlighted as an exciting prospect in the Arizona Complex League for 2026, with a recent professional debut where he tossed five scoreless innings, striking out six batters."
+    },
+    {
+      "title": "Ma'Kale Holden Minor Leagues Statistics",
+      "source": "Baseball-Reference.com",
+      "date": "2026-01-01",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwL0m406nqszAYepjhVY4jsqW3ac1MMlllUREaWHfVrUdAcENDmq5wCelZRT9TW8RwG46FkHiOAqxec-L1STsldrDjKQHBQW59uG5oJIxQUJz4UTbe2bVDLVggOIX8LPeF5CWqvgVG1SSSgFG-Krpob7zXd9keKb3Blx2Djh6qeAQ==",
+      "summary": "This page provides Ma'Kale Holden's minor league pitching statistics for the 2026 season, including a 1-0 record and a 1.00 ERA over 9.0 innings in the ACL."
+    },
+    {
+      "title": "Thompson's Ma'Kale Holden signs minor-league contract with Brewers after MLB Draft selection",
+      "source": "Shelby County Reporter",
+      "date": "2025-08-08",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDINrjCZoIyp26o_ygDhy_B9vNjs5ppKWCfVYVhAhCJBFgjCS88Lf6g0qwvry7vwwVLs6pNuHr3-f2AefKxyZL4Seiu3RPr6FpYFNWqIjLIjgXiEHru8KRGztV5TpSIgEjifTenOCZhy7vjj9MGe3mzp2a_QyF2_CU-_qlxjiIHqA8ElTOH0_7MNv5jJSjWm3p45qi2BSQtA7dXdCSlZ5a8fw-VyC9DVwubXWVYo0iUGq2du7hgoyCJVyIt_d6AKIkiLBLdjM32VkAEhh3K5A==",
+      "summary": "Ma'Kale Holden officially signed his minor-league contract with the Milwaukee Brewers on July 28, 2025, after being drafted in the 20th round of the 2025 MLB Draft."
+    },
+    {
+      "title": "Ma'Kale Holden Stats, Age, Position, Height, Weight, Fantasy & News",
+      "source": "MiLB.com",
+      "date": "2025-05-26",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGI7GPVNTbJk7N4xIBgSSYN3FJnNDzzqEHCjHLe4yfu0I-KHk0n7rFUdshzsD3NytFA3v5VXNSZ13iepsV-d4J_DpxcV77mikOUDaijNrEgoe_4wTR8I6NT0mLgwRg8BtPZsIizZdyuw6MsA==",
+      "summary": "This MiLB.com page confirms that Ma'Kale Holden was signed by the Milwaukee Brewers on May 26, 2025, and subsequently assigned to the ACL Brewers."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "On Deck #12: MLB Draft Combine Recap with Xavier Neyens and Ma'Kale Holden",
+      "channel": "Prospects Live",
+      "date": "2025-06-20",
+      "url": "https://www.youtube.com/results?search_query=Prospects+Live+On+Deck+%2312+MLB+Draft+Combine+Recap+Ma%27Kale+Holden",
+      "type": "interview",
+      "urlType": "search"
+    },
+    {
+      "title": "Ma'Kale Holden (2025 Thompson HS AL RHP/INF) Interview",
+      "channel": "Prospects Live",
+      "date": "2025-05-15",
+      "url": "https://www.youtube.com/results?search_query=Prospects+Live+Ma%27Kale+Holden+2025+Thompson+HS+AL+RHP%2FINF+Interview",
+      "type": "interview",
+      "urlType": "search"
+    },
+    {
+      "title": "Ma'Kale Holden's videos and highlights on Hudl",
+      "channel": "Hudl",
+      "date": "2021-12-17",
+      "url": "https://www.youtube.com/results?search_query=Ma%27Kale+Holden+Hudl+highlights",
+      "type": "highlights",
+      "urlType": "search"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "adHocPlayer": false,
+  "playerId": "alexander-frias",
+  "name": "Alexander Frias",
+  "position": "OF",
+  "level": "ACL",
+  "age": 18,
+  "updatedAt": "2026-05-18T14:29:00.044Z",
+  "pitchGrades": null,
+  "grades": {
+    "hit": 50,
+    "power": 50,
+    "run": 45,
+    "field": 50,
+    "arm": 60,
+    "ofp": 42,
+    "risk": null
+  },
+  "rankings": [
+    {
+      "source": "MLB Pipeline",
+      "rank": null,
+      "systemRank": 25,
+      "grade": null,
+      "listName": "Brewers Top Prospects",
+      "date": "2026-05-01",
+      "url": "https://www.milb.com/brewers/prospects/rankings"
+    },
+    {
+      "source": "FanGraphs",
+      "rank": null,
+      "systemRank": 42,
+      "grade": "35+ FV",
+      "listName": "Milwaukee Brewers Top 53 Prospects",
+      "date": "2025-11-01",
+      "url": "https://www.fangraphs.com/prospects/farm-system-rankings/brewers"
+    }
+  ],
+  "summary": "Alexander Frias is an 18-year-old outfield prospect in the Milwaukee Brewers organization, currently playing in the Arizona Complex League. Signed in 2025, he is a 6-foot-2, left-handed hitter with physical projection and a strong arm. He has shown a good ability to make consistent hard contact with a line-drive approach, evidenced by a 104 mph 90th percentile exit velocity in the DSL. His contact rate has also improved in his stateside debut.",
+  "strengths": [
+    "Plus arm",
+    "Physical projection",
+    "Consistent hard contact",
+    "High exit velocity",
+    "Improving contact rate",
+    "Power potential"
+  ],
+  "concerns": [
+    "Developing hit tool"
+  ],
+  "eta": "2030",
+  "mediaReferences": [
+    {
+      "type": "article",
+      "title": "RoboScout's Top Fantasy Prospects At Every Level On Sunday, May 10",
+      "source": "Baseball America",
+      "date": "2026-05-01",
+      "url": "https://www.baseballamerica.com/stories/roboscouts-top-fantasy-prospects-at-every-level-on-sunday-may-10/"
+    },
+    {
+      "type": "article",
+      "title": "Milwaukee Brewers 2025 International Signings Review",
+      "source": "Baseball America",
+      "date": "2025-01-01",
+      "url": "https://www.baseballamerica.com/stories/milwaukee-brewers-2025-international-class-scouting-report/"
+    }
+  ],
+  "sourcesConsulted": [
+    {
+      "source": "MLB Pipeline",
+      "website": "https://www.mlb.com/prospects",
+      "usedFor": "rankings"
+    },
+    {
+      "source": "Baseball America",
+      "website": "https://www.baseballamerica.com",
+      "usedFor": "summary|strengths|concerns|media"
+    },
+    {
+      "source": "FanGraphs The Board",
+      "website": "https://www.fangraphs.com/prospects/the-board",
+      "usedFor": "grades|rankings"
+    },
+    {
+      "source": "Baseball Prospectus",
+      "website": "https://www.baseballprospectus.com",
+      "usedFor": "null"
+    },
+    {
+      "source": "Prospects Live",
+      "website": "https://www.prospectslive.com",
+      "usedFor": "null"
+    },
+    {
+      "source": "Just Baseball",
+      "website": "https://www.justbaseball.com",
+      "usedFor": "null"
+    },
+    {
+      "source": "Prospect361",
+      "website": "https://prospect361.com",
+      "usedFor": "null"
+    },
+    {
+      "source": "TJStats / Thomas Nestico",
+      "website": "https://www.tjstats.com",
+      "usedFor": "null"
+    },
+    {
+      "source": "Milwaukee Journal Sentinel",
+      "website": "https://www.jsonline.com",
+      "usedFor": "null"
+    },
+    {
+      "source": "Wisconsin Sports Heroics",
+      "website": "https://wisportsheroics.com",
+      "usedFor": "null"
+    },
+    {
+      "source": "Brew Crew Review",
+      "website": "https://reviewingthebrew.com",
+      "usedFor": "null"
+    },
+    {
+      "source": "MiLB.com",
+      "website": "https://www.milb.com",
+      "usedFor": "rankings|summary|eta"
+    }
+  ],
+  "confidence": "medium-high",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "Alexander Frias Transactions and Assignments",
+      "source": "MiLB.com",
+      "date": "2026-04-29",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2x3IrjKvkHObT9mcmzq3256kmPz8ZeedsxrErNCF2oE6-x6FLCVruMO8mWGzdQJjX9zRqF6l3zkr7PB7SxfQ-LF8dM7CFGwMj24zxX6P-BBF7T-wp-PBNZSvRoxbca4lbXgy6OawPkBqw8I5U",
+      "summary": "Alexander Frias was signed by the Milwaukee Brewers to a minor league contract on January 15, 2025, assigned to various DSL teams, placed on the 7-day injured list in June 2025, and activated and assigned to the ACL Brewers on April 29, 2026."
+    },
+    {
+      "title": "Milwaukee Brewers 2025 International Class Scouting Report",
+      "source": "Baseball America",
+      "date": "2025-01-15",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX7dcpGL7a3oil4vsswoA0dAhohRAhUbfWJds95CMZ_kE0z9pWe1smBQtkEvwp3PstD3xanqpuC8G9bjZvLYI6MR5wgsNc2W9-BDBzTz1bNbBpRqCnJSQKd09j0Ll-mI-W1nCuFC1hrko_16MevG3VkAcohDemg_Ta3nwmo9QklxBBdajX4Jd-0IiDbjMLQeCr2kGD5ZczU8KkozCNkA==",
+      "summary": "A scouting report from January 2025 details Alexander Frias as a 6-foot-3 lefthanded hitter with a plus arm, noting his potential as an intriguing conversion candidate to the mound, and his ability to make consistent hard contact in games with a line-drive approach."
+    },
+    {
+      "title": "baseballamerica.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX7dcpGL7a3oil4vsswoA0dAhohRAhUbfWJds95CMZ_kE0z9pWe1smBQtkEvwp3PstD3xanqpuC8G9bjZvLYI6MR5wgsNc2W9-BDBzTz1bNbBpRqCnJSQKd09j0Ll-mI-W1nCuFC1hrko_16MevG3VkAcohDemg_Ta3nwmo9QklxBBdajX4Jd-0IiDbjMLQeCr2kGD5ZczU8CkozCNkA==",
+      "summary": ""
+    },
+    {
+      "title": "milb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2x3IrjKvkHObT9mcmzq3256kmPz8ZeedsxrErNCF2oE6-x6FLCVruMO8mWGzdQJjX9zRqF6l3zkr7PB7SxfQ-LF8dM7CFGwMj24zxX6P-BBF7T-wp-PBNZSvRoxbca4lbXgy6OawPkBqw8I5U",
+      "summary": ""
+    },
+    {
+      "title": "milb.com",
+      "source": "vertexaisearch.cloud.google.com",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7QhiLfCav6EScq6mvAfpIm6IhO109xL_7q0mMIyV5GblTRbq92sUJmk01gdiI1GUyV4SoC3TbxEdW7WIhVacnQ-6x1PiYZziB6MpBje0GMskmhOgt_RfcomtQXIEOBuAaI8WJtEx1hQ4U1dIjfIWo",
+      "summary": ""
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Alexander Frias baseball highlights",
+      "channel": "YouTube Search",
+      "date": null,
+      "url": "https://www.youtube.com/results?search_query=Alexander+Frias+Milwaukee+Brewers+highlights",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "Alexander Frias MiLB highlights",
+      "channel": "YouTube Search",
+      "date": null,
+      "url": "https://www.youtube.com/results?search_query=Alexander+Frias+MiLB+highlights",
+      "type": "highlights",
+      "urlType": "search"
+    }
+  ]
+}

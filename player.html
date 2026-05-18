@@ -902,6 +902,7 @@
     </a>
     <div class="nav-links">
       <a href="index.html" class="nav-link">Roster</a>
+      <a href="stats.html" class="nav-link">Stats</a>
       <button class="theme-toggle" id="theme-toggle" title="Toggle light/dark mode" aria-label="Toggle theme">☀️</button>
     </div>
   </nav>
@@ -958,8 +959,6 @@
           ...base, ...scout,
           statsBySeason: base.statsBySeason || {},
           latestStatsSeason: base.latestStatsSeason || null,
-          stats2025:   base.stats2025,
-          stats2026:   base.stats2026,
           id:          base.id,
           mlbId:       base.mlbId,
           affiliate:   base.affiliate,
@@ -1188,28 +1187,77 @@
       return Math.abs(val - lgVal) / lgVal < 0.05 ? 'avg-' : better ? 'above' : 'below';
     }
 
-    /* ── Safe URL helper — drops URLs that are known bad patterns ─────────── */
+    /* ── HTML escaping helper — prevents XSS by escaping HTML entities ────── */
+    function escapeHtml(text) {
+      if (!text || typeof text !== 'string') return '';
+      const map = {
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;',
+      };
+      return text.replace(/[&<>"']/g, c => map[c]);
+    }
+
+    /* ── Safe URL helper — validates URLs with whitelist approach ──────────── */
+    function formatPositionList(player) {
+      const positions = Array.isArray(player?.positions) && player.positions.length
+        ? player.positions
+        : [player?.position].filter(Boolean);
+      return positions.join(' / ') || 'Unknown';
+    }
+
     function safeUrl(url, source) {
-      if (!url) return null;
-      // Drop MiLB player URLs (they redirect to wrong pages)
-      if (url.includes('milb.com') && url.includes('/prospects/')) return null;
-      // Drop generic fallback URLs with no specific player path
-      const genericPatterns = [
-        /mlb\.com\/prospects$/,
-        /fangraphs\.com\/prospects\/the-board$/,
-        /baseballamerica\.com\/prospect-rankings\/?$/,
-        /prospectslive\.com\/lists$/,
-        /baseballprospectus\.com\/prospects\/?$/,
-      ];
-      for (const pat of genericPatterns) {
-        if (pat.test(url)) return null;
+      if (!url || typeof url !== 'string') return null;
+      
+      try {
+        const trimmed = url.trim();
+        // Only allow http and https schemes
+        if (!trimmed.startsWith('http://') && !trimmed.startsWith('https://')) {
+          return null;
+        }
+        
+        // Validate it's a proper URL
+        new URL(trimmed);
+        
+        // Drop MiLB player URLs (they redirect to wrong pages)
+        if (trimmed.includes('milb.com') && trimmed.includes('/prospects/')) return null;
+        
+        // Drop generic fallback URLs with no specific player path
+        const genericPatterns = [
+          /mlb\.com\/prospects$/,
+          /fangraphs\.com\/prospects\/the-board$/,
+          /baseballamerica\.com\/prospect-rankings\/?$/,
+          /prospectslive\.com\/lists$/,
+          /baseballprospectus\.com\/prospects\/?$/,
+        ];
+        for (const pat of genericPatterns) {
+          if (pat.test(trimmed)) return null;
+        }
+        
+        return trimmed;
+      } catch {
+        return null;
       }
-      return url;
     }
 
     /* ── Radar ────────────────────────────────────────────────────────────── */
 
     /* ── Rankings tab content ─────────────────────────────────────────────── */
+    function normalizeConsultedSource(source) {
+      if (!source) return null;
+      if (typeof source === 'string') {
+        return { source: source, website: null, usedFor: null };
+      }
+      if (typeof source !== 'object') return null;
+      return {
+        source: source.source || source.name || '',
+        website: source.website || source.url || null,
+        usedFor: source.usedFor || null
+      };
+    }
+
     function buildRankingsTab(p) {
       let html = '';
 
@@ -1243,8 +1291,8 @@
           if (r.rank)       numHtml += '<div class="rank-num">#' + r.rank + '</div><div class="rank-num-sub">Overall</div>';
 
           const inner = '<div style="flex:1">'
-            + '<div class="rank-source">' + (r.source||'') + '</div>'
-            + '<div class="rank-list">' + (r.listName||'') + (r.date ? ' \u00B7 ' + r.date : '') + '</div>'
+            + '<div class="rank-source">' + escapeHtml(r.source||'') + '</div>'
+            + '<div class="rank-list">' + escapeHtml(r.listName||'') + (r.date ? ' \u00B7 ' + escapeHtml(r.date) : '') + '</div>'
             + '</div>'
             + (numHtml ? '<div style="text-align:right;flex-shrink:0;">' + numHtml + '</div>' : '');
 
@@ -1257,6 +1305,27 @@
         html += '</div>';
       } else {
         html += '<div class="empty-state">No rankings data yet</div>';
+      }
+
+      const consultedSources = (p.sourcesConsulted || [])
+        .map(normalizeConsultedSource)
+        .filter(function(item) { return item && item.source; });
+
+      if (consultedSources.length) {
+        html += '<div class="media-subsection-head">Sources Consulted</div>';
+        consultedSources.forEach(function(item) {
+          const meta = []
+            .concat(item.website ? [item.website] : [])
+            .concat(item.usedFor ? [item.usedFor] : [])
+            .join(' \u00B7 ');
+          const inner = '<span class="media-badge article">SRC</span>'
+            + '<div><div class="media-title">' + escapeHtml(item.source) + '</div>'
+            + (meta ? '<div class="media-source">' + escapeHtml(meta) + '</div>' : '') + '</div>';
+          const href = safeUrl(item.website);
+          html += '<div class="media-item">'
+            + (href ? '<a href="' + escapeHtml(href) + '" target="_blank" rel="noopener">' + inner + '</a>' : inner)
+            + '</div>';
+        });
       }
 
       // Media references (articles, podcasts etc.)
@@ -1275,11 +1344,12 @@
           html += '<div class="media-subsection-head">Articles &amp; Podcasts</div>';
           cleanMedia.forEach(function(m) {
             const badge = {youtube:'YT',podcast:'POD',reddit:'RED',forum:'FRM'}[m.type] || 'ART';
-            const inner = '<span class="media-badge ' + (m.type||'article') + '">' + badge + '</span>'
-              + '<div><div class="media-title">' + (m.title||'Untitled') + '</div>'
-              + '<div class="media-source">' + (m.source||'') + (m.date ? ' \u00B7 ' + m.date : '') + '</div></div>';
+            const inner = '<span class="media-badge ' + escapeHtml(m.type||'article') + '">' + badge + '</span>'
+              + '<div><div class="media-title">' + escapeHtml(m.title||'Untitled') + '</div>'
+              + '<div class="media-source">' + escapeHtml(m.source||'') + (m.date ? ' \u00B7 ' + escapeHtml(m.date) : '') + '</div></div>';
+            const safeMediaUrl = safeUrl(m.url);
             html += '<div class="media-item">'
-              + (m.url ? '<a href="'+m.url+'" target="_blank" rel="noopener">'+inner+'</a>' : inner)
+              + (safeMediaUrl ? '<a href="' + escapeHtml(safeMediaUrl) + '" target="_blank" rel="noopener">' + inner + '</a>' : inner)
               + '</div>';
           });
         }
@@ -1289,10 +1359,11 @@
           bfLinks.forEach(function(bf) {
             const badge = {video:'VID',forum:'FRM',ranking:'RNK',draft:'DFT'}[bf.type] || 'ART';
             const inner = '<span class="media-badge bf">' + badge + '</span>'
-              + '<div><div class="media-title">' + (bf.title||'Untitled') + '</div>'
-              + '<div class="media-source">Brewer Fanatic' + (bf.date ? ' \u00B7 ' + bf.date : '') + '</div></div>';
+              + '<div><div class="media-title">' + escapeHtml(bf.title||'Untitled') + '</div>'
+              + '<div class="media-source">Brewer Fanatic' + (bf.date ? ' \u00B7 ' + escapeHtml(bf.date) : '') + '</div></div>';
+            const safeBfUrl = safeUrl(bf.url);
             html += '<div class="media-item">'
-              + (bf.url ? '<a href="'+bf.url+'" target="_blank" rel="noopener">'+inner+'</a>' : '<div style="display:flex;align-items:flex-start;gap:10px;">'+inner+'</div>')
+              + (safeBfUrl ? '<a href="' + escapeHtml(safeBfUrl) + '" target="_blank" rel="noopener">' + inner + '</a>' : '<div style="display:flex;align-items:flex-start;gap:10px;">' + inner + '</div>')
               + '</div>';
           });
         }
@@ -1317,13 +1388,14 @@
       if (!news.length) return '<div class="empty-state">No recent news found</div>';
 
       return news.map(function(item) {
-        const meta = (item.source||'') + (item.date ? ' \u00B7 ' + item.date : '');
-        const inner = '<div class="news-headline">' + (item.title||'Untitled') + '</div>'
-          + (item.summary ? '<div class="news-summary">' + item.summary + '</div>' : '')
+        const meta = escapeHtml(item.source||'') + (item.date ? ' \u00B7 ' + escapeHtml(item.date) : '');
+        const inner = '<div class="news-headline">' + escapeHtml(item.title||'Untitled') + '</div>'
+          + (item.summary ? '<div class="news-summary">' + escapeHtml(item.summary) + '</div>' : '')
           + '<div class="news-meta">' + meta + '</div>';
 
-        if (item.url) {
-          return '<div class="news-item"><a href="' + item.url + '" target="_blank" rel="noopener">' + inner + '</a></div>';
+        const safeNewsUrl = safeUrl(item.url);
+        if (safeNewsUrl) {
+          return '<div class="news-item"><a href="' + escapeHtml(safeNewsUrl) + '" target="_blank" rel="noopener">' + inner + '</a></div>';
         }
         return '<div class="news-item news-no-link">' + inner + '</div>';
       }).join('');
@@ -1394,7 +1466,7 @@
       const playIcon = '<svg viewBox="0 0 12 12"><polygon points="2,1 11,6 2,11"/></svg>';
 
       return videos.map(function(v) {
-        const typeLabel = (v.type||'video').replace(/-/g,' ');
+        const typeLabel = escapeHtml((v.type||'video').replace(/-/g,' '));
 
         // Build the best available URL:
         // 1. Use the stored URL if it looks valid
@@ -1416,12 +1488,12 @@
         const searchNote = isSearch ? ' <span style="font-size:9px;opacity:0.6;">(search)</span>' : '';
 
         const info = '<div class="video-info">'
-          + '<div class="video-title">' + (v.title||'Untitled') + '<span class="video-badge">' + typeLabel + '</span>' + searchNote + '</div>'
-          + '<div class="video-meta">' + (v.channel||'') + (v.date ? ' \u00B7 ' + v.date : '') + '</div>'
+          + '<div class="video-title">' + escapeHtml(v.title||'Untitled') + '<span class="video-badge">' + typeLabel + '</span>' + searchNote + '</div>'
+          + '<div class="video-meta">' + escapeHtml(v.channel||'') + (v.date ? ' \u00B7 ' + escapeHtml(v.date) : '') + '</div>'
           + '</div>';
         const thumb = '<div class="video-thumb">' + playIcon + '</div>';
 
-        return '<div class="video-item"><a href="' + href + '" target="_blank" rel="noopener">' + thumb + info + '</a></div>';
+        return '<div class="video-item"><a href="' + escapeHtml(href) + '" target="_blank" rel="noopener">' + thumb + info + '</a></div>';
       }).join('');
     }
 
@@ -1489,8 +1561,10 @@
 
       /* Hero chips */
       const chipsHTML = [
-        '<span class="chip">Age ' + p.age + '</span>',
-        '<span class="chip">' + (p.bats||'?') + '/' + (p.throws||'?') + ' \u00B7 ' + (p.height||'') + ' \u00B7 ' + (p.weight||'') + ' lbs</span>',
+        '<span class="chip">Age ' + (p.age ?? '\u2014') + '</span>',
+        '<span class="chip">' + (p.bats||'?') + '/' + (p.throws||'?') + ' \u00B7 ' + (p.height||'\u2014') + ' \u00B7 ' + ((p.weight || p.weight === 0) ? p.weight : '\u2014') + ' lbs</span>',
+        p.status ? '<span class="chip">' + p.status + '</span>' : '',
+        p.rookieEligible === false ? '<span class="chip">Not Rookie Eligible</span>' : '<span class="chip cyan">Rookie Eligible</span>',
         p.draftInfo ? '<span class="chip gold">' + p.draftInfo + '</span>' : '',
         risk ? '<span class="chip" style="color:'+riskColor(risk)+';border-color:'+riskColor(risk)+'40;background:'+riskColor(risk)+'12">' + risk + ' Risk</span>' : '',
         p.eta ? '<span class="chip cyan">ETA ' + p.eta + '</span>' : '',
@@ -1552,8 +1626,9 @@
       }).join('');
 
       /* Strengths / concerns */
-      const strHTML = (p.strengths||[]).map(s=>'<li>'+s+'</li>').join('');
-      const conHTML = (p.concerns||[]).map(c=>'<li>'+c+'</li>').join('');
+      const strHTML = (p.strengths||[]).map(s=>'<li>'+escapeHtml(s)+'</li>').join('');
+      const conHTML = (p.concerns||[]).map(c=>'<li>'+escapeHtml(c)+'</li>').join('');
+      const positionLabel = formatPositionList(p);
 
       /* ── Assemble page ────────────────────────────────────────────────── */
       document.getElementById('player-root').innerHTML =
@@ -1565,7 +1640,7 @@
         + '<div>'
         + '<div class="hero-name">' + p.name + '</div>'
         + '<div class="hero-meta-row">'
-        + '<span class="hero-pos">' + p.position + '</span>'
+        + '<span class="hero-pos">' + positionLabel + '</span>'
         + '<span class="hero-sep">\u00B7</span>'
         + '<span class="hero-affiliate">' + (LEVEL_LABELS[p.level]||p.level) + ' \u00B7 ' + (p.affiliate||'') + '</span>'
         + '</div>'
@@ -1583,7 +1658,7 @@
         + '</div></div>'
 
         /* SUMMARY */
-        + (p.summary ? '<div class="summary-block"><p>' + p.summary + '</p></div>' : '')
+        + (p.summary ? '<div class="summary-block"><p>' + escapeHtml(p.summary) + '</p></div>' : '')
 
         /* STRENGTHS + CONCERNS side by side */
         + '<div class="scout-grid">'
@@ -1631,6 +1706,8 @@
         + '<div class="side-card-head">Profile</div>'
         + '<div class="meta-grid">'
         + '<div class="meta-tile"><div class="mt-val">'+(p.eta||'\u2014')+'</div><div class="mt-lbl">MLB ETA</div></div>'
+        + '<div class="meta-tile"><div class="mt-val">' + ((LEVEL_LABELS[p.level]||p.level||'\u2014')) + '</div><div class="mt-lbl">Current Level</div></div>'
+        + '<div class="meta-tile"><div class="mt-val">' + (p.status||'\u2014') + '</div><div class="mt-lbl">Roster Status</div></div>'
         + '<div class="meta-tile"><div class="mt-val" style="color:'+riskColor(risk)+'">'+risk+'</div><div class="mt-lbl">Risk</div></div>'
         + '<div class="meta-tile"><div class="mt-val">'+(p.confidence||'\u2014')+'</div><div class="mt-lbl">Coverage</div></div>'
         + '<div class="meta-tile"><div class="mt-val">'+((p.updatedAt||'').slice(0,10))+'</div><div class="mt-lbl">Updated</div></div>'

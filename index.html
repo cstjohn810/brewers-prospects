@@ -607,6 +607,7 @@
     </a>
     <div class="nav-links">
       <a href="index.html" class="nav-link active">Roster</a>
+      <a href="stats.html" class="nav-link">Stats</a>
       <button class="theme-toggle" id="theme-toggle" title="Toggle light/dark mode" aria-label="Toggle theme"></button>
     </div>
   </nav>
@@ -617,11 +618,11 @@
     <div class="hero">
       <div class="hero-eyebrow">Milwaukee Brewers · Minor League System</div>
       <h1>The <span>Pipeline</span></h1>
-      <p class="hero-sub">Scouting reports, tool grades, and 2025 performance for every prospect in the system — synthesized from Baseball America, FanGraphs, MLB Pipeline, and more.</p>
+      <p class="hero-sub">Scouting reports, tool grades, and performance data for every prospect in the system — synthesized from Baseball America, FanGraphs, MLB Pipeline, and more.</p>
       <div class="hero-meta">
         <span class="chip gold" id="total-count">— players</span>
         <span class="chip">Updated weekly</span>
-        <span class="chip cyan">2025 Season</span>
+        <span class="chip cyan" id="season-chip">— Season</span>
       </div>
     </div>
 
@@ -639,6 +640,7 @@
         <div class="filter-section">
           <div class="filter-title">Levels</div>
           <div class="position-grid" id="level-filter-group">
+            <label class="check-pill"><input type="checkbox" value="MLB"><span>Milwaukee</span></label>
             <label class="check-pill"><input type="checkbox" value="AAA"><span>Triple-A</span></label>
             <label class="check-pill"><input type="checkbox" value="AA"><span>Double-A</span></label>
             <label class="check-pill"><input type="checkbox" value="A+"><span>High-A</span></label>
@@ -772,6 +774,28 @@
   <script type="module">
     import { PLAYERS, LEVEL_ORDER, LEVEL_LABELS, GRADE_COLOR } from './data/players.js';
 
+    // Determine latest season from players data
+    function getLatestSeason() {
+      const seasons = new Set();
+      for (const player of PLAYERS) {
+        if (player.statsBySeason && typeof player.statsBySeason === 'object') {
+          for (const season of Object.keys(player.statsBySeason)) {
+            const seasonNum = Number(season);
+            if (Number.isFinite(seasonNum)) {
+              seasons.add(seasonNum);
+            }
+          }
+        }
+      }
+      if (seasons.size === 0) return null;
+      return Math.max(...seasons);
+    }
+
+    const latestSeason = getLatestSeason();
+    if (latestSeason) {
+      document.getElementById('season-chip').textContent = `${latestSeason} Season`;
+    }
+
     const THEME_KEY = 'ph-theme';
     const FILTER_PANEL_KEY = 'ph-filters-visible-v2';
     const themeToggle = document.getElementById('theme-toggle');
@@ -897,8 +921,17 @@
       return Number(value) === 0 ? 'Any' : String(value);
     }
 
-    function normalizePositionTokens(position) {
-      const raw = String(position || '').toUpperCase();
+    function formatPositionList(player) {
+      const positions = Array.isArray(player.positions) && player.positions.length
+        ? player.positions
+        : [player.position].filter(Boolean);
+      return positions.join(' / ') || 'Unknown';
+    }
+
+    function normalizePositionTokens(positionOrPositions) {
+      const raw = Array.isArray(positionOrPositions)
+        ? positionOrPositions.join(' / ').toUpperCase()
+        : String(positionOrPositions || '').toUpperCase();
       const tokens = new Set();
 
       if (raw.includes('SP') || raw.includes('STARTING PITCHER')) tokens.add('SP');
@@ -921,13 +954,13 @@
       const levelMatch = !filters.levels.length || filters.levels.includes(player.level);
       const searchMatch = !q
         || player.name.toLowerCase().includes(q)
-        || String(player.position || '').toLowerCase().includes(q)
+        || formatPositionList(player).toLowerCase().includes(q)
         || String(player.affiliate || '').toLowerCase().includes(q);
 
       const ageValue = typeof player.age === 'number' ? player.age : null;
       const ageMatch = ageValue == null || (ageValue >= filters.ageMin && ageValue <= filters.ageMax);
 
-      const positionTokens = normalizePositionTokens(player.position);
+      const positionTokens = normalizePositionTokens(player.positions && player.positions.length ? player.positions : player.position);
       const positionMatch = !filters.positions.length || filters.positions.some((pos) => positionTokens.has(pos));
 
       const ratingMatch = RATING_FILTERS.every(function(config) {
@@ -948,6 +981,7 @@
         id:       base.id,
         name:     base.name,
         position: base.position,
+        positions: base.positions,
         level:    base.level,
         age:      base.age,
         affiliate: base.affiliate,
@@ -975,11 +1009,18 @@
       // Top ranking badges
       const rankings = p.rankings || [];
       const ranksHTML = rankings.slice(0, 3).map(function(r) {
-        const label = r.systemRank ? '#' + r.systemRank + ' ' + r.source.split(' ')[0]
-                    : r.rank      ? '#' + r.rank      + ' ' + r.source.split(' ')[0]
-                    : r.source.split(' ')[0];
-        return '<div class="rank-item"><strong>' + label + '</strong></div>';
+        const sourceEscaped = (r.source && typeof r.source === 'string' ? r.source.split(' ')[0] : '');
+        const label = r.systemRank ? '#' + r.systemRank + ' ' + sourceEscaped
+                    : r.rank      ? '#' + r.rank      + ' ' + sourceEscaped
+                    : sourceEscaped;
+        return '<div class="rank-item"><strong>' + label.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]) + '</strong></div>';
       }).join('');
+
+      const levelLabel = LEVEL_LABELS[p.level] || p.level || '—';
+      const ageLabel = p.age != null ? ('Age ' + p.age) : 'Age —';
+      const statusLabel = p.status ? (' · ' + p.status) : '';
+
+      const positionLabel = formatPositionList(p);
 
       return '<a href="player.html?id=' + p.id + '" class="player-card fade-up" style="animation-delay:' + delay + 's">'
         + '<div class="card-accent risk-' + riskSlug(risk) + '"></div>'
@@ -987,7 +1028,7 @@
         + '<div class="card-top">'
         + '<div>'
         + '<div class="card-name">' + p.name + '</div>'
-        + '<div class="card-pos-level">' + p.position + ' · ' + p.level + ' · Age ' + p.age + '</div>'
+        + '<div class="card-pos-level">' + positionLabel + ' · ' + levelLabel + ' · ' + ageLabel + statusLabel + '</div>'
         + '</div>'
         + '<div class="ofp-badge">'
         + '<div class="ofp-num" style="color:' + ofpColor(ofp) + '">' + (ofp != null ? ofp : '—') + '</div>'

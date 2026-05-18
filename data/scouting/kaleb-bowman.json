@@ -1,0 +1,183 @@
+{
+  "playerId": "kaleb-bowman",
+  "name": "Kaleb Bowman",
+  "position": "SP",
+  "level": "AAA",
+  "age": 28,
+  "updatedAt": "2026-05-18T14:10:59.279Z",
+  "pitchGrades": {
+    "fastball": null,
+    "slider": null,
+    "curveball": null,
+    "changeup": null,
+    "cutter": null,
+    "control": null,
+    "command": null,
+    "breakingBall": null
+  },
+  "grades": {
+    "ofp": null,
+    "risk": null
+  },
+  "rankings": [
+    {
+      "source": "Brew Crew Review",
+      "rank": null,
+      "systemRank": 27,
+      "grade": null,
+      "listName": "Brewers Prospect Rankings",
+      "date": "2025-11-01",
+      "url": "https://reviewingthebrew.com/posts/3-brewers-prospects-who-could-be-traded-before-the-2026-season"
+    }
+  ],
+  "summary": "Kaleb Bowman, a 28-year-old right-handed relief pitcher, has an unconventional path to professional baseball, having played overseas and in independent leagues before signing with the Brewers in late 2022. He has shown an ability to adapt and learn, pitching from multiple arm angles. While not a highly-touted prospect, his experience and diverse arsenal make him a potential big-league candidate for the right team. He was pitching at AAA Nashville in May 2026, following strong Double-A seasons in 2024 and 2025.",
+  "strengths": [
+    "Multiple arm angles",
+    "Diverse pitch arsenal",
+    "Improved fastball velocity",
+    "Good fastball/slider combination"
+  ],
+  "concerns": [
+    "Not a highly known prospect",
+    "Inconsistent performance at higher levels",
+    "Lack of clear 20-80 grades from major outlets"
+  ],
+  "eta": "2026-2027",
+  "mediaReferences": [
+    {
+      "type": "podcast",
+      "title": "The Improbable Journey of Kaleb Bowman",
+      "source": "Apple Podcasts (BBJO Podcast)",
+      "date": "2026-04-01",
+      "url": "https://podcasts.apple.com/us/podcast/the-improbable-journey-of-kaleb-bowman/id1500355416?i=1000651475751"
+    },
+    {
+      "type": "article",
+      "title": "3 Brewers prospects who could be traded before the 2026 season",
+      "source": "Reviewing the Brew",
+      "date": "2025-11-01",
+      "url": "https://reviewingthebrew.com/posts/3-brewers-prospects-who-could-be-traded-before-the-2026-season"
+    },
+    {
+      "type": "article",
+      "title": "Kaleb Bowman lands with Brewers after overseas odyssey",
+      "source": "MiLB.com",
+      "date": "2023-07-01",
+      "url": "https://www.milb.com/news/kaleb-bowman-milwaukee-brewers-overseas-odyssey"
+    },
+    {
+      "type": "article",
+      "title": "This Pitcher's Path to the Minors Was Through Semi-Pro Leagues in Canada, Australia and Germany",
+      "source": "Baseball Jobs Overseas",
+      "date": "2023-04-01",
+      "url": "https://baseballjobsoverseas.com/2023/04/26/this-pitchers-path-to-the-minors-was-through-semi-pro-leagues-in-canada-australia-and-germany/"
+    }
+  ],
+  "sourcesConsulted": [
+    {
+      "source": "Brew Crew Review",
+      "website": "https://reviewingthebrew.com",
+      "usedFor": "rankings, summary, media"
+    },
+    {
+      "source": "Baseball America",
+      "website": "https://www.baseballamerica.com",
+      "usedFor": "summary"
+    },
+    {
+      "source": "FanGraphs",
+      "website": "https://www.fangraphs.com",
+      "usedFor": "summary"
+    },
+    {
+      "source": "MiLB.com",
+      "website": "https://www.milb.com",
+      "usedFor": "summary, media"
+    },
+    {
+      "source": "Bally Sports Live",
+      "website": "https://www.ballysports.com",
+      "usedFor": "summary"
+    },
+    {
+      "source": "Baseball Jobs Overseas",
+      "website": "https://baseballjobsoverseas.com",
+      "usedFor": "summary, media"
+    },
+    {
+      "source": "Apple Podcasts",
+      "website": "https://podcasts.apple.com",
+      "usedFor": "media"
+    },
+    {
+      "source": "Baseball-Reference.com",
+      "website": "https://www.baseball-reference.com",
+      "usedFor": "summary"
+    }
+  ],
+  "confidence": "medium",
+  "brewerFanaticLinks": [],
+  "recentNews": [
+    {
+      "title": "Nashville Sounds Edge Iowa Cubs 6-5 After Spectacular Defensive Play by Jordyn Adams",
+      "source": "Clarksville Online",
+      "date": "2026-05-15",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZ_EmjZ4pk6dEu11fkE6tVQMvczytg6k3JMVDoYg6A5wfNrNYWZlZHKhNcXx6NiYpnBkwOeyKglha8HtxCJ6Dd_ookIy5VFpOuMgOxSODxvDbs17JLj8vLBdYUT2T8HP1UGT0YUPGJL-axQjFNoixAVNKEXQMggqMVNcR9nAE3jYgUsqNubmKwse9r4rN8yC4RQMnYh6vKyw8_RM2mDLCkcM12l4zg7L0iQ1CwB8ILlu_WKeyeD4D6jFd5trkP",
+      "summary": "In a game on May 15, 2026, Kaleb Bowman pitched two scoreless relief innings for the Nashville Sounds, striking out a season-high five batters and escaping a bases-loaded jam."
+    },
+    {
+      "title": "Kaleb Bowman Stats, Age, Position, Height, Weight, Fantasy & News",
+      "source": "MLB.com",
+      "date": "2026-02-22",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6b2mfgemXlsQaIL3xIWALRIqQ3iWzz9J_9OeltMK5C-sqcbLJOH3rrApd8Zg5hF6_Og2HA0y61l8F_E11uSj9HnK85ahtsL6nAuhnDUHO1X39TvsVW3iZF6sVuBb8arJx8ON3AZnQUts=",
+      "summary": "Kaleb Bowman was assigned to the Nashville Sounds (AAA) on February 22, 2026, and previously assigned to the Milwaukee Brewers on April 19, 2025."
+    },
+    {
+      "title": "3 Brewers prospects who could be traded before the 2026 season",
+      "source": "Reviewing the Brew",
+      "date": "2025-11-21",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhe1KG-L3icXWAG0Yg6JXThGbdvWg1qziq6BGr4l7d7OaRj0MoIAtKvoFjChVugu_O4m2YWjRGWQoeVJJb_QQnTf1a0JI7xW_aUbo_elIXOOBsHFAfCPfQSk-Wmoj-u0p4SO-T2sRzMXVfruqxQyCvw-s1g11FJtEkrlXZC56_lNxYHUc4Vmw-hvNL3yAoaCm5VV-7vxnUmzW5IZu_CNMPVweV",
+      "summary": "Kaleb Bowman is identified as a Milwaukee Brewers prospect who could be traded before the 2026 season, after delivering strong relief pitching performances in Double-A during 2024 and 2025."
+    },
+    {
+      "title": "Kaleb Bowman Stats, Age, Position, Height, Weight, Fantasy & News",
+      "source": "MiLB.com",
+      "date": "2025-04-19",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOmHk0UpIV3MVFkGNLqfF_1D3nAPdX3iJnkJBs45PlUH_RGgZicCIcX8nULUJ1ENQWD0HQm9x2b9z9Q-TC5Q8QofezOo5OomlTYGtHz47XPYp3V4RZnytWCKvcsylgKne8XzI1X2538WeK",
+      "summary": "Kaleb Bowman was activated from the 7-day injured list by the Biloxi Shuckers and assigned to the Milwaukee Brewers on April 19, 2025."
+    },
+    {
+      "title": "Kaleb Bowman - Pitcher, Nashville Sounds | Triple-A Affiliate - Milwaukee Brewers",
+      "source": "Bally Sports Live",
+      "date": null,
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ7G9FZ4j7cX9Igqp8Ut5kloWIuwFNIKn5FmKcnMdW04kuNS0mXViGf6ujhRk-CUMwFAHsLcaAyi401ctJ9CA4wF7S-1iO2wNWO3sYsYHLOvHR2FVewIiArMVPZM97gjyRnlM9lECUyiNquwQ9mZPRSuhXhj0_R6Sq0OhF",
+      "summary": "This page provides Kaleb Bowman's 2026 season statistics with the Triple-A Nashville Sounds, indicating he is currently pitching at that level."
+    }
+  ],
+  "videoLinks": [
+    {
+      "title": "Kaleb Bowman Ball to Scott Kingery",
+      "channel": "MiLB.com",
+      "date": "2026-05-15",
+      "url": "https://www.youtube.com/results?search_query=MiLB+Kaleb+Bowman+Scott+Kingery",
+      "type": "highlights",
+      "urlType": "search"
+    },
+    {
+      "title": "A Baseball Odyssey: Kaleb Bowman's baseball world tour",
+      "channel": "WLOX News",
+      "date": "2023-07-28",
+      "url": "https://www.youtube.com/results?search_query=WLOX+News+Kaleb+Bowman+baseball+world+tour",
+      "type": "interview",
+      "urlType": "search"
+    },
+    {
+      "title": "Postgame Interview - Kaleb Bowman",
+      "channel": "Legionaere TV",
+      "date": "2021-05-08",
+      "url": "https://www.youtube.com/results?search_query=Legionaere+TV+Kaleb+Bowman+Postgame+Interview",
+      "type": "interview",
+      "urlType": "search"
+    }
+  ]
+}
